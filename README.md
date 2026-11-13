@@ -45,7 +45,7 @@ python3 stage4-analysis/analysis.py
 
 ## Citation
 
-Malikian R. Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis. 2026. Zenodo DOI is added here once the deposit is live and verified.
+Malikian R. Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis. 2026. Preprint (Zenodo): https://doi.org/10.5281/zenodo.24209763 (all-versions DOI: https://doi.org/10.5281/zenodo.24209762)
 
 ## Licence
 
