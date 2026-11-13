@@ -1,0 +1,1035 @@
+record_id,decision,reason_code,notes
+R2073,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2074,MAYBE,,"Specialty procedure but patient-information arm and safety discussion; torn, MAYBE per rules"
+R2075,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2076,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2077,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2078,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2079,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2080,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2081,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2082,MAYBE,,Could pass A1-A4; full text needed
+R2083,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2084,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2085,MAYBE,,"No abstract; patient communication safety, cannot confirm AX3 from title alone"
+R2086,MAYBE,,Could pass A1-A4; full text needed
+R2087,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2088,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2089,MAYBE,,Could pass A1-A4; full text needed
+R2090,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2091,INCLUDE,,"Patient vignettes (AF/HF/cholesterol), experts rated danger"
+R2092,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2093,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2094,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2095,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2096,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2097,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2098,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2099,INCLUDE,,Passes A1-A4 on title/abstract
+R2100,INCLUDE,,Passes A1-A4 on title/abstract
+R2101,INCLUDE,,Passes A1-A4 on title/abstract
+R2102,EXCLUDE,AX5,Orthodontic (dental specialty) claims only; would not present in primary care
+R2103,MAYBE,,Could pass A1-A4; full text needed
+R2104,INCLUDE,,Passes A1-A4 on title/abstract
+R2105,INCLUDE,,Passes A1-A4 on title/abstract
+R2106,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2107,INCLUDE,,Passes A1-A4 on title/abstract
+R2108,INCLUDE,,Passes A1-A4 on title/abstract
+R2109,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2110,MAYBE,,Could pass A1-A4; full text needed
+R2111,INCLUDE,,Passes A1-A4 on title/abstract
+R2112,MAYBE,,Could pass A1-A4; full text needed
+R2113,MAYBE,,Could pass A1-A4; full text needed
+R2114,MAYBE,,"Perception experiment; no clinician safety rating apparent, full text needed"
+R2115,MAYBE,,Duplicate record of R2114 in search results
+R2116,INCLUDE,,Passes A1-A4 on title/abstract
+R2117,MAYBE,,Could pass A1-A4; full text needed
+R2118,MAYBE,,Could pass A1-A4; full text needed
+R2119,MAYBE,,Could pass A1-A4; full text needed
+R2120,MAYBE,,Could pass A1-A4; full text needed
+R2121,INCLUDE,,Passes A1-A4 on title/abstract
+R2122,MAYBE,,LLM supports frontline health workers answering patient inquiries; user population unclear for A2
+R2123,INCLUDE,,Passes A1-A4 on title/abstract
+R2124,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2125,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2126,MAYBE,,Could pass A1-A4; full text needed
+R2127,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2128,EXCLUDE,AX4,ChatGPT-generated psychiatric vignettes for clinician education; mental-health only
+R2129,MAYBE,,Could pass A1-A4; full text needed
+R2130,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2131,MAYBE,,Could pass A1-A4; full text needed
+R2132,INCLUDE,,Passes A1-A4 on title/abstract
+R2133,MAYBE,,Could pass A1-A4; full text needed
+R2134,INCLUDE,,Passes A1-A4 on title/abstract
+R2135,MAYBE,,Could pass A1-A4; full text needed
+R2136,MAYBE,,Could pass A1-A4; full text needed
+R2137,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2138,MAYBE,,Could pass A1-A4; full text needed
+R2139,MAYBE,,Could pass A1-A4; full text needed
+R2140,MAYBE,,Could pass A1-A4; full text needed
+R2141,INCLUDE,,Passes A1-A4 on title/abstract
+R2142,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2143,MAYBE,,Could pass A1-A4; full text needed
+R2144,EXCLUDE,AX5,"Orthodontic-only counseling scenarios, as R2102"
+R2145,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2146,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2147,EXCLUDE,AX5,Dental radiology only; dental specialty content
+R2148,MAYBE,,Could pass A1-A4; full text needed
+R2149,MAYBE,,Could pass A1-A4; full text needed
+R2150,INCLUDE,,Passes A1-A4 on title/abstract
+R2151,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2152,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2153,MAYBE,,Survey of perceptions of a hypothetical portal chatbot; no responses rated
+R2154,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2155,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2156,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2157,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2158,INCLUDE,,Passes A1-A4 on title/abstract
+R2159,EXCLUDE,AX2,Orthodontic harm claims analysis; no LLM/chatbot involved
+R2160,EXCLUDE,AX2,LLM used only as a text-analysis tool for policy submissions; no patient-facing chatbot responses evaluated
+R2161,MAYBE,,Could pass A1-A4; full text needed
+R2162,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2163,MAYBE,,Could pass A1-A4; full text needed
+R2164,MAYBE,,Could pass A1-A4; full text needed
+R2165,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2166,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2167,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2168,MAYBE,,Could pass A1-A4; full text needed
+R2169,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2170,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2171,MAYBE,,Could pass A1-A4; full text needed
+R2172,MAYBE,,Could pass A1-A4; full text needed
+R2173,MAYBE,,Could pass A1-A4; full text needed
+R2174,MAYBE,,Could pass A1-A4; full text needed
+R2175,MAYBE,,Could pass A1-A4; full text needed
+R2176,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2177,MAYBE,,Could pass A1-A4; full text needed
+R2178,MAYBE,,"Depression screening chatbot (not crisis-only); feasibility stage, full text needed"
+R2179,EXCLUDE,AX2,LLM used for data extraction from safety data sheets; no chatbot evaluated
+R2180,MAYBE,,Could pass A1-A4; full text needed
+R2181,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2182,MAYBE,,Could pass A1-A4; full text needed
+R2183,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2184,MAYBE,,Could pass A1-A4; full text needed
+R2185,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2186,MAYBE,,Could pass A1-A4; full text needed
+R2187,INCLUDE,,Passes A1-A4 on title/abstract
+R2188,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2189,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2190,MAYBE,,Could pass A1-A4; full text needed
+R2191,MAYBE,,Could pass A1-A4; full text needed
+R2192,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2193,EXCLUDE,AX2,LLM applied to ED records for coding identification; no patient-facing chatbot responses
+R2194,MAYBE,,Could pass A1-A4; full text needed
+R2195,MAYBE,,Could pass A1-A4; full text needed
+R2196,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2197,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2198,MAYBE,,Could pass A1-A4; full text needed
+R2199,MAYBE,,Could pass A1-A4; full text needed
+R2200,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2201,MAYBE,,Could pass A1-A4; full text needed
+R2202,MAYBE,,Could pass A1-A4; full text needed
+R2203,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2204,INCLUDE,,"Late-life depression questions (primary-care presentation, not crisis-only); safety and triage benchmarked"
+R2205,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2206,MAYBE,,Could pass A1-A4; full text needed
+R2207,EXCLUDE,AX2,LLM used to classify portal messages; no chatbot advice evaluated
+R2208,MAYBE,,Could pass A1-A4; full text needed
+R2209,MAYBE,,Could pass A1-A4; full text needed
+R2210,INCLUDE,,Passes A1-A4 on title/abstract
+R2211,EXCLUDE,AX1,Survey of health professionals' perceptions; no patient-facing responses rated
+R2212,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2213,MAYBE,,Could pass A1-A4; full text needed
+R2214,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2215,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2216,MAYBE,,Could pass A1-A4; full text needed
+R2217,INCLUDE,,Passes A1-A4 on title/abstract
+R2218,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2219,INCLUDE,,Passes A1-A4 on title/abstract
+R2220,MAYBE,,Could pass A1-A4; full text needed
+R2221,MAYBE,,Could pass A1-A4; full text needed
+R2222,MAYBE,,Could pass A1-A4; full text needed
+R2223,MAYBE,,Could pass A1-A4; full text needed
+R2224,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2225,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2226,INCLUDE,,Passes A1-A4 on title/abstract
+R2227,MAYBE,,Could pass A1-A4; full text needed
+R2228,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2229,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2230,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2231,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2232,MAYBE,,Could pass A1-A4; full text needed
+R2233,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2234,INCLUDE,,Passes A1-A4 on title/abstract
+R2235,EXCLUDE,AX2,LLM used for social-media opinion monitoring in energy market; not health care
+R2236,EXCLUDE,AX5,Veterinary (pet owner) questions; not human primary care
+R2237,MAYBE,,Could pass A1-A4; full text needed
+R2238,MAYBE,,Could pass A1-A4; full text needed
+R2239,EXCLUDE,AX1,"Surgeon-level hip arthroscopy teaching questions, not patient questions"
+R2240,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2241,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2242,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2243,MAYBE,,Could pass A1-A4; full text needed
+R2244,INCLUDE,,Passes A1-A4 on title/abstract
+R2245,MAYBE,,Could pass A1-A4; full text needed
+R2246,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2247,MAYBE,,Could pass A1-A4; full text needed
+R2248,MAYBE,,Could pass A1-A4; full text needed
+R2249,MAYBE,,Could pass A1-A4; full text needed
+R2250,EXCLUDE,AX3,Instrument-development (psychometric) paper; no chatbot responses rated
+R2251,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2252,INCLUDE,,Passes A1-A4 on title/abstract
+R2253,EXCLUDE,AX3,Comment/letter on another article; no abstract and no primary rated responses
+R2254,INCLUDE,,Passes A1-A4 on title/abstract
+R2255,MAYBE,,Could pass A1-A4; full text needed
+R2256,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2257,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2258,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2259,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2260,MAYBE,,Could pass A1-A4; full text needed
+R2261,MAYBE,,Could pass A1-A4; full text needed
+R2262,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2263,MAYBE,,Could pass A1-A4; full text needed
+R2264,MAYBE,,Could pass A1-A4; full text needed
+R2265,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2266,MAYBE,,Could pass A1-A4; full text needed
+R2267,MAYBE,,Could pass A1-A4; full text needed
+R2268,MAYBE,,Could pass A1-A4; full text needed
+R2269,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2270,MAYBE,,Could pass A1-A4; full text needed
+R2271,EXCLUDE,AX2,LLM used as a screening tool over discharge summaries; no chatbot advice evaluated
+R2272,INCLUDE,,Passes A1-A4 on title/abstract
+R2273,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2274,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2275,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2276,MAYBE,,Could pass A1-A4; full text needed
+R2277,MAYBE,,Could pass A1-A4; full text needed
+R2278,MAYBE,,Could pass A1-A4; full text needed
+R2279,MAYBE,,Could pass A1-A4; full text needed
+R2280,EXCLUDE,AX1,OpenEvidence is a physician-facing decision-support platform; benchmark of clinician tool
+R2281,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2282,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2283,MAYBE,,Could pass A1-A4; full text needed
+R2284,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2285,MAYBE,,Could pass A1-A4; full text needed
+R2286,EXCLUDE,AX2,General (non-health) local LLM behaviour case study; no patient-facing health chatbot
+R2287,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2288,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2289,MAYBE,,Could pass A1-A4; full text needed
+R2290,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2291,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2292,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2293,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2294,INCLUDE,,Passes A1-A4 on title/abstract
+R2295,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2296,EXCLUDE,AX2,GAN/CNN diagnostic framework paper; no LLM chatbot evaluated
+R2297,MAYBE,,Could pass A1-A4; full text needed
+R2298,MAYBE,,Could pass A1-A4; full text needed
+R2299,MAYBE,,Could pass A1-A4; full text needed
+R2300,MAYBE,,Could pass A1-A4; full text needed
+R2301,MAYBE,,Could pass A1-A4; full text needed
+R2302,MAYBE,,Could pass A1-A4; full text needed
+R2303,MAYBE,,Could pass A1-A4; full text needed
+R2304,MAYBE,,Could pass A1-A4; full text needed
+R2305,MAYBE,,Could pass A1-A4; full text needed
+R2306,MAYBE,,Could pass A1-A4; full text needed
+R2307,INCLUDE,,Passes A1-A4 on title/abstract
+R2308,MAYBE,,Could pass A1-A4; full text needed
+R2309,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2310,EXCLUDE,AX2,ChatGPT used only to analyse interview transcripts; no chatbot advice evaluated
+R2311,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2312,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2313,MAYBE,,Could pass A1-A4; full text needed
+R2314,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2315,MAYBE,,Could pass A1-A4; full text needed
+R2316,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2317,MAYBE,,Could pass A1-A4; full text needed
+R2318,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2319,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2320,EXCLUDE,AX1,"Clinical questions posed by surgeons (clinician-facing), salivary gland cancer"
+R2321,MAYBE,,Could pass A1-A4; full text needed
+R2322,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2323,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2324,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2325,EXCLUDE,AX2,Game-theory paper on AI detection in scientific publishing; no health chatbot
+R2326,MAYBE,,Could pass A1-A4; full text needed
+R2327,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2328,INCLUDE,,Passes A1-A4 on title/abstract
+R2329,MAYBE,,Could pass A1-A4; full text needed
+R2330,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2331,MAYBE,,Could pass A1-A4; full text needed
+R2332,EXCLUDE,AX2,Machine-learning adverse-event detection from social media; no LLM chatbot evaluated
+R2333,INCLUDE,,Passes A1-A4 on title/abstract
+R2334,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2335,MAYBE,,Could pass A1-A4; full text needed
+R2336,INCLUDE,,Passes A1-A4 on title/abstract
+R2337,MAYBE,,Could pass A1-A4; full text needed
+R2338,MAYBE,,Could pass A1-A4; full text needed
+R2339,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2340,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2341,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2342,MAYBE,,Could pass A1-A4; full text needed
+R2343,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2344,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2345,MAYBE,,Could pass A1-A4; full text needed
+R2346,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2347,MAYBE,,Could pass A1-A4; full text needed
+R2348,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2349,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2350,INCLUDE,,Passes A1-A4 on title/abstract
+R2351,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2352,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2353,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2354,MAYBE,,Could pass A1-A4; full text needed
+R2355,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2356,EXCLUDE,AX2,Privacy/re-identification analysis of clinical LLM conversations; no advice responses rated
+R2357,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2358,EXCLUDE,AX2,LLM applied to infection surveillance case classification; no chatbot advice evaluated
+R2359,MAYBE,,Could pass A1-A4; full text needed
+R2360,MAYBE,,Could pass A1-A4; full text needed
+R2361,INCLUDE,,Passes A1-A4 on title/abstract
+R2362,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2363,MAYBE,,Could pass A1-A4; full text needed
+R2364,MAYBE,,Could pass A1-A4; full text needed
+R2365,MAYBE,,Could pass A1-A4; full text needed
+R2366,MAYBE,,Could pass A1-A4; full text needed
+R2367,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2368,MAYBE,,Could pass A1-A4; full text needed
+R2369,MAYBE,,Could pass A1-A4; full text needed
+R2370,EXCLUDE,AX2,NLP analysis of patient message patterns; no LLM chatbot evaluated
+R2371,MAYBE,,Could pass A1-A4; full text needed
+R2372,MAYBE,,Could pass A1-A4; full text needed
+R2373,MAYBE,,Could pass A1-A4; full text needed
+R2374,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2375,INCLUDE,,Passes A1-A4 on title/abstract
+R2376,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2377,MAYBE,,Could pass A1-A4; full text needed
+R2378,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2379,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2380,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2381,EXCLUDE,AX1,System explicitly built as decision support for primary care providers
+R2382,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2383,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2384,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2385,MAYBE,,Could pass A1-A4; full text needed
+R2386,MAYBE,,Could pass A1-A4; full text needed
+R2387,MAYBE,,Could pass A1-A4; full text needed
+R2388,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2389,EXCLUDE,AX1,GenAI simulator to train mental health professionals; not patient-facing
+R2390,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2391,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2392,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2393,MAYBE,,Could pass A1-A4; full text needed
+R2394,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2395,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2396,MAYBE,,Could pass A1-A4; full text needed
+R2397,MAYBE,,Could pass A1-A4; full text needed
+R2398,MAYBE,,Could pass A1-A4; full text needed
+R2399,MAYBE,,Could pass A1-A4; full text needed
+R2400,MAYBE,,Could pass A1-A4; full text needed
+R2401,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2402,INCLUDE,,Passes A1-A4 on title/abstract
+R2403,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2404,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2405,MAYBE,,Could pass A1-A4; full text needed
+R2406,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2407,EXCLUDE,AX2,LLM used to classify/extract Reddit posts; no chatbot advice evaluated
+R2408,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2409,MAYBE,,Could pass A1-A4; full text needed
+R2410,MAYBE,,Could pass A1-A4; full text needed
+R2411,MAYBE,,Could pass A1-A4; full text needed
+R2412,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2413,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2414,MAYBE,,Could pass A1-A4; full text needed
+R2415,MAYBE,,Could pass A1-A4; full text needed
+R2416,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2417,MAYBE,,Could pass A1-A4; full text needed
+R2418,EXCLUDE,AX2,LLM-assisted classification of nursing flowsheet data; no chatbot advice evaluated
+R2419,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2420,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2421,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2422,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2423,MAYBE,,Could pass A1-A4; full text needed
+R2424,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2425,INCLUDE,,Passes A1-A4 on title/abstract
+R2426,INCLUDE,,Passes A1-A4 on title/abstract
+R2427,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2428,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2429,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2430,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2431,MAYBE,,Could pass A1-A4; full text needed
+R2432,MAYBE,,Could pass A1-A4; full text needed
+R2433,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2434,MAYBE,,Could pass A1-A4; full text needed
+R2435,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2436,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2437,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2438,MAYBE,,Could pass A1-A4; full text needed
+R2439,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2440,MAYBE,,Could pass A1-A4; full text needed
+R2441,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2442,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2443,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2444,MAYBE,,Could pass A1-A4; full text needed
+R2445,MAYBE,,Could pass A1-A4; full text needed
+R2446,MAYBE,,Could pass A1-A4; full text needed
+R2447,EXCLUDE,AX1,Chatbot-based training programme for nurses (clinician education); no patient-facing LLM advice
+R2448,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2449,MAYBE,,Could pass A1-A4; full text needed
+R2450,INCLUDE,,Passes A1-A4 on title/abstract
+R2451,MAYBE,,Could pass A1-A4; full text needed
+R2452,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2453,INCLUDE,,Passes A1-A4 on title/abstract
+R2454,MAYBE,,Could pass A1-A4; full text needed
+R2455,MAYBE,,Could pass A1-A4; full text needed
+R2456,MAYBE,,Could pass A1-A4; full text needed
+R2457,MAYBE,,Could pass A1-A4; full text needed
+R2458,EXCLUDE,AX2,Analysis of health app store metadata/reviews; no LLM chatbot evaluated
+R2459,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2460,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2461,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2462,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2463,MAYBE,,Could pass A1-A4; full text needed
+R2464,MAYBE,,Could pass A1-A4; full text needed
+R2465,MAYBE,,Could pass A1-A4; full text needed
+R2466,MAYBE,,Could pass A1-A4; full text needed
+R2467,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2468,INCLUDE,,Passes A1-A4 on title/abstract
+R2469,EXCLUDE,AX2,Duplicate: ChatGPT used only to analyse nurse interview transcripts
+R2470,MAYBE,,Could pass A1-A4; full text needed
+R2471,MAYBE,,Could pass A1-A4; full text needed
+R2472,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2473,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2474,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2475,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2476,INCLUDE,,Passes A1-A4 on title/abstract
+R2477,MAYBE,,Could pass A1-A4; full text needed
+R2478,EXCLUDE,AX2,Experimental study of LLM agents' consumer (grocery) decisions; no health chatbot
+R2479,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2480,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2481,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2482,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2483,INCLUDE,,Passes A1-A4 on title/abstract
+R2484,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2485,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2486,MAYBE,,Could pass A1-A4; full text needed
+R2487,MAYBE,,Could pass A1-A4; full text needed
+R2488,MAYBE,,Could pass A1-A4; full text needed
+R2489,MAYBE,,Could pass A1-A4; full text needed
+R2490,MAYBE,,Could pass A1-A4; full text needed
+R2491,EXCLUDE,AX2,Enterprise (non-health) on-premise LLM system paper
+R2492,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2493,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2494,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2495,EXCLUDE,AX2,Methodological critique of critical-care RCTs; no LLM/chatbot involved
+R2496,MAYBE,,Could pass A1-A4; full text needed
+R2497,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2498,EXCLUDE,AX2,GPT-4 used for sentiment analysis of incident reports; no chatbot advice evaluated
+R2499,INCLUDE,,Passes A1-A4 on title/abstract
+R2500,EXCLUDE,AX2,NLP annotation-scheme/dataset paper for drug reviews; no LLM chatbot
+R2501,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2502,MAYBE,,Could pass A1-A4; full text needed
+R2503,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2504,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2505,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2506,MAYBE,,Could pass A1-A4; full text needed
+R2507,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2508,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2509,MAYBE,,Could pass A1-A4; full text needed
+R2510,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2511,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2512,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2513,EXCLUDE,AX2,LLM efficiency comparison on regulatory surveillance tasks; no patient-facing chatbot
+R2514,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2515,MAYBE,,Could pass A1-A4; full text needed
+R2516,INCLUDE,,Passes A1-A4 on title/abstract
+R2517,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2518,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2519,INCLUDE,,Passes A1-A4 on title/abstract
+R2520,MAYBE,,Could pass A1-A4; full text needed
+R2521,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2522,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2523,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2524,MAYBE,,Could pass A1-A4; full text needed
+R2525,MAYBE,,Could pass A1-A4; full text needed
+R2526,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2527,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2528,MAYBE,,Could pass A1-A4; full text needed
+R2529,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2530,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2531,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2532,EXCLUDE,AX2,Smart-ward implementation case study; no patient-facing chatbot responses evaluated
+R2533,MAYBE,,Could pass A1-A4; full text needed
+R2534,INCLUDE,,Passes A1-A4 on title/abstract
+R2535,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2536,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2537,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2538,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2539,MAYBE,,Could pass A1-A4; full text needed
+R2540,EXCLUDE,AX2,LLM ensemble used to classify literature abstracts; no chatbot advice evaluated
+R2541,MAYBE,,Could pass A1-A4; full text needed
+R2542,MAYBE,,Could pass A1-A4; full text needed
+R2543,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2544,MAYBE,,Could pass A1-A4; full text needed
+R2545,MAYBE,,Could pass A1-A4; full text needed
+R2546,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2547,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2548,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2549,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2550,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2551,MAYBE,,Could pass A1-A4; full text needed
+R2552,MAYBE,,Could pass A1-A4; full text needed
+R2553,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2554,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2555,INCLUDE,,Passes A1-A4 on title/abstract
+R2556,MAYBE,,Could pass A1-A4; full text needed
+R2557,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2558,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2559,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2560,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2561,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2562,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2563,EXCLUDE,AX2,Rule-based PHP/MySQL trigger-response chatbot; no LLM
+R2564,MAYBE,,Could pass A1-A4; full text needed
+R2565,EXCLUDE,AX5,Aesthetic surgery recommendation task from clinical photographs; cosmetic specialty content
+R2566,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2567,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2568,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2569,MAYBE,,Could pass A1-A4; full text needed
+R2570,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2571,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2572,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2573,EXCLUDE,AX1,Survey of health-system AI adoption priorities; professional/organisational respondents only
+R2574,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2575,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2576,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2577,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2578,MAYBE,,Could pass A1-A4; full text needed
+R2579,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2580,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2581,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2582,MAYBE,,Could pass A1-A4; full text needed
+R2583,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2584,MAYBE,,Could pass A1-A4; full text needed
+R2585,EXCLUDE,AX2,Quality-function-deployment methods study on patient reviews; no chatbot evaluated
+R2586,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2587,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2588,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2589,INCLUDE,,Passes A1-A4 on title/abstract
+R2590,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2591,MAYBE,,Could pass A1-A4; full text needed
+R2592,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2593,MAYBE,,Could pass A1-A4; full text needed
+R2594,MAYBE,,Could pass A1-A4; full text needed
+R2595,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2596,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2597,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2598,MAYBE,,Could pass A1-A4; full text needed
+R2599,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2600,MAYBE,,Could pass A1-A4; full text needed
+R2601,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2602,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2603,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2604,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2605,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2606,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2607,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2608,MAYBE,,Could pass A1-A4; full text needed
+R2609,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2610,MAYBE,,Could pass A1-A4; full text needed
+R2611,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2612,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2613,INCLUDE,,Passes A1-A4 on title/abstract
+R2614,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2615,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2616,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2617,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2618,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2619,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2620,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2621,MAYBE,,Could pass A1-A4; full text needed
+R2622,MAYBE,,Could pass A1-A4; full text needed
+R2623,EXCLUDE,AX2,Consumer-partnership organisational study; no AI/chatbot involved
+R2624,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2625,MAYBE,,Could pass A1-A4; full text needed
+R2626,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2627,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2628,MAYBE,,Could pass A1-A4; full text needed
+R2629,MAYBE,,Could pass A1-A4; full text needed
+R2630,INCLUDE,,Passes A1-A4 on title/abstract
+R2631,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2632,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2633,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2634,EXCLUDE,AX2,Image-editing framework for prohibited products in e-commerce; non-health
+R2635,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2636,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2637,INCLUDE,,Passes A1-A4 on title/abstract
+R2638,MAYBE,,Could pass A1-A4; full text needed
+R2639,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2640,MAYBE,,Could pass A1-A4; full text needed
+R2641,MAYBE,,Could pass A1-A4; full text needed
+R2642,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2643,MAYBE,,Could pass A1-A4; full text needed
+R2644,EXCLUDE,AX2,AI used only to assist qualitative data analysis; no chatbot advice evaluated
+R2645,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2646,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2647,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2648,MAYBE,,Could pass A1-A4; full text needed
+R2649,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2650,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2651,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2652,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2653,MAYBE,,Could pass A1-A4; full text needed
+R2654,MAYBE,,Could pass A1-A4; full text needed
+R2655,MAYBE,,Could pass A1-A4; full text needed
+R2656,MAYBE,,Could pass A1-A4; full text needed
+R2657,MAYBE,,Could pass A1-A4; full text needed
+R2658,MAYBE,,Could pass A1-A4; full text needed
+R2659,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2660,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2661,MAYBE,,Could pass A1-A4; full text needed
+R2662,MAYBE,,Could pass A1-A4; full text needed
+R2663,MAYBE,,Could pass A1-A4; full text needed
+R2664,MAYBE,,Could pass A1-A4; full text needed
+R2665,MAYBE,,Could pass A1-A4; full text needed
+R2666,MAYBE,,Could pass A1-A4; full text needed
+R2667,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2668,MAYBE,,Could pass A1-A4; full text needed
+R2669,MAYBE,,Could pass A1-A4; full text needed
+R2670,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2671,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2672,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2673,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2674,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2675,MAYBE,,Could pass A1-A4; full text needed
+R2676,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2677,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2678,MAYBE,,Could pass A1-A4; full text needed
+R2679,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2680,MAYBE,,Could pass A1-A4; full text needed
+R2681,MAYBE,,Could pass A1-A4; full text needed
+R2682,MAYBE,,Could pass A1-A4; full text needed
+R2683,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2684,MAYBE,,Could pass A1-A4; full text needed
+R2685,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2686,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2687,MAYBE,,Could pass A1-A4; full text needed
+R2688,INCLUDE,,Passes A1-A4 on title/abstract
+R2689,MAYBE,,Could pass A1-A4; full text needed
+R2690,EXCLUDE,AX2,LLMs tested on consumer product risk-assessment tasks; non-health professional use
+R2691,MAYBE,,Could pass A1-A4; full text needed
+R2692,MAYBE,,Could pass A1-A4; full text needed
+R2693,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2694,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2695,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2696,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2697,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2698,EXCLUDE,AX2,LLM framework for extracting data from EHR text; no chatbot advice evaluated
+R2699,MAYBE,,Could pass A1-A4; full text needed
+R2700,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2701,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2702,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2703,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2704,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2705,MAYBE,,Could pass A1-A4; full text needed
+R2706,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2707,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2708,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2709,MAYBE,,Could pass A1-A4; full text needed
+R2710,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2711,MAYBE,,Could pass A1-A4; full text needed
+R2712,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2713,MAYBE,,Could pass A1-A4; full text needed
+R2714,MAYBE,,Could pass A1-A4; full text needed
+R2715,MAYBE,,Could pass A1-A4; full text needed
+R2716,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2717,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2718,MAYBE,,Could pass A1-A4; full text needed
+R2719,EXCLUDE,AX2,LLM pipeline automating thematic review of coroners' reports; no patient-facing chatbot
+R2720,EXCLUDE,AX2,Pharmacy student survey on calculation skills; no AI/chatbot involved
+R2721,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2722,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2723,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2724,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2725,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2726,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2727,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2728,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2729,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2730,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2731,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2732,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2733,MAYBE,,Could pass A1-A4; full text needed
+R2734,EXCLUDE,AX2,Pharmacist-led stewardship intervention study; no AI/chatbot involved
+R2735,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2736,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2737,EXCLUDE,AX2,LLMs used to enumerate risks of AI itself; no patient advice responses rated
+R2738,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2739,MAYBE,,Could pass A1-A4; full text needed
+R2740,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2741,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2742,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2743,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2744,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2745,EXCLUDE,AX2,MARIA is an explicitly rule-based conversational agent; no LLM
+R2746,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2747,MAYBE,,Could pass A1-A4; full text needed
+R2748,MAYBE,,Could pass A1-A4; full text needed
+R2749,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2750,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2751,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2752,MAYBE,,Could pass A1-A4; full text needed
+R2753,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2754,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2755,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2756,EXCLUDE,AX2,AI model used to quantify laser treatment results in a case report; no chatbot
+R2757,MAYBE,,Could pass A1-A4; full text needed
+R2758,MAYBE,,Could pass A1-A4; full text needed
+R2759,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2760,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2761,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2762,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2763,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2764,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2765,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2766,MAYBE,,Could pass A1-A4; full text needed
+R2767,EXCLUDE,AX2,LLM workflow for extracting/transferring EHR data for colonoscopy recall; no patient-facing chatbot
+R2768,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2769,MAYBE,,Could pass A1-A4; full text needed
+R2770,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2771,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2772,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2773,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2774,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2775,MAYBE,,Could pass A1-A4; full text needed
+R2776,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2777,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2778,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2779,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2780,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2781,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2782,MAYBE,,Could pass A1-A4; full text needed
+R2783,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2784,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2785,EXCLUDE,AX2,Clinical review of beta-blocker use; no AI/chatbot involved
+R2786,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2787,MAYBE,,Could pass A1-A4; full text needed
+R2788,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2789,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2790,EXCLUDE,AX2,Text-to-image model bias study; no patient-facing chatbot
+R2791,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2792,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2793,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2794,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2795,EXCLUDE,AX2,Custom LLM used as a literature/research tool for pharmacy research
+R2796,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2797,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2798,EXCLUDE,AX2,Deep-learning CXR triage algorithm (not an LLM) for clinician workflow
+R2799,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2800,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2801,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2802,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2803,MAYBE,,Could pass A1-A4; full text needed
+R2804,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2805,MAYBE,,Could pass A1-A4; full text needed
+R2806,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2807,MAYBE,,Could pass A1-A4; full text needed
+R2808,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2809,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2810,MAYBE,,Could pass A1-A4; full text needed
+R2811,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2812,MAYBE,,Could pass A1-A4; full text needed
+R2813,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2814,MAYBE,,Could pass A1-A4; full text needed
+R2815,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2816,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2817,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2818,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2819,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2820,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2821,MAYBE,,Could pass A1-A4; full text needed
+R2822,EXCLUDE,AX2,GenAI used to synthesize/annotate training data; no chatbot advice evaluated
+R2823,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2824,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2825,MAYBE,,Could pass A1-A4; full text needed
+R2826,MAYBE,,Could pass A1-A4; full text needed
+R2827,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2828,MAYBE,,Could pass A1-A4; full text needed
+R2829,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2830,EXCLUDE,AX2,Self-administered digital mental-health intervention RCT; no LLM chatbot
+R2831,MAYBE,,Could pass A1-A4; full text needed
+R2832,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2833,MAYBE,,Could pass A1-A4; full text needed
+R2834,EXCLUDE,AX2,Scripted digital chatbot intervention trial on gender attitudes/IPV; no LLM and no advice rating
+R2835,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2836,MAYBE,,Could pass A1-A4; full text needed
+R2837,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2838,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2839,MAYBE,,Could pass A1-A4; full text needed
+R2840,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2841,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2842,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2843,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2844,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2845,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2846,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2847,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2848,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2849,EXCLUDE,AX2,Hard exclusion certain on title/abstract
+R2850,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2851,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2852,MAYBE,,Could pass A1-A4; full text needed
+R2853,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2854,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2855,EXCLUDE,AX2,NLP analysis of therapy transcripts to predict outcome; no LLM chatbot
+R2856,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2857,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2858,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2859,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2860,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2861,INCLUDE,,Passes A1-A4 on title/abstract
+R2862,MAYBE,,Could pass A1-A4; full text needed
+R2863,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2864,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2865,MAYBE,,Could pass A1-A4; full text needed
+R2866,MAYBE,,Could pass A1-A4; full text needed
+R2867,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2868,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2869,MAYBE,,Could pass A1-A4; full text needed
+R2870,EXCLUDE,AX1,Medical LLM pretraining/model-release paper evaluated on exam-style benchmarks only
+R2871,MAYBE,,Could pass A1-A4; full text needed
+R2872,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2873,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2874,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2875,INCLUDE,,Passes A1-A4 on title/abstract
+R2876,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2877,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2878,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2879,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2880,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2881,MAYBE,,Could pass A1-A4; full text needed
+R2882,INCLUDE,,Passes A1-A4 on title/abstract
+R2883,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2884,INCLUDE,,Passes A1-A4 on title/abstract
+R2885,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2886,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2887,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2888,MAYBE,,Could pass A1-A4; full text needed
+R2889,EXCLUDE,AX2,General (non-medical) LLM red-teaming benchmark for harmful queries
+R2890,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2891,MAYBE,,Could pass A1-A4; full text needed
+R2892,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2893,MAYBE,,Could pass A1-A4; full text needed
+R2894,MAYBE,,Could pass A1-A4; full text needed
+R2895,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2896,EXCLUDE,AX4,Hard exclusion certain on title/abstract
+R2897,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2898,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2899,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2900,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2901,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2902,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2903,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2904,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2905,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2906,MAYBE,,Could pass A1-A4; full text needed
+R2907,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2908,INCLUDE,,Passes A1-A4 on title/abstract
+R2909,MAYBE,,Could pass A1-A4; full text needed
+R2910,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2911,MAYBE,,Could pass A1-A4; full text needed
+R2912,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2913,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2914,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2915,INCLUDE,,Passes A1-A4 on title/abstract
+R2916,INCLUDE,,Passes A1-A4 on title/abstract
+R2917,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2918,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2919,MAYBE,,Could pass A1-A4; full text needed
+R2920,MAYBE,,Could pass A1-A4; full text needed
+R2921,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2922,EXCLUDE,AX2,General LLM technical report (model release); no health chatbot evaluated
+R2923,EXCLUDE,AX2,Chatbot design focus groups; no LLM chatbot responses evaluated
+R2924,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2925,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2926,MAYBE,,Could pass A1-A4; full text needed
+R2927,INCLUDE,,Passes A1-A4 on title/abstract
+R2928,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2929,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2930,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2931,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2932,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2933,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2934,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2935,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2936,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2937,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2938,EXCLUDE,AX2,General reward-model benchmark for language modeling; no health chatbot
+R2939,MAYBE,,Could pass A1-A4; full text needed
+R2940,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2941,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2942,MAYBE,,Could pass A1-A4; full text needed
+R2943,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2944,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2945,MAYBE,,Could pass A1-A4; full text needed
+R2946,EXCLUDE,AX2,Auditing framework applied to a shopping chatbot (Rufus); non-health
+R2947,INCLUDE,,Passes A1-A4 on title/abstract
+R2948,EXCLUDE,AX2,General LLM safety-alignment red-teaming study; not health advice
+R2949,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2950,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2951,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R2952,MAYBE,,Could pass A1-A4; full text needed
+R2953,MAYBE,,Could pass A1-A4; full text needed
+R2954,EXCLUDE,AX2,LLM summarisation of scientific research; no patient-facing health advice
+R2955,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2956,EXCLUDE,AX2,General-domain LLM safety evaluation platform; not health-specific
+R2957,MAYBE,,Could pass A1-A4; full text needed
+R2958,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2959,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2960,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2961,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2962,MAYBE,,Could pass A1-A4; full text needed
+R2963,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2964,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2965,EXCLUDE,AX2,Prototype online-safety chatbot trust survey; no LLM health advice evaluated
+R2966,MAYBE,,Could pass A1-A4; full text needed
+R2967,MAYBE,,Could pass A1-A4; full text needed
+R2968,MAYBE,,Could pass A1-A4; full text needed
+R2969,MAYBE,,Could pass A1-A4; full text needed
+R2970,EXCLUDE,AX2,"Safety benchmark for LLM control of robotic attendants (harmful-instruction compliance), not patient-facing advice"
+R2971,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2972,EXCLUDE,AX2,Symptom-checker chatbot built on decision-tree/KNN classifiers; no LLM
+R2973,EXCLUDE,AX2,Duplicate of R2972: symptom-checker chatbot built on decision-tree/KNN classifiers; no LLM
+R2974,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2975,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2976,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2977,MAYBE,,Could pass A1-A4; full text needed
+R2978,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2979,MAYBE,,Could pass A1-A4; full text needed
+R2980,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2981,MAYBE,,Could pass A1-A4; full text needed
+R2982,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2983,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2984,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R2985,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2986,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2987,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2988,EXCLUDE,AX2,LLM empathy-rating study on general life-experience posts; no health advice evaluated
+R2989,MAYBE,,Could pass A1-A4; full text needed
+R2990,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2991,MAYBE,,Could pass A1-A4; full text needed
+R2992,INCLUDE,,Passes A1-A4 on title/abstract
+R2993,MAYBE,,Could pass A1-A4; full text needed
+R2994,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2995,MAYBE,,Could pass A1-A4; full text needed
+R2996,MAYBE,,Could pass A1-A4; full text needed
+R2997,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2998,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R2999,MAYBE,,Could pass A1-A4; full text needed
+R3000,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3001,MAYBE,,Could pass A1-A4; full text needed
+R3002,MAYBE,,Could pass A1-A4; full text needed
+R3003,MAYBE,,Could pass A1-A4; full text needed
+R3004,EXCLUDE,AX3,Duplicate of R2998 (systematic review of LLM hallucinations)
+R3005,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3006,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3007,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3008,INCLUDE,,Passes A1-A4 on title/abstract
+R3009,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R3010,EXCLUDE,AX2,LLM model paper for traditional Chinese medicine; no patient-facing chatbot advice evaluated
+R3011,MAYBE,,Could pass A1-A4; full text needed
+R3012,MAYBE,,Could pass A1-A4; full text needed
+R3013,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3014,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3015,MAYBE,,Could pass A1-A4; full text needed
+R3016,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3017,EXCLUDE,AX2,Diabetes risk-prediction framework (CatBoost classifier) with chatbot interface; no LLM advice rated
+R3018,MAYBE,,Could pass A1-A4; full text needed
+R3019,EXCLUDE,AX5,Hard exclusion certain on title/abstract
+R3020,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R3021,MAYBE,,Could pass A1-A4; full text needed
+R3022,MAYBE,,Could pass A1-A4; full text needed
+R3023,INCLUDE,,Passes A1-A4 on title/abstract
+R3024,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3025,MAYBE,,Could pass A1-A4; full text needed
+R3026,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3027,MAYBE,,Could pass A1-A4; full text needed
+R3028,EXCLUDE,AX2,Intent-recognition component (TinyBERT-BiLSTM) for a closed-domain chatbot; no LLM and no advice responses rated
+R3029,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3030,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3031,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3032,INCLUDE,,Passes A1-A4 on title/abstract
+R3033,MAYBE,,Could pass A1-A4; full text needed
+R3034,MAYBE,,Could pass A1-A4; full text needed
+R3035,MAYBE,,Could pass A1-A4; full text needed
+R3036,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3037,MAYBE,,Could pass A1-A4; full text needed
+R3038,MAYBE,,Could pass A1-A4; full text needed
+R3039,MAYBE,,Could pass A1-A4; full text needed
+R3040,INCLUDE,,Passes A1-A4 on title/abstract
+R3041,MAYBE,,Could pass A1-A4; full text needed
+R3042,MAYBE,,Could pass A1-A4; full text needed
+R3043,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3044,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3045,MAYBE,,Could pass A1-A4; full text needed
+R3046,MAYBE,,Could pass A1-A4; full text needed
+R3047,MAYBE,,Could pass A1-A4; full text needed
+R3048,MAYBE,,Could pass A1-A4; full text needed
+R3049,MAYBE,,Could pass A1-A4; full text needed
+R3050,MAYBE,,Could pass A1-A4; full text needed
+R3051,MAYBE,,Could pass A1-A4; full text needed
+R3052,MAYBE,,Could pass A1-A4; full text needed
+R3053,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3054,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R3055,MAYBE,,Could pass A1-A4; full text needed
+R3056,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3057,MAYBE,,Could pass A1-A4; full text needed
+R3058,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3059,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R3060,MAYBE,,Could pass A1-A4; full text needed
+R3061,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3062,EXCLUDE,AX1,Hard exclusion certain on title/abstract
+R3063,EXCLUDE,AX3,Trial protocol (online experiment) with no results or rated responses reported
+R3064,EXCLUDE,AX3,Trial protocol; clinician review of chatbot responses planned but no results reported
+R3065,EXCLUDE,AX3,Trial protocol (RCT) with no results reported
+R3066,EXCLUDE,AX3,Trial protocol (cluster RCT) with no results reported
+R3067,EXCLUDE,AX3,Study protocol for a dialysis support chatbot; no results reported
+R3068,EXCLUDE,AX3,Trial protocol (RCT) with no results reported
+R3069,EXCLUDE,AX3,Prospective evaluation protocol for a clinician-in-the-loop intake system; no results reported
+R3070,EXCLUDE,AX3,Observational study protocol on patient AI trust; no results reported
+R3071,EXCLUDE,AX3,Trial protocol for an LLM cessation chatbot; no results reported
+R3072,EXCLUDE,AX3,Trial protocol (pilot RCT) for chatbot-delivered CBT-I; no results reported
+R3073,EXCLUDE,AX3,Trial protocol/registration for a colonoscopy-preparation chatbot RCT; no results reported
+R3074,EXCLUDE,AX3,Protocol for a financial-empowerment chatbot in rural cancer care; non-clinical topic and no results reported
+R3075,MAYBE,,Could pass A1-A4; full text needed
+R3076,EXCLUDE,AX3,Pilot RCT protocol for an alcohol-reduction chatbot in liver disease; no results reported
+R3077,EXCLUDE,AX3,RCT protocol for a generative-AI emotional-support chatbot; no results reported
+R3078,INCLUDE,,Dataset record of the primary safety evaluation: 372 chatbot responses to patient-oriented vulvovaginal candidiasis questions with expert ratings and qualitative safety-risk analysis
+R3079,INCLUDE,,Dataset record of the primary safety evaluation: 348 chatbot outputs to CPAP counseling prompts (including unsafe-plan prompts) scored against checklists
+R3080,MAYBE,,Could pass A1-A4; full text needed
+R3081,MAYBE,,Could pass A1-A4; full text needed
+R3082,MAYBE,,Could pass A1-A4; full text needed
+R3083,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3084,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3085,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3086,INCLUDE,,Real patients' unscripted diabetes questions; specialists rated responses for safety (yes/no) as well as correctness
+R3087,EXCLUDE,AX1,Letter format but reports a new evaluation of clinician-posed infectious-diseases pharmacotherapy questions (from a prior clinician study); not patient-facing
+R3088,MAYBE,,Viewpoint containing a small single-author evaluation of ChatSonic responses to patient osteoarthritis queries against literature/guidelines; no safety tier
+R3089,EXCLUDE,AX2,"Hybrid ML health-risk prediction/monitoring framework; LLM used for feedback text only, no advice responses rated"
+R3090,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3091,MAYBE,,Could pass A1-A4; full text needed
+R3092,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3093,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3094,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3095,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3096,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3097,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3098,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3099,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3100,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3101,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3102,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3103,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3104,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3105,EXCLUDE,AX3,Hard exclusion certain on title/abstract
+R3106,EXCLUDE,AX3,Conference abstract compilation (diabetes technology meeting); not a primary chatbot safety study

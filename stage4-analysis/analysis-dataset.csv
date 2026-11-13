@@ -1,0 +1,146 @@
+pool,record_id,study_id,arm,events,total,era,stratum,preprint,derived,rob_overall
+P1_primary_bench,R0017,Fan 2026,ChatGPT,4,55,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0017,Fan 2026,Gemini,4,55,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0017,Fan 2026,Microsoft Copilot,4,55,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0017,Fan 2026,DeepSeek,4,55,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0017,Fan 2026,Qwen,5,55,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0017,Fan 2026,Doubao,6,55,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0068,Xiao 2026a,ChatGPT,0,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0068,Xiao 2026a,Gemini,2,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0068,Xiao 2026a,Doubao,3,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0211,Miao 2026,ChatGPT,4,61,era_late,bench,False,False,High
+P1_primary_bench,R0211,Miao 2026,Gemini,6,61,era_late,bench,False,False,High
+P1_primary_bench,R0211,Miao 2026,Microsoft Copilot,5,61,era_late,bench,False,False,High
+P1_primary_bench,R0211,Miao 2026,DeepSeek,7,61,era_late,bench,False,False,High
+P1_primary_bench,R0211,Miao 2026,Doubao,9,61,era_late,bench,False,False,High
+P1_primary_bench,R0215,Liang 2026,ChatGPT-5.5 Instant,11,46,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0215,Liang 2026,DeepSeek-V4-Pro,12,46,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0215,Liang 2026,Doubao-Seed-2.0-Pro,15,46,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0215,Liang 2026,Gemini 3.5 Flash,14,46,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0215,Liang 2026,Qwen3.7-Plus,14,46,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0216,Wen 2026,GPT-5.6 Sol,0,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0216,Wen 2026,DeepSeek-V4,0,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0216,Wen 2026,Gemini-3.6-Flash,0,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0216,Wen 2026,Grok-4.5,0,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0216,Wen 2026,Qwen3.8-Max,0,20,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0234,Xiao 2026b,GPT-5.5 Instant (ChatGPT),5,90,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0234,Xiao 2026b,Gemini 3.5 Flash,9,90,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0234,Xiao 2026b,Seed2.0 Pro (Doubao),15,90,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0247,Shi 2026,ChatGPT-5.5,2,44,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0247,Shi 2026,Gemini 3.1 Pro,3,44,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0247,Shi 2026,Qianwen 3.6-Plus,4,44,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0247,Shi 2026,DeepSeek V4,5,44,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0247,Shi 2026,Doubao-Seed-2.0 Pro,6,44,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0269,Gu 2026,ChatGPT,3,60,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0269,Gu 2026,Gemini,5,60,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0269,Gu 2026,Microsoft Copilot,4,60,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0269,Gu 2026,Doubao,9,60,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0269,Gu 2026,DeepSeek,7,60,era_late,bench,False,False,Some concerns
+P1_primary_bench,R0284,Zuo 2026,ChatGPT,3,65,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0284,Zuo 2026,Gemini,6,65,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0284,Zuo 2026,Microsoft Copilot,7,65,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0284,Zuo 2026,DeepSeek,5,65,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0284,Zuo 2026,Doubao,6,65,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0299,Zheng 2026,ChatGPT,4,52,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0299,Zheng 2026,Gemini,5,52,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0299,Zheng 2026,Microsoft Copilot,6,52,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0299,Zheng 2026,DeepSeek,5,52,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0299,Zheng 2026,Doubao,4,52,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0299,Zheng 2026,Qwen,7,52,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0362,Gong 2026,ChatGPT-4o,1,20,era_late,bench,False,False,High
+P1_primary_bench,R0362,Gong 2026,Gemini 2.5 Pro,2,20,era_late,bench,False,False,High
+P1_primary_bench,R0362,Gong 2026,Microsoft Copilot,2,20,era_late,bench,False,False,High
+P1_primary_bench,R0362,Gong 2026,DeepSeek-V3.2-Exp,2,20,era_late,bench,False,False,High
+P1_primary_bench,R0362,Gong 2026,Doubao,3,20,era_late,bench,False,False,High
+P1_primary_bench,R0392,Zhou 2026,ChatGPT,7,58,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0392,Zhou 2026,Gemini,12,58,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0392,Zhou 2026,Microsoft Copilot,8,58,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0392,Zhou 2026,DeepSeek,6,58,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0392,Zhou 2026,Doubao,14,58,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0401,Hao 2026,ChatGPT-5.5 Instant,3,45,era_late,bench,False,True,Some concerns
+P1_primary_bench,R0401,Hao 2026,DeepSeek-V3,7,45,era_late,bench,False,True,Some concerns
+P1_primary_bench,R1781,Armbruster 2024,ChatGPT-4.0,16,100,era_early,bench,False,False,High
+P1_primary_bench,R2042,Fraser 2023,ChatGPT 3.5,15,37,era_early,bench,False,False,High
+P1_primary_bench,R2042,Fraser 2023,ChatGPT 4.0,8,37,era_early,bench,False,False,High
+P1_primary_bench,R2100,Zang 2026,ChatGPT,3,50,era_late,bench,True,False,Some concerns
+P1_primary_bench,R2100,Zang 2026,DeepSeek,5,50,era_late,bench,True,False,Some concerns
+P1_primary_bench,R2100,Zang 2026,Gemini,6,50,era_late,bench,True,False,Some concerns
+P1_primary_bench,R2100,Zang 2026,Doubao,7,50,era_late,bench,True,False,Some concerns
+P1_primary_bench,R2101,Draelos 2026,Claude 3.5 Sonnet,11,222,era_late,bench,False,True,High
+P1_primary_bench,R2101,Draelos 2026,GPT-4o,30,222,era_late,bench,False,True,High
+P1_primary_bench,R2101,Draelos 2026,Llama-3.0/3.1-70B,29,222,era_late,bench,False,True,High
+P1_primary_bench,R2104,"Wang, 2026",ChatGPT,2,30,not_reported,bench,False,False,Some concerns
+P1_primary_bench,R2104,"Wang, 2026",Gemini,3,30,era_late,bench,False,False,Some concerns
+P1_primary_bench,R2104,"Wang, 2026",Microsoft Copilot,2,30,not_reported,bench,False,False,Some concerns
+P1_primary_bench,R2104,"Wang, 2026",DeepSeek,5,30,era_late,bench,False,False,Some concerns
+P1_primary_bench,R2104,"Wang, 2026",Doubao,4,30,not_reported,bench,False,False,Some concerns
+P1_primary_bench,R2120,"An, 2026",Google Gemini 3.1 Pro,2,50,era_late,bench,False,True,Some concerns
+P1_primary_bench,R2120,"An, 2026",HK Chat-0.6.2,7,50,not_reported,bench,False,True,Some concerns
+P1_primary_bench,R2120,"An, 2026",DeepSeek-V3.2,5,50,era_late,bench,False,True,Some concerns
+P1_primary_bench,R2120,"An, 2026",Kimi-K2.5,6,50,era_late,bench,False,True,Some concerns
+P1_primary_bench,R2134,"Wang, 2026",ChatGPT (GPT-5.5 Instant),3,36,era_late,bench,True,True,Some concerns
+P1_primary_bench,R2134,"Wang, 2026",Gemini 3.5 Flash,5,36,era_late,bench,True,True,Some concerns
+P1_primary_bench,R2134,"Wang, 2026",DeepSeek-V4 Preview,6,36,era_late,bench,True,True,Some concerns
+P1_primary_bench,R2134,"Wang, 2026",Doubao-Seed-2.0,7,36,era_late,bench,True,True,Some concerns
+P1_primary_bench,R2252,"Bilgiç, 2026",ChatGPT (GPT-5.3),0,25,era_late,bench,False,False,High
+P1_primary_bench,R2252,"Bilgiç, 2026",Gemini (3.1),0,25,era_late,bench,False,False,High
+P1_primary_bench,R2252,"Bilgiç, 2026",DeepSeek (R1),0,25,era_late,bench,False,False,High
+P1_primary_bench,R2361,"Lv, 2026",ChatGPT 5.5,2,25,era_late,bench,False,False,Some concerns
+P1_primary_bench,R2361,"Lv, 2026",Claude Opus 4.8,1,25,era_late,bench,False,False,Some concerns
+P1_primary_bench,R2361,"Lv, 2026",Gemini 3.5 Flash,1,25,era_late,bench,False,False,Some concerns
+P1_primary_bench,R3023,"Yu, 2026",ChatGPT (GPT-5.5),3,42,era_late,bench,False,False,Some concerns
+P1_primary_bench,R3023,"Yu, 2026",Gemini 3.5 Flash,6,42,era_late,bench,False,False,Some concerns
+P1_primary_bench,R3023,"Yu, 2026",DeepSeek-V4,4,42,era_late,bench,False,False,Some concerns
+P1_primary_bench,R3023,"Yu, 2026",Doubao,7,42,era_late,bench,False,False,Some concerns
+P1_primary_bench,R3023,"Yu, 2026",Kimi K2.6,5,42,era_late,bench,False,False,Some concerns
+P1_primary_bench,R3023,"Yu, 2026",Qwen3.6-35B-A3B,5,42,era_late,bench,False,False,Some concerns
+S1_problematic,R0401,Hao 2026,ChatGPT-5.5 Instant,3,45,era_late,bench,False,True,Some concerns
+S1_problematic,R0401,Hao 2026,DeepSeek-V3,7,45,era_late,bench,False,True,Some concerns
+S1_problematic,R2101,Draelos 2026,Claude 3.5 Sonnet,48,222,era_late,bench,False,True,High
+S1_problematic,R2101,Draelos 2026,Gemini 1.5 Flash,61,222,era_late,bench,False,False,High
+S1_problematic,R2101,Draelos 2026,GPT-4o,70,222,era_late,bench,False,True,High
+S1_problematic,R2101,Draelos 2026,Llama-3.0/3.1-70B,96,222,era_late,bench,False,True,High
+S1_problematic,R2361,"Lv, 2026",ChatGPT 5.5,0,25,era_late,bench,False,False,Some concerns
+S1_problematic,R2361,"Lv, 2026",Claude Opus 4.8,1,25,era_late,bench,False,False,Some concerns
+S1_problematic,R2361,"Lv, 2026",Gemini 3.5 Flash,4,25,era_late,bench,False,False,Some concerns
+S1_problematic,R0916,"He, 2026",ChatGPT o3-mini,4,54,era_late,bench,False,False,High
+S1_problematic,R0916,"He, 2026",Gemini 2.0 Pro Experimental,5,54,era_late,bench,False,False,High
+S1_problematic,R0916,"He, 2026",DeepSeek Thinking R1,1,54,era_late,bench,False,False,High
+S1_problematic,R0916,"He, 2026",Kimi Thinking K1.5,7,54,era_late,bench,False,False,High
+S1_problematic,R1229,"Duan, 2025",ERNIE Bot,6,233,not_reported,bench,False,False,Some concerns
+S1_problematic,R1229,"Duan, 2025",ChatGPT-3.5,17,233,era_early,bench,False,False,Some concerns
+S1_problematic,R1519,"Yu, 2025",ChatGPT,18,55,not_reported,bench,False,False,High
+S1_problematic,R2244,"Si, 2026",ChatGPT-4o,182,248,era_late,human_user,True,True,Some concerns
+S1_problematic,R2244,"Si, 2026",DeepSeek-R1,154,248,era_late,human_user,True,True,Some concerns
+S1_problematic,R3040,"Khan, 2026",Claude Sonnet 4.5,213,1000,era_late,bench,True,True,High
+S1_problematic,R3040,"Khan, 2026",DeepSeek Chat,540,1000,era_late,bench,True,True,High
+S1_problematic,R3040,"Khan, 2026",Gemini 2.0 Flash,333,1000,era_late,bench,True,True,High
+S1_problematic,R3040,"Khan, 2026",GPT-4o,97,1000,era_late,bench,True,True,High
+S1_problematic,R3040,"Khan, 2026",Llama 3.3-70B,8,1000,era_late,bench,True,True,High
+S2_undertriage,R0234,Xiao 2026b,GPT-5.5 Instant (ChatGPT),9,90,era_late,bench,False,False,Some concerns
+S2_undertriage,R0234,Xiao 2026b,Gemini 3.5 Flash,14,90,era_late,bench,False,False,Some concerns
+S2_undertriage,R0234,Xiao 2026b,Seed2.0 Pro (Doubao),20,90,era_late,bench,False,False,Some concerns
+S2_undertriage,R2042,Fraser 2023,ChatGPT 3.5,15,37,era_early,bench,False,False,High
+S2_undertriage,R2042,Fraser 2023,ChatGPT 4.0,8,37,era_early,bench,False,False,High
+S2_undertriage,R0822,"Harada, 2026",gpt-4o-mini,0,480,era_late,bench,False,False,High
+S2_undertriage,R0822,"Harada, 2026",gpt-4o-mini,0,1440,era_late,bench,False,False,High
+S2_undertriage,R1090,"Brown, 2025",ChatGPT (GPT-5),0,10,era_late,bench,False,False,Some concerns
+S2_undertriage,R1090,"Brown, 2025",Gemini AI (v2.5 Flash),0,10,era_late,bench,False,False,Some concerns
+S2_undertriage,R2307,"Ramaswamy, 2026",ChatGPT Health,33,64,era_late,bench,False,False,Some concerns
+S2_undertriage,R2468,"Gökmen, 2026",ChatGPT (GPT-5.2 Instant) - patient-oriented prompts,10,24,era_late,bench,False,False,Some concerns
+S1_problematic,CC005,Khromchenko 2024 (chasing CC005),ChatGPT-3.5,5,12,era_early,bench,False,True,
+S1_problematic,CC005,Khromchenko 2024 (chasing CC005),Bard,2,12,era_early,bench,False,True,
+S1_problematic,CC102,Tan 2026 (chasing CC102),GPT-3.5,11,41,era_early,bench,False,True,
+S1_problematic,CC102,Tan 2026 (chasing CC102),GPT-4,13,41,era_early,bench,False,True,
+S1_problematic,CC177,Lakdawala 2023 (chasing CC177),ChatGPT (both conditions pooled),14,64,not_reported,bench,False,True,
+S1_problematic,CC220,Campbell 2023 (chasing CC220),ChatGPT (pooled over prompt forms),37,120,not_reported,bench,False,True,
+S1_problematic,CC221,Campbell 2023 (chasing CC221),ChatGPT (pooled over prompt forms),27,96,not_reported,bench,False,True,
+S1_problematic,CC224,Lee 2024 (chasing CC224),ChatGPT (pooled over prompt forms),6,64,not_reported,bench,False,True,
+S2_undertriage,CC230,Tanaka 2025 (chasing CC230),GPT model,11,314,not_reported,bench,False,True,
+S1_problematic,CC524,Tiller 2026 (chasing CC524),Five chatbots pooled,124,250,not_reported,bench,False,True,
+S1_problematic,CC594,Kassab 2024 (chasing CC594),ChatGPT-4,16,56,era_early,bench,False,True,
+S1_problematic,CC594,Kassab 2024 (chasing CC594),Bard,10,56,era_early,bench,False,True,
+S1_problematic,CC628,Coskun 2023 (chasing CC628),GPT-3.5,0,23,era_early,bench,False,True,
+S1_problematic,CC628,Coskun 2023 (chasing CC628),GPT-4,0,23,era_early,bench,False,True,
+S1_problematic,CC628,Coskun 2023 (chasing CC628),BARD,4,23,era_early,bench,False,True,
+S1_problematic,CC628,Coskun 2023 (chasing CC628),Bing,3,23,era_early,bench,False,True,

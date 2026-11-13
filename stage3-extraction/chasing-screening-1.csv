@@ -1,0 +1,700 @@
+cc_id,decision,notes
+CC001,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC002,PASS,PASS - responses on common obstetric issues; validity rated. Ambiguity: patient-facing framing and primary-care vs obstetric-specialty scope not explicit in title.
+CC003,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC004,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC005,PASS,PASS - commonly asked pregnancy questions answered by general LLMs; patient-facing antenatal questions plausible in primary care.
+CC006,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC007,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC008,EXCLUDE,EXCLUDE - prediction model / non-advice use.
+CC009,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC010,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC011,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC012,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC013,PASS,PASS - chatbot responses to patient questions posted to a public social media forum; general patient-facing Q&A rated against physicians.
+CC014,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC015,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC016,PASS,PASS - LLM responses to patient questions on gestational diabetes assessed multidimensionally. Ambiguity: pregnancy/diabetes specialty vs primary-care scope.
+CC017,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC018,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC019,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC020,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC021,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC022,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC023,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC024,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC025,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC026,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC027,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC028,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC029,EXCLUDE,"EXCLUDE - custom/specialised chatbot, not a general-purpose LLM chatbot."
+CC030,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC031,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC032,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC033,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC034,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC035,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC036,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC037,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC038,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC039,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC040,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC041,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC042,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC043,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC044,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC045,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC046,PASS,"PASS - ChatGPT vs physicians in emergency medicine with simulated patients; general emergency presentations, performance/safety plausible. Ambiguity: simulated-patient rather than real lay-user design."
+CC047,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC048,PASS,PASS - LLM-generated HIV content rated for information quality. Ambiguity: content generation vs answers to patient questions; HIV is primary-care/sexual-health relevant.
+CC049,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC050,PASS,PASS - AI chatbots as sources of STD information rated for reliability; sexual-health questions are primary-care relevant.
+CC051,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC052,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC053,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC054,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC055,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC056,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC057,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC058,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC059,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC060,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC061,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC062,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC063,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC064,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC065,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC066,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC067,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC068,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC069,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC070,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC071,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC072,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC073,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC074,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC075,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC076,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC077,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC078,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC079,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC080,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC081,PASS,PASS - LLM performance in diabetes education (RAG comparison); diabetes is a core primary-care condition. Ambiguity: patient-facing question set not explicit in title.
+CC082,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC083,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC084,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC085,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC086,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC087,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC088,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC089,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC090,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC091,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC092,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC093,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC094,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC095,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC096,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC097,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC098,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC099,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC100,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC101,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC102,PASS,PASS - safety of general-purpose LLMs in paediatric healthcare explicitly evaluated by doctors and parents; parent/patient-facing primary-care plausible.
+CC103,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC104,PASS,PASS - LLMs answering parent-focused questions on rickets. Ambiguity: paediatric-orthopaedic specialty vs primary-care parent questions (cf. vitamin D scope).
+CC105,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC106,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC107,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC108,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC109,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC110,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC111,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC112,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC113,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC114,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC115,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC116,EXCLUDE,"EXCLUDE - writing/citation use, not patient advice."
+CC117,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC118,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC119,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC120,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC121,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC122,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC123,PASS,PASS - lay users' intentions to use ChatGPT for self-diagnosis and health purposes; human-user health-decision study.
+CC124,PASS,PASS - generative AI performance on infectious disease queries; common infectious presentations are primary-care relevant. Ambiguity: patient-facing source of queries not explicit.
+CC125,PASS,PASS - AI accuracy/precision for diabetes and hypertension management; both core primary-care conditions. Ambiguity: patient-facing vs clinician-facing use not explicit.
+CC126,PASS,PASS - survey of older adults using ChatGPT for medical advice; laypeople using an LLM for health decisions.
+CC127,PASS,"PASS - ChatGPT medical advice tested in a survey study; general medical advice, human-user evaluation plausible."
+CC128,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC129,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC130,PASS,PASS - appropriateness of cardiovascular disease prevention recommendations from a chat AI model; prevention is core primary care.
+CC131,PASS,"PASS - accuracy/quality of chatbot information on hypothyroidism; thyroid disease is a core primary-care condition, patient information plausible."
+CC132,PASS,PASS - reliability of LLM information for thunderstorm asthma (public-facing health information); asthma is primary-care relevant. Ambiguity: public-health event information vs individual patient questions.
+CC133,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC134,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC135,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC136,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC137,EXCLUDE,"EXCLUDE - custom/specialised chatbot, not a general-purpose LLM chatbot."
+CC138,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC139,PASS,PASS - reliability of medical information provided by ChatGPT assessed against guidelines and a patient information quality instrument; general medical information.
+CC140,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC141,PASS,PASS - AI chatbots providing sexual health information evaluated with real-world clinical queries; sexual health is primary-care relevant.
+CC142,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC143,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC144,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC145,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC146,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC147,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC148,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC149,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC150,PASS,PASS - ChatGPT vs Gemini answering questions on viral hepatitis. Ambiguity: question source (patient vs clinician) not explicit; hepatitis is primary-care/infectious relevant.
+CC151,PASS,PASS - accuracy/reliability of ChatGPT-4o and Gemini answering HIV-related questions; HIV is primary-care/sexual-health relevant.
+CC152,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC153,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC154,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC155,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC156,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC157,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC158,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC159,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC160,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC161,PASS,"PASS - quality of ChatGPT dietary advice for college students rated by dietitians; lay-population general nutrition advice, primary-care prevention relevant. Ambiguity: wellness advice vs clinical presentation."
+CC162,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC163,PASS,PASS - prospective accuracy assessments of LLM chatbot responses to patient questions about emergency care; general emergency presentations/disposition.
+CC164,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC165,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC166,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC167,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC168,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC169,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC170,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC171,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC172,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC173,PASS,"PASS - experimental study of people overtrusting AI-generated medical advice despite low accuracy; laypeople and health decisions, general medical advice."
+CC174,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC175,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC176,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC177,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC178,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC179,PASS,PASS - accuracy of multiple general LLMs advising on lumbosacral radicular pain against clinical guidelines; low back/radicular pain is a first-contact primary-care presentation.
+CC180,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC181,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC182,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC183,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC184,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC185,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC186,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC187,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC188,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC189,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC190,EXCLUDE,"EXCLUDE - custom/specialised chatbot, not a general-purpose LLM chatbot."
+CC191,EXCLUDE,EXCLUDE - perceptions/attitudes survey; no rating of advice for safety/harm and no lay health-decision use on title.
+CC192,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC193,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC194,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC195,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC196,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC197,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC198,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC199,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC200,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC201,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC202,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC203,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC204,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC205,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC206,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC207,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC208,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC209,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC210,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC211,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC212,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC213,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC214,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC215,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC216,EXCLUDE,"EXCLUDE - writing/citation use, not patient advice."
+CC217,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC218,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC219,EXCLUDE,"EXCLUDE - writing/citation use, not patient advice."
+CC220,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC221,PASS,PASS - ChatGPT responses on obstructive sleep apnoea for patient education. Ambiguity: sleep-specialty vs primary-care scope; rating dimensions not stated in title.
+CC222,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC223,PASS,PASS - adherence of ChatGPT chatbots to public health guidelines for smoking cessation (content analysis); smoking cessation is core primary care prevention.
+CC224,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC225,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC226,PASS,"PASS - ChatGPT in (general) triage, observational study. Ambiguity: who entered cases (patients vs clinicians) not explicit in title."
+CC227,PASS,"PASS - accuracy of symptom assessment applications, LLMs and laypeople for self-triage decisions; lay self-triage of presenting symptoms."
+CC228,PASS,"PASS - patient triage and guidance in emergency departments using LLMs, multimetric study; general ED presentations/disposition. Ambiguity: clinician-in-loop workflow possible."
+CC229,PASS,"PASS - triage performance across LLMs, ChatGPT and untrained doctors in emergency medicine; general triage/disposition."
+CC230,PASS,PASS - medical validity and layperson interpretation of emergency visit recommendations by GPT; lay-facing disposition advice.
+CC231,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC232,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC233,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC234,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC235,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC236,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC237,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC238,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC239,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC240,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC241,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC242,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC243,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC244,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC245,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC246,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC247,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC248,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC249,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC250,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC251,PASS,PASS - reliability/accuracy of ChatGPT answering pharmacotherapy-related inquiries. Ambiguity: inquirer (patient vs professional) not explicit; general medication questions are primary-care relevant.
+CC252,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC253,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC254,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC255,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC256,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC257,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC258,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC259,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC260,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC261,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC262,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC263,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC264,PASS,PASS - conversational diagnostic AI evaluated on general diagnostic dialogue. Ambiguity: simulated/actor patients vs real lay users and exact safety rating not explicit in title.
+CC265,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC266,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC267,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC268,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC269,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC270,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC271,PASS,PASS - generative AI chatbots taking on hypertension questions in patient education; hypertension is a core primary-care condition. Ambiguity: rating dimensions not stated in title.
+CC272,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC273,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC274,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC275,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC276,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC277,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC278,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC279,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC280,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC281,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC282,PASS,"PASS - ChatGPT and self-managed medication abortion / misinformation. Ambiguity: primary content analysis vs commentary, and primary-care scope, not clear from title."
+CC283,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC284,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC285,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC286,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC287,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC288,PASS,PASS - appropriateness of ChatGPT as a resource for medication-related questions rated; general medication questions are primary-care relevant.
+CC289,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC290,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC291,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC292,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC293,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC294,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC295,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC296,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC297,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC298,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC299,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC300,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC301,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC302,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC303,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC304,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC305,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC306,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC307,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC308,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC309,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC310,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC311,PASS,"PASS - LLM-based responses to patients' in-basket messages; patient-facing portal messages, primary-care plausible. Ambiguity: rating outcome (safety/harm) not stated in title."
+CC312,PASS,"PASS - accuracy of ChatGPT in common gastrointestinal diseases, framed for patients and providers; common GI conditions present in primary care."
+CC313,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC314,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC315,EXCLUDE,"EXCLUDE - custom/specialised chatbot, not a general-purpose LLM chatbot."
+CC316,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC317,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC318,PASS,PASS - comparative study of an LLM and health coaches. Ambiguity: patient-facing health-advice evaluation and safety rating not explicit in title.
+CC319,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC320,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC321,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC322,PASS,PASS - physician vs LLM chatbot responses to web-based questions from autistic patients. Ambiguity: question topics (general vs specialty) not stated in title.
+CC323,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC324,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC325,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC326,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC327,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC328,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC329,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC330,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC331,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC332,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC333,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC334,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC335,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC336,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC337,PASS,PASS - red teaming ChatGPT in medicine for real-world insights on model behaviour; primary safety probing of a general LLM. Ambiguity: patient-question set not explicit in title.
+CC338,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC339,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC340,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC341,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC342,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC343,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC344,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC345,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC346,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC347,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC348,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC349,PASS,PASS - accuracy of a chatbot answering questions patients should ask before taking a new medication; patient-facing general medication safety.
+CC350,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC351,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC352,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC353,PASS,PASS - ChatGPT for diabetes awareness/information; diabetes is a core primary-care condition. Ambiguity: design and rating dimensions vague in title.
+CC354,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC355,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC356,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC357,PASS,PASS - LLM utility in answering common patients' gastrointestinal health-related questions evaluated; common GI questions present in primary care.
+CC358,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC359,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC360,PASS,PASS - quality and safety of AI-generated health information explicitly studied; general health information. Ambiguity: primary study vs review not clear from title.
+CC361,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC362,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC363,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC364,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC365,PASS,PASS - AI responses to public health questions evaluated; public/patient-facing general health questions. Ambiguity: exact rating (safety/harm) not stated in title.
+CC366,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC367,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC368,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC369,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC370,EXCLUDE,EXCLUDE - prediction model / non-advice use.
+CC371,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC372,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC373,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC374,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC375,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC376,PASS,"PASS - efficacy of AI chatbots (ChatGPT, Bard, Bing) to determine an emergency; general disposition/triage, patient-facing plausible."
+CC377,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC378,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC379,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC380,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC381,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC382,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC383,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC384,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC385,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC386,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC387,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC388,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC389,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC390,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC391,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC392,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC393,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC394,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC395,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC396,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC397,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC398,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC399,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC400,PASS,"PASS - diagnostic and triage accuracy of the GPT-3 AI model, observational study; general presentations, disposition relevant."
+CC401,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC402,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC403,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC404,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC405,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC406,PASS,PASS - delayed diagnosis of a transient ischaemic attack caused by ChatGPT; lay use for a health decision with harm reported. Ambiguity: single case report vs rated response set.
+CC407,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC408,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC409,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC410,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC411,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC412,PASS,PASS - LLMs/RAG delivering guideline-adherent nutrition information for cardiovascular disease prevention rated; CVD prevention is core primary care. Ambiguity: patient-facing framing not explicit.
+CC413,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC414,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC415,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC416,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC417,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC418,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC419,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC420,PASS,PASS - ChatGPT risk-stratification of patients with atraumatic chest pain; chest pain is a general first-contact presentation and stratification is disposition/safety relevant. Ambiguity: patient-entered vs clinician-entered cases.
+CC421,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC422,PASS,PASS - national survey of primary care access and health-related ChatGPT use; laypeople using an LLM for health decisions in a primary-care context.
+CC423,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC424,PASS,PASS - characterising adoption and experiences of users of AI-generated health information (US questionnaire); lay health-information use.
+CC425,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC426,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC427,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC428,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC429,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC430,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC431,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC432,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC433,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC434,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC435,PASS,PASS - ChatGPT vs Gemini answers to common questions on benign anal conditions; benign anal conditions (e.g. haemorrhoids) are first-contact primary-care presentations. Ambiguity: colorectal-specialty framing possible.
+CC436,EXCLUDE,"EXCLUDE - writing/citation use, not patient advice."
+CC437,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC438,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC439,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC440,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC441,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC442,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC443,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC444,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC445,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC446,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC447,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC448,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC449,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC450,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC451,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC452,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC453,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC454,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC455,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC456,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC457,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC458,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC459,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC460,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC461,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC462,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC463,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC464,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC465,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC466,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC467,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC468,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC469,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC470,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC471,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC472,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC473,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC474,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC475,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC476,PASS,"PASS - ChatGPT performance providing treatment recommendations for paediatric diseases evaluated. Ambiguity: parent/patient-facing vs clinician-facing recommendations, and general vs specialty case mix, not explicit in title."
+CC477,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC478,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC479,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC480,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC481,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC482,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC483,PASS,PASS - ChatGPT for diabetes education rated for accuracy/accessibility in patient support; diabetes is a core primary-care condition.
+CC484,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC485,PASS,PASS - new ChatGPT models for common carpal tunnel syndrome questions rated for accuracy (and readability); carpal tunnel is a common first-contact MSK presentation. Ambiguity: hand-specialty vs primary-care scope.
+CC486,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC487,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC488,PASS,"PASS - validity/reliability of AI chatbots for gestational diabetes mellitus, multi-model comparison. Ambiguity: patient-facing framing and primary-care vs obstetric scope (cf. CC016)."
+CC489,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC490,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC491,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC492,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC493,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC494,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC495,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC496,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC497,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC498,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC499,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC500,EXCLUDE,"EXCLUDE - writing/citation use, not patient advice."
+CC501,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC502,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC503,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC504,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC505,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC506,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC507,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC508,PASS,PASS - expert evaluation of ChatGPT accuracy for basic coeliac disease FAQs; coeliac disease is a primary-care-managed chronic condition and FAQs are patient-facing. Ambiguity: gastroenterology-specialty framing possible.
+CC509,EXCLUDE,EXCLUDE - perceptions/attitudes survey; no rating of advice for safety/harm and no lay health-decision use on title.
+CC510,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC511,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC512,EXCLUDE,EXCLUDE - perceptions/attitudes survey; no rating of advice for safety/harm and no lay health-decision use on title.
+CC513,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC514,EXCLUDE,EXCLUDE - perceptions/attitudes survey; no rating of advice for safety/harm and no lay health-decision use on title.
+CC515,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC516,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC517,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC518,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC519,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC520,PASS,PASS - patient-facing generative AI in hypertension care evaluated for quality/actionability of LLM-generated materials; hypertension is a core primary-care condition. Ambiguity: education materials vs answers to patient questions.
+CC521,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC522,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC523,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC524,PASS,"PASS - generative AI chatbots and medical misinformation audited for accuracy; general medical information, patient/public-facing plausible. Ambiguity: question set source not explicit in title."
+CC525,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC526,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC527,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC528,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC529,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC530,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC531,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC532,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC533,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC534,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC535,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC536,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC537,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC538,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC539,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC540,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC541,PASS,PASS - accuracy/comprehensiveness of AI answers to questions from people with COPD (AIR-COPD); patient-posed questions on a primary-care chronic condition.
+CC542,PASS,PASS - ChatGPT answering common patient questions on lateral epicondylitis vs OrthoInfo. Ambiguity: orthopaedic-specialty vs primary-care MSK scope (tennis elbow is a first-contact presentation).
+CC543,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC544,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC545,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC546,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC547,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC548,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC549,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC550,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC551,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC552,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC553,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC554,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC555,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC556,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC557,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC558,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC559,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC560,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC561,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC562,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC563,EXCLUDE,"EXCLUDE - writing/citation use, not patient advice."
+CC564,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC565,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC566,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC567,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC568,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC569,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC570,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC571,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC572,PASS,"PASS - appropriateness (and readability) of ChatGPT-generated gastroenterological information studied. Ambiguity: general GI vs gastroenterology-specialty scope, and patient-question source not explicit."
+CC573,PASS,"PASS - online patient education in obstructive sleep apnoea, ChatGPT vs Google Search. Ambiguity: sleep-specialty vs primary-care scope and rating dimensions not stated (cf. CC221)."
+CC574,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC575,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC576,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC577,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC578,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC579,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC580,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC581,EXCLUDE,EXCLUDE - readability/education-material generation or revision only; no safety/harm rating of answers to patient questions on title.
+CC582,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC583,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC584,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC585,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC586,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC587,EXCLUDE,"EXCLUDE - review/overview, not a primary patient-facing safety study."
+CC588,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC589,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC590,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC591,EXCLUDE,"EXCLUDE - procedure/surgical pathway set (specialty-only), not first-contact primary-care presentations."
+CC592,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC593,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC594,PASS,PASS - accuracy of online AI models in primary care settings explicitly evaluated; primary-care scope stated in title. Ambiguity: patient-facing question set not explicit.
+CC595,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC596,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC597,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC598,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC599,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC600,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC601,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC602,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC603,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC604,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC605,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC606,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC607,EXCLUDE,"EXCLUDE - examination/knowledge-test study, not patient-facing advice."
+CC608,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC609,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC610,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC611,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC612,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC613,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC614,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC615,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC616,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC617,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC618,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC619,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC620,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC621,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC622,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC623,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC624,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC625,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC626,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC627,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC628,PASS,PASS - accuracy/completeness of AI language models providing information on methotrexate use assessed; medication information/counselling is primary-care relevant. Ambiguity: patient-facing vs professional audience not explicit.
+CC629,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC630,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC631,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC632,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC633,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC634,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC635,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC636,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC637,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC638,EXCLUDE,"EXCLUDE - review/synthesis, not a primary study."
+CC639,PASS,PASS - ChatGPT responses to medical questions evaluated for limited responses and fabricated references; fabrication is a pre-specified secondary outcome and questions are general. Ambiguity: patient-facing source not explicit.
+CC640,PASS,PASS - experimental study of an AI chatbot in appendicitis management; appendicitis is an acute first-contact presentation and disposition/management is safety relevant. Ambiguity: patient-facing vs clinician management design.
+CC641,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC642,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC643,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC644,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC645,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC646,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC647,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC648,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC649,PASS,PASS - diagnostic accuracy of GPT-3 differential-diagnosis lists for clinical vignettes with common chief complaints (pilot); common chief complaints are primary-care presentations. Ambiguity: vignette (clinician-style) vs patient-posed questions.
+CC650,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC651,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC652,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC653,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC654,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC655,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC656,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC657,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC658,PASS,"PASS - ChatGPT vs Google for queries related to dementia and other cognitive decline, results compared; dementia queries are public/patient-facing and dementia presents in primary care. Ambiguity: rating dimensions not stated in title."
+CC659,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC660,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC661,EXCLUDE,"EXCLUDE - editorial/opinion piece, no primary rated responses."
+CC662,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC663,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC664,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC665,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC666,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC667,PASS,PASS - soft tissue infection expertise of ChatGPT and Bard compared with IDSA recommendations; soft tissue infections are common first-contact primary-care presentations. Ambiguity: patient-facing vs clinician expertise framing.
+CC668,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC669,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC670,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC671,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC672,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC673,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC674,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC675,PASS,PASS - BPPV information on Google vs AI (ChatGPT) compared; BPPV/vertigo is a common primary-care presentation and the information is public-facing. Ambiguity: ENT-specialty framing and rating dimensions not stated.
+CC676,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC677,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC678,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC679,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC680,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC681,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC682,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC683,EXCLUDE,"EXCLUDE - ethics/policy/bias/regulatory piece, not a rating of patient-facing advice for safety/harm."
+CC684,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC685,PASS,PASS - ChatGPT vs clinical practice guidelines making informed decisions for lumbosacral radicular pain (cross-sectional); first-contact primary-care presentation (cf. CC179).
+CC686,EXCLUDE,"EXCLUDE - on title, not a primary study rating a general-purpose LLM chatbot's answers to patient-facing primary-care questions for safety/harm, and not a lay-user health-decision study."
+CC687,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC688,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC689,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC690,EXCLUDE,"EXCLUDE - guideline/framework/consensus document, not a primary study."
+CC691,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC692,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC693,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC694,EXCLUDE,"EXCLUDE - clinician-facing / professional or education use, not patient-facing advice."
+CC695,PASS,"PASS - ChatGPT vs web search for patient questions (general); patient-facing general questions, comparative evaluation."
+CC696,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC697,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.
+CC698,EXCLUDE,EXCLUDE - mental-health-only topic.
+CC699,EXCLUDE,EXCLUDE - specialty-only condition/procedure set; not a primary-care presentation set on title.

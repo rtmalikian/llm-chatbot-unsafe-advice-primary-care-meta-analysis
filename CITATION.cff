@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis"
+authors:
+  - family-names: "Malikian"
+    given-names: "Raphael"
+    orcid: "https://orcid.org/0009-0008-4326-4205"
+    email: "rtmalikian@gmail.com"
+date-released: 2026-11-13
+version: "1.0.0"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis"
+abstract: "Cochrane-level systematic review and meta-analysis of unsafe or potentially unsafe responses from patient-facing LLM chatbots in bench evaluations of primary-care question sets: 95 model arms, 23 studies, 552 of 4,868 rated responses in the studies' worst safety tiers; pooled 10.5% (95% CI 9.3 to 11.9); GRADE very low."
+keywords:
+  - large language models
+  - chatbots
+  - patient safety
+  - primary care
+  - systematic review
+  - meta-analysis

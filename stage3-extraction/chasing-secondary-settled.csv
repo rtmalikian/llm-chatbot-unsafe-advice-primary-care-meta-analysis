@@ -1,0 +1,17 @@
+cc_id,study_id,model,outcome_type,n_events,n_rated,derived,model_era
+CC005,Khromchenko 2024 (chasing CC005),ChatGPT-3.5,problematic,5,12,YES,era_early
+CC005,Khromchenko 2024 (chasing CC005),Bard,problematic,2,12,YES,era_early
+CC102,Tan 2026 (chasing CC102),GPT-3.5,problematic,11,41,YES,era_early
+CC102,Tan 2026 (chasing CC102),GPT-4,problematic,13,41,YES,era_early
+CC177,Lakdawala 2023 (chasing CC177),ChatGPT (both conditions pooled),problematic,14,64,YES,not_reported
+CC220,Campbell 2023 (chasing CC220),ChatGPT (pooled over prompt forms),problematic,37,120,YES,not_reported
+CC221,Campbell 2023 (chasing CC221),ChatGPT (pooled over prompt forms),problematic,27,96,YES,not_reported
+CC224,Lee 2024 (chasing CC224),ChatGPT (pooled over prompt forms),problematic,6,64,YES,not_reported
+CC230,Tanaka 2025 (chasing CC230),GPT model,undertriage,11,314,YES,not_reported
+CC524,Tiller 2026 (chasing CC524),Five chatbots pooled,problematic,124,250,YES,not_reported
+CC594,Kassab 2024 (chasing CC594),ChatGPT-4,problematic,16,56,YES,era_early
+CC594,Kassab 2024 (chasing CC594),Bard,problematic,10,56,YES,era_early
+CC628,Coskun 2023 (chasing CC628),GPT-3.5,problematic,0,23,YES,era_early
+CC628,Coskun 2023 (chasing CC628),GPT-4,problematic,0,23,YES,era_early
+CC628,Coskun 2023 (chasing CC628),BARD,problematic,4,23,YES,era_early
+CC628,Coskun 2023 (chasing CC628),Bing,problematic,3,23,YES,era_early

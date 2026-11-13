@@ -1,0 +1,1037 @@
+record_id,decision,reason_code,notes
+R1037,EXCLUDE,BX4,Plastic surgery procedure patient education; specialty operative topic
+R1038,EXCLUDE,BX3,Medication error classification of incident reports; pharmacist/clinician task only
+R1039,EXCLUDE,BX3,EIT pendelluft detection in ventilated ICU patients; clinician-facing
+R1040,EXCLUDE,BX2,On-premise privacy-preserving models generating lay MRI summaries; not a public general-purpose chatbot
+R1041,EXCLUDE,BX1,Benchmark cognitive-diagnostic modelling paper; no rated patient-facing advice responses
+R1042,EXCLUDE,BX4,Total hip arthroplasty patient education; specialty operative procedure topic
+R1043,EXCLUDE,BX3,RAG emergency triage decision support for clinicians
+R1044,EXCLUDE,BX1,Framework proposal for dementia care; no primary rated responses
+R1045,EXCLUDE,BX1,Analytical security framework synthesis; no primary rated responses
+R1046,EXCLUDE,BX1,Comment article; no abstract and no primary study
+R1047,EXCLUDE,BX1,Token-level attribution method for clinical decision support; no rated advice responses
+R1048,EXCLUDE,BX2,OncoPainBot specialised multi-agent system; not a general-purpose public chatbot
+R1049,EXCLUDE,BX1,Quality function deployment on patient feedback; no LLM advice responses rated
+R1050,EXCLUDE,BX1,PLABA track lessons/overview; not a primary patient-advice rating study
+R1051,EXCLUDE,BX1,Editorial call for transparency; no primary rated evidence
+R1052,EXCLUDE,BX1,Single case report of AI in exposure therapy; no rated LLM responses
+R1053,EXCLUDE,BX2,Dedicated genAI CBT app tested in RCT; not a general-purpose chatbot
+R1054,INCLUDE,,Patient-posed pregnancy questions to ChatGPT; blinded obstetricians rated safety on a scale
+R1055,MAYBE,,Kyphosis chatbot information rated for quality/reliability (DISCERN/GQS); no safety or harm element visible in abstract
+R1056,EXCLUDE,BX3,ChatGPT translation of ED discharge instructions; clinician/service task not patient-posed advice
+R1057,EXCLUDE,BX1,Review of agentic AI in radiology; no primary rated responses
+R1058,EXCLUDE,BX3,Benchmark of harm in LLM recommendations on primary care-to-specialist consultation cases; clinician consultation cases not patient-posed questions despite explicit harm severity rating
+R1059,EXCLUDE,BX1,Survey of patient moral judgments about AI-informed decisions; no rated LLM advice responses
+R1060,EXCLUDE,BX1,RCT protocol for tobacco cessation app; no rated responses reported
+R1061,EXCLUDE,BX1,Narrative review of AI in forensic toxicology
+R1062,EXCLUDE,BX1,DeepSeek healthcare commentary/case discussion; no primary rated responses
+R1063,EXCLUDE,BX1,Meta-review of systematic reviews; not primary evidence
+R1064,EXCLUDE,BX1,Viewpoint on RAG ethics in nursing; no primary study
+R1065,EXCLUDE,BX3,Warfarin dose adjustment on clinic records; clinician dosing task not patient-facing
+R1066,EXCLUDE,BX1,Bias analysis of generated narratives; no clinician-rated medical advice responses
+R1067,EXCLUDE,BX3,Automated scoring of clinician safety plans in mental health; clinician-facing tool
+R1068,EXCLUDE,BX3,Persona effects on LLM clinical action thresholds in ED vignettes; clinician decision study
+R1069,EXCLUDE,BX2,Rosie dedicated maternal-health chatbot; not a general-purpose public chatbot
+R1070,EXCLUDE,BX3,Perioperative decision support for geriatric patients; clinician-facing
+R1071,EXCLUDE,BX2,EvoMDT specialised multi-agent oncology system; not a general-purpose public chatbot
+R1072,MAYBE,,Patient-identified axSpA concerns answered by LLMs; rated for guideline-concordance accuracy and readability only - safety assessed only as disclaimer rates in full abstract
+R1073,MAYBE,,ASCVD patient queries answered by LLMs; cardiologists rated accuracy/completeness/comprehensibility on Likert scales with no safety or harm rating in full abstract
+R1074,EXCLUDE,BX1,Review article on endoscopic ultrasound indications; no LLM rating study
+R1075,EXCLUDE,BX3,LLM error detection in oncology clinical documentation; clinician-facing
+R1076,EXCLUDE,BX4,Glaucoma FAQs answered by ChatGPT and a locally trained SLM; specialty ophthalmology topic and accuracy-tier rating only
+R1077,MAYBE,,No abstract available; title indicates ChatGPT GLP-1 information rated for quality/readability and patient safety - safety tier cannot be confirmed
+R1078,EXCLUDE,BX1,Narrative review of AI in healthcare
+R1079,EXCLUDE,BX1,DeepADR drug-reaction prediction model; not an LLM chatbot advice study
+R1080,MAYBE,,ChatGPT/Claude responses compared with professionals on empathy/compassion only; no safety or harm rating visible in abstract
+R1081,EXCLUDE,BX4,Post-bariatric-surgery diet plans; specialty post-operative topic
+R1082,MAYBE,,Celiac disease patient education by LLMs; blinded specialists rated accuracy/clarity and misinformation presence with no explicit safety or harm tier in full abstract
+R1083,EXCLUDE,BX4,Hip arthroscopy / FAI patient questions; specialty operative procedure topic
+R1084,EXCLUDE,BX3,Stage II colon cancer adjuvant therapy compared with MDT decisions; clinician-facing
+R1085,INCLUDE,,Patient queries in ophthalmological emergency vignettes entered into ChatGPT-4o/DeepSeek; answers analysed for potentially harmful content (38-50%) and triage by raters
+R1086,EXCLUDE,BX1,Feasibility of generating mass-casualty simulation scenarios; no patient advice rated
+R1087,EXCLUDE,BX4,Facial feminization surgery techniques and patient education; specialty operative topic
+R1088,EXCLUDE,BX2,AnemiaCare dedicated deterministic decision-support framework; not a general-purpose public chatbot
+R1089,EXCLUDE,BX1,Single-cell RNA-seq retrieval tool; not an LLM advice study
+R1090,MAYBE,,General-purpose AI for patient self-triage in 10 simulated scenarios versus NICE gold standard; disposition accuracy only - no explicit unsafe/harm tier visible in full abstract
+R1091,EXCLUDE,BX3,Triage ranking in a specialised dental clinic by staff/LLMs; not patient-facing advice
+R1092,EXCLUDE,BX1,Ethics article on ambient scribe technology; no primary rated responses
+R1093,EXCLUDE,BX1,Article on perioperative nursing technology innovations; no primary rated responses
+R1094,EXCLUDE,BX3,Oncology treatment recommendations on clinical scenarios; clinician-facing
+R1095,EXCLUDE,BX2,SAFE-AI specialised record safety-event detection framework; not a general-purpose public chatbot
+R1096,EXCLUDE,BX1,Scoping review of LLM applications in healthcare
+R1097,EXCLUDE,BX1,Scoping review of ChatGPT in mental health care
+R1098,MAYBE,,Claude responses to 200 risk-stratified clinical scenarios rated by specialists with quality and safety frameworks; whether scenarios are patient-posed is not stated in abstract
+R1099,EXCLUDE,BX2,Fine-tuned specialised LLMs predicting radiology report urgency; not general-purpose public chatbots
+R1100,EXCLUDE,BX1,Narrative review of LLMs for oncology adverse events
+R1101,EXCLUDE,BX1,Bibliometric analysis of wrong-site surgery; no LLM advice study
+R1102,MAYBE,,ChatGPT models scored for detecting/correcting misinformation embedded in user prompts across specialties; responses not rated for safety or harm as advice
+R1103,EXCLUDE,BX1,Bibliometric review of poison data system publications
+R1104,EXCLUDE,BX1,Perspective review on generative AI in pharmacovigilance
+R1105,EXCLUDE,BX1,Perspective on patient engagement for health chatbots; no primary rated responses
+R1106,EXCLUDE,BX1,Comment on facelift patient education study
+R1107,EXCLUDE,BX1,Systematic review of AI-generated videos in medical education
+R1108,EXCLUDE,BX1,Transformer/LLM classification of adverse drug reactions from tweets; no advice responses rated
+R1109,EXCLUDE,BX3,Drug interaction screening of patient medication lists against databases; clinician/pharmacist-facing task
+R1110,EXCLUDE,BX1,Article on AI in surgical research; no primary rated responses
+R1111,EXCLUDE,BX1,Review of digital innovations in nursing practice
+R1112,EXCLUDE,BX2,Local LLM screening EHR for surgical site infections; not a general-purpose public chatbot
+R1113,EXCLUDE,BX1,Review of generative AI in urology
+R1114,EXCLUDE,BX1,Article on monitoring deployed AI systems; no primary rated responses
+R1115,INCLUDE,,ChatGPT answers to three health questions rated by 88 physicians on 1-10 trustworthiness/value/danger scales; danger is an explicit clinician safety rating
+R1116,EXCLUDE,BX2,Custom clinician-validated cataract surgery education chatbot; not a general-purpose public chatbot
+R1117,EXCLUDE,BX1,Meta-analysis of colchicine trials with ChatGPT as research assistant; LLM advice not rated
+R1118,EXCLUDE,BX1,Article on flawed RCT design in critical care; no LLM advice study
+R1119,EXCLUDE,BX1,Article on ethical use of AI for medical images; no primary rated responses
+R1120,EXCLUDE,BX3,Diabetic eye examination by multimodal AI; specialist diagnostic imaging task not patient-facing
+R1121,INCLUDE,,Public Thai drug-related questions answered by three chatbots; clinical pharmacists evaluated correctness/completeness and risk with high-risk answers identified
+R1122,EXCLUDE,BX4,Informed consent information for oncological surgeries; specialty operative topic
+R1123,EXCLUDE,BX3,Pharmacotherapeutic minicases in pharmacy education; not patient-facing
+R1124,EXCLUDE,BX1,Overview article on AI in medicine and education
+R1125,EXCLUDE,BX1,Proof-of-concept reflections on LLM safety case intake in pharmacovigilance; no rated patient responses
+R1126,MAYBE,,Direct-to-consumer GenAI psychotherapy chatbots used by youth rated with CAPE-II quality framework including harmful-statement and risk sections; no overall safety/harm tier for responses
+R1127,EXCLUDE,BX1,Article on FHIR data harmonisation; no LLM advice study
+R1128,EXCLUDE,BX1,Review of detection/correction of AI system degradation
+R1129,EXCLUDE,BX3,LLM treatment plans for complex ICU medication cases created by clinicians; clinician-facing
+R1130,EXCLUDE,BX1,Commentary on nanomaterials research; no LLM advice study
+R1131,EXCLUDE,BX3,Vascular surgery board-style examination questions; clinician/exam task not patient-facing
+R1132,EXCLUDE,BX1,AI-assisted qualitative analysis of social media rapport posts; no advice responses rated
+R1133,EXCLUDE,BX1,Paper introducing a mental-health LLM evaluation platform; no primary rated advice responses reported
+R1134,EXCLUDE,BX2,GDC Cohort Copilot specialised research tool; not a general-purpose public chatbot
+R1135,EXCLUDE,BX1,Narrative review of telemedicine in orthopedic practice
+R1136,EXCLUDE,BX3,LLM-generated nursing care plans in simulation; clinician-facing
+R1137,MAYBE,,Patients submitted mood-disorder psychoeducation questions to ChatGPT-4o; ratings were relevance/comprehensibility/usefulness/empathy with no safety or harm element visible
+R1138,EXCLUDE,BX1,Real-world drug comparison in CKD; no LLM chatbot involved
+R1139,EXCLUDE,BX1,GPT-4 sentiment analysis of incident reports; no advice responses rated
+R1140,EXCLUDE,BX1,Legal/framework article on AI in mental health services
+R1141,EXCLUDE,BX1,Pilot RCT protocol for a dedicated fiber-intake mHealth app; no rated responses
+R1142,EXCLUDE,BX1,Qualitative study of genAI in biomedical visualisation workflows
+R1143,EXCLUDE,BX2,PEGAssist custom ChatGPT-based chatbot for PEG aftercare; not a general-purpose public chatbot as tested
+R1144,EXCLUDE,BX1,Knowledge extraction from scientific texts on cancer models; no patient advice
+R1145,EXCLUDE,BX1,Uncertainty quantification for EHR clinical outcome prediction; no advice responses
+R1146,EXCLUDE,BX1,ML framework for PK/PD data aggregation; no LLM advice study
+R1147,EXCLUDE,BX1,Survey of ethical/practical challenges of generative AI; no rated responses
+R1148,EXCLUDE,BX2,Med-RISE specialised retrieval-augmentation tool for medical QA; not a general-purpose public chatbot
+R1149,EXCLUDE,BX1,Benchmark of text embedding models for cohort harmonisation; no advice responses
+R1150,EXCLUDE,BX1,Systematic review of clinical LLM benchmarks
+R1151,EXCLUDE,BX1,Framework paper on contextualising mental-health LLM benchmarks; no primary rated responses
+R1152,EXCLUDE,BX1,Experience report from one FQHC on AI adoption; no rated responses
+R1153,EXCLUDE,BX1,Review article on LLMs in pediatric medicine
+R1154,INCLUDE,,Patient-centred DILI questions answered by six LLMs; hepatologists scored accuracy/comprehensiveness and safety
+R1155,EXCLUDE,BX4,ChatGPT management recommendations for thyroid nodules by Bethesda cytopathology category; subspecialty topic rated for guideline accuracy only
+R1156,EXCLUDE,BX1,Commentary on conversational AI in healthcare communication
+R1157,MAYBE,,ChatGPT-4 answers on allergen immunotherapy rated for quality/reliability/readability with validated instruments; no safety or harm element visible in abstract
+R1158,EXCLUDE,BX3,LLM generation of nursing diagnoses from scenarios; clinician-facing
+R1159,EXCLUDE,BX3,Specialist referral triage decision support for primary care providers; clinician-facing
+R1160,EXCLUDE,BX1,Scoping review of AI in dietetic practice
+R1161,EXCLUDE,BX2,RAG virtual assistant built for postoperative instructions; not a general-purpose public chatbot
+R1162,EXCLUDE,BX2,RAG chunking pipelines for clinical decision support; specialised system evaluation
+R1163,EXCLUDE,BX1,External validation of a commercial chest X-ray triage algorithm; not an LLM chatbot advice study
+R1164,INCLUDE,,Viral hepatitis questions for the public answered by four LLMs; responses scored 1-5 on relevance/comprehensiveness/accuracy/safety/readability
+R1165,EXCLUDE,BX2,Fine-tuned Curie model for ophthalmic documentation summaries; specialised clinician tool
+R1166,EXCLUDE,BX1,Urban crime analysis using GIS/LLMs; not a medical advice study
+R1167,EXCLUDE,BX3,GPT-generated ED discharge texts compared in a clinician discharge process; not layperson direct use
+R1168,EXCLUDE,BX1,Integrative review of generative AI in nursing practice
+R1169,EXCLUDE,BX4,Pectus surgery patient questions rated for relevance/accuracy/clarity; specialty operative topic
+R1170,EXCLUDE,BX3,Locally run LLMs on real outpatient ENT cases for diagnosis/treatment; clinician-facing
+R1171,EXCLUDE,BX3,LLM cognitive bias in nuanced clinical decision scenarios; clinician-facing
+R1172,EXCLUDE,BX1,Review of AI-guided nutritional therapy in ICU
+R1173,MAYBE,,GPT-4o answers to common GLP-1 therapy questions rated for accuracy/quality versus internet search; no safety or harm element visible in abstract
+R1174,EXCLUDE,BX1,Review of LLMs in clinical psychiatry
+R1175,EXCLUDE,BX2,Cardia-AI specialised smartwatch monitoring pipeline; not a general-purpose public chatbot
+R1176,EXCLUDE,BX1,Generative AI PPE compliance surveillance system; no advice responses rated
+R1177,INCLUDE,,Patient FAQs on voice disorders answered by GPT-4o mini; authors independently rated accuracy and potential harm with 92.5% of responses rated harmless
+R1178,EXCLUDE,BX1,Committee report on AI improving readability of patient education materials; no primary rated advice responses
+R1179,EXCLUDE,BX1,Protocols for RCTs of AI translation of medical documents; no rated responses reported
+R1180,EXCLUDE,BX3,ChatGPT triage scores for real ED patients assigned within the clinical team workflow; not layperson self-triage and no harm tier
+R1181,EXCLUDE,BX1,Retinal image model for coronary disease detection; not an LLM chatbot study
+R1182,EXCLUDE,BX1,Systematic review of primary care patients' perspectives on AI
+R1183,MAYBE,,Ten popular chatbots' bladder cancer patient information rated with mEQIP/QUEST/DISCERN quality tools; no safety or harm element visible in abstract
+R1184,EXCLUDE,BX4,Pre-anaesthetic education for laparoscopic cholecystectomy; specialty perioperative topic
+R1185,EXCLUDE,BX1,Systematic review of anti-osteoporotic therapies; no LLM involved
+R1186,EXCLUDE,BX1,Escalator safety detection framework; not a medical advice study
+R1187,MAYBE,,LLM answers to patient questions on ACL tears rated for accuracy on a Likert scale only; no safety or harm element visible in abstract
+R1188,MAYBE,,LLM responses to connective tissue disease questions rated for accuracy/completeness/readability; no safety or harm element visible in abstract
+R1189,EXCLUDE,BX1,LLM classification of hemangioma texts as rumour or accurate; not advice responses rated for safety
+R1190,EXCLUDE,BX1,Article on human-machine interaction in generative AI
+R1191,EXCLUDE,BX1,Article on AI for battery electrochemistry; not medical
+R1192,EXCLUDE,BX4,ChatGPT patient education for total knee replacement; specialty operative procedure topic
+R1193,MAYBE,,LLM fertility information analysed qualitatively for concordance/comprehensibility with safety warnings only recorded; no clinician safety or harm rating in full abstract
+R1194,EXCLUDE,BX3,LLM decision support for initial management of critically ill children in ED/PICU; clinician-facing
+R1195,EXCLUDE,BX1,Perspective on public involvement in AI evaluation
+R1196,EXCLUDE,BX1,Narrative review of citizens'/patients' perceptions of AI in healthcare
+R1197,EXCLUDE,BX1,Narrative review of ChatGPT in rehabilitation medicine
+R1198,EXCLUDE,BX4,Microtia reconstruction preoperative education; specialty operative topic despite harm rating
+R1199,EXCLUDE,BX3,LLM medication extraction/classification from EHR notes; clinician/data task not patient-facing
+R1200,EXCLUDE,BX1,WHO research priorities consensus compared with LLMs; no advice responses rated
+R1201,EXCLUDE,BX1,Scoping review of LLM virtual patients in medical education
+R1202,EXCLUDE,BX1,Development of a hybrid LLM alerting framework for care facilities; no rated advice responses
+R1203,EXCLUDE,BX1,Policy/risk analysis paper on AI tools for mental health therapy; no primary rated responses
+R1204,EXCLUDE,BX1,Food traceability system design with AI chatbot; not medical advice
+R1205,EXCLUDE,BX4,ChatGPT interpretation of thyroid ultrasound TIRADS lexicon; subspecialty imaging terminology
+R1206,EXCLUDE,BX1,Formative qualitative study of a dedicated diabetes chatbot; no LLM responses rated
+R1207,EXCLUDE,BX1,Experimental study of source clarity in digital health communication; no LLM advice
+R1208,EXCLUDE,BX1,Guidance article on prompt engineering for neurologists
+R1209,EXCLUDE,BX4,GPT-4o diagnosis of strabismus from photographs; subspecialty image-based diagnosis
+R1210,EXCLUDE,BX3,Rhazes clinician platform for guideline management planning and coding; clinician-facing
+R1211,EXCLUDE,BX1,Narrative review of LLMs for cancer patient/caregiver support
+R1212,EXCLUDE,BX1,Tutorial on EU AI Act compliance; no primary study
+R1213,EXCLUDE,BX3,LLM medication extraction from clinical notes for DILI surveillance; clinician/data task
+R1214,EXCLUDE,BX4,Home parenteral nutrition questions; specialist-managed therapy topic not a primary-care presentation
+R1215,EXCLUDE,BX1,Article on NLP/LLMs in hand surgery; no primary rated responses
+R1216,EXCLUDE,BX3,LLM extraction of aortic data from imaging reports; clinician/data task not patient-facing
+R1217,EXCLUDE,BX1,Systematic review developing a chatbot evaluation framework
+R1218,INCLUDE,,AI dietary recommendations for CKD patients scored by experts across accuracy/clarity/completeness/practicality and safety domains against KDIGO guidelines
+R1219,EXCLUDE,BX4,Anterolateral thigh flap surgery questions for diabetic foot ulcers; specialty operative topic despite safety rating
+R1220,EXCLUDE,BX3,LLM simulating a tumor board for NSCLC management; clinician-facing
+R1221,EXCLUDE,BX1,Position statement on AI in surgical training
+R1222,EXCLUDE,BX1,Systematic review of LLMs in mental health care
+R1223,EXCLUDE,BX1,Systematic review of preclinical drug safety; no LLM involved
+R1224,EXCLUDE,BX4,LLM performance on plastic and aesthetic surgery questions/cases; specialty topic
+R1225,EXCLUDE,BX1,Legislative review of mental health AI regulation
+R1226,EXCLUDE,BX1,Distracted driving agentic LLM framework; not medical
+R1227,EXCLUDE,BX3,ChatGPT/Claude clinical decision support on hand surgery cases; clinician-facing
+R1228,EXCLUDE,BX1,Ethics review article on GenAI adoption in healthcare
+R1229,MAYBE,,Real patient trigeminal neuralgia consultations answered by ChatGPT/Ernie Bot; blinded raters used DISCERN and modified PEMAT quality tools with no safety or harm tier in full abstract
+R1230,EXCLUDE,BX3,ChatGPT estimation of ASA physical status for hand surgery; clinician task
+R1231,EXCLUDE,BX3,ChatGPT-5 answers to clinician-style questions on obstetric/gynaecologic emergency scenarios compared with specialists; clinician-facing despite patient safety scoring
+R1232,EXCLUDE,BX1,Comment on LLM capnography interpretation; no abstract/primary study
+R1233,EXCLUDE,BX1,Single case report of ChatGPT diagnostic hallucination in arthritis
+R1234,MAYBE,,Public Perplexity RAG models and OpenEvidence answering neurology guideline questions; neurologists scored correctness 0-2 only with no safety or harm rating in full abstract
+R1235,EXCLUDE,BX1,Evaluation of LLM-generated key-feature examination questions for medical education
+R1236,MAYBE,,LLM answers to vitiligo patient questions rated by dermatologists for accuracy/comprehensibility/relevance on Likert scales; no safety or harm element in full abstract
+R1237,EXCLUDE,BX1,GenAI-assisted analysis framework for tobacco content on social media; no advice rated
+R1238,EXCLUDE,BX4,PICC line care information; specialist oncology line-care topic
+R1239,EXCLUDE,BX1,Development framework article for AI-VR clinical handover training
+R1240,EXCLUDE,BX1,Commentary on the HealthBench evaluation benchmark; no primary rated responses in this study
+R1241,EXCLUDE,BX4,Patient queries on maxillomandibular fixation for maxillofacial fractures; specialty operative topic
+R1242,EXCLUDE,BX3,ChatGPT answers to pharmacotherapy queries submitted by healthcare professionals; clinician-facing
+R1243,MAYBE,,LLM-generated CKD dietary plans from standardised prompts entered by participants; outcomes were nutritional accuracy and dietary inflammatory index only - no safety rating in full abstract
+R1244,EXCLUDE,BX1,Feasibility study of AI virtual patients for undergraduate communication training
+R1245,EXCLUDE,BX4,LLM interpretation of drug-induced sleep endoscopy videos; subspecialty procedure interpretation
+R1246,EXCLUDE,BX2,RAG chatbot developed for orthopedic/trauma patient education; not a general-purpose public chatbot
+R1247,EXCLUDE,BX1,Bibliometric analysis of ChatGPT in medicine
+R1248,EXCLUDE,BX1,HONeYBEE multimodal oncology embedding framework; no advice responses
+R1249,MAYBE,,No abstract available; title indicates a study of characteristics and safety of consumer chatbots for emergent adolescent health concerns - design and rating cannot be confirmed
+R1250,EXCLUDE,BX1,Article on using AI for scholarly writing
+R1251,EXCLUDE,BX4,Doctor-supervised AI in informed consent for total hip arthroplasty; specialty operative topic
+R1252,EXCLUDE,BX1,Systematic review and meta-analysis of empathy in AI vs human care
+R1253,EXCLUDE,BX3,LLM prediction of drug-adverse event relations in discharge summaries; clinician/data task
+R1254,EXCLUDE,BX3,ChatGPT management recommendations for hip fractures compared with orthopaedic MDT; clinician-facing
+R1255,EXCLUDE,BX1,Expert consensus best practices for health chatbot design/implementation
+R1256,EXCLUDE,BX4,AI responses to post-rhinoplasty patient calls; specialty post-operative topic
+R1257,EXCLUDE,BX3,LLM performance on USMLE-style social skills examination questions; exam task not patient-facing
+R1258,EXCLUDE,BX1,Article on AI for radiology follow-up recommendation tracking
+R1259,EXCLUDE,BX1,Review of ethical challenges of AI in cardiology
+R1260,EXCLUDE,BX3,LLM automated interpretation of urodynamic studies versus urologists; clinician-facing
+R1261,EXCLUDE,BX1,Literature review of AI in oculoplastics
+R1262,EXCLUDE,BX1,Systematic review of NLP extraction from clinical text for registries
+R1263,EXCLUDE,BX2,Self-administered digital mental health intervention in RCT; not a general-purpose LLM chatbot
+R1264,EXCLUDE,BX1,Article on generative AI in oral sciences
+R1265,EXCLUDE,BX3,FedEYE/ChatGPT prediction of lens vault for implant surgery planning; clinician task
+R1266,EXCLUDE,BX3,LLM thyroid nodule risk stratification from ultrasound descriptors rated by clinicians; clinician-facing imaging task
+R1267,EXCLUDE,BX1,Review of LLMs in pediatric surgery practice
+R1268,EXCLUDE,BX4,ChatGPT answers to post-bariatric-surgery questions; specialty post-operative topic
+R1269,INCLUDE,,Dysphonia patient queries answered by ChatGPT/Google AI Overview; board-certified otolaryngologists graded comprehensiveness/accuracy/appropriateness and patient safety on a 5-point Likert scale
+R1270,EXCLUDE,BX1,Survey of professionals' views on ChatGPT in child/adolescent mental health; no rated responses
+R1271,EXCLUDE,BX1,Article on real-world monitoring of AI in radiology
+R1272,EXCLUDE,BX2,RAG system generating medication use instructions from leaflets; specialised system not a public chatbot
+R1273,EXCLUDE,BX1,Targeted review of LLMs for cardiology guideline interpretation
+R1274,EXCLUDE,BX1,Rapid review of digital scribes for clinician documentation
+R1275,EXCLUDE,BX1,Adversarial attack vulnerability study on medical LLMs; no patient-facing advice rating
+R1276,EXCLUDE,BX1,Fire cause classification framework; not medical
+R1277,EXCLUDE,BX4,ChatGPT for myocardial viability scintigraphy preparation/report questions; subspecialty nuclear medicine test topic
+R1278,EXCLUDE,BX1,Article on AI and cognitive warfare rights; not medical
+R1279,EXCLUDE,BX1,Systematic review and meta-analysis of cancer information quality on new media
+R1280,EXCLUDE,BX4,Patient-initiated ophthalmology questions to five LLMs rated including a safety domain; specialty ophthalmology topic
+R1281,EXCLUDE,BX1,Article on AI in musculoskeletal imaging
+R1282,EXCLUDE,BX1,Bias evaluation of GPT-generated patient messages from synthetic records; no clinician-rated advice responses
+R1283,EXCLUDE,BX1,Observational study of LLMs generating RCT designs; no patient advice
+R1284,EXCLUDE,BX4,LLM rewriting of interventional radiology patient leaflets; subspecialty procedure topic
+R1285,EXCLUDE,BX1,Multimodal patient activity recognition system; no advice responses
+R1286,EXCLUDE,BX1,Survey of local officials' views on AI; not medical
+R1287,EXCLUDE,BX1,Review/framework for readiness of AI mental health deployment
+R1288,EXCLUDE,BX1,Guidance article on chatbots in geriatric psychiatry
+R1289,EXCLUDE,BX1,Desiderata paper for biomedical knowledge networks
+R1290,EXCLUDE,BX1,Longitudinal study of disclaimer presence in LLM/VLM outputs; advice safety not clinician-rated
+R1291,EXCLUDE,BX1,GPT simplification of operative reports with patient preference outcomes; no advice responses rated
+R1292,MAYBE,,GPT-4o mini answers to dermatology patient questions compared with specialists; abstract notes inaccuracies leading to risky management but describes no safety rating scale or tier
+R1293,INCLUDE,,COPD questions from GOLD recommendations answered by three LLMs; 61 pulmonologists rated completeness/accuracy/terminology/accessibility and safety for patient education
+R1294,EXCLUDE,BX1,Article on digital public health in Italy
+R1295,EXCLUDE,BX1,Mixed-methods systematic review of AI in nursing practice environments
+R1296,EXCLUDE,BX2,Fine-tuned Mistral model generating discharge instructions; specialised model not a public chatbot
+R1297,EXCLUDE,BX1,Paper on error reduction through team training; no LLM involved
+R1298,EXCLUDE,BX1,Article on operationalising machine translation in healthcare; no primary rated advice responses
+R1299,EXCLUDE,BX4,ChatGPT responses to post-operative BPH surgery queries; specialty operative topic
+R1300,EXCLUDE,BX1,Machine learning tool for adverse event detection from social media; no advice rated
+R1301,EXCLUDE,BX4,LLM answers to FAQs about eye removal surgery; specialty operative topic despite harm evaluation
+R1302,EXCLUDE,BX1,Review article on AI in gastric diseases
+R1303,EXCLUDE,BX3,LLM computation of validated clinical risk scores; clinician task not patient-facing
+R1304,EXCLUDE,BX3,LLM out-of-hospital breast cancer management from EHR case datasets; clinician management task
+R1305,EXCLUDE,BX1,Scoping review of LLMs for chronic disease management tasks
+R1306,EXCLUDE,BX1,Systematic review of ethical considerations of LLMs in healthcare
+R1307,EXCLUDE,BX3,ChatGPT multidisciplinary treatment recommendations scored by physicians; clinician-facing
+R1308,EXCLUDE,BX3,ChatGPT breast cancer treatment planning versus multidisciplinary teams; clinician-facing
+R1309,EXCLUDE,BX1,Discourse/sentiment study of AI mental health support; no rated advice responses
+R1310,EXCLUDE,BX2,AI generation of patient-friendly MRI fistula summaries; specialised summarisation system not a public chatbot
+R1311,EXCLUDE,BX1,Multimodal biomarker study for cancer cachexia detection; not an LLM advice study
+R1312,EXCLUDE,BX1,Systematic mapping review of LLM capability in drug-drug interaction analysis
+R1313,MAYBE,,Simulated patient experiments with ERNIE Bot for chronic disease consultations evaluating quality/safety/disparity via diagnostic and prescribing metrics; no explicit per-response unsafe tier in full abstract
+R1314,EXCLUDE,BX3,LLM clinical decision support identifying prescribing errors; clinician-facing
+R1315,EXCLUDE,BX1,Development of a rule-based varenicline adherence chatbot using behaviour change wheel; no rated LLM responses
+R1316,EXCLUDE,BX1,Scoping review of AI in polypharmacy management
+R1317,EXCLUDE,BX1,Education article on a prompt-powered worksheet
+R1318,EXCLUDE,BX1,Content analysis of Amazon reviews for cancer survivorship needs; no advice rated
+R1319,EXCLUDE,BX1,Article/review on strategies to eliminate hallucinations in medical AI
+R1320,EXCLUDE,BX1,Survey of clinicians' LLM use/knowledge/perceptions; no rated responses
+R1321,EXCLUDE,BX1,Proposal paper on global population health reform
+R1322,EXCLUDE,BX4,Cataract-related queries to five LLMs benchmarked including harmlessness; specialty ophthalmology topic
+R1323,EXCLUDE,BX1,Review of patient re-identification risk from clinical free text
+R1324,EXCLUDE,BX1,Model for novel psychoactive substance analysis in forensic toxicology; not an LLM advice study
+R1325,EXCLUDE,BX4,AI chatbot information on hypospadias for patients/families; specialty congenital surgical condition despite safety rating
+R1326,EXCLUDE,BX1,Ethics paper on chairside generative AI in dental education
+R1327,EXCLUDE,BX1,Systematic review of AI in drug interaction prediction
+R1328,EXCLUDE,BX1,Conference proceedings on AI in primary immunodeficiency
+R1329,MAYBE,,Pediatric fever questions answered by four LLMs rated by 20 doctors on four unnamed dimensions with safety-risk screening before the relatives survey; no explicit safety tier described
+R1330,EXCLUDE,BX1,PLABA track lessons paper (duplicate report); no primary patient advice rating
+R1331,EXCLUDE,BX1,Decision algorithm paper for ethical implementation of black-box AI
+R1332,EXCLUDE,BX1,Playbook for pragmatic trial operations monitoring ambient AI
+R1333,MAYBE,,ChatGPT/Gemini perspectives on glenohumeral osteoarthritis management compared with AAOS guidelines; no explicit safety or harm rating visible in abstract
+R1334,EXCLUDE,BX1,Scoping review of AI systems delivering motivational interviewing
+R1335,EXCLUDE,BX1,Bibliographic analysis of immunotherapy and surgery literature
+R1336,EXCLUDE,BX1,Tutorial on prompt engineering for clinicians
+R1337,MAYBE,,LLM recommendations on topical NSAID use framed as clinical decision support; quality/readability/actionability only - audience and any safety rating unclear in full abstract
+R1338,EXCLUDE,BX1,Article on perils of LLMs for people with severe mental illness; no primary rated responses
+R1339,EXCLUDE,BX1,Perspective on challenges of implementing LLMs in clinical practice
+R1340,EXCLUDE,BX4,Chatbot answers to FAQs on orthognathic surgery; specialty operative topic
+R1341,EXCLUDE,BX1,Conversational agent for TP53 pathway analysis in colorectal cancer research; no patient advice
+R1342,EXCLUDE,BX4,ChatGPT/DeepSeek patient education on spinal cord injury; specialist rehabilitation condition not a primary-care presentation despite SCORE safety domain
+R1343,EXCLUDE,BX2,Six developed chatbot variants combining GPT versions with RAG reference sources for cancer information; study-built configurations not general-purpose chatbots as used by the public despite clinician hallucination/harm review
+R1344,EXCLUDE,BX3,LLM identification of anaphylaxis diagnoses from EMR text; clinician/data task
+R1345,EXCLUDE,BX1,Review article on generative AI in perioperative medicine
+R1346,EXCLUDE,BX3,LLM clinical reasoning on a palliative care pharmacy concordance test; learner/clinician-facing
+R1347,EXCLUDE,BX3,LLM treatment recommendations versus sarcoma tumor boards; clinician-facing
+R1348,EXCLUDE,BX1,Scoping review of federated LLMs for adverse drug reaction prediction
+R1349,EXCLUDE,BX1,Evaluation of anti-LGBTQIA+ bias in LLM responses to expert prompts/notes; no patient advice safety rating
+R1350,EXCLUDE,BX1,Article on CRISPE prompt framework in orthopedics; no primary rated responses
+R1351,EXCLUDE,BX1,Review of LLMs in nephrology/CKD management
+R1352,EXCLUDE,BX1,Commentary on chatbots in sexual and reproductive health
+R1353,EXCLUDE,BX3,On-premise open-source LLMs for precision oncology decision support rated by experts; clinician-facing
+R1354,EXCLUDE,BX1,ChatGPT-supported qualitative study of nursing students' OR shadowing; no advice rated
+R1355,EXCLUDE,BX3,LLM performance on fluoride dental knowledge questions; knowledge/exam task not patient-facing
+R1356,EXCLUDE,BX2,KIMI RAG-enhanced LLM configured for distal radius fracture triage; specialised system not a public chatbot
+R1357,EXCLUDE,BX3,Drug interaction concordance between databases and AI tools for antidotes; clinician/pharmacist task
+R1358,EXCLUDE,BX3,ChatGPT responses to ethical dilemmas in bipolar care case scenarios; clinician-facing
+R1359,EXCLUDE,BX1,AI-HOPE agent for RTK-RAS genomic analysis in colorectal cancer; no patient advice
+R1360,EXCLUDE,BX3,LLM named entity recognition for adverse drug reactions; data extraction task
+R1361,EXCLUDE,BX1,Literature review of ChatGPT applications in ophthalmology
+R1362,EXCLUDE,BX3,Real-time LLM capnography interpretation during tracheal intubation; clinician procedure task (no abstract)
+R1363,EXCLUDE,BX4,Patient concerns after incidental kidney tumor discovery rated by urologists including risk of harm; specialty oncology topic
+R1364,EXCLUDE,BX3,LLM performance on a practice radiography certification exam; exam task not patient-facing
+R1365,EXCLUDE,BX1,Review of ChatGPT applications in ophthalmology
+R1366,INCLUDE,,Pregnant patients' OTC medication use assessed by ChatGPT-3.5 versus UpToDate; independent groups rated correctness/completeness and safety on a 5-point Likert scale with safety errors in 9%
+R1367,MAYBE,,Spine-related advice from ChatGPT rated by orthopaedic surgeons for perceived accuracy only; no safety or harm element visible in abstract
+R1368,EXCLUDE,BX1,AI-HOPE agent for WNT pathway analysis in colorectal cancer; no patient advice
+R1369,INCLUDE,,ChatGPT answers to stuttering FAQs; certified speech-language pathologists evaluated inaccuracies and the potential for and degree of harm (63.6% rated harmless)
+R1370,MAYBE,,ChatGPT-4o responses to patient FAQs on diabetes technologies rated with DISCERN/GQS/utility scales; no safety or harm element visible in abstract
+R1371,EXCLUDE,BX1,Review article on AI in hematology
+R1372,EXCLUDE,BX1,LLM-based analysis of engagement with mental health misinformation videos; no advice rated
+R1373,EXCLUDE,BX1,Narrative review of abbreviations in critical care; no LLM involved
+R1374,MAYBE,,LLM care plans for four primary-care vignettes with clinician- and patient-style prompts scored only for guideline concordance by blinded reviewers; no safety or harm rating in full abstract
+R1375,EXCLUDE,BX3,LLM-driven guideline adherence for ICU respiratory support modelling; clinician-facing
+R1376,EXCLUDE,BX1,Editorial warning about AI psychotherapy chatbots
+R1377,EXCLUDE,BX1,BERT classification of multiple incident report types; not an LLM chatbot advice study
+R1378,INCLUDE,,Real endometriosis forum queries answered by ChatGPT-4o and specialists; expert reviewers assessed incorrect information and harm likelihood/extent as endpoints
+R1379,EXCLUDE,BX4,Therapy and companion chatbots presented with distressed adolescent vignettes and harmful proposals; mental-health only topic - endorsement of harmful proposals was the outcome but the pool is excluded by B4
+R1380,EXCLUDE,BX3,LLM extraction of mortality information from public sources; data task not patient-facing
+R1381,EXCLUDE,BX1,LLM identification of missed information in consultation transcripts; no advice responses rated
+R1382,EXCLUDE,BX2,Context-aware RAG framework tailored for urology queries; specialised system not a public chatbot
+R1383,EXCLUDE,BX1,Description of a GenAI diagnosis/treatment assistance system with digital avatar; no rated responses reported
+R1384,EXCLUDE,BX1,Agentic AI framework for systematic literature reviews; not a medical advice study
+R1385,EXCLUDE,BX3,Chatbot clinical knowledge/reasoning evaluation in psychiatry; clinician/exam-type task not patient-facing
+R1386,EXCLUDE,BX3,AI models for preoperative anesthesia planning rated by experts; clinician-facing
+R1387,INCLUDE,,Patient FAQs on orthopaedic trauma emergencies answered by ChatGPT-4.0; three trauma surgeons rated accuracy/clinical appropriateness and safety on a 4-point scale with responses categorised up to dangerous
+R1388,EXCLUDE,BX1,Survey of pediatric emergency physicians' perceptions of LLMs; no systematic rated advice responses
+R1389,EXCLUDE,BX1,Clinical perspective review of LLMs for adverse drug events
+R1390,EXCLUDE,BX1,Viewpoint on AI in emergency medicine
+R1391,EXCLUDE,BX2,Customised GPT-4 chatbot with retrieval-augmented generation and system prompts built for German breast cancer patient questions; study-built system not a general-purpose chatbot - potential harm was rated by an expert
+R1392,MAYBE,,ChatGPT-4o/DeepSeek asthma patient education rated for accuracy/completeness/relevance; no safety or harm element visible in abstract
+R1393,EXCLUDE,BX4,ChatGPT content quality for lung cancer radiotherapy education; specialty treatment topic
+R1394,MAYBE,,ChatGPT information on chemical eye injuries rated for correctness/coherence against guidelines; no explicit safety or harm tier visible in abstract
+R1395,EXCLUDE,BX1,Survey of rheumatic disease patients' adoption/perception of LLM chatbots; no rated responses
+R1396,EXCLUDE,BX1,Conceptual framework for safe generative AI use in mental health decision-making
+R1397,EXCLUDE,BX1,Workshop proceedings/systematic analysis of AI in IBD management
+R1398,EXCLUDE,BX3,Generative AI ED handoff summaries for inpatient teams; clinician-facing
+R1399,EXCLUDE,BX3,Open-source LLMs renaming radiotherapy structures; clinician/data task
+R1400,EXCLUDE,BX1,Generative AI synthesis of angiography images for retinopathy screening; not an LLM advice study
+R1401,EXCLUDE,BX1,Argument paper on atypicality in LLM-powered psychiatry
+R1402,EXCLUDE,BX1,Scoping review of LLM applications in healthcare
+R1403,EXCLUDE,BX3,Generative AI automation of nursing handover documentation; clinician-facing
+R1404,EXCLUDE,BX1,Analysis of critical incidents of AI in healthcare; no rated LLM advice responses
+R1405,EXCLUDE,BX3,LLM entity recognition of adverse drug reactions in psychiatric treatment data; data task
+R1406,EXCLUDE,BX1,VaxPulse framework for vaccine sentiment surveillance; no advice rated
+R1407,EXCLUDE,BX1,Paper proposing positive bias framework for healthcare AI
+R1408,EXCLUDE,BX1,Chain-of-thought pipeline for research question generation; not medical advice
+R1409,EXCLUDE,BX3,LLM extraction of causes from healthcare incident reports; clinician/data task
+R1410,EXCLUDE,BX3,ChatGPT categorisation of nursing records for pharmaceutical safety; data task
+R1411,EXCLUDE,BX3,Comparative analysis of commercial AI scribe tools; clinician documentation
+R1412,EXCLUDE,BX4,Rhinoplasty postoperative counselling accuracy/safety; specialty post-operative topic
+R1413,EXCLUDE,BX1,Review of generative AI for plain language medical information
+R1414,EXCLUDE,BX2,AI-supported WhatsApp/CRM education system for organ transplantation; integrated specialised system not a public chatbot
+R1415,EXCLUDE,BX3,LLM categorisation of patient complaints in primary care; classification task not advice
+R1416,MAYBE,,LLMs answering rotator cuff injury questions and interacting with patients; rated for accuracy/clarity with no safety or harm element visible in abstract
+R1417,EXCLUDE,BX1,Article on AI and infectious diseases
+R1418,MAYBE,,ChatGPT versus Reddit patient guidance on dermatologic care; abstract is a brief report with no rating method or safety element described - full text needed
+R1419,EXCLUDE,BX4,LLM-generated myopia education materials for children and parents rated by ophthalmologists including potential harm; single-condition ophthalmology topic
+R1420,EXCLUDE,BX1,Case study of the Iruda chatbot controversy; no rated medical advice
+R1421,EXCLUDE,BX1,Topic modelling/sentiment analysis of clinician-patient conversations; no LLM advice rated
+R1422,EXCLUDE,BX3,RAG language models linking clinical data elements to vocabularies; data task
+R1423,EXCLUDE,BX1,LLM-assisted vulnerability analysis of medical devices; not medical advice
+R1424,EXCLUDE,BX1,Guardrails proof-of-concept paper for pharmacovigilance LLMs; no primary rated patient responses
+R1425,EXCLUDE,BX1,Article exploring generative AI use cases in PTSD treatment
+R1426,EXCLUDE,BX1,Scoping review of AI in clinical trial risk assessment
+R1427,EXCLUDE,BX1,AI-HOPE conversational agent for JAK-STAT genomic analysis in colorectal cancer; no patient advice
+R1428,EXCLUDE,BX1,Framework paper for red teaming LLMs in clinical decision-making
+R1429,EXCLUDE,BX1,Framework for LLM/knowledge-graph clinical trial recruitment questionnaires
+R1430,EXCLUDE,BX1,RCT of digital interventions for at-home COVID testing delivery; no LLM advice responses rated
+R1431,EXCLUDE,BX1,Perspectives paper on harm reduction for medical LLM use
+R1432,INCLUDE,,Patient questions on puerperal mastitis (a first-contact presentation) answered by ChatGPT-4; surgeon panel rated accuracy/guideline adherence and patient safety among five criteria plus DISCERN
+R1433,EXCLUDE,BX1,Editorial with no abstract; no primary study
+R1434,EXCLUDE,BX1,Mixed-methods survey of UK GPs on generative AI
+R1435,EXCLUDE,BX4,LLMs in stroke rehabilitation health education; specialist rehabilitation topic
+R1436,EXCLUDE,BX1,LLM framework for public health financing predictions; not medical advice
+R1437,EXCLUDE,BX1,Study developing an AI governance model from stakeholder perspectives
+R1438,EXCLUDE,BX1,Systematic review and meta-analysis of LLM integrations in cancer decision-making
+R1439,EXCLUDE,BX4,LLM answers to ptosis inquiries including postoperative care; specialty ophthalmology topic
+R1440,EXCLUDE,BX1,Review of LLMs in hepato-pancreato-biliary surgery
+R1441,MAYBE,,Single-case study of GPT-4 as a virtual fitness coach; experts scored personalisation/effectiveness/comprehensiveness and safety but no unsafe tier or denominator of rated responses is described
+R1442,EXCLUDE,BX1,Scoping review of conversational agents in cancer health education
+R1443,EXCLUDE,BX3,ChatGPT responses to medical student transfusion learning objectives; education task not patient-facing
+R1444,EXCLUDE,BX1,AI-HOPE agent for PI3K pathway data in colorectal cancer; no patient advice
+R1445,EXCLUDE,BX4,ChatGPT medication recommendations for 25 cardiovascular disease plus comorbidity scenarios classified by cardiologists with error analysis including contraindicated drugs; specialty cardiology scenario set
+R1446,EXCLUDE,BX1,Commentary on risks of depersonalising consent with LLMs
+R1447,EXCLUDE,BX4,RCT of AI preoperative education for urolithiasis surgery; specialty perioperative topic despite safety outcome
+R1448,EXCLUDE,BX1,Serious games with chatbot virtual patients for medical education
+R1449,EXCLUDE,BX1,Article on clinical endpoint classification in heart failure trials; no LLM involved
+R1450,EXCLUDE,BX3,Machine translation of ED discharge instructions rated for harm; service translation task not patient-posed advice
+R1451,EXCLUDE,BX1,Article on generative AI in healthcare education
+R1452,EXCLUDE,BX1,GPT-4 readability improvement of institutional heart failure education materials; no safety rating of advice responses
+R1453,EXCLUDE,BX4,LLMs as patient education for upper blepharoplasty; specialty operative topic
+R1454,EXCLUDE,BX1,Review of generative AI in prostate cancer imaging
+R1455,MAYBE,,ChatGPT-4.0/DeepSeek answers for knee osteoarthritis rated for guideline concordance only; no safety or harm element visible in abstract
+R1456,EXCLUDE,BX3,ChatGPT/Bard colonoscopy interval recommendations from reports/pathology; clinician task
+R1457,EXCLUDE,BX1,Framework development paper for evaluating health coach dialogues; no primary rated advice responses
+R1458,EXCLUDE,BX3,Generative AI computation of maximum safe local anaesthetic doses; clinician dosing task
+R1459,EXCLUDE,BX1,Scoping review of health consumers' use/perceptions of GenAI chatbots
+R1460,EXCLUDE,BX4,Psychotherapy chatbot quality framework (CAPE) applied to GPT-store therapy bots including a privacy and harm section; mental-health only topic
+R1461,EXCLUDE,BX3,ChatGPT identification/rephrasing of stigmatising language in EHRs; clinician documentation task
+R1462,EXCLUDE,BX1,Image editing framework for prohibited products in online transactions; not medical
+R1463,EXCLUDE,BX4,LLM answers to ophthalmology Preferred Practice Pattern questions classified concordant/discordant with harming potential assessed; specialty ophthalmology topic
+R1464,EXCLUDE,BX3,LLM identification of drug-drug interactions in created patient cases; clinician pharmacotherapy task
+R1465,EXCLUDE,BX1,ChatGPT clinical simulation with virtual patient for medical students; education study
+R1466,EXCLUDE,BX3,ETL-LLM extraction/analysis of MAUDE event reports; data task
+R1467,EXCLUDE,BX1,Interview and proof-of-concept study on LLM incident reporting; no advice responses rated
+R1468,EXCLUDE,BX1,Review of AI innovations in rheumatoid arthritis
+R1469,MAYBE,,Generative AI responses to antidepressant tapering queries sourced from forums; evaluated for relevance/accuracy/completeness/clarity with no clinician safety or harm tier visible
+R1470,MAYBE,,AI chatbot information on dry eye disease compared with ophthalmological sources for quality; no safety or harm element visible in abstract
+R1471,EXCLUDE,BX1,Bibliometric analysis of AI in nursing decision-making
+R1472,EXCLUDE,BX1,Study of LLM safeguard vulnerabilities to disinformation conversion; no patient advice rated for safety
+R1473,EXCLUDE,BX3,ChatGPT generation of exposure hierarchies for OCD treatment; clinician treatment-planning task
+R1474,EXCLUDE,BX1,Evaluation of LLM editing of surgical consent forms for liver resection; documents not advice responses
+R1475,EXCLUDE,BX1,ChatGPT voice mode for medical student communication skills practice
+R1476,EXCLUDE,BX1,Review of opportunities/challenges of LLMs in lung cancer care
+R1477,EXCLUDE,BX4,Congenital cataract patient education from Google/ChatGPT/doctors; specialty ophthalmology condition despite safety criterion
+R1478,EXCLUDE,BX3,LLM drafting of ED encounter summaries; clinician documentation task
+R1479,EXCLUDE,BX3,LLM conversations for updating paediatric urology guidelines; clinician guideline task
+R1480,EXCLUDE,BX4,ChatGPT responses to patient questions on epidural steroid injections; specialty procedural topic
+R1481,EXCLUDE,BX2,RadGPT specialised system generating patient materials from radiology reports; not a general-purpose public chatbot
+R1482,EXCLUDE,BX3,LLM classification of safety event reports; data task not patient-facing
+R1483,EXCLUDE,BX1,Study/review of AI in aesthetic medicine
+R1484,EXCLUDE,BX1,Review of AI tools in deprescribing/polypharmacy management
+R1485,EXCLUDE,BX4,Reliability of ChatGPT/Google answers on unicondylar knee arthroplasty; specialty operative topic
+R1486,EXCLUDE,BX1,Article on AI for clinical reasoning reliability
+R1487,EXCLUDE,BX1,Retrospective cohort of opioid initiation mortality in dementia; no LLM involved
+R1488,EXCLUDE,BX1,Critical perspective on an AI therapy RCT
+R1489,EXCLUDE,BX1,GenAI-assisted framework analysis of tobacco misinformation on social media; no advice rated
+R1490,EXCLUDE,BX1,Governance article on generative AI in radiology practice
+R1491,EXCLUDE,BX1,Article on ethical considerations for generative AI in plastic surgery
+R1492,EXCLUDE,BX1,Review of ChatGPT in medical education
+R1493,EXCLUDE,BX2,Neurosurgery question-answering system with knowledge-graph augmentation; specialised system not a public chatbot
+R1494,EXCLUDE,BX1,Phase 2a trial of an AI-discovered drug for pulmonary fibrosis; not a chatbot advice study
+R1495,EXCLUDE,BX3,RAG LLM prediction of postoperative mortality/ASA status; clinician task
+R1496,EXCLUDE,BX1,Review of commercial AI/digital health solutions in musculoskeletal care
+R1497,EXCLUDE,BX1,Article on AI and public health prospects/challenges
+R1498,EXCLUDE,BX3,LLM simplification of hospital discharge summaries with lifestyle recommendations; clinician documentation process
+R1499,EXCLUDE,BX1,Evaluation of ChatGPT for systematic review search strategy development; research task
+R1500,EXCLUDE,BX1,Viewpoint calling for evaluation of generative AI mental health chatbots
+R1501,EXCLUDE,BX1,Qualitative study of ChatGPT use for urinary symptoms in spinal cord injury; no LLM responses rated
+R1502,EXCLUDE,BX1,Scoping review of LLMs for exercise recommendations/physical activity
+R1503,EXCLUDE,BX4,AI information on clubfoot for parents rated for safety; specialty congenital orthopaedic condition
+R1504,EXCLUDE,BX3,ChatGPT-4o interpretation of chest/abdominal X-ray images; clinician imaging task
+R1505,EXCLUDE,BX1,Review of AI in neurology
+R1506,EXCLUDE,BX1,ML study identifying cancer patients at risk of heart failure from EHR features; not an LLM advice study
+R1507,EXCLUDE,BX1,Patient-facing technology architecture for cancer medication self-management; no rated advice responses
+R1508,EXCLUDE,BX1,Evaluation of customised health GPT listings' descriptions/accessibility; no advice responses rated
+R1509,EXCLUDE,BX1,LLM embedding/ontology analysis of vaccine adverse events; data task
+R1510,EXCLUDE,BX3,LLM performance on transfusion medicine multiple-choice items; knowledge/exam task not patient-facing
+R1511,EXCLUDE,BX3,LLM/text-embedding detection of depression and suicide in patient narratives; clinician screening data task
+R1512,EXCLUDE,BX1,Umbrella review of AI in vaccine research and development
+R1513,EXCLUDE,BX1,Article on AI in musculoskeletal surgical applications
+R1514,EXCLUDE,BX1,Article on ambient technology in epilepsy practice
+R1515,EXCLUDE,BX4,LLM answers to autoimmune disease clinical questions evaluated by clinicians including a safety criterion; framed as assisting doctors; specialty disease set
+R1516,EXCLUDE,BX3,GPT-4 simulating physician replies to real cancer patients' asynchronous portal messages within telemedicine care delivery; safety rated by an oncologist panel; clinician-workflow use not public layperson use
+R1517,EXCLUDE,BX4,General-purpose chatbots versus licensed therapists on scripted mental health scenarios including crisis responses; mental-health only topic
+R1518,EXCLUDE,BX1,Article on AI integration in oncology clinics
+R1519,MAYBE,,Patient questions about esophageal cancer scored by physicians into correctness categories only; no safety or harm rating described in full abstract
+R1520,EXCLUDE,BX1,Narrative review of generative AI in obstetrics/gynecology research
+R1521,EXCLUDE,BX1,Article on AI in mental healthcare
+R1522,EXCLUDE,BX3,LLM pulmonary nodule follow-up recommendations from radiology reports; clinician imaging task
+R1523,EXCLUDE,BX3,Generative AI nursing diagnosis/documentation from virtual patient records; clinician-facing
+R1524,EXCLUDE,BX1,Comprehensive review of LLMs in medicine
+R1525,EXCLUDE,BX3,LLM detection of adverse drug events in clinical notes; data task
+R1526,EXCLUDE,BX1,Methods paper on data pipeline/LLM for MAUDE device event studies
+R1527,EXCLUDE,BX1,Scoping review of clinical text summarisation with LLMs
+R1528,EXCLUDE,BX1,Article on generative AI tools in health coaching
+R1529,EXCLUDE,BX1,Cross-sectional survey of GPs on LLM use in primary care
+R1530,EXCLUDE,BX3,ChatGPT physical rehabilitation plans for clinical cases rated by experts; clinician-facing
+R1531,EXCLUDE,BX1,Framework to assess clinical safety/hallucination in medical text summarisation
+R1532,EXCLUDE,BX1,Article on potential applications of LLMs in trauma surgery
+R1533,EXCLUDE,BX1,Survey of healthcare professionals' perceptions of LLM use
+R1534,EXCLUDE,BX1,Development of a fine-tuned LLM classifying information needs of domestic violence survivors; no advice responses
+R1535,EXCLUDE,BX3,Reasoning language model prediction of suicide risk from discharge notes; clinician/data task
+R1536,MAYBE,,AI-generated answers to patient questions on asthma rated for reliability/accuracy/comprehensiveness/understandability; no safety or harm element visible in abstract
+R1537,EXCLUDE,BX1,Systematic review of reviews on telehealth in pharmacy practice
+R1538,EXCLUDE,BX1,Article on AI in infective endocarditis management
+R1539,MAYBE,,GPT-4 generated personalised knee osteoarthritis self-management guidance from patient profiles; blinded experts scored safety as one composite dimension but no unsafe tier or chatbot consultation by patients
+R1540,MAYBE,,LLM-generated patient education materials on early diabetic kidney disease; experts and patients rated accuracy/completeness and safety on Likert scales but no unsafe tier - generated materials rather than chatbot use
+R1541,EXCLUDE,BX1,Reflections article on real-world AI harms cases; no primary rated responses
+R1542,EXCLUDE,BX1,Survey of health system AI adoption priorities
+R1543,MAYBE,,LLM chatbots providing advice on Achilles tendinopathy scored by specialists on a 4-point quality scale; no safety or harm tier visible in abstract
+R1544,EXCLUDE,BX3,LLM performance in gastrointestinal pathology examinations/clinical scenarios; clinician/exam task
+R1545,EXCLUDE,BX1,Article on LLMs in gastroenterology and GI surgery
+R1546,EXCLUDE,BX3,LLM analysis of patient safety reports on suicide in cancer inpatients; data analysis task
+R1547,EXCLUDE,BX2,Long-context retrieval-augmented language model for medical QA; specialised system not a public chatbot
+R1548,EXCLUDE,BX3,ChatGPT generation of physician and patient oncology letters from case notes; clinician workflow task
+R1549,EXCLUDE,BX4,AI answers on Botox and sacral neuromodulation for overactive bladder; specialty procedural topic
+R1550,EXCLUDE,BX1,Comprehensive review of LLM roles in healthcare
+R1551,EXCLUDE,BX1,Perspective on AI regulation drawing on medical education
+R1552,EXCLUDE,BX4,ChatGPT accuracy on prolonged disorders of consciousness questions; specialist neurology condition
+R1553,MAYBE,,LLM answers to patient FAQs on neck masses rated for accuracy/misleading information/reliability; no explicit safety or harm tier visible in abstract
+R1554,EXCLUDE,BX4,Gemini responses to post-operative breast reconstruction questions; specialty post-operative topic
+R1555,EXCLUDE,BX1,Review of robot-assisted surgery in gynaecology
+R1556,MAYBE,,LLM home care instructions for informal caregivers compared with a professional gold standard on specificity/clarity/self-efficacy with error counts; no safety or harm rating in full abstract
+R1557,EXCLUDE,BX1,Perspective review on generative AI and common data models
+R1558,EXCLUDE,BX3,LLM evaluation on aerospace medicine principles for medical operations; clinician decision support
+R1559,EXCLUDE,BX4,ChatGPT parent education for oral immunotherapy; specialist allergy treatment programme
+R1560,MAYBE,,Nurses' mixed-methods assessment of an AI chatbot's medical reliability and patient safety risks; perception-based evaluation with no defined set of responses rated for safety described
+R1561,EXCLUDE,BX1,Narrative review of LLMs in medical education
+R1562,EXCLUDE,BX1,Analysis of patient-reported experience texts with open language models; no advice rated
+R1563,EXCLUDE,BX1,Article on potential impacts of AI-generated videos on nursing care
+R1564,MAYBE,,ChatGPT responses to geriatric syndrome FAQs rated by geriatricians on an accuracy scale anchored 0=harmful to 4=excellent; harm appears only as the scale anchor with no separate unsafe tier reported
+R1565,EXCLUDE,BX1,Review of AI in rice/wheat functional food research; not medical
+R1566,EXCLUDE,BX2,AtlasGPT neurosurgery-grounded specialised language model; not a general-purpose public chatbot
+R1567,EXCLUDE,BX3,LLM type 2 diabetes management plans from real patient records compared with physicians; clinician-facing
+R1568,EXCLUDE,BX1,Article on generative AI in clinical medicine/gastroenterology
+R1569,EXCLUDE,BX1,Review of biomedical NLP in the LLM era
+R1570,EXCLUDE,BX3,LLM performance on cardiovascular antithrombotic care scenarios rated by clinicians; clinician-facing
+R1571,EXCLUDE,BX4,ChatGPT informing patients/families with rare kidney diseases; specialist rare disease topic
+R1572,MAYBE,,Exploratory case study of ChatGPT patient instructions for three medications rated for completeness/correctness; no safety or harm element visible in abstract
+R1573,EXCLUDE,BX4,ChatGPT-4 answers to patient FAQs on age-related macular degeneration; specialty ophthalmology condition
+R1574,EXCLUDE,BX3,Pretrained language models extracting seizure frequency from evaluation reports; data task
+R1575,EXCLUDE,BX1,Survey of public food poisoning knowledge/practices; no LLM involved
+R1576,EXCLUDE,BX1,Systematic literature review of AI guiding antimicrobial therapy
+R1577,EXCLUDE,BX1,Scoping review of AI in chronic kidney disease management
+R1578,INCLUDE,,Patient-focused atrial fibrillation questions answered by ChatGPT-4; cardiologist panel evaluated accuracy/comprehensiveness/clarity/relevance and patient safety as an explicit criterion
+R1579,EXCLUDE,BX2,LLM/knowledge-graph RAG models developed to triage patient portal messages; specialised system not a public chatbot
+R1580,MAYBE,,No abstract available; title asks whether patient use of generative AI chatbots introduces adverse drug event risk - primary rated design cannot be confirmed
+R1581,EXCLUDE,BX2,Thyro-GenAI RAG chatbot for thyroid disease management; specialised system not a public chatbot
+R1582,EXCLUDE,BX3,LLM pipeline identifying deprescribing opportunities in ED patients; clinician-facing
+R1583,EXCLUDE,BX1,Review of AI in clinical pharmacology from a preconference
+R1584,EXCLUDE,BX4,LLM patient education for ocular myasthenia gravis; specialty neuromuscular/ophthalmology condition
+R1585,EXCLUDE,BX1,Design method paper for a heart failure medication adherence conversational agent; no rated responses
+R1586,EXCLUDE,BX2,DELSTAR customised delirium LLM for medication questions; specialised model not a public chatbot
+R1587,EXCLUDE,BX1,Bias simulation of physicians choosing which patient to save; no advice responses rated
+R1588,EXCLUDE,BX2,Built medication extraction/drug interaction chatbot system; specialised tool not a general-purpose chatbot evaluation
+R1589,MAYBE,,ChatGPT-4 osteoporosis diagnoses and treatment recommendations from 100 real patient scenarios compared with physiatrists on accuracy only; clinician decision-making framing and no safety rating in full abstract
+R1590,EXCLUDE,BX3,LLM automated scoring of suicide safety plans in mental health settings; clinician tool
+R1591,EXCLUDE,BX4,ChatGPT answering questions about nuclear stress tests and cardiac PET; subspecialty test topic
+R1592,EXCLUDE,BX3,GPT-4 automated computation of HEART score in chest pain unit; clinician task
+R1593,EXCLUDE,BX3,LLM plain language summaries of ophthalmology notes for non-ophthalmology clinicians; clinician-facing
+R1594,EXCLUDE,BX1,Conceptual framework for LLMs in gastroenterology research
+R1595,EXCLUDE,BX1,Article on cross-national regulation of health AI
+R1596,EXCLUDE,BX1,Case of laser treatment for porphyria scarring with AI quantification; not an LLM advice study
+R1597,EXCLUDE,BX1,Survey of online health information seeking in the LLM era; no clinician-rated responses
+R1598,EXCLUDE,BX4,Glaucoma patient education by four LLMs with ophthalmologists scoring safety among five dimensions and real patients posing questions; specialty ophthalmology topic
+R1599,EXCLUDE,BX4,Gemini addressing vernal keratoconjunctivitis queries; specialty ophthalmology condition
+R1600,EXCLUDE,BX1,Scoping review on generative AI/LLMs mitigating medication-related harm
+R1601,EXCLUDE,BX4,ChatGPT knowledge/scenario responses for cardiac rehabilitation; specialist rehabilitation programme topic
+R1602,EXCLUDE,BX1,Review of LLMs in medical education/decision support/administration
+R1603,EXCLUDE,BX4,Generative AI answers for rare disease genetic counselling; specialist topic despite non-harm assessment
+R1604,MAYBE,,Generative AI responses to patient concerns in long-term opioid therapy rated for reliability/accuracy/comprehensibility; no safety or harm tier visible in abstract
+R1605,EXCLUDE,BX1,Article on integrity standards for generative AI in research
+R1606,EXCLUDE,BX3,LLM accuracy on medical education multiple-choice questions; exam task not patient-facing
+R1607,EXCLUDE,BX1,Article on clinical implementation of AI in gastroenterology
+R1608,EXCLUDE,BX2,Development of a warfarin interaction checker platform; specialised tool not a public chatbot
+R1609,EXCLUDE,BX1,Review of computational tools for vaccine development
+R1610,EXCLUDE,BX1,GPT-4 thematic analysis of vacuum erection device user reviews; no advice rated
+R1611,EXCLUDE,BX1,Review of LLMs for automating clinical trial matching
+R1612,EXCLUDE,BX1,Machine learning/LLM prediction of drug-induced osteotoxicity in drug development
+R1613,EXCLUDE,BX1,BERT classification models for drug target assessments from literature
+R1614,EXCLUDE,BX2,RAG system with dietary supplement knowledgebase for question answering; specialised system not a public chatbot
+R1615,EXCLUDE,BX1,Protocol for human evaluation of GenAI chatbots in clinical consultations; no results reported
+R1616,EXCLUDE,BX1,ChatGPT rewriting plain language summaries of Cochrane oncology reviews; not advice responses
+R1617,EXCLUDE,BX3,GPT identification of immune-related adverse events in EHRs/trial data; data task
+R1618,EXCLUDE,BX2,RAG-enabled AI for postoperative rhinoplasty questions; specialised configuration not a plain public chatbot
+R1619,EXCLUDE,BX3,ChatGPT-4o treatment recommendations for distal radius fracture scenarios versus AAOS criteria; clinician-facing
+R1620,EXCLUDE,BX4,ChatGPT responses to questions about paediatric kidney transplantation; specialty transplant topic despite safety rating
+R1621,EXCLUDE,BX1,Study of game design theory for chatbots in serious games
+R1622,EXCLUDE,BX1,Benchmark dataset for adverse drug event prediction from trial results; not an advice study
+R1623,EXCLUDE,BX1,Update review on AI in lymphoma
+R1624,EXCLUDE,BX4,AI generation of post-operative instructions for rhinologic surgery; specialty operative topic
+R1625,EXCLUDE,BX2,TCM-KLLaMA specialised prescription generation model; not a general-purpose public chatbot
+R1626,EXCLUDE,BX3,LLM answers to clinical questions in implant dentistry rated by periodontists; clinician-facing
+R1627,EXCLUDE,BX1,Virtual patient simulations with social robotics for medical education
+R1628,EXCLUDE,BX1,Qualitative study of pharmacists' perspectives on ChatGPT
+R1629,EXCLUDE,BX4,AI chatbots answering FAQs in oral and maxillofacial radiology; specialty dental radiology topic
+R1630,EXCLUDE,BX1,Systematic review of AI-mediated communication in cancer prevention/substance use
+R1631,EXCLUDE,BX3,ChatGPT compliance for stroke diagnosis/treatment decisions in ED patients; clinician-facing
+R1632,EXCLUDE,BX1,Sentiment analysis of social media posts about lecanemab; no advice rated
+R1633,EXCLUDE,BX1,GPT-based vulnerability detection in medical software; not medical advice
+R1634,EXCLUDE,BX1,Article on explainable AI in radiology
+R1635,EXCLUDE,BX1,Framework paper on blockchain management of LLMs for personalised healthcare
+R1636,EXCLUDE,BX3,ChatGPT-4 performance on Chinese critical care examination; exam task not patient-facing
+R1637,EXCLUDE,BX1,LLM-generated simulated RCT for epilepsy; not patient advice evidence
+R1638,EXCLUDE,BX1,Review of AI-powered hybrid chatbots in e-health
+R1639,EXCLUDE,BX1,Instrument validation study for an AI-powered chatbot evaluation system; no clinician-rated patient advice
+R1640,EXCLUDE,BX3,Fine-tuned LLM identifying incarceration status from ED notes; data task
+R1641,MAYBE,,GPT-4.0 self-diagnosis of five non-traumatic hand conditions; diagnostic accuracy and recommendations recorded but no safety or harm rating in full abstract
+R1642,INCLUDE,,Patient questions on frozen shoulder answered by ChatGPT-4.0; five physicians rated validity/utility and safety on a 5-point Likert scale (92.9% scored 5 for safety)
+R1643,EXCLUDE,BX1,Qualitative study of client perceptions of a WIC program chatbot; no rated responses
+R1644,EXCLUDE,BX3,Knowledge-graph LLM for diagnosis prediction from EHRs; clinician-facing
+R1645,EXCLUDE,BX2,Multi-agent therapist/supervisor LLM system for insomnia queries; specialised system not a plain public chatbot
+R1646,INCLUDE,,Real influenza patient questions from an online health community answered by LLMs versus physicians; physician panel evaluated incorrect information/omissions and extent of harm - LLMs more likely to cause harm
+R1647,EXCLUDE,BX1,Survey of minority communities' perspectives on health data/AI
+R1648,EXCLUDE,BX1,ChatGPT as standardised patient for intern physician training
+R1649,EXCLUDE,BX3,AskFDALabel LLM workflow extracting adverse events from FDA labels; data task
+R1650,EXCLUDE,BX1,Family medicine research update article; no LLM advice study
+R1651,EXCLUDE,BX4,ChatGPT answers to strabismus questions; specialty ophthalmology topic despite a potentially harmful rating tier
+R1652,EXCLUDE,BX1,AI versus human road safety messages; not medical advice
+R1653,MAYBE,,LLMs as patient education tools for inflammatory bowel disease; gastroenterology experts rated accuracy/comprehensibility/correlation only - no safety rating in full abstract
+R1654,EXCLUDE,BX1,Study of patient perceptions of AI conversational agents in mental healthcare; no rated responses
+R1655,EXCLUDE,BX3,Clinical language models detecting fall events in EHR notes; data task
+R1656,EXCLUDE,BX4,ChatGPT responses to questions about cleft lip repair; specialty operative topic
+R1657,EXCLUDE,BX4,LLM educational information in orthokeratology care; specialty ophthalmology treatment topic despite safety criterion
+R1658,EXCLUDE,BX2,GPT-4 tuned with guidelines and motivational-interviewing tenets for opioid use disorder in pregnancy dialogues rated safe/accurate/relevant by nurses; a tuned study model not a general-purpose chatbot in public hands
+R1659,EXCLUDE,BX4,ChatGPT postoperative management guidance for tympanoplasty; specialty post-operative topic
+R1660,EXCLUDE,BX1,Development/evaluation of a smart pharmaceutical monitoring system for diabetes; no rated advice responses
+R1661,EXCLUDE,BX1,Content analysis of HPV vaccination hesitancy on social media; no advice rated
+R1662,EXCLUDE,BX3,Ensemble models extracting adverse events from VAERS/social media; data task
+R1663,EXCLUDE,BX1,Perspective on LLMs in patient medication guidance
+R1664,EXCLUDE,BX1,Article on potential harms of AI psychotherapy
+R1665,EXCLUDE,BX2,AI-powered virtual assistant designed for emergency neurology triage; specialised system not a public chatbot
+R1666,EXCLUDE,BX1,AI-assisted scoping review on impact of patient death on surgeons
+R1667,EXCLUDE,BX1,Literature overview on AI in radiology
+R1668,EXCLUDE,BX1,Systematic review of reporting in LLM chatbot health advice studies
+R1669,EXCLUDE,BX3,LLM generation of clinical histories for oncologic imaging requisitions; clinician task
+R1670,EXCLUDE,BX1,Article on the burden of reviewing LLM-generated content
+R1671,EXCLUDE,BX1,Analysis of disclosure/vulnerability of generative AI chatbots; no rated medical advice responses
+R1672,EXCLUDE,BX1,Article on AI recessionary pressures and population health
+R1673,EXCLUDE,BX3,Text classifier for suicidality prediction in crisis text line users; clinician/data task
+R1674,EXCLUDE,BX4,ChatGPT-4o audio answers to FAQs on six surgical procedures scored by surgeons including potential harm; specialty surgical topic
+R1675,MAYBE,,AI chatbot answers to common patient questions about low back pain rated for accuracy/readability and disclaimer presence; no safety or harm tier visible in abstract
+R1676,EXCLUDE,BX1,Benchmark for LLM performance in biomedical research QA
+R1677,MAYBE,,AI chatbot information on breast/prostate cancer screening scored for concordance with USPSTF recommendations by experts; no explicit unsafe/harm tier for responses visible in abstract
+R1678,EXCLUDE,BX1,Narrative review of ChatGPT/AI chatbots in antibiotic therapy
+R1679,EXCLUDE,BX1,Article on AI translation tools in intensive care
+R1680,EXCLUDE,BX1,Multimodal AI recognition of surgical instruments from images; not advice
+R1681,EXCLUDE,BX1,Integrative review of recommendations for mental health chatbot conversations
+R1682,EXCLUDE,BX3,ChatGPT drug toxicity assessments compared with experts using FDA labels; research/clinician task not patient-facing
+R1683,EXCLUDE,BX1,Viewpoint on community engagement for AI in public health
+R1684,EXCLUDE,BX4,ChatGPT-generated personalised prostate biopsy reports; specialty pathology topic
+R1685,EXCLUDE,BX1,Systematic review of LLM applications in patient care
+R1686,EXCLUDE,BX3,GPT-4 transformation of hospital discharge letters into patient letters; clinician documentation process
+R1687,MAYBE,,ChatGPT-3.5 answers to FAQs about oral cancer evaluated for accuracy; no safety or harm element visible in abstract
+R1688,EXCLUDE,BX1,Article on preventing unmonitored AI experimentation in healthcare
+R1689,EXCLUDE,BX1,Article on standards-based architecture for patient safety
+R1690,EXCLUDE,BX4,ChatGPT as information source for total knee/hip arthroplasty patient questions; specialty operative topic
+R1691,EXCLUDE,BX3,GPT-4 osteoarthritis guideline interpretation and orthopaedic case consultation; clinician-facing
+R1692,MAYBE,,LLM knowledge questionnaire on COVID-19 impacts in pregnancy validated by gynecologists; proficiency/readability/sentiment only - no safety rating in full abstract
+R1693,EXCLUDE,BX1,Article on generative AI in scientific writing/data analysis for wound research
+R1694,EXCLUDE,BX1,Emotional analysis of operating room nurses using ChatGPT; no advice rated
+R1695,EXCLUDE,BX1,Case study of an LLM analysing continuous glucose monitoring data; no advice responses rated
+R1696,EXCLUDE,BX1,Comparison of automated sentiment analysis methods on YouTube comments; not medical advice
+R1697,EXCLUDE,BX1,Review of AI in otology
+R1698,EXCLUDE,BX3,GPT-4 orofacial pain clinical decision support versus clinicians; clinician-facing
+R1699,MAYBE,,ChatGPT versus Google answers to common burn injury questions rated by surgeons on the Global Quality Score only; safety named in the aim but no safety rating performed
+R1700,EXCLUDE,BX1,Ethics article on AI prediction of social behaviours
+R1701,EXCLUDE,BX1,Development of a patient safety classification system for generative AI; no rated advice cohort
+R1702,EXCLUDE,BX2,Fine-tuned multimodal transformer for slit lamp report generation/QA; specialised model not a public chatbot
+R1703,EXCLUDE,BX1,Systematic review of AI chatbots in surgical care
+R1704,EXCLUDE,BX3,Llama models extracting oncology treatment information from clinical text; data task
+R1705,EXCLUDE,BX1,Article on generative AI synthesis/annotation of patient data
+R1706,EXCLUDE,BX1,Survey of e-health literacy and pandemic preparedness; no LLM involved
+R1707,EXCLUDE,BX1,Narrative review of chatbots in ophthalmology
+R1708,EXCLUDE,BX3,Pilot of ChatGPT diagnosis of multiple sclerosis from case reports; clinician-facing
+R1709,EXCLUDE,BX1,LLM analysis of clinical trial eligibility criteria clusters; not medical advice
+R1710,EXCLUDE,BX1,AI-generated patient education guides for MRI/mammography rated for readability only; no clinician-rated advice responses
+R1711,EXCLUDE,BX3,AI chatbot responses on drug-therapy decisions as a reference for providers/trainees; clinician-facing
+R1712,INCLUDE,,Self-triage vignettes sampled from real patient posts; laypeople/symptom apps/LLMs compared with triage safety as an explicit binary outcome (safe versus unsafe decisions)
+R1713,EXCLUDE,BX1,DDI-GPT drug interaction prediction model; not an advice study
+R1714,EXCLUDE,BX1,Language model web app for COVID vaccine adverse event monitoring from web content; surveillance tool
+R1715,EXCLUDE,BX2,SurgeryLLM RAG framework for surgical decision support; specialised system not a public chatbot
+R1716,MAYBE,,ChatGPT-4 as patient education in colorectal cancer rated for efficacy/quality/readability; no safety or harm element visible in abstract
+R1717,EXCLUDE,BX1,Article on ethical application of generative AI in medicine
+R1718,MAYBE,,ChatGPT nutritional recommendations for women with PCOS rated with DISCERN/global quality by dietitians; no safety or harm element visible in abstract
+R1719,EXCLUDE,BX4,Randomised pilot of ChatGPT in pre-vasectomy counselling; specialty procedural topic despite safety assessment
+R1720,EXCLUDE,BX4,ChatGPT responses to FAQs on upper eyelid blepharoplasty; specialty operative topic
+R1721,EXCLUDE,BX1,Prompt-based defence against LLM jailbreak attacks; not medical advice
+R1722,EXCLUDE,BX1,Scoping review of ChatGPT in clinical inquiry
+R1723,MAYBE,,LLM answers to patient self-care questions on medicines/supplements scored for correctness/context/reproducibility; no safety or harm tier visible in abstract
+R1724,EXCLUDE,BX1,Study of generative image outputs depicting psychiatric diagnoses; not advice
+R1725,EXCLUDE,BX2,Customised clinical LLM pipeline generating EM handoff notes; not a general-purpose public chatbot
+R1726,EXCLUDE,BX4,LLM chatbots responding to cornea clinic scenarios; specialty ophthalmology topic
+R1727,EXCLUDE,BX1,ML osteoporosis prediction in breast cancer patients from imaging; not an LLM advice study
+R1728,EXCLUDE,BX1,Ethical analysis of LLMs for clinical practice
+R1729,EXCLUDE,BX1,Case study report on responsible AI use guidelines for institutions
+R1730,EXCLUDE,BX3,GPT models assigning risk ratings to drug-drug interaction pairs against Lexicomp; a pharmacology classification task with no patient-facing advice arm
+R1731,INCLUDE,,Patient questions on low back pain answered by ChatGPT and Copilot with and without clinical context; physiatrists rated validity/usefulness and safety on a 4-point Likert scale
+R1732,EXCLUDE,BX1,Survey of pharmacists' perceptions/practice regarding ChatGPT
+R1733,EXCLUDE,BX1,Analysis of LLMs for Alzheimer's digital caregiving; no rated advice responses
+R1734,EXCLUDE,BX4,ChatGPT accuracy on patient questions about labour epidurals; specialty obstetric anaesthesia topic
+R1735,EXCLUDE,BX2,Custom ChatGPT model for aesthetic facial evaluation; specialised model not a general-purpose chatbot
+R1736,EXCLUDE,BX3,GPT-3.5 generation of discharge instructions from summaries in a clinical workflow; not layperson direct use
+R1737,EXCLUDE,BX3,LLM answers to clinical questions in periodontology rated by periodontists; clinician-facing
+R1738,EXCLUDE,BX3,LLM abstraction of social determinants from medical notes; data task
+R1739,EXCLUDE,BX1,Article on moderating synthetic content
+R1740,EXCLUDE,BX1,Survey of university students' perceptions of AI in healthcare
+R1741,EXCLUDE,BX3,ChatGPT generation of preoperative anaesthetic plans from vignettes; clinician-facing
+R1742,EXCLUDE,BX4,ChatGPT responses on pulmonary arterial hypertension rated for danger; specialist rare condition topic
+R1743,EXCLUDE,BX1,Mapping of public perspectives on mRNA vaccines; no LLM advice rated
+R1744,MAYBE,,ChatGPT-4.0 versus an intelligent health promotion system issuing exercise prescriptions for hypertension comorbidity patients; experts scored accuracy/comprehensiveness/applicability only - risks noted qualitatively with no safety rating
+R1745,EXCLUDE,BX1,Evaluation strategy paper for LLMs in patient safety event report analysis
+R1746,EXCLUDE,BX1,Article on Hippocratic principles and language models
+R1747,EXCLUDE,BX1,Systematic review of generative AI in psychiatry/mental health care
+R1748,MAYBE,,ChatGPT medication instructions generated from smartphone drug images compared with manufacturer instructions; pharmacist evaluation described as clinical accuracy/validity with no explicit safety tier in full abstract
+R1749,MAYBE,,AI chatbot information on hidradenitis suppurativa formulated with patient associations and rated by experts for accuracy; no safety or harm element visible in abstract
+R1750,EXCLUDE,BX1,Study of generative AI enhancing fieldwork readiness in occupational therapy students
+R1751,EXCLUDE,BX1,Review of AI in cardiovascular clinical trials
+R1752,MAYBE,,GPT-4o visual medication recognition and patient education rated qualitatively for accuracy/precision/clarity; no safety or harm element visible in abstract
+R1753,EXCLUDE,BX1,Systematic review and meta-analysis of LLM performance in healthcare examinations
+R1754,EXCLUDE,BX4,ChatGPT in acromegaly management and patient education; specialist rare endocrine condition
+R1755,EXCLUDE,BX1,National survey of dermatologists' opinions on AI chatbots
+R1756,EXCLUDE,BX1,Factorial experiment on following AI versus human medical advice; no clinician safety rating of responses
+R1757,EXCLUDE,BX1,Review of digital health in rheumatology
+R1758,EXCLUDE,BX4,ChatGPT-4 responses to patient inquiries on autoimmune hepatitis; specialty hepatology condition despite safety rating
+R1759,EXCLUDE,BX4,ChatGPT-4o simplification of breast radiology reports; subspecialty imaging topic
+R1760,EXCLUDE,BX1,Article on large multimodal models in student psychiatry prevention/diagnosis
+R1761,EXCLUDE,BX1,Article on chatbots in medicine and certification
+R1762,EXCLUDE,BX1,Bias analysis of conversational AI responses in simulated mental health dialogues; no clinician safety rating of advice
+R1763,EXCLUDE,BX1,Study of AI-generated images of anesthesiologists; not advice
+R1764,EXCLUDE,BX1,Legal/ethical article on GenAI decision-making in mental health
+R1765,EXCLUDE,BX3,Transformer NLP flagging aortic aneurysms in radiology reports; data task
+R1766,EXCLUDE,BX4,ChatGPT-3.5 answers to glaucoma FAQs graded by 12 experts including a safety domain; specialty ophthalmology topic
+R1767,EXCLUDE,BX3,GPT-4V diagnostic performance on clinical imaging studies; clinician imaging task
+R1768,EXCLUDE,BX4,ChatGPT patient information on upper tract urothelial carcinoma; specialty oncology topic despite safety criterion
+R1769,EXCLUDE,BX4,Chatbot patient education material for cataract surgery; specialty operative topic
+R1770,EXCLUDE,BX3,GPT agents for antimicrobial resistance mechanism detection; laboratory/clinician task
+R1771,EXCLUDE,BX3,Generative AI/NLP review of critical incident reports; clinician/data task
+R1772,EXCLUDE,BX3,ChatGPT feasibility for guideline-based decision-making in obstetrics scenarios; clinician-facing
+R1773,EXCLUDE,BX1,Ethics article on AI fact-checking of patients (duplicate report)
+R1774,EXCLUDE,BX1,Adversarial attack vulnerability study on medical LLMs (duplicate report); no patient advice rating
+R1775,EXCLUDE,BX4,ChatGPT rewritten postoperative instructions in plastic surgery; specialty post-operative topic
+R1776,EXCLUDE,BX4,ChatGPT patient-specific answers to parental questions in PICU; specialist critical care context
+R1777,EXCLUDE,BX1,Article on ambient scribes in primary care
+R1778,EXCLUDE,BX1,Preference study for a ChatGPT breast reconstruction VideoBot; no advice responses rated for safety
+R1779,EXCLUDE,BX1,Editorial comparing OpenAI o1-Preview and ChatGPT in healthcare
+R1780,INCLUDE,,Bing Copilot answers to patient questions on the 50 most prescribed US outpatient drugs; healthcare professionals evaluated likelihood and extent of harm on inaccurate answers (66% potentially harmful; 22% severe harm or death)
+R1781,INCLUDE,,100 real patient-platform questions across five specialties answered by ChatGPT-4.0 versus a physician panel; patients rated usefulness/empathy and specialists additionally rated correctness and potential harm
+R1782,EXCLUDE,BX4,ChatGPT summarisation of PSMA PET/CT reports in prostate cancer; subspecialty imaging topic
+R1783,EXCLUDE,BX1,Narrative review of COVID-19 vaccination awareness strategies
+R1784,EXCLUDE,BX1,Development/evaluation of an ED serious game for undergraduate students
+R1785,MAYBE,,ChatGPT asthma information rated by allergy/respiratory specialists on a 1-5 accuracy scale; potentially harmful inaccuracies mentioned narratively but no harm rating performed
+R1786,EXCLUDE,BX1,Study of obstetrics residents' interactions with ChatGPT in training evaluations
+R1787,EXCLUDE,BX1,Perspective on digital HIV self-testing
+R1788,EXCLUDE,BX1,Pilot qualitative investigation of community pharmacists' attitudes to ChatGPT
+R1789,EXCLUDE,BX1,Nonrandomized trial of AI-simulated patients for medical interview training
+R1790,EXCLUDE,BX3,LLM detection of adverse drug events in posts on X; data task
+R1791,EXCLUDE,BX2,RDguru conversational agent for rare diseases; specialised agent not a general-purpose public chatbot
+R1792,EXCLUDE,BX1,Systematic review and meta-analysis of ChatGPT diagnostic accuracy for ED triage
+R1793,EXCLUDE,BX3,GPT-4V diagnosing vitreoretinal diseases in a retina clinic; clinician imaging task
+R1794,EXCLUDE,BX2,Developed LLM generating impressions from radiology report findings; specialised model not a public chatbot
+R1795,EXCLUDE,BX1,Visual red teaming system for LLM security; not medical advice
+R1796,EXCLUDE,BX1,Review of virtual assistants in vascular surgery
+R1797,EXCLUDE,BX1,Content analysis of ChatGPT responses to one advanced cancer decision vignette; no clinician safety rating scale
+R1798,EXCLUDE,BX1,Review of ethical considerations for LLMs in ophthalmology
+R1799,EXCLUDE,BX4,LLM answering simulated patient questions on aesthetic breast plastic surgery; specialty operative topic
+R1800,EXCLUDE,BX3,LLM outputs for medication review/reconciliation verified against sources; pharmacist/clinician task
+R1801,EXCLUDE,BX3,Proprietary LLM labelling obstetric incident reports; data task
+R1802,INCLUDE,,Simulated patient study of ChatGPT treatment recommendations for 9 common noncommunicable and infectious diseases in LMICs; unnecessary or harmful medications explicitly counted (23/27; 85%)
+R1803,EXCLUDE,BX1,Review of generative AI for drug safety/pharmacovigilance
+R1804,EXCLUDE,BX1,Review of ChatGPT in clinical medicine/urology/academia
+R1805,EXCLUDE,BX1,Editorial on ChatGPT dependency disorder
+R1806,EXCLUDE,BX4,LLM preoperative education in facial aesthetic surgery; specialty operative topic
+R1807,EXCLUDE,BX4,Physician versus chatbot responses to clinical questions in gynecologic oncology; specialty oncology topic
+R1808,EXCLUDE,BX1,Hybrid GPT-BERT model for fake news detection; not medical advice
+R1809,EXCLUDE,BX1,Machine learning mitigation of hate speech during COVID-19; not medical advice
+R1810,EXCLUDE,BX4,ChatGPT-4 orthodontic information rated by orthodontists; specialty dental topic
+R1811,EXCLUDE,BX1,Evaluation framework paper for medical LLMs using fuzzy logic/MCDM
+R1812,EXCLUDE,BX3,GPT-4V performance in radiological image analysis; clinician imaging task
+R1813,INCLUDE,,Patient-generated conjunctivitis questions answered by four LLMs; ophthalmologists rated correctness/completeness/readability/helpfulness and safety; with a second phase of real patient interaction - an acute first-contact presentation
+R1814,EXCLUDE,BX1,Article on generative AI/LLMs in primary care medical education
+R1815,EXCLUDE,BX4,ChatGPT patient support before/after deep brain stimulation surgery; specialty neurosurgical procedure topic
+R1816,EXCLUDE,BX1,Review of LLM application in emergency medicine/critical care
+R1817,EXCLUDE,BX1,Explainable LLM for identifying DILI literature; literature classification not advice
+R1818,EXCLUDE,BX1,Article arguing regulators must enforce LLM safety standards
+R1819,EXCLUDE,BX2,Method for generating colloquial radiology reports with LLMs; specialised report-translation system not a public chatbot Q&A
+R1820,EXCLUDE,BX1,Explorative study integrating ChatGPT into a medical student course
+R1821,EXCLUDE,BX1,Development of a GenAI chatbot for analysing the MAUDE device database; not medical advice
+R1822,EXCLUDE,BX4,ChatGPT versus anesthesiologist responses to common patient questions; specialty perioperative topic
+R1823,EXCLUDE,BX3,LLM performance on thoracic surgery board examination questions; exam task
+R1824,EXCLUDE,BX3,ChatGPT management of clinical labour analgesia scenarios rated by experts; clinician-facing despite safety scale
+R1825,EXCLUDE,BX4,ChatGPT responses to real urology patient in-basket messages graded by urologists; specialty clinic topic
+R1826,EXCLUDE,BX1,Editorial on AI in Kawasaki disease diagnosis/treatment
+R1827,EXCLUDE,BX3,ChatGPT-4 performance on radiography certification exam questions; exam task
+R1828,EXCLUDE,BX1,Foundational model aided drug screening using cohort data; not an advice study
+R1829,MAYBE,,ChatGPT as a patient education tool in prostate cancer with multimetric assessment; no safety or harm element visible in abstract
+R1830,EXCLUDE,BX3,Generative AI identification of helmet status from clinical notes; data extraction task
+R1831,EXCLUDE,BX3,ChatGPT treatment plans for fictional rheumatic patient vignettes versus a rheumatology board; clinician-facing
+R1832,EXCLUDE,BX1,GPT-based EHR modelling system for novel disease detection; no advice responses
+R1833,EXCLUDE,BX4,ChatGPT responses to patient-based questions in ophthalmology; specialty topic
+R1834,EXCLUDE,BX1,LLM evaluation on health-related text classification with social media data; data task
+R1835,EXCLUDE,BX4,ChatGPT as consultation assistant for chronic hepatitis B; specialty hepatology topic
+R1836,MAYBE,,LLM-generated patient education materials for H. pylori infection rated for completeness/comprehensibility; no safety or harm element visible in abstract
+R1837,EXCLUDE,BX4,Chatbot responses to patient questions on Lu-PSMA therapy for prostate cancer; specialty novel therapy topic
+R1838,EXCLUDE,BX4,Qualitative evaluation of LLM advice on age-related macular degeneration FAQs; specialty ophthalmology topic
+R1839,EXCLUDE,BX1,Experiments on how believed AI involvement affects perception of digital advice; no clinician rating
+R1840,EXCLUDE,BX1,Intervention to increase generative AI competency among nursing students
+R1841,EXCLUDE,BX4,ChatGPT responses on glaucoma rated for accuracy/comprehensiveness/safety; specialty ophthalmology topic
+R1842,EXCLUDE,BX1,Review/policy study on mitigating risks of AI deployment in medicine
+R1843,EXCLUDE,BX1,GPT-4 pipeline enhancing MAUDE database utility; data task not advice
+R1844,EXCLUDE,BX1,Review of generative AI patient safety and healthcare quality
+R1845,EXCLUDE,BX3,LLM versus junior clinician discharge letters; clinician documentation task
+R1846,EXCLUDE,BX3,AI models on physical medicine and rehabilitation board questions; exam task
+R1847,EXCLUDE,BX1,Survey of AI chatbot acceptability for chronic health management/Long COVID support; no rated responses
+R1848,EXCLUDE,BX1,Rapid review of chatbot roles/users in healthcare
+R1849,EXCLUDE,BX1,Comparative perspectives study on human-AI teaming in critical care; no rated advice
+R1850,EXCLUDE,BX1,Systematic review and meta-analysis of perioperative chatbot applications
+R1851,EXCLUDE,BX3,Prompt engineering for LLM draft responses to patient portal messages in a clinician workflow; clinician-facing
+R1852,EXCLUDE,BX2,ChatZOC retrieval-augmented LLM framework for ophthalmology; specialised local system
+R1853,EXCLUDE,BX1,Scoping review of AI conversational agents in remote NCD management
+R1854,EXCLUDE,BX1,ChatGPT lay summaries of research abstracts on a recruitment platform; not medical advice
+R1855,EXCLUDE,BX1,Retrospective cohort of laser therapy for overactive bladder; no LLM involved
+R1856,EXCLUDE,BX4,LLM accuracy in patient support for choroidal melanoma; specialty ocular oncology topic
+R1857,EXCLUDE,BX1,Study of generative AI/LLM applications from digital media perspective; no primary rated responses
+R1858,EXCLUDE,BX1,Viewpoint on ethical considerations of LLMs in medical education
+R1859,INCLUDE,,Patient questions on exercise in type 2 diabetes answered by ChatGPT-4.0; diabetes physicians rated validity/utility and safety on 1-4 scales anchored to ADA/ACSM statements (safety scored 4 for all responses)
+R1860,EXCLUDE,BX3,Generative AI/NLP identification of laterality errors in radiology reports; data QA task
+R1861,EXCLUDE,BX1,Empirical study of COVID-19 impact on online hospital reviews; no LLM advice
+R1862,EXCLUDE,BX1,Evaluation of AI-generated drug therapy communication competencies for medical education
+R1863,EXCLUDE,BX1,Development/validation of a benchmark dataset to evaluate medical LLM responses; no patient advice cohort
+R1864,INCLUDE,,ChatGPT answers to urinary incontinence questions assessed by 37 urogynecologists for accuracy/comprehensiveness and safety (safety averaged 4.0 with 74% favourable)
+R1865,EXCLUDE,BX4,ChatGPT quality for patient education on coronary angiogram; specialty procedural topic
+R1866,EXCLUDE,BX1,Case report of ChatGPT aiding causality assessment in toxic epidermal necrolysis
+R1867,EXCLUDE,BX1,Article defining LLMs and uses/limitations in orthopaedics
+R1868,EXCLUDE,BX1,Perspectives article on AI in nursing in Asia
+R1869,EXCLUDE,BX2,ChatENT augmented LLM platform for otolaryngology knowledge retrieval; specialised system
+R1870,EXCLUDE,BX2,Brisa dedicated asthma support chatbot feasibility study; not a general-purpose public chatbot
+R1871,EXCLUDE,BX3,LLM answers to medical oncology examination questions with harm estimation; exam task not patient-facing
+R1872,EXCLUDE,BX4,ChatGPT as online information resource for femoroacetabular impingement syndrome; specialty orthopaedic condition
+R1873,EXCLUDE,BX3,ChatGPT simplification/translation of radiology reports in a clinical workflow; not layperson direct advice use
+R1874,EXCLUDE,BX3,LLM prediction of mental health crisis episodes from telemental health intake data; clinician/data task
+R1875,EXCLUDE,BX1,Comprehensive review of ChatGPT in urology
+R1876,EXCLUDE,BX3,GPT-4 performance on a standardised test of patient safety knowledge; exam-type task (no abstract)
+R1877,EXCLUDE,BX3,ChatGPT/Google translation of paediatric discharge instructions rated for clinical harm; service translation task not patient-posed advice
+R1878,EXCLUDE,BX1,LLM utility for consumer product risk assessment; not medical
+R1879,EXCLUDE,BX4,AI-generated radiology reports in summary/patient-friendly formats; subspecialty imaging topic
+R1880,INCLUDE,,Patient questions on herniated lumbar disc answered by ChatGPT-4.0; two physicians rated validity/utility and safety on 4-point Likert scales (safety 4 points for 11/12)
+R1881,EXCLUDE,BX3,ChatGPT generation of musculoskeletal injection safety checklists for physicians; clinician-facing
+R1882,EXCLUDE,BX4,ChatGPT educational pamphlets for interventional radiology procedures; specialty procedural topic
+R1883,EXCLUDE,BX4,Chatbot reliability for FAQs in breast surgical oncology; specialty operative topic
+R1884,EXCLUDE,BX1,Security/privacy perspective paper on generative AI in ophthalmology
+R1885,EXCLUDE,BX1,Proof-of-concept LLM simplification of FDA drug safety communications; no safety rating of advice responses
+R1886,MAYBE,,ChatGPT appropriateness for heart failure related questions graded for accuracy/reproducibility by cardiologists; no explicit safety or harm tier visible in abstract
+R1887,EXCLUDE,BX4,Reliability/readability of chatbot responses on radionuclide cancer treatments; specialty therapy topic
+R1888,EXCLUDE,BX1,Article on LLMs in ophthalmology future
+R1889,EXCLUDE,BX3,Evaluation of LLM feasibility in clinical decision-making; clinician-facing
+R1890,MAYBE,,Chatbots versus physicians interpreting real patient CBC laboratory questions from an online forum; appropriateness percentages and overestimation rates only - no explicit safety or harm rating scale in full abstract
+R1891,EXCLUDE,BX1,Systematic review of ChatGPT in cardiology
+R1892,EXCLUDE,BX1,Systematic review of LLM chatbots in digestive diseases
+R1893,EXCLUDE,BX4,LLM chatbots responding to stroke rehabilitation questions from survivors/caregivers; specialist rehabilitation topic
+R1894,MAYBE,,ChatGPT accuracy in delivering evidence-based information on osteoporosis FAQs; no safety or harm element visible in abstract
+R1895,EXCLUDE,BX1,Methods paper on LLM temporal harmonisation of clinical text for prediction
+R1896,EXCLUDE,BX4,Chatbot answers to frequently asked questions in anaesthesia scored for safety; specialty perioperative topic
+R1897,EXCLUDE,BX1,Article on implications of LLMs for neurologic care
+R1898,EXCLUDE,BX1,Article asking whether ChatGPT can be used in neonatal nursing
+R1899,EXCLUDE,BX3,GPT chatbots versus pharmacists on real-world drug information inquiries rated for accuracy/detail and risk of harm; inquiries came predominantly from physicians (41%) and pharmacists (44%) - a professional drug information service not patient-facing use
+R1900,EXCLUDE,BX3,ChatGPT concordance with dermatological surgeons' reconstruction choices for Mohs defects; clinician-facing
+R1901,EXCLUDE,BX1,Philosophical paper on emotions in mental health chatbots as psychotherapists
+R1902,EXCLUDE,BX1,Survey of Dutch truck drivers with ChatGPT-assisted text analysis; not medical advice
+R1903,EXCLUDE,BX2,ChatCAD+ interactive computer-aided diagnosis system using LLMs; specialised system not a public chatbot
+R1904,EXCLUDE,BX1,Primer on foundation models/LLMs for physicians
+R1905,EXCLUDE,BX1,Roadmap paper for equitable conversational AI design from stakeholder consultation
+R1906,EXCLUDE,BX1,Mixed-method feasibility of a consumer partnership innovation; no LLM advice study
+R1907,EXCLUDE,BX3,Effect of small talk on ChatGPT performance on USMLE questions; exam task
+R1908,EXCLUDE,BX1,Paper on telehealth evolution in heart failure with an LLM case study
+R1909,MAYBE,,ChatGPT medical advice from patient-perspective prompts analysed for diagnostic correctness/readability/disclaimers across demographics; no clinician safety or harm tier visible in abstract
+R1910,EXCLUDE,BX4,ChatGPT responses to otolaryngology patient questions from Reddit rated for patient safety; specialty ENT topic
+R1911,EXCLUDE,BX1,Systematic review of ethical considerations of LLM use in surgery research
+R1912,EXCLUDE,BX4,LLM recommendations for common oral health issues versus dental experts; specialty dental topic
+R1913,EXCLUDE,BX4,Quality/empathy/safety of expert versus LLM responses to retina patient questions; specialty ophthalmology topic
+R1914,EXCLUDE,BX3,ChatGPT-4 predicting ASA scores in preoperative assessment; clinician task
+R1915,EXCLUDE,BX4,Reliability/safety of AI responses to laryngeal cancer queries; specialty oncology topic
+R1916,EXCLUDE,BX1,Case study of an LLM analysing continuous glucose monitoring data (duplicate report)
+R1917,EXCLUDE,BX1,Article on medical ethics and AI in neurosurgery
+R1918,EXCLUDE,BX4,ChatGPT knowledge on ankyloglossia versus consensus statement; specialty congenital oral condition
+R1919,MAYBE,,ChatGPT versions categorising OTC medication/supplement safety in kidney disease compared with Micromedex; outcome is concordance of the chatbot's own safety labels - no clinician rating of response harm
+R1920,MAYBE,,LLM answers to lay patients' laboratory test questions; safety judged mainly by an LLM-based pairwise evaluator with medical expert rating on only 7 questions - no per-response harm tier
+R1921,EXCLUDE,BX1,System usability survey of ChatGPT among healthcare workers
+R1922,EXCLUDE,BX3,Generative AI performance at orthopaedic resident examination level; exam task
+R1923,EXCLUDE,BX1,Expert panel narrative review of LLMs in radiology
+R1924,EXCLUDE,BX1,Article on AI-driven motivational interviewing in ophthalmology
+R1925,EXCLUDE,BX2,DELSTAR custom-made LLM for delirium medication research; specialised model not a public chatbot
+R1926,EXCLUDE,BX4,Chatbot treatment decision-making for acquired bilateral vocal fold paralysis; specialty ENT condition
+R1927,EXCLUDE,BX1,Bibliometric analysis of ChatGPT in medicine
+R1928,EXCLUDE,BX1,Article on AI in senology
+R1929,EXCLUDE,BX4,LLM quality of responses to radiation oncology patient care questions; specialty topic
+R1930,EXCLUDE,BX4,ChatGPT guiding parents on tonsillectomy versus clinical practice guideline; specialty operative topic
+R1931,EXCLUDE,BX1,LLM-generated simulated RCT for epilepsy (duplicate report); not patient advice evidence
+R1932,EXCLUDE,BX1,Review of uses/limitations of AI for oncology
+R1933,EXCLUDE,BX1,ChatGPT simplification of radiology reports analysed for readability differences by race; no clinician safety rating
+R1934,EXCLUDE,BX1,Guide article on LLMs' impact on radiology
+R1935,EXCLUDE,BX1,Article on integrating RAG with LLMs in nephrology
+R1936,EXCLUDE,BX3,ChatGPT accuracy on CRRT alarm troubleshooting queries in ICU; clinician task
+R1937,EXCLUDE,BX1,Case vignette study comparing perspectives on schizophrenia recovery; no advice responses rated
+R1938,MAYBE,,Duplicate report of the laboratory test Q&A evaluation (four LLMs); safety assessed by LLM evaluator win rates and expert rating of 7 questions only - no per-response harm tier
+R1939,MAYBE,,GPT-4 exercise prescriptions for five patient profiles evaluated by experts on prescription principles and individualisation; safety described narratively only with no safety rating scale in full abstract
+R1940,EXCLUDE,BX1,Article on the promise of AI LLMs for epilepsy care
+R1941,EXCLUDE,BX4,Google versus ChatGPT accuracy/safety/readability on cataract surgery FAQs; specialty operative topic
+R1942,EXCLUDE,BX1,Article on search engine generative AI integration and public health risks
+R1943,MAYBE,,ChatGPT debunking sleep health myths rated by experts for accuracy of myth classification; no safety or harm tier for advice responses visible in abstract
+R1944,MAYBE,,ChatGPT-4 versus forum physicians on remote orthopedic consultation records scored on seven quality criteria with no safety or harm criterion in full abstract
+R1945,EXCLUDE,BX3,AI agents identifying healthcare-associated infections from training scenarios; clinician-facing
+R1946,EXCLUDE,BX1,Scoping review of LLM research landscape and clinical utility
+R1947,EXCLUDE,BX1,Article on AI in academic writing and clinical pharmacy education
+R1948,EXCLUDE,BX1,Analysis of AI applications in plastic surgery
+R1949,EXCLUDE,BX1,Systematic review of AI-powered chatbot interventions for chronic illness
+R1950,EXCLUDE,BX3,Generative AI transformation of inpatient discharge summaries to patient-friendly language; clinical workflow study
+R1951,EXCLUDE,BX4,ChatGPT-4 for postoperative cochlear implant patient education/support; specialty post-operative topic
+R1952,EXCLUDE,BX1,Article on surviving ChatGPT in healthcare
+R1953,EXCLUDE,BX4,GPT-4 making cardiovascular magnetic resonance reports understandable; subspecialty imaging topic
+R1954,EXCLUDE,BX3,LLM identification of treatment-emergent adverse events from IBD clinical notes; data task
+R1955,EXCLUDE,BX1,Survey of factors influencing user perspectives on ChatGPT in healthcare decisions; no rated responses
+R1956,EXCLUDE,BX1,Feasibility study of a microlearning chatbot on medication administration for new nurses; no advice rated
+R1957,EXCLUDE,BX2,RAG-based GPT-4 assistant for pharmacogenomic result interpretation; specialised system not a plain public chatbot
+R1958,MAYBE,,ChatGPT answers to 65 self-managed medication abortion questions qualitatively coded for accuracy/misinformation about safety; thematic analysis with no clinician harm tier or scale
+R1959,EXCLUDE,BX3,GPT-4 in thyroid ultrasound diagnosis and treatment recommendations; clinician imaging task
+R1960,EXCLUDE,BX2,Adapted/fine-tuned LLMs for clinical text summarisation tasks; specialised models not public chatbots
+R1961,EXCLUDE,BX3,AI classification of hypothetical transfusion reaction scenarios; clinician task
+R1962,EXCLUDE,BX4,GPT-4/Bard diagnostic precision and triage for simulated ophthalmic complaints; specialty topic
+R1963,EXCLUDE,BX3,AI labelling of operative/ultrasound reports for paediatric appendicitis grading; data task
+R1964,EXCLUDE,BX4,ChatGPT informative content on cerebral palsy rated for reliability/usefulness; specialist neurodisability topic
+R1965,EXCLUDE,BX1,Scoping review of misinformation on resuscitation/first aid information
+R1966,EXCLUDE,BX1,Review of LLMs in academic surgery
+R1967,EXCLUDE,BX3,ChatGPT clinical decision-making for otorhinolaryngology symptoms versus ENT specialists; clinician-facing
+R1968,EXCLUDE,BX1,Cohort study of ambient listening AI documentation impact; no advice responses rated
+R1969,EXCLUDE,BX3,Human versus ChatGPT risk stratification of ED triage vignettes; clinician-facing
+R1970,EXCLUDE,BX1,Review of ChatGPT in ophthalmology
+R1971,EXCLUDE,BX3,GPT performance versus medical students on German medical licensing examination; exam task
+R1972,EXCLUDE,BX1,Preliminary evaluation of ChatGPT for guideline synthesis via literature review; research task not advice
+R1973,EXCLUDE,BX1,Editorial on AI in pain medicine
+R1974,EXCLUDE,BX4,AI as self-service triage tool for perioperative reduction mammaplasty questions; specialty operative topic
+R1975,EXCLUDE,BX3,LLM adherence to meningitis guidelines on a hypothetical clinical case; clinician-facing
+R1976,MAYBE,,ChatGPT responses on lumbar disc herniation with radiculopathy analysed for accuracy against NASS guidelines; no safety or harm element visible in abstract
+R1977,EXCLUDE,BX3,ChatGPT responses to key questions on brain abscess guideline management; clinician-facing
+R1978,EXCLUDE,BX3,ChatGPT performance in clinical vitreoretinal scenarios graded by retina specialists; clinician-facing
+R1979,EXCLUDE,BX3,ChatGPT-4 translating musculoskeletal radiology reports into lay summaries in a clinical workflow; not layperson direct use
+R1980,EXCLUDE,BX1,Article on AI for nurse leaders
+R1981,EXCLUDE,BX3,GPT-3.5 correlation with anticoagulation guidelines for neuraxial anesthesia in hypothetical patients; clinician-facing
+R1982,EXCLUDE,BX1,Review of ChatGPT applications in obstetrics/gynecology
+R1983,EXCLUDE,BX4,ChatGPT as virtual psychiatric assistant on three imaginary mental health patient scenarios with recommendations judged inappropriate to dangerous; mental-health only topic
+R1984,EXCLUDE,BX2,PENNY-GI algorithmic mobile chatbot pilot for capecitabine adherence/toxicity; dedicated chatbot not a general-purpose LLM
+R1985,EXCLUDE,BX1,Peer review of the GPT-4 technical report and systems card
+R1986,EXCLUDE,BX1,Article on ChatGPT in medical education and automation bias
+R1987,MAYBE,,ChatGPT role-playing as a pharmacist answering patient inquiries in telepharmacy scenarios; accuracy/precision/clarity Likert scores with harm noted only narratively (no answer directly harmful) - no safety rating scale
+R1988,EXCLUDE,BX1,GPT-powered chatbot as simulated patient for history-taking practice; education study
+R1989,EXCLUDE,BX3,ChatGPT performance on otolaryngology certification examinations; exam task
+R1990,EXCLUDE,BX1,Auditing deep learning extraction of race/ethnicity from clinical text; data task
+R1991,EXCLUDE,BX4,Review/evaluation of ChatGPT in common otolaryngologic conditions including post-operative recommendations; specialty topic
+R1992,EXCLUDE,BX1,Vision article on robotic anesthesia
+R1993,EXCLUDE,BX2,Exercise recommendations from a novel AI-based chatbot; dedicated chatbot not a general-purpose public chatbot
+R1994,EXCLUDE,BX4,ChatGPT versus physician responses to patient dermatology questions in the EMR; specialty clinic topic
+R1995,EXCLUDE,BX1,Article on ethical considerations of generative AI in healthcare
+R1996,EXCLUDE,BX1,Essay on patients doctors and chatbots; no primary study
+R1997,EXCLUDE,BX1,RxBERT language model for drug labelling text mining; regulatory data task
+R1998,EXCLUDE,BX1,Quantitative study differentiating ChatGPT-generated and human medical texts; no advice rated
+R1999,EXCLUDE,BX1,Scenario article on AI-enabled medical education futures
+R2000,EXCLUDE,BX4,ChatGPT summarised MRI reports for prostate cancer patients; subspecialty imaging/oncology topic
+R2001,EXCLUDE,BX4,AI chatbots in preoperative counselling for head and neck cancer surgery; specialty operative topic
+R2002,EXCLUDE,BX4,Publicly available mental health conversational agents tested with simulated escalating depression and suicidality; mental-health crisis topic excluded from the pool
+R2003,EXCLUDE,BX4,ChatGPT supporting home care after orthopedic interventions; specialty post-operative topic
+R2004,EXCLUDE,BX1,Article on ChatGPT opportunities/risks in care teaching and research
+R2005,EXCLUDE,BX1,Assessment of BERT-like LLMs for causal inference in pharmacovigilance; not advice
+R2006,EXCLUDE,BX3,ChatGPT performance on Iranian medical licensing examination; exam task
+R2007,EXCLUDE,BX1,Article on potential/limitations of ChatGPT in medical safety education
+R2008,EXCLUDE,BX3,ChatGPT effectiveness in clinical pharmacy medication therapy management cases; clinician-facing
+R2009,EXCLUDE,BX1,Survey of students' intention to use digital mental health solutions
+R2010,EXCLUDE,BX1,Survey of AI perceptions in Nigerian medical education
+R2011,EXCLUDE,BX1,Viewpoint on ChatGPT for mental health and substance use education
+R2012,EXCLUDE,BX1,Paper on AI-powered mental health chatbots as therapists
+R2013,INCLUDE,,Patient questions and three progressively presented thyroid nodule cases answered by ChatGPT; endocrinologists scored patient answers for correctness/reliability and case approaches for correctness/usability and safety on 7-point Likert scales
+R2014,EXCLUDE,BX1,Using AI to create diverse medical case vignettes for education
+R2015,EXCLUDE,BX3,LLM answers to clinically relevant dentistry questions graded against evidence; clinician-facing
+R2016,EXCLUDE,BX1,LLM multimodal traffic accident forecasting; not medical
+R2017,EXCLUDE,BX3,ChatGPT efficacy on Spanish medical residency entrance examination; exam task
+R2018,EXCLUDE,BX4,LLM accuracy addressing AMD patients' questions; specialty ophthalmology topic
+R2019,EXCLUDE,BX1,Practical guide to AI implementation in orthopaedic research
+R2020,MAYBE,,ChatGPT allergic rhinitis answers rated on a 1-5 accuracy scale whose lower categories embed harm (minor potentially harmful inaccuracies); harm appears only as scale categories with no separate safety rating
+R2021,EXCLUDE,BX1,Health disinformation generation use case article; no rated patient advice study
+R2022,EXCLUDE,BX4,AI chatbots producing inaccurate/potentially harmful information for aortic disease patients; specialty topic (no abstract)
+R2023,EXCLUDE,BX3,ChatGPT simplification of MRI radiology reports in a clinical workflow; not layperson direct advice use
+R2024,EXCLUDE,BX3,GPT-4 versus healthcare provider decision-making in benzodiazepine deprescribing; clinician-facing
+R2025,MAYBE,,Patients consulting ChatGPT for cardiovascular health advice scored by experts on a language-model evaluation framework; no explicit safety or harm tier visible in abstract
+R2026,EXCLUDE,BX1,Global survey of urologists' awareness/use of ChatGPT/LLMs
+R2027,EXCLUDE,BX4,ChatGPT versus traditional materials for men's health conditions; specialty urology topic
+R2028,EXCLUDE,BX1,Paper on the future of AI/LLMs in surgical oncology
+R2029,EXCLUDE,BX1,Review of explainability/safety of conversational agents for mental health
+R2030,INCLUDE,,ChatGPT on ophthalmological emergency case vignettes representing patient queries; triage accuracy and overall potential to inflict harm assessed
+R2031,EXCLUDE,BX1,Review of generative AI/LLMs in ophthalmology
+R2032,EXCLUDE,BX4,Feasibility trial of a technology-facilitated intervention for suicidality in ED; mental-health crisis only topic
+R2033,EXCLUDE,BX4,GPT models for patient education before interventional radiology procedures; specialty procedural topic
+R2034,EXCLUDE,BX1,Survey of general surgery residents on AI in surgery
+R2035,EXCLUDE,BX4,ChatGPT answers to common imaging-related patient questions; specialty radiology topic
+R2036,MAYBE,,96 advice-seeking vignettes across care contexts answered by ChatGPT and analysed for clinical appropriateness by guideline concordance and recommendation type; appropriateness is not an explicit unsafe tier
+R2037,EXCLUDE,BX1,RCT of a digital chatbot on gender attitudes/IPV exposure; not LLM medical advice
+R2038,EXCLUDE,BX1,ChatGPT versus human evaluators assessing medical literature reporting standards; research task
+R2039,EXCLUDE,BX3,ChatGPT-4 quality/safety of management for real bloodstream infection patients; clinician-facing
+R2040,EXCLUDE,BX1,Editorial on ChatGPT publication growth
+R2041,EXCLUDE,BX3,ChatGPT simplified radiology reports rated by radiologists; clinical workflow not layperson direct use
+R2042,INCLUDE,,Real ED patients' self-reported presentations entered into ChatGPT 3.5/4.0 and symptom checkers; triage recommendations explicitly classified with an unsafe category (ChatGPT-3.5 41% unsafe) against blinded ED physician review
+R2043,EXCLUDE,BX3,Chatbots tested on detecting clinically relevant drug-drug interactions for 255 drug pairs against conventional DDI tools (sensitivity/specificity); a classification task with no patient-facing advice arm
+R2044,EXCLUDE,BX3,LLM identification of treatment-emergent adverse events from IBD clinical notes (duplicate report); data task
+R2045,EXCLUDE,BX3,ChatGPT assessing suicide risk in a hypothetical vignette; clinician task on mental-health crisis
+R2046,EXCLUDE,BX1,Article on potential of AI chatbots in urology
+R2047,EXCLUDE,BX4,ChatGPT advice on common GI endoscopic procedures appraised for safety issues; specialty procedural topic
+R2048,MAYBE,,ChatGPT as a self-diagnostic tool in common orthopedic diseases rated for accuracy/precision and consultation recommendation; no safety or harm tier visible in abstract
+R2049,EXCLUDE,BX4,Bing chatbot patient education for radiologic examinations; specialty radiology topic
+R2050,INCLUDE,,Fictional thyroid function test cases posed to ChatGPT and Bard as patients and as providers; interpretations categorised against clinician consensus and the advice explicitly assessed for safety (66.7% and 60.0% of patient-posed responses safe)
+R2051,EXCLUDE,BX4,ChatGPT responses for patient questions on optic disc drusen; specialty ophthalmology topic
+R2052,EXCLUDE,BX3,ChatGPT accuracy/consistency in clinical pharmacy pharmacotherapy cases; clinician-facing
+R2053,EXCLUDE,BX3,LLM performance on transfusion medicine/blood banking tasks; clinician-facing
+R2054,EXCLUDE,BX1,ChatGPT summarisation of meta-analyses on psoriasis therapies compared with originals; not advice responses
+R2055,EXCLUDE,BX3,ChatGPT-4 delivering medical advice to junior doctors for orthopaedic scenarios; clinician-facing
+R2056,EXCLUDE,BX1,Article on ensuring AI is helpful not harmful in healthcare
+R2057,EXCLUDE,BX1,NLP prediction of psilocybin therapy outcomes from trial data; not a chatbot advice study
+R2058,EXCLUDE,BX3,LLMs as clinical decision support tools for junior doctors; clinician-facing
+R2059,MAYBE,,AI chatbots for lay triage of ophthalmic conditions; outcomes are diagnosis/triage proportions with no explicit unsafe/harm tier visible in abstract
+R2060,EXCLUDE,BX1,Article on ethical considerations of ChatGPT in healthcare
+R2061,MAYBE,,GPT-4 answers to 50 real pharmacovigilance centre questions from professionals or patients compared with specialists and judged globally not acceptable; no explicit safety rating method described in full abstract
+R2062,EXCLUDE,BX3,ChatGPT performance on the Situational Judgement Test for doctors; exam task
+R2063,MAYBE,,ChatGPT on carpal tunnel syndrome knowledge questions plus a simulated consultation; accuracy/coherence/comprehensiveness analysed with safety of advice described narratively only - no safety rating scale
+R2064,MAYBE,,ChatGPT versus Google passages for patient-perspective medical knowledge/recommendation questions scored with PEMAT; no safety or harm tier visible in abstract
+R2065,EXCLUDE,BX1,Interview study of young adults' views on a dedicated COVID stress chatbot; no rated advice responses
+R2066,MAYBE,,ChatGPT responses to vaccination myths/misconceptions rated by experts for correctness/clarity/exhaustiveness; no safety or harm tier visible in abstract
+R2067,EXCLUDE,BX2,ChatDoctor medical chat model fine-tuned from LLaMA; specialised model not a general-purpose public chatbot
+R2068,EXCLUDE,BX2,PaLM/Flan-PaLM research models evaluated on MultiMedQA benchmarks; not general-purpose chatbots in public hands
+R2069,EXCLUDE,BX1,Article on AI complementing healthcare providers
+R2070,EXCLUDE,BX1,Article on ChatGPT in radiology
+R2071,EXCLUDE,BX1,Article on revolutionising patient safety with NLP/LLMs; no abstract/primary study
+R2072,EXCLUDE,BX1,Article on regulatory oversight of LLMs in healthcare

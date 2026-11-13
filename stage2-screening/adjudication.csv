@@ -1,0 +1,629 @@
+record_id,decision,reason,notes
+R0001,PASS,,Patient-posed ONFH queries to general LLMs with graded safety-risk classification; specialty concern is for full text not abstract exclusion
+R0005,EXCLUDE,OTHER,Bespoke knowledge-graph multi-agent TCM system; not a general-purpose public LLM chatbot and no clinician-rated unsafe tier for general LLM responses
+R0007,EXCLUDE,OTHER,Bespoke fine-tuned PiGMA meal-guidance agent; not a general-purpose public chatbot and no prospective patient-facing safety-tier evaluation
+R0025,PASS,,Freely accessible LLMs; paediatric epilepsy scenarios with safety assessed and critical safety flags recorded separately; caregiver-facing elements present
+R0028,PASS,,Patient-perspective questions to general LLMs; blinded raters scored safety as a dimension
+R0029,EXCLUDE,AX3,Instrument-development study; patients rated their own conversations with a patient-perceived harm item; no clinician-rated LLM responses
+R0032,EXCLUDE,OTHER,Bespoke multilingual cervical-cancer dialogue system built around a rule-based engine plus RAG chatbot; not a general-purpose public chatbot used as a patient would
+R0044,PASS,,Common patient-facing dental radiology questions to consumer ChatGPT/Gemini/Copilot configurations; experts rated safety triage and misinformation
+R0053,PASS,,Questions submitted by 120 postpartum women plus guideline questions; clinical experts rated safety of ChatGPT/DeepSeek responses
+R0087,PASS,,Common patient questions about nasal polyps (a primary-care presentation); generative platforms compared on clinical safety
+R0088,EXCLUDE,AX5,Question set confined to total knee arthroplasty operative pathway information; specialty surgical topic
+R0094,EXCLUDE,AX1,Chatbots evaluated as point-of-care decision aids for dental practice emergency management; clinician-facing framing and accuracy-only scoring
+R0099,EXCLUDE,OTHER,Validation of an LLM judge against physician classification for a bespoke institutional perioperative assistant (AIVA); not a general-purpose public chatbot study
+R0102,EXCLUDE,AX1,GPT emergency triage evaluated as a clinician decision-support framework using synthetic dialogues; no direct patient-facing use
+R0125,EXCLUDE,AX1,LLM decision aid generating treatment recommendations for collaborative clinician decision-making in juvenile idiopathic arthritis; clinician-facing decision support
+R0144,EXCLUDE,AX5,Questions confined to postoperative lumbar fusion care; specialty surgical topic
+R0151,PASS,,Standardised orthodontic patient scenarios to general LLMs; blinded orthodontists scored safety; dental patient concerns borderline but safety-rated patient-facing arm passes to full text
+R0155,EXCLUDE,AX5,Patient questions confined to conventional and fast-track total knee arthroplasty pathways; specialty operative topic
+R0159,EXCLUDE,AX5,Questions confined to postoperative hip fracture rehabilitation after surgery; specialty postoperative topic
+R0161,EXCLUDE,AX5,Scenarios confined to postoperative complications following aesthetic surgery; specialty surgical topic
+R0184,EXCLUDE,OTHER,Bespoke LongCAF agentic framework for hypertension self-management; deployment metrics and escalation performance not clinician-rated responses from a general-purpose public chatbot
+R0196,PASS,,Includes general-purpose comparator arms (GPT-4 and DeepSeek) whose responses specialists rated for safety alongside the fine-tuned model; full text to check separability of general-model arms
+R0198,PASS,,Consumer-style sports nutrition prompts to general-purpose LLMs; raters evaluated safety-boundary handling; general preventive/self-management advice laypeople seek
+R0230,EXCLUDE,AX1,Engineered clinical prompts for nursing and healthcare management/education evaluation; no patient-facing arm
+R0255,EXCLUDE,AX1,Scenario benchmark framed as clinician decision support for risk-based management of abnormal cervical screening results; management-decision task not patient-posed advice
+R0262,EXCLUDE,OTHER,Bespoke deployed retrieval-augmented Parkinson's information system (jAImes); not a general-purpose public chatbot
+R0296,EXCLUDE,OTHER,Bespoke gastric cancer education conversational agent built on a foundation model with RAG; development/usability study without clinician safety-tier rating of a general chatbot
+R0304,EXCLUDE,OTHER,Bespoke Patiently AI app explaining clinician-authored notes; note-explanation/summarisation task rather than patient advice from a general-purpose chatbot
+R0309,PASS,,Patient-facing lung cancer prognostic questions to five public chatbots; blinded raters assessed safety with safe-response proportions reported
+R0327,PASS,,Common fall-related questions in older adults (primary care) to ChatGPT; multidisciplinary panel assessed quality and patient safety
+R0329,PASS,,NMOSD patient-education questions to six general LLMs with specialist safety scoring plus real-world patient interactions; rare-disease education passes to full text
+R0337,EXCLUDE,AX1,AI-generated exercise prescriptions for simulated cardiac rehabilitation profiles; clinician prescription-generation task evaluated by specialists not patient-posed advice
+R0347,EXCLUDE,AX5,Patient counselling confined to robot-assisted colorectal cancer resection; specialty operative procedure and no safety or accuracy rating (quality/readability only)
+R0354,EXCLUDE,AX1,GPT-4 used to draft discharge instructions within a nurse-led discharge-planning workflow requiring nurse review; documentation/drafting task not a patient directly querying a chatbot
+R0356,PASS,,Fictional patient-oriented orthodontic scenarios to user-facing chatbots; responses coded for safety and referral concerns under a predefined framework
+R0361,EXCLUDE,AX5,Patient counselling confined to robot-assisted radical prostatectomy; specialty operative procedure topic
+R0369,EXCLUDE,OTHER,Locally deployed Qwen model inside a nurse-reviewed human-in-the-loop workflow; clinician in the loop and not a general-purpose public chatbot used directly by patients
+R0378,PASS,,Realistic patient-oriented periodontal/peri-implant queries to ChatGPT/Claude/Gemini; blinded periodontists evaluated clinical safety on a Likert scale
+R0382,EXCLUDE,AX3,Demographic bias experiment on structured obesity-attribution prompts; not patient advice responses rated for safety
+R0385,EXCLUDE,AX3,Paired user-perception survey of a single AI versus physiotherapist response; no clinician safety rating of advice responses
+R0394,PASS,,Parent-centred paediatric urology FAQs to four public LLMs; urologists rated safety among domains
+R0395,EXCLUDE,OTHER,Bespoke Dolphin bimodal LLM developed for the study; not a general-purpose public chatbot and outcomes are misalignment/satisfaction rather than a clinician unsafe tier
+R0407,EXCLUDE,AX3,Survey experiment on user trust in hypothetical chatbot scenarios; responses were not clinician-rated for safety
+R0417,EXCLUDE,OTHER,Bespoke fine-tuned/RAG PICC self-management chatbot architectures; not a general-purpose public chatbot as tested and ratings are acceptability not an unsafe tier
+R0419,PASS,,Standardised paediatric pelvic floor questions to three public chatbots with educational quality reliability and safety evaluated; full text to confirm safety rating method
+R0430,PASS,,Consumer chatbots in simulated multi-turn mental-health interactions scored across 13 clinically grounded risk dimensions; not confined to crisis/self-harm only on the abstract so passes to full text
+R0453,EXCLUDE,AX5,Patient questions confined to pre- and post-operative tracheostomy care; specialty surgical airway topic and no harm/safety rating
+R0456,EXCLUDE,OTHER,Bespoke scaffolded retrieval-grounded conversational agent for CGM counselling support; not a general-purpose public chatbot
+R0465,EXCLUDE,AX3,Short cautionary report repeating one query to a clinical RAG system; no clinician-rated patient advice responses
+R0474,PASS,,Patient-oriented orthodontic dietary questions to ChatGPT/Gemini; specialist dentists classified potentially harmful advice with harmful proportions reported
+R0479,EXCLUDE,OTHER,Bespoke multimodal LLM/IoT dysphagia meal-texture monitoring platform; not a general-purpose public chatbot giving patient advice
+R0496,EXCLUDE,OTHER,Bespoke supervised fine-tuned prostate-cancer lifestyle model (PCaPLMM_SFT); the tested system is not a general-purpose public chatbot and clinician review covered only 50 samples without a safety tier
+R0501,PASS,,Exercise awareness messages for older adults generated by three general LLMs; expert evaluators rated safety and absence of fabrication (fabrication is a secondary outcome)
+R0515,PASS,,Brain aneurysm FAQs to ChatGPT/Gemini; physicians rated accuracy and safety; subspecialty topic but patient/family-facing questions pass to full text
+R0517,PASS,,Patient vignettes for retina counselling by a public LLM (ChatGPT-3.5); reviewers rated potential for clinically significant harm across urgency levels
+R0518,PASS,,Standardised parent-facing ITP questions to free public LLMs; blinded reviewers recorded unsafe-content and hallucination flags with event proportions
+R0522,EXCLUDE,AX5,Postoperative decision-support configurations (fine-tuned/RAG hybrids) evaluated on postoperative queries; specialty postoperative decision-support topic
+R0528,EXCLUDE,AX3,Primer and framework article on agentic AI in medicine; no primary rated responses (title is explicit and no abstract indicates a primary study)
+R0535,PASS,,Dental questions posed to six public LLMs; dentists labelled harmfulness with harmful response proportions reported
+R0545,PASS,,Real online patient consultation questions in gynaecological oncology answered by DeepSeek-R1; gynaecologists assessed safety and compliance among dimensions
+R0547,EXCLUDE,OTHER,Case study of a bespoke clinically governed GPT-4 assistant with a proprietary risk engine and human-in-the-loop audit; not a general-purpose public chatbot used without a clinician in the loop
+R0552,PASS,,Simulated patient questions about radiology reports answered by three LLMs; radiologists scored answers on an error tier including clinically significant errors against consensus
+R0554,PASS,,Standardised periodontal complaint-based queries to four general LLMs; blinded reviewers applied a structured Risk of Harm Score
+R0575,EXCLUDE,AX3,Letter/comments on another article; no primary rated responses
+R0576,EXCLUDE,OTHER,NIPRGPT is a specific internal Department of Defense tool not a general-purpose public chatbot; responses were graded for accuracy/adequacy with no safety or harm rating
+R0579,PASS,,Thyroid eye disease counselling bank built from patient-inquiry themes posed to web chatbots; blinded experts rated a Safety dimension
+R0580,PASS,,Questions about congenital glaucoma signs and symptoms posed to ChatGPT; paediatric ophthalmologists assessed potential for harm and major-significance errors; borderline diagnostic framing passes to full text
+R0585,EXCLUDE,AX3,Activation-steering manipulation experiment on depression recommendations scored by an LLM rater; outputs were not clinician-rated for safety
+R0589,EXCLUDE,AX5,Questions confined to postoperative orthopaedic patient concerns; specialty postoperative topic
+R0601,EXCLUDE,OTHER,Bespoke HopeBot RAG chatbot administering PHQ-9 depression screening; feasibility/usability study with no clinician-rated advice safety
+R0606,EXCLUDE,AX5,Family consultation questions specific to intensive care unit care; specialty inpatient setting that does not present in primary care
+R0624,EXCLUDE,AX1,ChatGPT used by professionals to revise existing patient education materials for readability; materials-rewriting task not patient-posed questions
+R0630,EXCLUDE,AX5,Questions confined to the 3-month period following total knee arthroplasty; specialty postoperative topic and no safety rating
+R0637,EXCLUDE,AX5,Questions confined to post-operative care after total hip arthroplasty; specialty postoperative topic and no explicit safety rating
+R0649,EXCLUDE,AX3,Pilot feasibility trial of a chatbot adjunct to group therapy; chatbot responses were not rated for safety by clinicians
+R0655,PASS,,Patient/caregiver arm (10 of 20 questions) to public ChatGPT-4o on paediatric inborn errors of immunity; specialists assessed safety-related concerns with proportions reported
+R0656,PASS,,Patient-oriented scoliosis questions to a GPT model; expert panel categorised clinical risk levels of responses
+R0664,EXCLUDE,AX5,Synthetic vignettes confined to dental implant complications; subspecialty procedural topic with specialist management framing
+R0667,PASS,,Psoriasis clinical and patient questions to three general chatbots; dermatologists scored clinical safety (psoriasis presents in primary care)
+R0671,EXCLUDE,AX5,Questions confined to postoperative rehabilitation after ACL reconstruction; specialty postoperative topic
+R0685,EXCLUDE,AX1,ChatGPT evaluated as an educational resource for students on neck pain diagnosis and treatment; learner-facing not patient-facing
+R0692,PASS,,Structured questions on botulinum toxin safety contraindications and adverse effects answered by general LLMs and scored by dermatologists specifically on safety information; audience unclear so passes to full text
+R0699,PASS,,Standardised breast cancer consultation/patient-education questions to six LLMs; experts evaluated safety among dimensions
+R0705,PASS,,Patient-facing psychodermatology scenarios to five LLMs; blinded clinicians rated quality and safety-related domains including risk management; not mental-health crisis only
+R0710,PASS,,Mixed patient and professional dental anaesthesia questions to general chatbots; blinded dentists evaluated clinical safety and risk; patient arm present
+R0715,EXCLUDE,OTHER,Case study of a bespoke multi-agent documentation/education system (WoundScribeAI/Pingoo.AI); not a general-purpose public chatbot answering patient questions
+R0726,PASS,,Standardised patient-oriented questions on procedural sedation to ChatGPT/Gemini/Copilot; clinical experts assessed clinical safety and confabulated or misleading content
+R0740,EXCLUDE,OTHER,Fine-tuned Korean domain LLMs for arthritis QA as deployed; not general-purpose public chatbots and evaluation is mainly automated similarity metrics
+R0745,EXCLUDE,OTHER,Bespoke temporally anchored RAG framework (bRAGgen) for bariatric surgery patient education; not a general-purpose public chatbot and no explicit safety rating
+R0746,PASS,,Caregiver-perspective questions on home phototherapy for neonatal jaundice posed to seven mainstream LLMs; neonatologists evaluated responses and critical errors/safety risks were identified
+R0749,EXCLUDE,AX5,Questions confined to postoperative care after rhinoplasty; specialty postoperative topic
+R0754,PASS,,Patient health-management questions on urological/andrological conditions (including kidney stones and dietary management that present in primary care) to general LLMs; experts assessed accuracy and safety
+R0761,EXCLUDE,AX1,LLMs used to generate patient information leaflets from guideline documents; materials-generation task not patient-posed questions
+R0769,EXCLUDE,AX1,Structured knowledge questions aimed at promoting interventional radiology methods to clinicians and patients; professional knowledge/promotion framing not patient-posed advice scenarios and no safety tier
+R0775,PASS,,Parent-style questions on paediatric coeliac disease to ChatGPT/Gemini; gastroenterologists rated a safety domain
+R0780,PASS,,Patient-centred endodontic questions and scenario prompts to general LLMs; examiners applied a Clinical Reliability and Safety Framework
+R0789,PASS,,Standardised caregiver questions on strabismus to five chatbots; paediatric ophthalmologists rated a Safety domain
+R0792,PASS,,Standardised patient scenarios on suspected oral cancer to Gemini/Grok; referral safety assessed as a binary outcome (undertriage-relevant secondary outcome)
+R0801,EXCLUDE,AX1,Single generic prompt to generate a stage 2 hypertension treatment plan; clinician-style generation task with no patient-facing arm as posed
+R0806,EXCLUDE,AX3,Experimental study of pharmaceutical advertising shifting drug recommendations; outcome is recommendation shift with no clinician safety/harm rating of advice
+R0809,EXCLUDE,OTHER,Author-built RAG-based Korean consultation chatbot with local open-weight models; the tested system is not a general-purpose public chatbot
+R0838,EXCLUDE,OTHER,Customised disease-specific models (TED-GPT/TED-Claude) evaluated largely on multiple-choice questions; not general-purpose chatbots as deployed and an exam-style task
+R0843,PASS,,Real patient questions on preterm infant care from a public consultation forum answered by ChatGPT; neonatologists and lay users rated a safety dimension
+R0844,EXCLUDE,AX3,Comparative study of LLM automated fact-checking of health statements; advice responses were not directly clinician-rated for safety as the study outcome
+R0855,PASS,,Standardised parent-facing congenital cataract questions to public LLMs; blinded ophthalmologists rated a Safety domain
+R0870,EXCLUDE,OTHER,Bespoke RAG-based patient education system (ChatVTE) development and validation; not a general-purpose public chatbot
+R0872,PASS,,Breast cancer advice questions to consumer-grade LLMs; blinded specialist panel graded clinical appropriateness with inappropriate-response rates reported
+R0884,EXCLUDE,OTHER,Red-teaming protocol paper applied to a bespoke RAG chatbot for health-related social needs; not a general-purpose public chatbot study
+R0891,EXCLUDE,AX5,Frequently asked questions confined to total knee arthroplasty patient education; specialty operative topic (consistent with other TKA sets)
+R0893,EXCLUDE,AX1,Designed clinical scenarios for dental implant treatment planning evaluated by surgeons; clinician planning task with no patient-facing arm
+R0916,PASS,,Frequently asked patient questions about cataract and cataract surgery to four LLMs; safety compared among dimensions (cataract presents via primary care)
+R0922,PASS,,Patient-oriented neck pain questions plus clinical case scenarios to ChatGPT/Gemini; physicians assessed case responses for accuracy safety and usability (neck pain is a primary-care presentation)
+R0938,EXCLUDE,AX1,LLM generation of tailored diabetes education materials from uploaded discharge records; clinician materials-generation task not patient-posed questions
+R0941,PASS,,Cosmetic injection consultation questions to ChatGPT simulating patient consultations; doctors independently rated safety as a percentage outcome
+R0958,PASS,,Frequently asked anaesthesia questions (patient education) in two languages to ChatGPT/DeepSeek; experts assessed content quality including safety
+R0967,EXCLUDE,AX5,Questions confined to postoperative recovery after rhinoplasty; specialty postoperative topic and no explicit safety rating
+R0968,PASS,,Frequently asked questions about Moyamoya disease to public LLMs; clinicians evaluated safety and accuracy and quantified risk-omission rates
+R0971,EXCLUDE,AX1,GPT-4 generation of patient-centred discharge letters; document-generation task with comprehension outcomes and letters not safety-rated as advice responses
+R0998,EXCLUDE,AX5,Patient questions confined to breast reconstruction (oncological justification reconstructive options and postoperative care); specialty operative counselling topic
+R1012,EXCLUDE,AX3,Qualitative auto-netnographic study of chatbot responses from a simulated patient; no clinician rating or systematic safety assessment (explicitly not assessed)
+R1022,PASS,,Atrial fibrillation patient questions to seven public Chinese LLMs; expert committee scored safety within SCECCE and safe-response proportions were reported (AF presents in primary care)
+R1024,PASS,,Standardised patient-LLM dialogues with commercial LLMs across harm-stratified clinical scenarios; induction of unsafe advice under prompt injection is a safety outcome for full text to verify rating method
+R1028,EXCLUDE,AX3,Benchmark of LLM communication of organoid science scored for readability/reliability/quality; not patient health advice responses rated for safety
+R1035,EXCLUDE,OTHER,Description of a bespoke institution-specific primary care chatbot (confIAnce) grounded in hospital documents; not a general-purpose public chatbot and no evaluation outcomes reported
+R1037,EXCLUDE,AX5,Patient education confined to five plastic surgery operative procedures; specialty operative topic
+R1040,EXCLUDE,OTHER,On-premise privacy-preserving models generating lay summaries of MRI reports; summarisation task with non-public models not a general-purpose chatbot answering patient questions
+R1042,EXCLUDE,AX5,Patient education confined to total hip arthroplasty; specialty operative procedure topic
+R1050,EXCLUDE,AX3,Conference track lessons/overview paper on plain-language adaptation systems; not a primary patient-advice rating study
+R1052,EXCLUDE,AX3,Single case report of ChatGPT use within exposure therapy; no rated LLM responses
+R1053,EXCLUDE,OTHER,Dedicated generative-AI CBT app tested in an RCT; not a general-purpose public chatbot and chatbot advice safety was not rated
+R1056,EXCLUDE,AX1,ChatGPT used as a translation service for clinician-authored ED discharge instructions; translation task not patient-posed advice
+R1058,EXCLUDE,AX1,NOHARM benchmark built from primary care-to-specialist consultation cases; the user in the cases is the clinician seeking consultation advice so this is clinician-facing despite the explicit harm rating
+R1065,EXCLUDE,AX1,ChatGPT warfarin dose adjustment generated from clinic records; clinician dosing task not patient-facing use
+R1069,EXCLUDE,OTHER,Rosie is a dedicated maternal-health chatbot with a bespoke retrieval pipeline; not a general-purpose public chatbot and evaluation is user satisfaction not clinician safety rating
+R1076,EXCLUDE,OTHER,Glaucoma FAQs rated on an accuracy tier only with no safety or harm rating; one arm is a locally trained retrieval SLM rather than a general-purpose chatbot
+R1081,EXCLUDE,AX5,AI diet plans for simulated patients in the early period after bariatric surgery; specialty postoperative topic and guideline compliance rather than safety rating
+R1082,PASS,,Celiac disease patient education by three general LLMs; blinded specialists rated misinformation presence (fabrication-type secondary outcome) with rates reported; full text to check for a safety tier
+R1083,EXCLUDE,AX5,Patient questions confined to hip arthroscopy/femoroacetabular impingement surgery; specialty operative topic and no safety tier
+R1087,EXCLUDE,AX5,Patient education confined to facial feminization surgery techniques; specialty operative topic
+R1090,PASS,,Patient self-triage with general-purpose AI platforms across emergency and non-emergency scenarios against a guideline gold standard; disposition/undertriage is a pre-specified secondary outcome
+R1102,EXCLUDE,OTHER,ChatGPT responses scored for detecting/correcting misinformation embedded in user prompts; the outcome is a correction score not a clinician safety/harm rating of the advice itself
+R1109,EXCLUDE,AX1,LLM drug-interaction screening of patient medication lists against databases; a pharmacist/clinician screening task not patient-posed advice
+R1115,PASS,,ChatGPT answers to general health questions (including cholesterol and atrial fibrillation treatment) rated by 88 physicians on an explicit danger scale; danger is a clinician safety rating
+R1116,EXCLUDE,OTHER,Custom clinician-validated cataract education chatbot (Mina) in a pilot RCT; not a general-purpose public chatbot and outcomes are knowledge/satisfaction not response safety
+R1122,EXCLUDE,AX5,Informed-consent information for common oncological surgeries; specialty operative topic and no harm tier
+R1143,EXCLUDE,OTHER,PEGAssist is a custom ChatGPT-based chatbot built for PEG aftercare; not a general-purpose public chatbot as tested
+R1148,EXCLUDE,AX1,Med-RISE retrieval tool evaluated on exam-style multiple-choice datasets (MedQA/PubMedQA/MedMCQA); clinician/exam benchmark task not patient-facing advice
+R1155,EXCLUDE,AX5,ChatGPT management recommendations for thyroid nodules by Bethesda cytopathology category; subspecialty topic rated for guideline accuracy only with no safety tier
+R1159,EXCLUDE,AX1,LLMs evaluated as specialist referral triage decision support for primary care providers; clinician-facing tool
+R1161,EXCLUDE,OTHER,Bespoke RAG virtual assistant (AIVA) built for postoperative instructions on a verified knowledge base; not a general-purpose public chatbot
+R1162,EXCLUDE,OTHER,Bespoke RAG chunking pipelines for clinical decision support on postoperative rhinoplasty questions; not a general-purpose public chatbot and a systems evaluation
+R1167,EXCLUDE,AX1,GPT-generated discharge texts compared within a clinician discharge process; document-generation task not layperson direct use and no clinician safety rating
+R1169,EXCLUDE,AX5,Patient questions confined to pectus surgery; specialty operative topic and no safety tier
+R1175,EXCLUDE,OTHER,Cardia-AI is a bespoke smartwatch/EHR monitoring pipeline with a domain-tuned model; proof-of-concept with no rated advice responses
+R1178,EXCLUDE,AX3,Committee report evaluating LLM rewriting of patient education materials; not primary patient advice responses rated for safety
+R1180,EXCLUDE,AX1,ChatGPT triage scores assigned within the ED clinical team workflow for real patients; clinician-mediated triage not layperson self-triage and no harm tier
+R1184,EXCLUDE,AX5,Pre-anaesthetic education tied to one specific operation (laparoscopic cholecystectomy); specialty perioperative topic
+R1189,EXCLUDE,AX3,LLMs classifying existing hemangioma education texts as rumor versus accurate; not generated advice responses rated for safety
+R1192,EXCLUDE,AX5,Patient education confined to total knee replacement; specialty operative topic and no harm tier in scoring
+R1198,EXCLUDE,AX5,Preoperative education confined to congenital microtia reconstruction; specialty operative topic
+R1206,EXCLUDE,AX3,Formative qualitative study of a dedicated GPT-4 diabetes chatbot (DTalksBot); no systematic response safety rating
+R1209,PASS,,Parent-perspective prompts with child eye photos to consumer GPT-4o; responses graded for quality and safety by a paediatric ophthalmologist and orthoptist
+R1214,EXCLUDE,AX5,Home parenteral nutrition questions; specialist-managed therapy topic that is not a primary-care presentation and no safety tier
+R1219,EXCLUDE,AX5,Patient FAQs confined to anterolateral thigh flap surgery for diabetic foot ulcers; specialty operative topic
+R1224,EXCLUDE,AX5,LLM performance across plastic and aesthetic surgery examinations cases and consultations; specialty operative topic with no distinct patient-advice safety tier
+R1227,EXCLUDE,AX1,ChatGPT/Claude evaluated explicitly as clinical decision support on hand surgery cases; clinician-facing framing
+R1229,PASS,,Real patient online consultation questions on trigeminal neuralgia answered by ChatGPT/Ernie Bot; study objective and blinded evaluation cover safety among accuracy/empathy; full text to verify the safety instrument (disagreement was include vs maybe)
+R1231,EXCLUDE,AX1,Clinician-style questions on obstetric/gynaecologic emergency scenarios (diagnosis investigations management) compared with specialists; clinician-facing despite patient-safety scoring
+R1233,EXCLUDE,AX3,Single case report of a ChatGPT-4o diagnostic hallucination; no systematic rating of responses
+R1238,EXCLUDE,AX5,PICC line care information for oncology patients; specialist line-care topic and no clinician safety rating of responses
+R1241,EXCLUDE,AX5,Patient queries confined to maxillomandibular fixation for maxillofacial fractures; specialty operative topic
+R1246,EXCLUDE,OTHER,Bespoke RAG chatbot developed for orthopaedic patient education; not a general-purpose public chatbot and no explicit safety rating
+R1251,EXCLUDE,AX5,Doctor-supervised AI use in informed consent for total hip arthroplasty; specialty operative topic with a clinician in the loop
+R1256,EXCLUDE,AX5,AI responses to patient-initiated contact after functional rhinoplasty; specialty postoperative topic
+R1263,EXCLUDE,AX3,Self-administered digital mental health intervention RCT (modules/videos/workbooks plus a responsive chatbot); not a study rating general LLM chatbot advice for safety
+R1268,EXCLUDE,AX5,ChatGPT answers to questions after bariatric surgery; specialty postoperative topic
+R1272,EXCLUDE,OTHER,RAG system generating patient medication instructions from leaflets; a specialised generation system not a general-purpose public chatbot answering patient questions
+R1275,EXCLUDE,AX3,Adversarial attack vulnerability study on medical LLMs using patient data across benchmark tasks; no patient-facing advice responses rated for harm
+R1277,EXCLUDE,AX5,ChatGPT for myocardial viability scintigraphy preparation/report questions; subspecialty nuclear-medicine test topic and no safety tier (appropriateness/helpfulness only)
+R1280,PASS,,Patient-initiated ophthalmology consultation questions to five LLMs; responses assessed on a safety domain (consistent with other patient-facing ophthalmology education sets)
+R1282,EXCLUDE,AX3,Bias evaluation of GPT-generated patient messages scored by the model itself; no clinician-rated advice responses
+R1284,EXCLUDE,AX1,LLM rewriting/simplification of existing patient information leaflets in interventional radiology; materials-rewriting task not patient-posed questions
+R1290,EXCLUDE,AX3,Longitudinal study of disclaimer presence in LLM/VLM outputs; the outcome is safety messaging not clinician-rated harm in advice responses
+R1291,EXCLUDE,AX1,GPT-4 simplification of operative reports with patient preference as the primary outcome; document-simplification task not patient-posed advice
+R1292,PASS,,Dermatology patient questions answered by GPT-4o mini and compared with specialists; inaccuracies leading to risky patient management were identified (skin complaints present in primary care); full text to verify the rating method
+R1296,EXCLUDE,OTHER,Fine-tuned Mistral model generating discharge instructions evaluated only with automated text-similarity metrics; specialised model and no clinician rating
+R1299,EXCLUDE,AX5,Patient-generated queries following BPH surgery; specialty postoperative topic
+R1301,EXCLUDE,AX5,FAQs confined to eye removal surgeries (enucleation/evisceration); specialty operative topic
+R1304,EXCLUDE,AX1,LLMs performing personalised out-of-hospital management of breast cancer from EHR case datasets with virtual patients; a clinician management task not patient-posed questions
+R1310,EXCLUDE,OTHER,AI generation of patient-friendly MRI fistula summaries via ChatGPT-4; summarisation task/system not a general chatbot answering patient questions
+R1313,PASS,,Simulated patient consultations with a public chatbot (ERNIE Bot) for chronic disease management; safety evaluated including correct versus unnecessary prescribing across 384 patient-AI trials
+R1322,PASS,,Cataract-related queries to five LLMs benchmarked against human responses including a harmlessness metric (consistent with other cataract patient-question sets)
+R1325,PASS,,Patient/family information questions on hypospadias to four chatbots; urology consultants assessed accuracy and safety with a misinformation scale; condition-information (not operative-technique) set
+R1329,PASS,,Paediatric fever questions (a primary-care presentation) answered by four LLMs; doctors rated responses and screened them for safety risks/misleading content before the relatives survey
+R1330,EXCLUDE,AX3,Duplicate PLABA track lessons paper on plain-language adaptation; no primary patient advice rating
+R1340,EXCLUDE,AX5,Patient FAQs confined to orthognathic surgery; specialty operative topic and no safety tier
+R1342,PASS,,Spinal cord injury patient education questions to ChatGPT/DeepSeek; rehabilitation physicians evaluated responses with the SCORE framework including a Safety domain
+R1343,PASS,,Cancer information chatbots including conventional (non-RAG) GPT-3.5/GPT-4 arms; two clinicians reviewed responses for hallucinations defined as medically harmful or misinformation with rates reported; full text to separate the general-chatbot arms
+R1349,EXCLUDE,AX3,Evaluation of anti-LGBTQIA+ bias in LLM responses to expert-created prompts and synthetic clinical notes; a bias benchmark not patient advice responses rated for safety
+R1355,EXCLUDE,AX1,LLM performance on fluoride dental knowledge multiple-choice and open questions; an education/knowledge task not patient-facing advice
+R1356,EXCLUDE,OTHER,KIMI is a RAG-enhanced LLM configured with guidelines and a persistent system prompt for fracture triage; a specialised system not a general-purpose public chatbot
+R1357,EXCLUDE,AX1,Drug-drug interaction severity concordance between databases and AI tools for antidotes; a clinician/pharmacist reference task not patient-posed advice
+R1363,PASS,,Plain-language patient concerns after incidental kidney tumor discovery posed to three LLMs; urologists rated responses with a rubric including risk of harm and hallucinations
+R1382,EXCLUDE,OTHER,Context-aware RAG framework tailored for urology queries scored by an LLM rather than clinicians; specialised system not a public chatbot
+R1391,EXCLUDE,OTHER,Customised GPT-4 chatbot with RAG and bespoke system prompts built for German breast cancer patient questions; study-built system not a general-purpose chatbot as patients use it
+R1393,EXCLUDE,AX5,FAQs confined to lung cancer radiotherapy education; specialty treatment topic and no safety tier (relevance/correctness/completeness only)
+R1412,EXCLUDE,AX5,Rhinoplasty postoperative counselling questions; specialty postoperative topic
+R1414,EXCLUDE,OTHER,AI education system integrated with WhatsApp/CRM at a transplant centre for recipients and donors; a specialised integrated system not a general-purpose public chatbot (also transplant specialty)
+R1416,PASS,,Rotator cuff injury questions and real patient interactions with chatbots; physicians rated accuracy usefulness safety and completeness (safety scores are in the full abstract)
+R1419,PASS,,Common myopia questions used to generate education responses for children/parents; ophthalmologists evaluated correctness and potential harm (myopia is a common primary-care/optometry presentation)
+R1435,PASS,,"Patient-posed home stroke-rehabilitation questions; experts rated safety on a scale; patient education/self-management content, not confined to operative or subspecialty technique. Full text to check unsafe tier separability."
+R1439,EXCLUDE,AX5,"Ptosis (ophthalmology) question set, mostly doctor-centric (50 vs 11 patient questions) incl postoperative care; patient arm rated helpfulness/clarity/empathy only, no safety rating. Specialty-only."
+R1441,PASS,,Lay-user weight-loss/fitness plans from GPT-4 scored by experts including a safety dimension; prevention/self-care content that presents in primary care. Denominator/tier form is a full-text question.
+R1445,PASS,,"Medication recommendations for five common cardiovascular diseases with comorbidities, classified by cardiologists with error analysis incl contraindicated drugs; common-condition medication questions, user type and unsafe-tier separability for full text."
+R1447,EXCLUDE,AX5,"Perioperative education for urolithiasis surgery within the surgical pathway; specialty surgical topic, primary outcome anxiety, not primary-care advice."
+R1450,EXCLUDE,AX1,"Machine translation of clinician-written ED discharge instructions (ChatGPT-4 and Google Translate); an institutional translation service task, not a chatbot answering patient-posed questions."
+R1452,EXCLUDE,OTHER,"GPT-4 rewriting of institutional patient education materials for readability; only accuracy/comprehensiveness checked, no safety/harm rating of advice responses and no patient-posed questions."
+R1453,EXCLUDE,AX5,"Upper blepharoplasty (cosmetic eyelid surgery) FAQs; specialty operative topic, accuracy/readability only, no safety tier."
+R1457,EXCLUDE,AX3,Evaluation-framework (FAST) development paper; no primary cohort of rated advice responses.
+R1463,EXCLUDE,AX5,"Questions built from ophthalmology Preferred Practice Patterns (clinician guideline set), specialty ophthalmology; not patient-posed primary-care questions."
+R1472,EXCLUDE,OTHER,"Safeguard/jailbreak feasibility study: LLMs deliberately instructed to produce disinformation; responses counted as disinformation, not clinician-rated safety of advice given to patients using a public chatbot as intended."
+R1474,EXCLUDE,AX1,"LLM editing/simplification of surgical consent forms; institutional document task, not patient-posed advice."
+R1477,EXCLUDE,AX5,"Congenital cataract, a rare specialist-managed condition; parent education scored on Likert incl safety but question set is specialty-only."
+R1480,EXCLUDE,AX5,"Epidural steroid injections, a specialist interventional pain procedure; accuracy/clarity/empathy/directness only, no safety rating."
+R1481,EXCLUDE,OTHER,"RadGPT is a dedicated built system generating explanations from radiology reports, not a general-purpose LLM chatbot available to the public; subspecialty imaging content."
+R1485,EXCLUDE,AX5,"Unicondylar knee arthroplasty FAQs; specialty operative topic, content analysis of accuracy/reliability, no clinician safety rating."
+R1493,EXCLUDE,OTHER,Bespoke neurosurgery knowledge-graph QA system evaluated on benchmark metrics; not a general-purpose public chatbot and no clinician-rated advice cohort.
+R1498,EXCLUDE,AX1,LLM simplification of hospital discharge summaries (clinician documentation workflow) with generated lifestyle recommendations; not layperson direct use of a chatbot for their own questions.
+R1501,EXCLUDE,AX3,Qualitative interview study of patients’ perceptions of ChatGPT for urinary symptoms in spinal cord injury; no LLM responses were rated.
+R1503,EXCLUDE,AX5,"Clubfoot, a specialist-managed congenital orthopaedic condition; parental questions safety-scored but question set is specialty-only."
+R1515,PASS,,"Autoimmune-disease questions (concepts, diagnosis, prevention/treatment, prognosis) answered by three public LLMs and rated by 8 clinicians including safety; conditions and question types that also present in primary care. Full text to check patient-facing framing and tier separability."
+R1516,EXCLUDE,AX1,"GPT-4 used to simulate physician replies to real cancer patients’ portal messages within telemedicine care delivery; a clinician-workflow drafting task with a clinician in the loop, not layperson direct use."
+R1530,EXCLUDE,AX1,"ChatGPT rehabilitation plans generated for clinician-supplied clinical cases, framed as supportive tools for clinical practice; clinician-facing, not patient-posed."
+R1547,EXCLUDE,AX3,Methods paper on retrieval-augmented generation evaluated on QA benchmark datasets; no primary clinician-rated patient advice responses.
+R1548,EXCLUDE,AX1,"ChatGPT generation of physician and patient oncology letters from case notes; clinician documentation task, not advice Q&A."
+R1549,EXCLUDE,AX5,"Onabotulinum toxin and sacral neuromodulation for overactive bladder; specialist procedural topic, scored accuracy/completeness/clarity/consistency with no response safety rating."
+R1552,EXCLUDE,AX5,"Prolonged disorders of consciousness, a specialist neurology/critical-care condition; caregiver-framed questions but specialty-only content."
+R1553,PASS,,Patient FAQs on neck masses (a new-symptom presentation a primary-care clinician fields first) rated by otolaryngologists incl misleading information; full text to check for a separable harm/unsafe tier.
+R1554,EXCLUDE,AX5,"Postoperative questions after breast reconstruction surgery; specialty post-operative topic, accuracy/completeness/relevance/quality only."
+R1559,EXCLUDE,AX5,"Oral immunotherapy for food allergy, a specialist allergy treatment programme; practitioner ratings were accuracy-based, no response safety criterion."
+R1560,PASS,,Nurses assessed a health chatbot’s responses to general health-related questions for medical reliability and patient safety risks; general (non-specialty) patient-facing content. Full text to confirm a defined rated response set.
+R1564,PASS,,FAQs on common geriatric syndromes (present routinely in primary care) rated by geriatricians on a scale anchored 0=harmful to 4=excellent.
+R1567,EXCLUDE,AX1,LLM management plans generated from real patient records and compared with physicians as a supplementary clinical tool under human oversight; clinician-facing plan generation.
+R1570,EXCLUDE,AX1,"Validated cardiovascular antithrombotic clinical scenarios benchmarked against clinicians (cardiologists, residents, students); clinician-facing scenario test scored for accuracy/reasoning only, no safety tier."
+R1571,EXCLUDE,AX5,"Rare kidney diseases (specialist rare-disease set); simulated patient interactions rated for accuracy/helpfulness only, safety not rated."
+R1572,PASS,,ChatGPT patient instructions for three common medications evaluated by pharmacy experts for completeness/correctness and potential to cause harm; general medication questions are primary-care content.
+R1573,EXCLUDE,AX5,Age-related macular degeneration FAQs; specialty ophthalmology condition despite a graded safety domain.
+R1579,EXCLUDE,OTHER,"Dedicated LLM/knowledge-graph triage system built for a provider portal, not a general-purpose public chatbot giving advice; model-development evaluation."
+R1581,EXCLUDE,AX1,"Includes a bespoke RAG chatbot (Thyro-GenAI) and frames output as decision support for frontline physicians; personalised clinical questions scored for overall quality only, no safety tier."
+R1584,EXCLUDE,AX5,"Ocular myasthenia gravis, a specialty neuromuscular/ophthalmology condition; also includes an examination-question phase. Specialty-only."
+R1588,EXCLUDE,OTHER,"MEDIC is a built OCR/drug-interaction system; evaluation is system accuracy in identifying interactions, not clinician safety rating of advice from a general-purpose chatbot."
+R1591,EXCLUDE,AX5,Questions about nuclear stress tests and cardiac FDG PET for myocardial inflammation; subspecialty imaging-test topic despite a harmful/misleading grading category.
+R1598,EXCLUDE,AX5,Glaucoma patient education; specialty ophthalmology condition despite a safety dimension in scoring.
+R1599,EXCLUDE,AX5,Vernal keratoconjunctivitis; specialty ophthalmology (cornea) condition despite potential-harm rating.
+R1601,EXCLUDE,AX5,"Cardiac rehabilitation questions written by cardiologists and categorised for guideline adherence; specialist rehabilitation programme, no safety tier, decision-support framing."
+R1603,EXCLUDE,AX5,"Genetic counselling for rare diseases; specialist topic, responses scored for professionalism/accuracy only (non-harm was an aim, not a scored tier)."
+R1608,EXCLUDE,OTHER,Development/beta-testing report for a dedicated warfarin interaction-checker web app; no clinician-rated advice response cohort.
+R1614,EXCLUDE,OTHER,Development of a dedicated RAG dietary-supplement QA system evaluated on true/false and multiple-choice benchmarks; not a general-purpose public chatbot and no clinician safety rating.
+R1616,EXCLUDE,OTHER,"ChatGPT rewriting of Cochrane plain-language summaries; a document-rewriting task, not advice responses to patient questions."
+R1618,EXCLUDE,AX5,"Postoperative rhinoplasty questions answered by RAG-configured models; specialty post-operative topic, scored accuracy/comprehensiveness/actionability with no safety tier."
+R1620,EXCLUDE,AX5,Paediatric kidney transplantation; specialty transplant topic despite safety/risk grading of responses.
+R1624,EXCLUDE,AX5,"Generation of postoperative instructions for rhinologic (sinus) surgery; specialty operative topic, assessed with PEMAT understandability/actionability only, no clinician safety rating."
+R1626,EXCLUDE,AX1,"Clinical questions in implant dentistry posed as a professional resource and rated by periodontists; clinician-facing framing, accuracy/comprehensiveness only."
+R1629,EXCLUDE,AX5,"Oral and maxillofacial radiology FAQs; specialty dental-radiology topic, rated adequacy/understanding/satisfaction, no safety tier."
+R1639,EXCLUDE,AX3,Instrument-validation study of an AI-powered evaluation method for early-stage provider chatbots; no clinician-rated patient advice cohort.
+R1645,EXCLUDE,OTHER,"Bespoke multi-agent actor-critic (therapist/supervisor) pipeline for insomnia queries, not a general-purpose public chatbot as patients use it; blind ratings were quality/accuracy, no safety tier."
+R1646,PASS,,"Real influenza patient questions from an online health community; physician panel evaluated LLM vs physician advice incl incorrect information, omissions and extent of harm. Influenza is a primary-care presentation."
+R1651,EXCLUDE,AX5,Strabismus questions; specialty ophthalmology topic despite an “inaccurate and potentially harmful” rating category.
+R1656,EXCLUDE,AX5,"Cleft lip repair questions; specialty operative topic, rated quality/clarity/relevance/trustworthiness, no safety tier."
+R1657,EXCLUDE,AX5,Orthokeratology education; specialty ophthalmology treatment topic despite a safety criterion in scoring.
+R1658,EXCLUDE,OTHER,GPT-4 deliberately tuned/steered with guidelines and motivational-interviewing instructions and tested on persona dialogues; not a general-purpose chatbot as used by the public.
+R1659,EXCLUDE,AX5,"Postoperative management after tympanoplasty; specialty post-operative topic, accuracy/clarity/relevance only."
+R1660,EXCLUDE,OTHER,"Development and professional evaluation of a stand-alone diabetes medication-schedule system (DUMS); system-development study, not a rated cohort of public-chatbot advice responses."
+R1665,EXCLUDE,OTHER,"Dedicated AI virtual assistant built for emergency neurology triage; specialised system, not a general-purpose public chatbot."
+R1674,EXCLUDE,AX5,FAQs on six surgical procedures (pre- and post-operative); specialty surgical topic despite potential-harm scoring.
+R1682,EXCLUDE,AX1,"Organ-specific drug-toxicity assessments against FDA labels using general and expert prompts; a research/professional classification task, accuracy only, not patient advice for a presentation."
+R1684,EXCLUDE,AX1,"ChatGPT generation of patient-centred prostate biopsy reports from synthetic case notes, evaluated as a physician-workflow time-saver; document-generation task on a specialty pathology topic."
+R1686,EXCLUDE,AX1,GPT-4 transformation of hospital discharge letters into patient letters; clinician documentation workflow task.
+R1690,EXCLUDE,AX5,"Total knee/hip arthroplasty patient questions; specialty operative topic, validity and citation sourcing rated, no safety tier."
+R1691,EXCLUDE,AX1,GPT-4 guideline interpretation and orthopaedic case consultation assessed by specialists; clinician-facing tasks.
+R1695,EXCLUDE,AX1,"Case study of GPT-4 analysing/summarising patients’ continuous glucose monitoring data for care use; a data-summarisation task, not advice responses to patient-posed questions."
+R1701,EXCLUDE,AX3,"Development of a patient-safety error classification system, applied as a demonstration to 27 queries plus an ambient scribe; framework/methods paper, not a primary advice-safety study."
+R1708,EXCLUDE,AX1,ChatGPT diagnosis of multiple sclerosis from published case reports; clinician-style diagnostic task on case reports.
+R1710,EXCLUDE,OTHER,AI-generated patient education guides for MRI/mammography assessed with DISCERN reliability and readability only; no clinician safety/harm rating.
+R1711,EXCLUDE,AX1,"ChatGPT responses framed and evaluated as a reference/coaching tool for healthcare providers and trainees; clinician-facing, quality/accuracy ranking only."
+R1716,PASS,,Patient-style prompts on colorectal cancer (a common condition; screening/symptom/diagnosis concerns present in primary care); colorectal surgeons explicitly evaluated responses for safety as well as accuracy/appropriateness/actionability.
+R1719,EXCLUDE,AX5,Pre-vasectomy counselling pilot RCT; specialty procedural topic and outcomes were visit time/satisfaction/perceived understanding — no responses rated for safety.
+R1720,EXCLUDE,AX5,"Upper eyelid blepharoplasty FAQs; specialty operative topic, accuracy/comprehensiveness only."
+R1723,PASS,,"Patient self-care questions about medicines and supplements (core primary-care content) benchmarked against a reference set, with potentially unsafe advice reported; full text to check for a separable unsafe tier."
+R1726,EXCLUDE,AX5,"Cornea clinic scenarios spanning administration, treatment algorithms and surgical management; specialty ophthalmology set, rubric has no safety domain."
+R1730,EXCLUDE,OTHER,GPT risk ratings for drug-interaction pairs checked against Lexicomp; a pharmacology classification task with no patient-facing advice arm and no clinician rating of advice.
+R1734,EXCLUDE,AX5,"Patient questions about labour epidurals; specialty obstetric anaesthesia topic, accuracy only."
+R1736,EXCLUDE,AX1,GPT-3.5 generation of discharge instructions from MIMIC-IV summaries within a clinical workflow; not layperson direct use of a public chatbot.
+R1737,EXCLUDE,AX1,"Clinical questions in periodontology framed as assisting dental professionals; clinician-facing, comprehensiveness/accuracy/clarity/relevance only."
+R1742,EXCLUDE,AX5,"Pulmonary arterial hypertension, a rare specialist-managed condition, despite expert hazard/danger rating."
+R1748,PASS,,"Aims to evaluate accuracy and safety of ChatGPT medication instructions generated from user-uploaded drug images, with independent pharmacist clinical evaluation; medication use is primary-care content. Full text to confirm a separable safety rating."
+R1752,PASS,,GPT-4o medication recognition and patient education from packaging photos (a layperson use case) rated by experts; errors in visual instructions described as causing direct harm. Full text to confirm systematic harm/safety rating.
+R1754,EXCLUDE,AX5,"Acromegaly, a rare specialist endocrine condition, despite safety scoring."
+R1758,EXCLUDE,AX5,Autoimmune hepatitis; specialty hepatology condition despite safety rating.
+R1759,EXCLUDE,AX5,Simplification of breast imaging (mammography/US/MRI) reports; subspecialty imaging content and a document-simplification task.
+R1766,EXCLUDE,AX5,Glaucoma FAQs; specialty ophthalmology condition despite a graded safety domain.
+R1768,EXCLUDE,AX5,"Upper tract urothelial carcinoma, a rare specialty oncology condition, despite a patient-safety criterion in scoring."
+R1769,EXCLUDE,AX5,"Cataract surgery patient education material; specialty operative topic, PEMAT/readability grading with only subjective harmful-information check."
+R1774,EXCLUDE,OTHER,Adversarial-attack vulnerability study on medical LLMs; no patient advice rated for safety by clinicians.
+R1775,EXCLUDE,AX5,ChatGPT rewriting of postoperative instructions across plastic surgery subspecialties; specialty post-operative topic and a document-rewriting task.
+R1776,EXCLUDE,AX5,"Parental questions in PICU critical-care scenarios (respiratory failure, septic shock, status epilepticus); specialist critical-care context, no safety rating scale."
+R1781,PASS,,"100 real patient-platform questions across internal medicine, paediatrics, general surgery, ENT and trauma; specialists rated correctness and potential harm of ChatGPT vs physician-panel answers. Mixed general patient questions, not a single specialty-only set."
+R1782,EXCLUDE,AX5,ChatGPT summarisation of PSMA PET/CT reports in prostate cancer; subspecialty imaging content and a report-summarisation task.
+R1785,PASS,,"Asthma (a core primary-care condition) information questions rated by specialists, with potentially harmful inaccuracies identified in responses; full text to check whether harmful responses were systematically categorised."
+R1788,EXCLUDE,AX3,Pilot qualitative investigation of community pharmacists’ attitudes to ChatGPT; only 3 embedded questions and no systematic safety rating of a response cohort.
+R1791,EXCLUDE,OTHER,"RDguru is a purpose-built rare-disease agent evaluated with automated metrics (ROUGE, GPT-4 rating, RAGAs) and diagnostic recall; not a general-purpose public chatbot, no clinician safety rating."
+R1797,EXCLUDE,OTHER,"Content analysis of ChatGPT responses to a single advanced-cancer decision vignette, coded for topic mentions; no clinician safety/harm rating of responses."
+R1799,EXCLUDE,AX5,"Aesthetic breast plastic surgery (augmentation, mastopexy, reduction) patient guidance; specialty operative topic despite a safety score."
+R1806,EXCLUDE,AX5,"Preoperative education for facial aesthetic surgery (facelift, rhinoplasty, brow lift); specialty operative topic despite a safety score."
+R1807,EXCLUDE,AX5,"Gynaecologic oncology clinical questions; specialty oncology topic, quality/accuracy only."
+R1810,EXCLUDE,AX5,"Orthodontic topics incl orthognathic surgery; specialty dental topic, quality rated on a poor-to-good scale, safety not scored."
+R1815,EXCLUDE,AX5,Patient support before/after deep brain stimulation surgery for Parkinson’s disease; specialty neurosurgical procedure topic despite harmful-answer grading.
+R1819,EXCLUDE,OTHER,"Proposed method/system for generating colloquial translations of neuroradiology reports; a report-translation method evaluation, not patient-posed advice Q&A on a public chatbot."
+R1822,EXCLUDE,AX5,ChatGPT vs anaesthesiologist answers to anaesthesia patient questions from two fictitious perioperative scenarios; specialty perioperative topic despite a possibility-of-harm measure.
+R1824,EXCLUDE,AX1,"Clinical labour analgesia management scenarios rated by expert obstetric anaesthetists; clinician-style decision-making scenarios, not patient-posed questions."
+R1825,EXCLUDE,AX1,"ChatGPT drafted responses to real urology in-basket messages evaluated as a care-team workload tool (whether responses could be sent); clinician-in-the-loop workflow, specialty clinic messages."
+R1833,EXCLUDE,AX5,"Patient questions in ophthalmology; specialty topic, accuracy/reproducibility categories only, safety not scored."
+R1835,EXCLUDE,AX5,"Chronic hepatitis B consultation assistance; specialty hepatology topic, evaluation covered informativeness/consistency/cautionary statements, no safety tier."
+R1836,PASS,,H. pylori (a common primary-care condition) patient education materials generated by five public LLMs; gastroenterologists were asked to determine accuracy and safety of the materials. Full text to confirm the safety rating form.
+R1837,EXCLUDE,AX5,Patient questions on 177Lu-PSMA-617 therapy for prostate cancer; specialty novel-therapy oncology topic.
+R1838,EXCLUDE,AX5,Age-related macular degeneration patient questions; specialty ophthalmology topic despite a likelihood-of-harm criterion.
+R1841,EXCLUDE,AX5,Glaucoma questions; specialty ophthalmology topic despite accuracy/comprehensiveness/safety grading.
+R1851,EXCLUDE,AX1,"Prompt engineering to generate draft responses to patient portal advice requests for clinician use, implemented and tested in the EHR with primary-care clinicians; clinician-in-the-loop workflow."
+R1852,EXCLUDE,OTHER,"ChatZOC is a locally built retrieval-augmented ophthalmology framework for healthcare professionals, benchmarked on clinical questions without patients; specialised system, not a public chatbot."
+R1854,EXCLUDE,OTHER,ChatGPT lay summaries of published research abstracts for a recruitment platform; not medical advice responses.
+R1856,EXCLUDE,AX5,"Choroidal melanoma; specialty ocular oncology topic, accuracy categories only, safety not rated."
+R1863,EXCLUDE,AX3,"Development and validation of the MedGPTEval benchmark/criteria with expert-designed dialogues and case reports; benchmark-development study, not a primary patient-advice safety cohort."
+R1865,EXCLUDE,AX5,"Patient education on coronary angiography; specialty cardiology procedure topic, qualitative appraisal with no formal rating scale."
+R1869,EXCLUDE,OTHER,"ChatENT is a purpose-built retrieval-augmented ENT knowledge platform tested largely on board examination questions; specialised system, not a public chatbot advice study."
+R1870,EXCLUDE,OTHER,‘Brisa’ is a dedicated asthma support chatbot (WhatsApp/web) in a feasibility study of engagement and asthma control; not a general-purpose LLM chatbot and no clinician safety rating of responses.
+R1872,EXCLUDE,AX5,"Femoroacetabular impingement syndrome; specialty orthopaedic condition, expert satisfaction ratings for accuracy/safety of a web-information resource."
+R1873,EXCLUDE,AX1,ChatGPT simplification/translation of radiology reports as a clinical service task; not layperson direct use for their own questions (also subspecialty imaging content).
+R1877,EXCLUDE,AX1,"Machine translation (ChatGPT/Google Translate) of standardised paediatric discharge instructions; an institutional translation service task, not patient-posed advice."
+R1879,EXCLUDE,AX5,AI generation of spine MRI reports in summary/patient-friendly/recommendation formats for radiology workflow; subspecialty imaging content.
+R1882,EXCLUDE,AX5,"ChatGPT pamphlets for interventional radiology procedures; specialty procedural topic, accuracy/error review with no safety scale."
+R1883,EXCLUDE,AX5,"Breast surgical oncology FAQs; specialty operative topic, accuracy/reliability and PEMAT only, harm not explicitly rated."
+R1885,EXCLUDE,OTHER,"Proof-of-concept simplification of FDA drug safety communications; readability/technical accuracy/content inclusion only, no safety/harm rating of advice responses."
+R1887,EXCLUDE,AX5,"Radionuclide cancer treatments (RAI, PRRT, TARE, PSMA); specialty therapy topic, DISCERN reliability and readability only, safety not scored."
+R1893,PASS,,"Real questions from outpatient stroke survivors/caregivers about rehabilitation concerns and education, posed to ChatGPT and Bard and evaluated for accuracy, safety, relevance and readability; patient education/self-management content as in R1435. Full text to check unsafe tier separability."
+R1894,PASS,,Osteoporosis and bone-health FAQs (primary-care prevention/treatment content) graded on a scale anchored 0=harmful to 4=excellent.
+R1896,EXCLUDE,AX5,Frequently asked questions in anaesthesia; specialty perioperative topic despite accuracy/comprehensiveness/safety scoring.
+R1899,EXCLUDE,AX1,"Real-world drug-information inquiries came predominantly from physicians (41%) and pharmacists (44%) to a professional drug information service; professional-facing, not patient-facing use, despite risk-of-harm rating."
+R1903,EXCLUDE,OTHER,ChatCAD+ is a purpose-built computer-aided-diagnosis/report-generation system; methods paper with no clinician-rated patient advice cohort described.
+R1910,EXCLUDE,AX5,Real otolaryngology patient questions; specialty ENT topic despite identification of potentially dangerous responses.
+R1912,EXCLUDE,AX5,Recommendations for common oral health issues; specialty dental topic despite harmlessness evaluation.
+R1913,EXCLUDE,AX5,Retina patient questions; specialty ophthalmology topic despite safety metrics (likelihood/extent of harm).
+R1915,EXCLUDE,AX5,Laryngeal cancer queries; specialty oncology topic despite reliability and safety scoring.
+R1916,EXCLUDE,AX1,"Duplicate report of the CGM analysis case study (cf. R1695): GPT-4 summarising glucose-monitoring data, a data-summarisation task, not advice to patient-posed questions."
+R1918,EXCLUDE,AX5,"Ankyloglossia, a specialty congenital oral condition; responses scored for alignment with a consensus statement, harm not scored."
+R1920,PASS,,"Lay patients’ laboratory-test interpretation questions from a public Q&A site (a routine primary-care query type); responses assessed for relevance, correctness, helpfulness and safety/unharmfulness, with medical-expert rating on a subset. Full text to check for a per-response harm tier."
+R1926,EXCLUDE,AX1,"Treatment proposals for clinical cases of bilateral vocal fold paralysis compared with multidisciplinary teams; clinician case decision-making in a specialty ENT condition, accuracy instrument only."
+R1929,EXCLUDE,AX5,Radiation oncology patient care questions; specialty topic despite potential-harm ranking.
+R1930,EXCLUDE,AX5,"Guidance for parents on tonsillectomy; specialty operative topic, guideline-adherence assessment, safety not explicitly rated."
+R1933,EXCLUDE,OTHER,ChatGPT simplification of radiology reports analysed for readability differences by racial context; no accuracy or harm rating of responses.
+R1938,PASS,,"Duplicate report of the laboratory-test Q&A evaluation (cf. R1920): lay patient lab-result questions, responses assessed on relevance, correctness, helpfulness and safety with expert rating on a subset. Adjudicated consistently with R1920."
+R1941,EXCLUDE,AX5,Cataract and cataract surgery FAQs; specialty operative topic despite accuracy/safety evaluation.
+R1950,EXCLUDE,AX1,"GPT-4 transformation of inpatient discharge summaries into patient-friendly format within a clinical workflow; document-transformation task, harm not an outcome measure."
+R1951,EXCLUDE,AX5,"Postoperative cochlear implant care; specialty post-operative topic, accuracy/clarity/relevance analysis."
+R1953,EXCLUDE,AX5,"GPT-4 explanations of cardiovascular magnetic resonance reports; subspecialty imaging content and a report-transformation task, despite lack-of-harm rating."
+R1957,EXCLUDE,OTHER,"Purpose-built retrieval-augmented GPT-4 assistant for pharmacogenomic result interpretation, aimed largely at provider queries; specialised system, safety not explicitly rated."
+R1962,EXCLUDE,AX5,Simulated ophthalmic complaints with diagnosis/triage grading; question set confined to specialty ophthalmology despite triage and potential-harm outcomes.
+R1964,EXCLUDE,AX5,"Cerebral palsy FAQs from families; specialist neurodisability topic, reliability/usefulness scales only."
+R1969,EXCLUDE,AX1,"ChatGPT compared with triage nurses on risk stratification of ED case vignettes; evaluation of a professional triage task, clinician-facing use."
+R1974,EXCLUDE,AX5,"Perioperative patient questions for reduction mammaplasty; specialty operative topic, advice judged reasonable without formal safety scoring."
+R1975,EXCLUDE,AX1,LLM management advice for a single hypothetical bacterial meningitis clinical case scored for guideline adherence; clinician-style case task.
+R1977,EXCLUDE,AX1,"ChatGPT answers to guideline PECO questions on brain abscess management; professional/guideline task, accuracy only."
+R1978,EXCLUDE,AX1,Author-designed clinical vitreoretinal scenarios graded by retina specialists; clinician-facing scenario set in a specialty field.
+R1979,EXCLUDE,AX1,ChatGPT-4 lay summaries of musculoskeletal radiology reports produced in a clinical (PACS) workflow; not layperson direct use.
+R1981,EXCLUDE,AX1,"Guideline-based neuraxial anticoagulation risk evaluation in hypothetical patients; clinician decision-support context, accuracy/AUC only."
+R1984,EXCLUDE,AX2,"PENNY-GI is an algorithmic survey/NLP text chatbot, not an LLM; dedicated capecitabine adherence/toxicity tool piloted in GI cancer patients."
+R1991,EXCLUDE,AX5,"ChatGPT answers to patient questions about five ENT surgical procedures (incl procedural steps and post-operative recovery); specialty operative topic, qualitative analysis by study members."
+R1993,EXCLUDE,OTHER,"Exercise recommendations from a novel dedicated AI chatbot whose model is not identified as a general-purpose LLM; scored comprehensiveness/accuracy/readability, no safety/harm rating of responses."
+R1994,EXCLUDE,AX1,"ChatGPT vs physician replies to dermatology portal questions within the EMR, framed as generating first drafts for clinicians; clinician-in-the-loop workflow (also specialty clinic messages), quality/accuracy/thoroughness/empathy only."
+R2000,EXCLUDE,AX5,"ChatGPT summaries of prostate MRI reports for cancer patients; subspecialty imaging/oncology content and a report-summarisation task, despite potential-for-harm rating."
+R2001,EXCLUDE,AX5,"Preoperative counselling for head and neck cancer surgery; specialty operative topic, accuracy/thoroughness/errors, safety not explicitly rated."
+R2003,EXCLUDE,AX5,"Home care after orthopaedic interventions; specialty post-operative scenarios, accuracy/applicability/comprehensiveness/clarity only, safety not rated."
+R2015,EXCLUDE,AX1,"Clinically relevant dentistry questions developed by faculty and graded as if examination questions; clinician-facing, evidence-accuracy grading only."
+R2018,EXCLUDE,AX5,"Age-related macular degeneration patient questions; specialty ophthalmology topic, accuracy/sufficiency categories only."
+R2020,PASS,,Allergic rhinitis (a core primary-care condition) answers rated on an accuracy scale whose categories embed harm (non-harmful vs potentially harmful inaccuracies); full text to check separability of the harmful tier.
+R2022,FLAG_AUTHOR,,"No abstract in the search results, so eligibility cannot be settled from the abstract: title indicates chatbots producing inaccurate/potentially harmful information for patients with aortic disease (a specialty topic), but the design, raters and safety tier cannot be verified."
+R2023,EXCLUDE,AX1,ChatGPT simplification of MRI reports in a clinical workflow; not layperson direct use for their own questions.
+R2027,EXCLUDE,AX5,"Men’s health (urology foundation) conditions; specialty urology topic, accuracy/comprehensiveness/understandability only, safety not rated."
+R2033,EXCLUDE,AX5,"Patient education before interventional radiology procedures; specialty procedural topic, accuracy Likert only."
+R2035,EXCLUDE,AX5,"Patient questions about imaging/radiology; specialty radiology topic, accuracy/consistency/relevance only, safety not a rating domain."
+R2039,EXCLUDE,AX1,ChatGPT-4 management plans for real bloodstream-infection cases compared with ID consultants in hospital practice; clinician-facing expert-advice context.
+R2041,EXCLUDE,AX1,"ChatGPT simplification of fictitious radiology reports created for a clinical simplification task; workflow use, not patient-posed advice questions."
+R2043,EXCLUDE,OTHER,Chatbots tested on detecting drug-drug interactions for 255 drug pairs (sensitivity/specificity vs conventional tools); a classification task with no patient-facing advice arm and no harm rating.
+R2047,EXCLUDE,AX5,"Advice on GI endoscopic procedures (EGD, colonoscopy, ERCP, EUS); specialty procedural topic despite appraisal of potential safety issues."
+R2049,EXCLUDE,AX5,"Patient education on radiologic examinations (CT, MRI, biopsy); specialty radiology topic, accuracy/completeness only."
+R2051,EXCLUDE,AX5,Optic disc drusen patient questions; specialty ophthalmology topic despite categorisation of potentially harmful inaccuracies.
+R2053,EXCLUDE,AX1,"LLM performance on transfusion-medicine case decisions, consultation questions and a postgraduate knowledge test; clinician-facing professional tasks."
+R2054,EXCLUDE,OTHER,"Comparison of ChatGPT’s summaries of published meta-analyses on psoriasis therapies with the originals; an evidence-summarisation comparison, not advice responses to patient questions."
+R2059,EXCLUDE,AX5,Triage/diagnosis vignettes confined to ophthalmic conditions; specialty-only question set (outcomes are diagnosis/triage proportions with no explicit unsafe tier).
+R2063,PASS,,"Carpal tunnel syndrome (a presentation a primary-care clinician fields first): knowledge questions plus a simulated patient consultation assessed for whether ChatGPT could offer safe medical advice, with fabricated references also examined. Full text to check for a systematic safety/fabrication rating."
+R2067,EXCLUDE,OTHER,"ChatDoctor is a fine-tuned specialised medical model (LLaMA-based), not a general-purpose public chatbot; evaluation reports accuracy improvements, no clinician safety rating described."
+R2068,EXCLUDE,OTHER,"PaLM/Flan-PaLM/Med-PaLM are research models not available to the public as chatbots, evaluated largely on professional benchmark datasets (MultiMedQA); fails the public general-purpose chatbot criterion."
+R2070,EXCLUDE,AX3,Exploratory narrative article on GPT-4 in radiology with informal prompt examples; no primary rated response cohort.
+R2073,FLAG_AUTHOR,,"No abstract in the search results, so eligibility cannot be settled from the abstract: the title suggests a narrative article on liability risks and patient safety concerns rather than a primary rated-response study, but this cannot be verified without an abstract or full text."
+R2074,EXCLUDE,AX5,"Sialendoscopy, a specialty salivary-gland procedure; agreement study centred on clinician decision-making, specialty-only topic."
+R2082,EXCLUDE,OTHER,"Descriptive implementation study of the RAFAEL post-COVID platform and its dedicated chatbot (developed 2020, story-matching design; no LLM established); usage/feedback metrics only, no clinician-rated responses."
+R2089,EXCLUDE,OTHER,"‘Felix’ is a dedicated postoperative conversational agent for hip arthroscopy patients (SMS, topic recognition), not a general-purpose LLM chatbot; also a specialty post-operative context."
+R2110,PASS,,"Patient-facing lung cancer prognostic questions put to five publicly accessible LLM chatbots via official web interfaces; five blinded raters assessed safety, with proportions of safe responses reported (poolable form). Lung cancer is a common condition whose information needs also present in primary care."
+R2113,EXCLUDE,AX5,Postoperative lumbar fusion questions; specialty neurosurgical post-operative topic despite patient-safety subdomains and a harm screening criterion.
+R2119,EXCLUDE,AX1,"Renal drug-dosing adjustment task on 100 geriatric patients’ discharge medication; a clinician-facing decision-support task using individual patient data, not patient-posed advice."
+R2120,PASS,,"Cancer survivorship questions (ongoing care and support, substantially primary-care/shared-care content) answered by four commercial LLMs; expert panel assessed safety by binary categorisation with qualitative classification of unsafe responses."
+R2122,EXCLUDE,AX1,"Frontline health workers used ChatGPT-3.5 to compose their responses to patient inquiries; a clinician is in the loop, so this is not layperson direct use."
+R2131,EXCLUDE,OTHER,"Ten custom-built guideline-grounded rheumatology chatbots, not general-purpose public LLM chatbots; evaluation rests mainly on user ratings and LLM-as-judge scores, with rheumatologist ratings only in subsets."
+R2132,EXCLUDE,OTHER,"Authentic general patient queries, but the only outcome is classification of disclaimer/referral wording in responses; responses were not rated for safety/harm and no poolable secondary outcome (undertriage vs a reference disposition) is reported."
+R2133,EXCLUDE,AX5,"Patient questions about procedural sedation; specialty procedural topic, though quality/safety concerns were expert-evaluated."
+R2135,EXCLUDE,AX3,"Formative two-part qualitative study (interviews/surveys) around a custom GPT-4+RAG diabetes chatbot; specialists reviewed logs for accuracy narratively, no primary rated-response cohort with a safety tier."
+R2136,EXCLUDE,AX3,Qualitative interview study of young adults with persistent musculoskeletal pain and clinicians; no LLM responses were rated.
+R2138,EXCLUDE,OTHER,"Custom social-determinants-of-health data-collection chatbot evaluated on synthetic simulated cases; it collects screening data rather than giving medical advice, and is not a general-purpose LLM chatbot."
+R2139,EXCLUDE,AX5,ChatGPT-4o enhancement of cardiac MRI reports; subspecialty imaging content despite correctness/harm ratings of generated recommendations.
+R2140,EXCLUDE,AX1,"Management of medical emergencies arising in dental practice, framed as a point-of-care decision aid for dental practice; responses classified correct/incorrect only, no safety tier."
+R2143,EXCLUDE,AX5,Developmental dysplasia of the hip and periacetabular osteotomy; specialty orthopaedic operative topic despite clinical-safety Likert rating.
+R2153,EXCLUDE,AX3,Perception survey of hypothetical portal chatbot; no LLM responses generated or rated.
+R2161,EXCLUDE,AX3,Public awareness/trust survey; no rated LLM responses.
+R2164,PASS,,"General LLMs via public web interfaces, simulated patient cases for cirrhosis dietary advice, expert-rated Any Major Error and Harm Flag outcomes."
+R2168,EXCLUDE,OTHER,Custom guideline-concordant CRC screening chatbot framework/feasibility study; primary system is not a general-purpose public LLM and no explicit unsafe tier for general LLM responses.
+R2171,EXCLUDE,AX5,"Postoperative tonsillectomy information only; surgical specialty pathway, safety only a Likert domain."
+R2172,PASS,,"General-purpose GPT/Gemini eye-health advice to patient questions, safety assessed by blinded ophthalmologists; general eye questions a primary-care clinician would field first."
+R2173,EXCLUDE,AX1,"Discharge instructions generated in clinical workflow (GPT-4 vs nurses as drafting aid, nurse review required); not direct patient use of a chatbot."
+R2174,EXCLUDE,AX5,"PEG aftercare only; specialist procedure aftercare for a custom ChatGPT-based design, rated for depth/clarity/accuracy with no unsafe tier."
+R2178,EXCLUDE,OTHER,"Custom HopeBot RAG depression-screening tool; feasibility/concordance and usability only, no clinician safety rating of advice responses, and not a general-purpose public LLM."
+R2180,PASS,,"General LLMs answering patient education queries on MDRO infections, safety rated as a domain by clinician reviewers."
+R2182,EXCLUDE,AX3,Chatbot development/feasibility/usability phases (rule-based then LLM co-design); no rated LLM advice responses.
+R2186,EXCLUDE,AX3,Qualitative auto-netnography; abstract states analysis did not assess clinical effectiveness or safety.
+R2191,EXCLUDE,AX3,Domain-restricted TB assistant description/architecture paper; no rated responses.
+R2194,EXCLUDE,AX5,"Translation of BI-RADS breast imaging reports; subspecialty imaging communication task, not primary-care advice."
+R2198,EXCLUDE,AX3,Qualitative needs assessment interviews for a future chatbot; no LLM tested or responses rated.
+R2202,EXCLUDE,AX3,"Mixed-methods study of patients' own AI self-diagnosis use and trust; perceived quality only, no clinician-rated responses."
+R2206,EXCLUDE,AX5,Return to activities after knee arthroplasty only; postoperative surgical specialty pathway.
+R2208,EXCLUDE,OTHER,Custom ChatVTE RAG education system (Qwen-based) is the study system; not a general-purpose public LLM used as a patient would.
+R2209,PASS,,"Six general LLMs answering standardized breast cancer patient questions, experts rated safety and unsafe recommendations were reported."
+R2210,PASS,,"ChatGPT responses to common fall-related questions in older adults (primary-care presentation), multidisciplinary panel rating quality/patient safety; full text needed to check whether safety rating separates into a tier."
+R2213,EXCLUDE,OTHER,Custom guideline-grounded OsteoCHAT RAG system is the study system/real-world intervention; not a general-purpose public LLM.
+R2220,PASS,,Public patient-oriented achalasia questions to six general LLMs; 27/240 responses explicitly classified as potentially unsafe by gastroenterologists.
+R2221,EXCLUDE,AX1,"Translation of clinician-written ED discharge instructions; clinical workflow translation task, not patient-posed advice."
+R2232,EXCLUDE,AX3,"Pilot feasibility of LLM adjunct to group CBT; outcomes adherence, engagement, usability and symptom change, no rated advice responses."
+R2237,EXCLUDE,OTHER,"Custom hospital chatbot Mina with clinician-validated answers only; RCT outcomes knowledge/anxiety/satisfaction, no safety rating of LLM responses."
+R2243,EXCLUDE,AX3,Healthcare professionals' focus-group perspectives on hypothetical scenarios; no LLM responses rated.
+R2245,PASS,,"ChatGPT-5 responses to patient FAQs on gestational diabetes, safety rated on Likert scale by 30 obstetric physicians; pregnancy/GDM is shared primary care."
+R2249,EXCLUDE,OTHER,Custom deployed RAG Parkinson's information system jAImes is the study system; not a general-purpose public LLM.
+R2255,EXCLUDE,AX5,Patient queries following BPH surgery only; postoperative surgical specialty pathway.
+R2260,EXCLUDE,AX1,Emergency triage decision-support framework evaluated in a controlled clinician-facing simulation setting; not layperson use.
+R2261,EXCLUDE,AX3,Scenario experiments on trust/preference for chatbots vs human providers; no LLM advice responses rated.
+R2266,PASS,,"Has a patient-facing arm: 120 postpartum women consulted general LLMs (ChatGPT, DeepSeek) with clinician-rated safety; full text to separate the patient arm from the nursing care-plan arm."
+R2268,EXCLUDE,AX1,"Generation/simplification of radiology reports by a locally hosted model; summarisation task, not patient-posed advice."
+R2270,EXCLUDE,OTHER,Customised GPT-4 with RAG and system prompts built for the study is the study system; not a general-purpose public LLM as a patient would use it.
+R2277,EXCLUDE,AX1,Implicit-bias evaluation of models in clinical decision-making tasks; not patient-facing advice.
+R2278,PASS,,"Four freely accessible general LLMs on standardized paediatric epilepsy scenarios, safety assessed with critical safety flags recorded separately by paediatric neurologists."
+R2283,EXCLUDE,AX5,Recognition/management of postoperative complications after aesthetic surgery only; surgical specialty pathway.
+R2285,EXCLUDE,OTHER,Custom scaffolded RAG CGM counselling agent designed to avoid directive medical advice; not a general-purpose public LLM.
+R2289,EXCLUDE,AX1,"Machine translation of clinician-written ED discharge instructions; clinical workflow task, not patient-posed advice."
+R2298,EXCLUDE,AX5,Cartilage tissue engineering and cartilage repair surgery questions only; surgical/technical specialty domains.
+R2301,EXCLUDE,AX1,"Simplification of ophthalmological clinical reports; summarisation task, not patient-posed advice."
+R2303,EXCLUDE,OTHER,"Locally deployed Qwen model in a nurse-reviewed, human-in-the-loop communication support system; clinician in the loop and not a public general-purpose chatbot."
+R2304,EXCLUDE,OTHER,"Custom RAG virtual assistant for GDMT optimisation delivered within a trial care model; no clinician-rated advice responses, safety reported only as no disagreements with clinicians."
+R2306,EXCLUDE,AX5,"Retina-specific counselling vignettes (DR, retinal detachment, AMD) only; subspecialty ophthalmology."
+R2313,EXCLUDE,OTHER,"Custom provider-supervised neuro-symbolic C-Mind system for mental-health counselling; not a general-purpose public LLM, governance/routing outcomes only."
+R2315,EXCLUDE,AX1,"Generation of post-cholecystectomy discharge instructions; clinician workflow document generation, not patient use."
+R2317,EXCLUDE,AX1,"LLM-assisted generation of personalised patient education materials from patient clinical data, compared with clinician-generated materials; workflow tool, not direct patient chatbot use."
+R2329,EXCLUDE,AX3,Trust/perception survey in a population cohort; no LLM responses rated.
+R2331,PASS,,"Patient-centred questions on SVF therapy for knee osteoarthritis (a primary-care condition patients ask their GP about) to ChatGPT-5, safety scored in the NLAT-AI domain by specialists."
+R2338,PASS,,"Patient-initiated ophthalmology consultations with five general LLMs, safety rated on a Likert domain for lay users."
+R2345,EXCLUDE,AX5,Conventional and fast-track total knee arthroplasty pathway questions only; surgical specialty pathway.
+R2354,EXCLUDE,AX5,"Parental education on paediatric anaesthesia/perioperative care only; procedure specialty pathway, despite unsafe content being noted."
+R2360,PASS,,"Three general-purpose chatbots, simulated patients with chronic illness and mild/moderate depression/anxiety (not crisis-only), safety and major clinical/safety errors rated by blinded raters."
+R2363,EXCLUDE,OTHER,Custom knowledge-augmented PancreaGuide agent for clinician-supervised CT report interpretation and perioperative consultation; not a general-purpose public LLM.
+R2364,EXCLUDE,AX5,"Informed consent information for oncological surgeries only; surgical specialty, and quality assessed by DISCERN with no safety tier."
+R2365,EXCLUDE,OTHER,"Custom AIDCare diabetes self-management platform with fine-tuned multimodal model; recommendation accuracy on synthetic data, no clinician-rated advice responses."
+R2366,PASS,,"Patient-perspective questions on visual field defects (symptom recognition, triage, treatment) to five general LLMs, safety scored 1-5 by blinded raters."
+R2371,EXCLUDE,OTHER,"Custom fine-tuned TurkishMedLLM built for clinical decision support; not a general-purpose public chatbot, and evaluation is retrieval/generation metrics."
+R2377,EXCLUDE,OTHER,"Bespoke LLM decision aid built for collaborative decision-making in a juvenile arthritis clinic; clinic decision-support tool, not public patient use."
+R2385,EXCLUDE,AX5,"Total knee replacement patient education only; surgical specialty, and scoring was accuracy/relevance/usefulness with no safety rating."
+R2386,EXCLUDE,AX1,Simplification of clinician-produced patient information leaflets in interventional radiology; document workflow task.
+R2387,EXCLUDE,AX1,Translation tools used within clinician-patient outpatient consultations; clinical workflow task.
+R2393,EXCLUDE,AX5,"Perioperative queries about abdominal cancer surgeries only; surgical specialty, rated for quality/accuracy/tangibility with no safety tier."
+R2396,EXCLUDE,OTHER,Domain-trained ARTHUR system with clinician confirmation of every dose adjustment; custom system with a clinician in the loop.
+R2397,EXCLUDE,AX5,Total knee arthroplasty patient education only; surgical specialty pathway.
+R2398,EXCLUDE,AX1,"Cornea clinic scenarios covering administration, treatment algorithms, surgical management and research; clinic-facing prompts, not patient-posed questions, and no safety tier."
+R2399,EXCLUDE,AX3,Patient/family perspective survey on GenAI use in rare diseases; no LLM responses rated.
+R2405,EXCLUDE,OTHER,"Custom fine-tuned, FSM-guided RAG PICC self-management chatbot architectures are the study systems; not general-purpose public LLMs."
+R2410,PASS,,"Patient questions about cataracts and cataract surgery to four general LLMs, safety evaluated across models; common eye condition patients raise first outside tertiary care."
+R2411,PASS,,"Duplicate report of the gestational diabetes study (see R2245): patient-derived GDM questions to ChatGPT-5, safety Likert-rated by 30 specialists."
+R2415,EXCLUDE,AX3,Fact-checking performance study (one acne scenario plus 20 clinical statements); models fact-check statements rather than giving patient advice rated for safety.
+R2417,PASS,,Diabetic retinopathy patient questions to six widely accessible LLMs; responses classified as safe with safe response rates 86-94% reported.
+R2431,EXCLUDE,AX3,Deterministic pharmaceutical authenticity verification framework tested on packaging samples; no clinician-rated advice responses.
+R2432,EXCLUDE,AX1,"Meta-evaluation of LLM raters on AI-generated plain-language biomedical summaries; summarisation task with LLM raters, not clinician-rated patient advice."
+R2434,EXCLUDE,OTHER,Local LENOHA system answering clinical questions verbatim from vetted FAQs (nongenerative path) plus a local small model; not a general-purpose public LLM giving advice.
+R2438,EXCLUDE,OTHER,Custom guideline-integrated StoneAgent framework is the study system; the standard-LLM comparator is secondary to the framework evaluation.
+R2440,PASS,,"Core diabetic retinopathy patient queries to five mainstream LLMs on public platforms, safety Likert-rated by retinal specialists."
+R2445,PASS,,"Patient concerns after incidental kidney tumour found on CT (a presentation patients bring to primary care first) to three general LLMs, risk-of-harm domain rated by urologists."
+R2446,EXCLUDE,AX5,Pre-anaesthetic education for patients undergoing laparoscopic cholecystectomy only; perioperative specialty pathway.
+R2449,EXCLUDE,AX5,Simplification of breast imaging (BI-RADS) reports; subspecialty imaging task.
+R2451,EXCLUDE,AX5,"Preoperative patient education in anaesthesiology only; perioperative specialty pathway, despite a safety Likert domain."
+R2463,EXCLUDE,AX5,"Preoperative education about general anaesthesia only; perioperative specialty, and rating was appropriateness only with no safety domain."
+R2464,EXCLUDE,AX1,Doctor-supervised AI use during informed consent consultations for hip arthroplasty; clinician in the loop at the point of advice.
+R2465,PASS,,"Patient questions in glaucoma to publicly available ChatGPT, accuracy/comprehensiveness/safety graded by a specialist panel."
+R2470,PASS,,"Has a patient-facing phase: 20 rotator cuff patients questioned general LLM chatbots, responses physician-rated for safety; full text to separate from the physician test-question phase."
+R2471,EXCLUDE,AX3,Cross-sectional survey of information-seeking and trust among patients with hypertension; no LLM responses rated.
+R2483,EXCLUDE,AX1,"Generation of discharge instructions from MIMIC-IV discharge summaries; documentation/summarisation workflow, not direct patient chatbot use, despite harmful issues being counted."
+R2486,EXCLUDE,AX1,Custom system generating patient-friendly echocardiography reports from clinical data; report generation/summarisation workflow.
+R2487,EXCLUDE,AX5,"Postoperative management after tympanoplasty only; surgical specialty, rated for accuracy/clarity/relevance with no safety rating."
+R2488,EXCLUDE,AX3,Qualitative interview study of users' experiences; responses were not clinician-rated (participants' agreement/trust only).
+R2496,EXCLUDE,OTHER,Oral cancer FAQs rated for accuracy only (very good/good/acceptable) with no safety or harm rating; combined quality score cannot supply a safety tier.
+R2502,EXCLUDE,OTHER,Custom RAG orthopaedic/trauma patient education chatbot is the study system; not a general-purpose public LLM.
+R2509,EXCLUDE,AX3,"Machine-learning symptom classification platform (Random Forest/XGBoost) with a local model for conversation; evaluation is classifier performance, no clinician-rated LLM advice."
+R2515,EXCLUDE,AX1,"Psychiatric diagnosis bias vignettes: models tasked with generating diagnoses, a clinician diagnostic task, not patient-facing advice."
+R2524,PASS,,"Common myopia questions used to generate responses for parents/children from general LLMs, potential harm rated on a Likert scale by ophthalmologists."
+R2525,EXCLUDE,OTHER,Custom temporally anchored RAG framework bRAGgen for bariatric surgery education is the study system; not a general-purpose public LLM.
+R2533,PASS,,"Spinal cord injury patient education questions from search terms to GPT-4o/DeepSeek, safety domain of the SCORE framework rated by rehabilitation physicians."
+R2552,EXCLUDE,AX5,"Breast reconstruction counselling (oncological justification, reconstructive options, postoperative care) only; surgical specialty."
+R2564,EXCLUDE,AX5,"Diet plans in the early period after bariatric surgery only; postoperative surgical pathway, and abstract states clinical safety was not assessed."
+R2569,PASS,,"Patient-centred FAQs on age-related macular degeneration to ChatGPT-4, safety domain Likert-rated by 10 experts."
+R2578,EXCLUDE,AX3,Single case report of a hallucination in AI-assisted diagnosis; no rated response set.
+R2591,EXCLUDE,AX5,"Preoperative education RCT for urolithiasis surgery only; surgical pathway, outcomes anxiety/satisfaction/pain."
+R2593,EXCLUDE,OTHER,"Custom RadGPT system generating materials to explain radiology reports; report-explanation system, not a general-purpose public LLM answering patient questions."
+R2600,EXCLUDE,AX1,Transformation/simplification of cardiovascular MR reports into lay text; summarisation task.
+R2608,EXCLUDE,AX1,LLM simplification pipeline for ICU discharge summaries within clinical information systems; summarisation workflow.
+R2613,PASS,,"Patient questions on common GI endoscopic procedures (EGD, colonoscopy, ERCP, EUS) to ChatGPT, systematically appraised for factual correctness and potential safety issues; common procedures patients ask about in primary care."
+R2622,EXCLUDE,AX3,"Single advanced-cancer vignette study coding responses for content mentions (hospice, trials, second opinions); no safety or harm rating of responses."
+R2628,EXCLUDE,AX1,"100 clinical scenarios from patient records fed to ChatGPT for diagnosis/treatment recommendations compared with clinicians; clinician decision-making task, not patient-posed questions."
+R2630,PASS,,"Caregiver-perspective questions on home phototherapy for neonatal hyperbilirubinemia to seven general LLMs, expert-rated with critical errors reported; abstract does not name a safety dimension, so full text is needed to check for a harm tier - cannot be settled on the abstract."
+R2638,EXCLUDE,AX1,LLM editing/simplification of surgical consent forms; document workflow task.
+R2640,EXCLUDE,AX5,"Preoperative total knee/hip arthroplasty patient questions only; surgical specialty, and the study's focus is validity of cited sources with no safety rating."
+R2641,PASS,,"AI-generated patient education materials on early diabetic kidney disease (a primary-care-managed complication), safety Likert-rated by medical experts and patients."
+R2643,EXCLUDE,AX1,"Obstetric/gynaecological emergency scenarios with clinician-style questions (most likely diagnosis, investigations, advanced management) answered against a clinician gold standard; examination/decision task, not patient-posed questions."
+R2654,EXCLUDE,AX3,Cross-sectional survey of patient preferences for AI functions in orthopaedic transitional care; no LLM responses rated.
+R2655,PASS,,"Patient-focused questions on atrial fibrillation (a primary-care presentation) to ChatGPT-4, patient safety scored by cardiologists."
+R2657,EXCLUDE,AX5,"Amyloidosis only, a rare multisystem specialty condition; grading was accuracy/comprehensiveness with no safety tier."
+R2658,EXCLUDE,OTHER,Custom RAG virtual assistant AIVA for postoperative instructions is the study system; not a general-purpose public LLM.
+R2661,PASS,,"Glaucoma patient education with general LLMs, including real patients posing questions, safety dimension scored by ophthalmologists."
+R2662,EXCLUDE,OTHER,Mental-health assessment/intervention only: three imaginary patient vignettes with narrative author appraisal and no formal clinician safety rating or tier; not a primary-care pool study.
+R2664,EXCLUDE,AX5,"Preoperative counselling for head and neck cancer surgery only; surgical specialty, compared with web search on accuracy/thoroughness/errors with no safety rating."
+R2665,EXCLUDE,AX1,"Generation of postoperative instructions for rhinologic surgery by AI platforms; document generation task assessed with PEMAT only, no safety rating."
+R2668,EXCLUDE,AX1,"Duplicate of R2643: obstetric/gynaecological emergency scenarios with clinician-style diagnosis/investigation/management questions, not patient-posed questions."
+R2681,PASS,,Simulated patient ophthalmic complaints to GPT-4/Bard; undertriage/appropriate triage and potential harm rates (6.3% vs 20.0%) graded by ophthalmologists - poolable disposition and harm outcomes.
+R2682,EXCLUDE,OTHER,Supervised fine-tuned bespoke prostate cancer lifestyle model is the study system; not a general-purpose public LLM.
+R2689,EXCLUDE,OTHER,"Custom OCR/LangChain drug-interaction chatbot system; validation is drug-interaction detection accuracy, no clinician-rated advice responses."
+R2691,EXCLUDE,AX5,"Hand surgery questions drawn from an operative surgery textbook; surgical specialty, rated for correctness/completeness/usefulness with no safety rating."
+R2692,EXCLUDE,OTHER,"Custom RAG pharmacogenomics assistant built on GPT-4, evaluated largely on provider-specific queries; not a general-purpose public chatbot as patients use it."
+R2705,EXCLUDE,OTHER,"Custom RAG conversational agent for gastric cancer education developed by action research; development/usability study, no clinician safety rating of advice."
+R2709,EXCLUDE,AX5,"Patient questions on epidural steroid injections only; interventional procedure specialty, rated for accuracy/clarity/empathy with no safety rating."
+R2711,EXCLUDE,OTHER,"Custom two-stage diagnostic dialogue system to automate clinician information collection; system development paper, not patient advice from a public LLM."
+R2713,EXCLUDE,AX5,"Patient support before/after deep brain stimulation neurosurgery only; surgical specialty, despite potentially harmful answers being graded."
+R2714,PASS,,Fictional ophthalmological emergency vignettes presented as patients in preclinical (pre-hospital) management; triage accuracy and overall potential to inflict harm (32%) rated - acute symptoms patients would present with first.
+R2715,EXCLUDE,OTHER,"Duplicate of R2692: custom RAG pharmacogenomics assistant, provider-oriented evaluation."
+R2718,EXCLUDE,OTHER,Duplicate of R2711: custom diagnostic dialogue system development.
+R2739,EXCLUDE,AX3,Descriptive qualitative interview study of patients' experiences of using chatbots; no responses rated.
+R2748,EXCLUDE,AX1,"AI-generated patient-friendly summaries of MRI fistula reports; report simplification task, outcomes readability/comprehension."
+R2752,EXCLUDE,AX1,"Duplicate MRI fistula report simplification study; summarisation task, not advice responses."
+R2766,EXCLUDE,AX5,"Home care scenarios in the early period after orthopaedic interventions only; postoperative specialty, rated for accuracy/applicability/comprehensiveness/clarity with no safety dimension."
+R2769,PASS,,"Paediatric emergency/BLS vignettes addressed to lay rescuers/parents; emergency-call advice, correct first-aid and incorrectly advised advanced life-support techniques (13.6%) rated - unsafe advice and disposition outcomes."
+R2787,EXCLUDE,AX3,Drug-drug interaction detection benchmark against conventional DDI tools (sensitivity/specificity); no clinician-rated patient advice responses.
+R2807,EXCLUDE,OTHER,"Bespoke DUMS diabetes medication scheduling system is the study system (GPT-4 only a comparator arm); system development/evaluation, not general-purpose patient chatbot advice."
+R2812,PASS,,"Duplicate of R2769: paediatric emergency lay-rescuer vignettes, validity/safety of advice to parents rated including incorrect advanced techniques."
+R2814,EXCLUDE,AX1,"Simplification of MRI radiology reports with ChatGPT; summarisation task, not advice responses."
+R2825,PASS,,"Common patient questions about GLP-1 receptor agonist therapy (general medication questions in primary care) to GPT-4o, safety graded within the SCORE framework by independent evaluators."
+R2826,EXCLUDE,AX1,"GPT-4 generating type 2 diabetes management plans from real patient records, compared with medical experts; clinician-side plan generation, not patient-posed questions."
+R2831,EXCLUDE,AX3,Qualitative acceptability study of chatbots in genetic service delivery; no responses rated.
+R2836,EXCLUDE,AX1,"MRCOG membership examination questions used to test an uncertainty metric; examination task, not patient-facing advice."
+R2839,EXCLUDE,AX1,Image-based skin lesion diagnosis benchmark against dataset labels; diagnostic task with no patient advice or safety rating.
+R2862,EXCLUDE,AX3,Qualitative interview study of people's experiences using LLM chatbots for mental health support; no responses rated.
+R2865,EXCLUDE,AX3,Benchmark dataset paper (MedSafetyBench) with adversarial/ethics-derived prompts; not a primary study of patient-posed primary-care questions with clinician-rated responses.
+R2866,EXCLUDE,AX3,Experimental vignette study of consultation preferences for embarrassing/stigmatising conditions; no advice responses rated.
+R2869,EXCLUDE,AX5,"Paediatric anaesthesia questions only; perioperative specialty, evaluated with quality instruments (DISCERN/EQIP/GQS/JAMA) and no safety rating."
+R2871,EXCLUDE,OTHER,"Equity-harms/bias evaluation toolbox and framework with a Med-PaLM 2 case study; bias assessment, not a clinical safety rating of patient advice."
+R2881,EXCLUDE,AX3,Interview study of LGBTQ+ people's experiences of chatbots for mental health support; no responses rated.
+R2891,EXCLUDE,OTHER,"Mental-health scenarios only: therapist vs chatbot responses coded for therapeutic communication techniques and themes, with no safety/harm rating; mental-health pool is outside the primary-care primary pool."
+R2893,EXCLUDE,OTHER,Custom RAG neurosurgery chatbot NeuroBot for perioperative education is the study system; not a general-purpose public LLM.
+R2894,EXCLUDE,OTHER,"Bespoke LLM journaling app MindfulDiary field study in psychiatric patients; app feasibility/experience, no rated advice responses."
+R2906,EXCLUDE,AX4,Mental-health only benchmark: simulated psychosis/delusion scenarios scoring delusion confirmation and harm enablement; psychosis/crisis-type content is excluded from the primary pool (narrative appendix only).
+R2908,PASS,,51 general postoperative pain questions to seven public chatbot interfaces; 11/357 responses (3.08%) explicitly classified as Unsafe by blinded clinical review - pain is a primary-care presentation and the unsafe tier is explicit.
+R2909,EXCLUDE,OTHER,Custom multi-agent STI counselling platform Otiz is the study system; not a general-purpose public LLM.
+R2911,EXCLUDE,AX3,Large-scale audit of custom medical GPTs using LLM-based hallucination/compliance pipelines; no clinician-rated patient advice responses.
+R2915,PASS,,Patient-facing questions on osteoporotic vertebral compression fractures to four public chatbots; potentially unsafe responses explicitly counted per model (8.3-19.4%) by blinded clinical raters.
+R2919,EXCLUDE,AX3,Technology-probe interview study with people with lived experience of depression; no responses rated.
+R2920,EXCLUDE,AX3,HeAL benchmark for recognising whether text contains healthcare advice (a guardrail task); no advice responses rated for safety.
+R2926,EXCLUDE,OTHER,"Fine-tuned bespoke ophthalmology chatbots are the study systems and the primary evaluator is GPT-4, not clinicians rating a public general-purpose chatbot."
+R2930,EXCLUDE,AX1,Objective is guidance to practitioners: five melanoma pathology/management questions rated with DISCERN/readability only and no safety tier; clinician-facing management advice.
+R2939,EXCLUDE,AX3,Deployment/design-probe study with interviews and message analysis of a custom wheelchair chatbot; no clinician-rated advice responses.
+R2942,EXCLUDE,OTHER,"Bespoke fine-tuned NoteAid-Chatbot (3B LLaMA) built for the study; not a general-purpose public LLM, and evaluation is understanding/Turing-style, not clinician safety rating."
+R2945,EXCLUDE,AX3,"Expert consortium case commentary across nine general safety domains (driving, water, crowds, data privacy, machinery), only some health-related; no systematic rating instrument or rated response set for primary-care advice."
+R2952,EXCLUDE,OTHER,Floaters answers from LLMs and non-LLM virtual assistants analysed for keywords and readability only; no clinician safety rating of responses.
+R2953,EXCLUDE,AX3,Multimodal model performance paper on image interpretation and diagnostic support; no clinician-rated patient advice responses.
+R2966,FLAG_AUTHOR,,"No abstract is present in the search record, so eligibility (primary study, rated responses, safety tier) cannot be settled from the title and abstract as the protocol requires; title alone ('Is There a Role for Large Language Models?') does not establish a primary rated study."
+R2967,EXCLUDE,AX4,"Therapy chatbot evaluation/training framework (TherapyGym) for mental-health therapy only; framework paper, not a primary study of patient-facing primary-care advice."
+R2968,EXCLUDE,AX3,Cross-sectional mixed-methods survey of psychotherapy outpatients' chatbot use for mental health; no LLM responses rated.
+R2969,EXCLUDE,AX3,Web survey of online health information-seeking behaviour and perceptions; no LLM responses rated.
+R2977,EXCLUDE,AX4,Mental wellness chatbot evaluation framework plus a bespoke CBT chatbot (Psyfy); mental-health only and framework/bespoke system.
+R2989,EXCLUDE,AX3,"Jailbreak vulnerability analysis using adversarial BeaverTails prompts (violence, self-harm, drug abuse); not patient-posed health advice rated by clinicians."
+R2991,EXCLUDE,AX3,"Persian consumer QA benchmark dataset paper with an LLM grader (MedJudge); accuracy benchmark, no clinician safety rating of advice."
+R2992,PASS,,"Randomised human-user experiment: laypeople made domestic medical triage decisions after consulting LLM conversational agents, with decision accuracy against correct triage levels - a human-user stratum study with a disposition outcome; full text needed to check poolability of the undertriage outcome."
+R2995,EXCLUDE,AX3,Perception experiment on moral agency/trust in mental health chatbots; no advice responses rated.
+R2996,EXCLUDE,OTHER,Custom CataractBot with expert-in-the-loop verified responses; clinician in the loop and a deployment study with no safety rating of general LLM responses.
+R2999,EXCLUDE,AX4,"Mental-health safety evaluation framework (MHSafeEval) only; mental-health pool, framework paper."
+R3001,EXCLUDE,OTHER,"Custom chain-of-thought chatbot for pre-mediation counselling in medical disputes; medico-legal counselling, not medical advice for a primary-care presentation."
+R3002,EXCLUDE,AX4,Evaluation framework and safety metrics for mental health chatbots only; framework paper tested on one GPT-3.5 chatbot.
+R3003,EXCLUDE,AX3,"Elderly chatbot interaction safety taxonomy/benchmark across mental well-being, financial, medical, toxicity and privacy domains; benchmark prompts are not clinician-rated primary-care advice responses."
+R3008,EXCLUDE,OTHER,"Fine-tuned domain-specific psychiatry model MIND is the study subject (ChatGPT is only a comparator); not a general-purpose public LLM study, and the topic is psychiatric medication questions."
+R3018,EXCLUDE,AX5,"Case article on a single rare disease (thymoma with Good's syndrome); expert criteria were accuracy/relevance/empathy with no safety rating, and the condition is specialty-only."
+R3022,EXCLUDE,OTHER,Fine-tuned multilingual health assistant development paper; no clinician-rated evaluation of advice responses described.
+R3027,EXCLUDE,AX4,"Audit of mental-health intervention recommendations only, across clinician/caregiver/patient footings, with interventions extracted and rated by models rather than clinicians rating safety."
+R3032,EXCLUDE,OTHER,"Bespoke multi-agent autonomous telemedicine system deployed in a clinical platform, compared with treating clinicians on diagnosis/disposition; not a general-purpose public chatbot used by a layperson with no clinician in the loop."
+R3037,EXCLUDE,AX4,"Evaluation framework for mental-health support responses (empathy and motivational-interviewing adherence, including crisis contexts); mental-health only, no unsafe tier for primary-care advice."
+R3038,EXCLUDE,AX5,"Oocyte cryopreservation counselling only; fertility specialty, assessed for completeness/reliability/reproducibility with no safety rating."
+R3039,EXCLUDE,OTHER,"Custom RAG Smart Health Assist prototype; system description with response-time testing only, no clinician-rated advice evaluation."
+R3042,EXCLUDE,OTHER,"Specialised WellLife chronic-condition chatbot development; evaluation described only as answering most queries accurately, no clinician safety rating."
+R3046,EXCLUDE,OTHER,"Custom RAG mental-health intake chatbot EmoBot; evaluation is automated metrics and simulated-patient dialogue, no clinician safety rating of advice."
+R3047,EXCLUDE,AX3,Diabetes education platform development abstract: the validated component is EHR risk-prediction models; no rated ChatGPT advice responses.
+R3048,EXCLUDE,AX3,NLP/ML chatbot development paper for diagnosis and symptom analysis; no clinician-rated evaluation of advice responses.
+R3049,EXCLUDE,AX5,"Adolescent idiopathic scoliosis education only; spine specialty, rated for content/clarity/empathy with no safety rating."
+R3051,FLAG_AUTHOR,,"No abstract is present in the search record, so eligibility cannot be settled from the title and abstract as the protocol requires; the title suggests a commentary on dental AI advice but a primary rated study cannot be confirmed or ruled out from the record supplied."
+R3052,EXCLUDE,AX5,"Patient questions about six orthopaedic surgical procedures only; surgical specialty, rated for accuracy/completeness/DISCERN with no safety tier."
+R3055,EXCLUDE,OTHER,"Fine-tuned bespoke PharmaLLM prescriber chatbot; performance is classification metrics and a usability questionnaire, no clinician-rated safety evaluation of advice."
+R3057,EXCLUDE,OTHER,"Custom hybrid RAG first-aid chatbot framework QuickAid; evaluation is BLEU/ROUGE text metrics only, no clinician rating."
+R3075,EXCLUDE,AX3,RCT of supervised ChatGPT pre-procedural education for colonoscopy with outcomes bowel preparation quality and anxiety; responses were reviewed by the study team (clinician in the loop) and no safety rating of responses is an outcome.
+R3078,EXCLUDE,AX3,"Dataset/supplementary-materials deposit for a vulvovaginal candidiasis chatbot evaluation, not the primary study report itself; the underlying article is the record to screen for eligibility."
+R3079,EXCLUDE,AX3,"Dataset and analysis-code archive for a CPAP counselling safety article, not the primary study report itself; the underlying article is the record to screen for eligibility."
+R3081,EXCLUDE,AX3,Healthcare chatbot design paper using prompt engineering and a safety layer; no evaluation with rated responses.
+R3088,EXCLUDE,AX3,Viewpoint article on osteoarthritis chatbot advice containing at most a small single-author check against literature/guidelines; no clinician safety rating or tier.
+R3091,EXCLUDE,AX3,"Integrated system paper (symptom chatbot plus deep-learning radiology modules); evaluation is diagnostic model accuracy, no clinician-rated advice responses."

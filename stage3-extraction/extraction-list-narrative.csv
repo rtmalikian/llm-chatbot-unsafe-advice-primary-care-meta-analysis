@@ -1,0 +1,52 @@
+record_id,pool_status,title,doi,pmid
+R0038,INCLUDE_NARRATIVE,Can artificial intelligence counsel expectant mothers? Expert evaluation of ChatGPT's educational performance in gestational diabetes mellitus.,10.1007/s11023-020-09517-8,42989232
+R0053,INCLUDE_NARRATIVE,Beyond accuracy: a three-stage evaluation of large language models for postpartum health consultation and nursing decision support.,10.1001/jama.2023.9618,42978698
+R0087,INCLUDE_NARRATIVE,Performance of Generative Artificial Intelligence Models in Answering Common Patient Questions About Nasal Polyps.,10.1016/j.jaip.2026.10.018,42950951
+R0265,INCLUDE_NARRATIVE,How appropriate are ChatGPT-5's answers to acne questions?: A category-based evaluation by dermatologists.,10.1097/MD.0000000000050664,42760683
+R0270,INCLUDE_NARRATIVE,AI Chatbots as a source of Ramadan medication management advice for patients with diabetes: a multilingual comparative evaluation.,10.1038/s41746-024-01029-4,42757240
+R0300,INCLUDE_NARRATIVE,Toward safer digital sexual health communication: evaluating the public health reliability of large language model responses on sexually transmitted infections.,10.1038/s41443-023-00682-9,42718767
+R0327,INCLUDE_NARRATIVE,"Quality, readability, and patient safety of ChatGPT-generated responses to fall-related questions in older adults: a multidisciplinary evaluation.",10.1093/geronb/gbu161,42690359
+R0381,INCLUDE_NARRATIVE,Discordance Between Textual Reasoning and Visual Interpretation in Large Language Models for Low Back Pain: Cross-Sectional Quantitative Evaluation and Exploratory Multimodal Stress Test.,10.1177/0194599815626146,42622617
+R0525,INCLUDE_NARRATIVE,Safety boundary maintenance in consumer AI systems responding to pediatric health queries: a cross-platform benchmark evaluation under naturalistic and adversarially pressured conditions.,10.1073/pnas.2305016120,42448823
+R0667,INCLUDE_NARRATIVE,"Evaluating the quality of artificial intelligence responses to psoriasis-related clinical and patient questions: a comparative study of ChatGPT, Gemini, and Microsoft Copilot.",10.1038/s41746-025-01943-1,42267786
+R0714,INCLUDE_NARRATIVE,Reliability and readability of AI platforms for pediatric health advice: a comparative analysis.,10.1089/end.2024.0474,42204235
+R0717,INCLUDE_NARRATIVE,"Benchmarking the readability, quality, and educational suitability of large language models in communicating pertussis.",10.1038/s41598-025-19370-3,42200119
+R0720,INCLUDE_NARRATIVE,Can Artificial Intelligence Support Patient Education in Scabies? A Comparative Analysis of Large Language Model Responses.,10.7759/cureus.39238,42194371
+R0748,INCLUDE_NARRATIVE,Assessing AI-generated smoking cessation advice for patient education in primary care.,10.1371/journal.pone.0269674,42151822
+R1009,INCLUDE_NARRATIVE,Reliability of LLMs as medical assistants for the general public: a randomized preregistered study.,10.1016/j.sapharm.2021.02.020,41663592
+R1082,INCLUDE_NARRATIVE,Efficacy of Large Language Models in Providing Evidence-Based Patient Education for Celiac Disease: A Comparative Analysis.,10.3389/fdgth.2024.1287186,41470773
+R1121,INCLUDE_NARRATIVE,"Effectiveness of ChatGPT, Google Gemini, and Microsoft Copilot in Answering Thai Drug Information Queries: Cross-Sectional Study.",10.1016/j.pec.2021.08.028,41397693
+R1154,INCLUDE_NARRATIVE,Evaluating large language models' performance in answering common questions on drug-induced liver injury.,10.1016/j.jhepr.2025.101579,41321931
+R1249,INCLUDE_NARRATIVE,Characteristics and Safety of Consumer Chatbots for Emergent Adolescent Health Concerns.,10.2471/BLT.19.237636,41129154
+R1313,INCLUDE_NARRATIVE,Quality safety and disparity of an AI chatbot in managing chronic diseases: simulated patient experiments.,10.3390/ijerph18105060,40999038
+R1366,INCLUDE_NARRATIVE,Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study.,10.3390/healthcare12161637,40863701
+R1723,INCLUDE_NARRATIVE,The role of large language models in self-care: a study and benchmark on medicines and supplement guidance accuracy.,10.1186/s13223-018-0280-7,39644377
+R1780,INCLUDE_NARRATIVE,Artificial intelligence-powered chatbots in search engines: a cross-sectional study on the quality and risks of drug information for patients.,10.1111/j.1742-1241.2010.02408.x,39353736
+R1802,INCLUDE_NARRATIVE,Quality and Accountability of ChatGPT in Health Care in Low- and Middle-Income Countries: Simulated Patient Study.,10.3184/003685008X284628,39250188
+R1958,INCLUDE_NARRATIVE,"Automating untruths: ChatGPT, self-managed medication abortion, and the threat of misinformation in a post-Roe world.",10.1371/journal.pone.0226417,38419805
+R2036,INCLUDE_NARRATIVE,A vignette-based evaluation of ChatGPT's ability to provide appropriate and equitable medical advice across care contexts.,10.1136/dtb.2019.000008,37857839
+R2132,INCLUDE_NARRATIVE,Disclaimers and Referral Patterns for Medical Advice Across Urgency Levels: Large Language Model Evaluation Study.,10.2196/84668,41838894
+R2150,INCLUDE_NARRATIVE,"Assessing the Quality, Safety, and Readability of Large Language Model Responses from ChatGPT and Gemini for Knee Osteoarthritis Patient Education",10.21203/rs.3.rs-10283211/v1,
+R2300,INCLUDE_NARRATIVE,Artificial Intelligence Models for Dysphonia Patient Education.,10.1002/ohn.70030,41084356
+R2328,INCLUDE_NARRATIVE,Divergence Between Clinical Accuracy and Readability in Large Language Models: A Comparative Study in Hypogonadism,10.21203/rs.3.rs-9941676/v1,
+R2336,INCLUDE_NARRATIVE,Clinical Evaluation of ChatGPT-5.3 Responses to Patient-Oriented Questions on Scoliosis: A Multidimensional Expert Analysis.,10.3390/healthcare14111563,42278816
+R2350,INCLUDE_NARRATIVE,Evaluation of ChatGPT-4 as an Online Outpatient Assistant in Puerperal Mastitis Management: Content Analysis of an Observational Study.,10.2196/68980,40705609
+R2368,INCLUDE_NARRATIVE,Assessing the Role of Large Language Models Between ChatGPT and DeepSeek in Asthma Education for Bilingual Individuals: Comparative Study.,10.2196/65365,40802989
+R2375,INCLUDE_NARRATIVE,Quality of artificial intelligence-generated responses on pediatric celiac disease: Comparative assessment of Open AI ChatGPT and Google Gemini.,10.1002/jpr3.70168,42110127
+R2402,INCLUDE_NARRATIVE,Evaluating the accuracy of ChatGPT in delivering patient instructions for medications: an exploratory case study.,10.3389/frai.2025.1550591,40235859
+R2417,INCLUDE_NARRATIVE,"Large language models as sources of diabetic retinopathy patient education: a comparative evaluation of safety, health information quality, and readability.",10.3389/fpubh.2026.1945318,42920690
+R2425,INCLUDE_NARRATIVE,"GPT-4o and DeepSeek-V3 responses to common migraine questions: a cross-sectional comparative study of accuracy, completeness, empathy, readability and safety",10.21203/rs.3.rs-10488975/v1,
+R2440,INCLUDE_NARRATIVE,ChatGPT-5 versus other mainstream large language models in core diabetic retinopathy patient queries.,10.3389/fcell.2026.1754221,41960186
+R2450,INCLUDE_NARRATIVE,Large language model accuracy in inhaler technique counselling for asthma and COPD: A comparison of free and paid models across ten devices.,10.1177/20552076261478506,42605352
+R2490,INCLUDE_NARRATIVE,Configuring large language models to deliver patient-facing explanations of pathology reports.,10.1093/ajcp/aqag076,42319969
+R2516,INCLUDE_NARRATIVE,Reducing Under-Triage Risk in Large Language Model Based Clinical Triage Using UMLS-CUI Augmentation,10.64898/2026.08.07.26358932,
+R2519,INCLUDE_NARRATIVE,ChatGPT-4o-Generated Exercise Plans for Patients with Type 2 Diabetes Mellitus-Assessment of Their Safety and Other Quality Criteria by Coaching Experts.,10.3390/sports13040092,40278718
+R2545,INCLUDE_NARRATIVE,Evaluating GPT-4 Responses on Scars or Keloids for Patient Education: Large Language Model Evaluation Study.,10.2196/78838,41773665
+R2589,INCLUDE_NARRATIVE,Comparative analysis of Chinese large language model performance on atrial fibrillation questions.,10.1186/s12872-026-05566-6,41639623
+R2655,INCLUDE_NARRATIVE,Evaluating ChatGPT-4's correctness in patient-focused informing and awareness for atrial fibrillation.,10.1016/j.hroo.2024.10.005,40224268
+R2757,INCLUDE_NARRATIVE,Assessing the ability of GPT-4o to visually recognize medications and provide patient education.,10.1038/s41598-024-78577-y,39501020
+R2875,INCLUDE_NARRATIVE,Safety of patient-facing AI-generated medical advice: a structured clinical evaluation using acute appendicitis scenarios,10.1186/s12911-026-03800-x,
+R2882,INCLUDE_NARRATIVE,Accuracy and clinical safety of large language model Chatbots as sources of sexual health information benchmarked against management guidelines,10.33545/26646633.2024.v1.i2a.22,
+R2947,INCLUDE_NARRATIVE,"Dr. GPT Will See You Now, but Should It? Exploring the Benefits and Harms of Large Language Models for Health Advice using Crowdsourced Clinical Cases",10.1145/3805689.3812315,
+R2992,INCLUDE_NARRATIVE,How large language model-powered conversational agents influence decision making in domestic medical triage contexts,10.3389/fcomp.2024.1427463,
+R3045,INCLUDE_NARRATIVE,Performance of large language models in delivering accurate and comprehensible patient information on heart failure and cardiomyopathy,10.3389/fdgth.2026.1847603,42343943

@@ -1,0 +1,29 @@
+{
+ "analysis": "P1_plus_Ariel_as_one_unit",
+ "units": 96,
+ "studies": 24,
+ "events": 589,
+ "total": 5372,
+ "crude_pct": 10.96,
+ "glmm": {
+  "k": 96,
+  "pooled_pct": 10.46,
+  "ci_lo_pct": 9.24,
+  "ci_hi_pct": 11.82,
+  "tau2": 0.2063,
+  "se_logit": 0.0701,
+  "se_halfstep": 0.0701,
+  "floor_sqrt_tau2_over_k": 0.0464,
+  "floor_check": "PASS",
+  "pi_lo_pct": 4.48,
+  "pi_hi_pct": 22.53,
+  "loglik": -1857.73
+ },
+ "I2_pct_fixedQ_corrected_logits": 46.0,
+ "hk": {
+  "pooled_pct": 12.31,
+  "ci_lo_pct": 11.1,
+  "ci_hi_pct": 13.65,
+  "tau2_dl": 0.1525
+ }
+}

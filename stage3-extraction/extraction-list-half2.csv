@@ -1,0 +1,19 @@
+record_id,pool_status,title,doi,pmid
+R2104,INCLUDE_PRIMARY,"Safety, accuracy, information quality, readability, and supportive communication of LLM-based chatbots in responses to researcher-developed consumer-oriented prompts on recurrent aphthous stomatitis: an exploratory cross-sectional comparative study.",10.3389/froh.2026.1968034,42876519
+R2111,INCLUDE_PRIMARY,Consumer chatbots gave similarly empathic answers whether safe or unsafe: a physician-rated evaluation in six languages,10.64898/2026.05.09.26352813,
+R2120,INCLUDE_PRIMARY,Large Language Model Chatbot Responses to Cancer Survivorship Questions in Hong Kong: Bilingual Evaluation and Prompt Optimization Study.,10.2196/105778,42849027
+R2134,INCLUDE_PRIMARY,"Safety, Accuracy, Empathy, Information Quality, and Readability of Large Language Models in Answering Caregiver Questions About Pediatric Burn First Aid and Inpatient Care: A Cross-Sectional Comparative Study",10.21203/rs.3.rs-10862831/v1,
+R2252,INCLUDE_PRIMARY,"Clinical Safety and Reliability of Large Language Models in Answering Hemorrhoid-Related Patient Questions: A Comparative Study of ChatGPT, Gemini, and DeepSeek.",10.3390/healthcare14131909,42450919
+R2361,INCLUDE_PRIMARY,"Evaluating large language models for myocardial infarction public health education: a comparative study on information quality, transparency and readability.",10.3389/fpubh.2026.1914167,42787455
+R3023,INCLUDE_PRIMARY,"Safety, accuracy, empathy and information quality of six large language models answering patient-facing questions about diabetic kidney disease: a cross-sectional comparative study",10.3389/fmed.2026.2007153,
+R0822,INCLUDE_SECONDARY,Safety Audit of a Large Language Model for Lay Self-Triage Using Japanese Symptom Vignettes: Persistent Red-Flag Under-Triage Despite Improved Reproducibility Under Near-Deterministic Decoding.,10.7759/cureus.105878,42037961
+R0916,INCLUDE_SECONDARY,Comparison of the performance of large language models in answering patient questions related to cataract.,10.1007/s10916-023-02021-3,41847613
+R1090,INCLUDE_SECONDARY,Evaluation of Artificial Intelligence for Patient Self-Triage: Comparison of General-Purpose AI Platforms With the NHS 111 Online Symptom Checker in the United Kingdom.,10.7759/cureus.97834,41458776
+R1229,INCLUDE_SECONDARY,Comparing large language models and human doctors in symptom-driven online medical consultations: A case study on trigeminal neuralgia.,10.1177/20552076251388140,41164151
+R1519,INCLUDE_SECONDARY,Discussion of the ability to use chatGPT to answer questions related to esophageal cancer of patient concern.,10.4103/jfmpc.jfmpc_1236_24,40396096
+R2219,INCLUDE_SECONDARY,Are Frontier Large Language Models Safer Than Government-Backed Symptom Checkers for Clinical Self-Triage? A Standardised Vignette Evaluation,10.64898/2026.09.01.26361908,
+R2244,INCLUDE_SECONDARY,Patient-Facing AI Chatbots vs Primary Care Physicians: A Standardized Patient Field Experiment in China,10.21203/rs.3.rs-9988886/v1,
+R2254,INCLUDE_SECONDARY,AI chatbots abandon sleep apnoea referral when simulated patients minimise symptoms,10.64898/2026.10.09.26365165,
+R2307,INCLUDE_SECONDARY,ChatGPT Health performance in a structured test of triage recommendations.,10.1038/s41591-026-04297-7,41731097
+R2468,INCLUDE_SECONDARY,Prompt Framing Modulates Safety in Shoulder and Elbow Red-Flag Vignettes: A Large Language Model Study.,10.3390/diagnostics16101439,42196805
+R3040,INCLUDE_SECONDARY,Clinical Safety of AI-Generated Antibiotic Prescribing Advice: Guideline Adherence and Misinformation Risk Among Large Language Models,10.64898/2026.05.13.26352828,
