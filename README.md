@@ -1,0 +1,2 @@
+# llm-chatbot-unsafe-advice-primary-care-meta-analysis
+Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis. Responses in the studies' worst safety tiers, pooled across 95 model arms from 23 bench studies (552 of 4,868 rated responses), with GRADE. Protocol, data and code included.
