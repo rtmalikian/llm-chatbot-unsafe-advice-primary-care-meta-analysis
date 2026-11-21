@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis | Systematic Reviews</title>
+<link rel="canonical" href="https://rtmalikian.github.io/llm-chatbot-unsafe-advice-primary-care-meta-analysis/">
+<meta name="description" content="Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis. A Cochrane-level systematic review and meta-analysis. By Raphael Malikian. Zenodo DOI 10.5281/zenodo.24209763.">
+<meta name="citation_title" content="Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis">
+<meta name="citation_author" content="Malikian, Raphael">
+<meta name="citation_publication_date" content="2026/11/13">
+<meta name="citation_doi" content="10.5281/zenodo.24209763">
+<meta name="citation_pdf_url" content="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis/raw/main/manuscript.pdf">
+<meta name="citation_publisher" content="Zenodo">
+<meta name="citation_language" content="en">
+<meta name="citation_keyword" content="large language models">
+<meta name="citation_keyword" content="chatbots">
+<meta name="citation_keyword" content="patient safety">
+<meta name="citation_keyword" content="primary care">
+<meta name="citation_keyword" content="systematic review">
+<meta name="citation_keyword" content="meta-analysis">
+<meta name="citation_keyword" content="GRADE">
+<meta name="citation_keyword" content="PRISMA">
+<meta name="DC.title" content="Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis">
+<meta name="DC.creator" content="Raphael Malikian">
+<meta name="DC.date" content="2026-11-13">
+<meta name="DC.identifier" content="https://doi.org/10.5281/zenodo.24209763">
+<meta name="DC.type" content="Text">
+<meta name="DC.rights" content="Creative Commons Attribution 4.0 International (CC BY 4.0)">
+<meta property="og:title" content="Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://rtmalikian.github.io/llm-chatbot-unsafe-advice-primary-care-meta-analysis/">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--navy:#14406e;--navy2:#1d5aa8;--ink:#1a1a1a;--mut:#5c6670;--line:#d9dee4;
+--rule:#9aa7b4;--panel:#f7f9fb;--boxbg:#fbfbf8}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:#fff;line-height:1.6}
+.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
+a{color:var(--navy2)}
+.masthead{border-top:5px solid var(--navy);border-bottom:1px solid var(--ink);padding:20px 0 14px}
+.wordmark{font-size:37px;font-weight:bold;letter-spacing:.01em;color:#0e2a47;line-height:1.05}
+.mast-sub{font-family:Helvetica,Arial,sans-serif;font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--mut);margin-top:5px}
+.journalnav{border-bottom:1px solid var(--line)}
+.journalnav .wrap{display:flex;gap:26px;padding-top:8px;padding-bottom:8px}
+.journalnav a{font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:.06em;text-transform:uppercase;color:#24313d;text-decoration:none}
+.journalnav a:hover{color:var(--navy2);text-decoration:underline}
+.crumb{font-family:Helvetica,Arial,sans-serif;font-size:12.5px;color:var(--mut);margin:18px 0 0}
+.crumb a{color:var(--mut);text-decoration:none} .crumb a:hover{text-decoration:underline}
+.typerow{display:flex;align-items:center;gap:12px;margin:10px 0 0;flex-wrap:wrap}
+.arttype{font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:.13em;text-transform:uppercase;color:var(--navy)}
+.oa{font-family:Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:bold;letter-spacing:.08em;text-transform:uppercase;color:#14632d;border:1px solid #14632d;border-radius:3px;padding:2px 8px}
+.article-head{border-bottom:2px solid var(--ink);padding-bottom:16px}
+h1{font-size:33px;line-height:1.22;margin:14px 0 8px;color:#101c28;font-weight:bold}
+.standfirst{font-size:17.5px;color:#3c4753;margin:0 0 18px}
+.authors{font-size:17px;margin:0 0 3px}
+.authors sup{font-size:11px}
+.affil{font-size:14px;color:#3c4753;margin:0 0 3px}
+.corr{font-size:14px;color:#3c4753;margin:0 0 12px}
+.publine{font-family:Helvetica,Arial,sans-serif;font-size:13.5px;color:#24313d;margin:0 0 5px}
+.citeline{font-size:14.5px;color:#24313d;margin:0}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 4px}
+.actions a,.actions button{font-family:Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:bold;text-decoration:none;border:1px solid var(--navy);border-radius:3px;padding:8px 16px;color:var(--navy);background:#fff;cursor:pointer}
+.actions a.primary{background:var(--navy);color:#fff}
+.actions a:hover,.actions button:hover{background:#e8eef5}
+.actions a.primary:hover{background:var(--navy2)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;margin-top:22px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+article h2{font-size:21px;color:#101c28;border-bottom:1px solid var(--rule);padding-bottom:5px;margin:36px 0 12px}
+article h2 .secno{color:var(--navy)}
+article h3{font-size:17px;color:#101c28;margin:26px 0 8px}
+article h4{font-size:15px;color:#101c28;margin:20px 0 6px}
+article p{margin:0 0 11px}
+article table{border-collapse:collapse;width:100%;font-size:13px;margin:16px 0;line-height:1.45}
+article th{background:none;color:var(--ink);text-align:left;font-weight:bold;padding:6px 8px;border-top:2.5px solid #101c28;border-bottom:1px solid #101c28}
+article td{border:none;padding:5px 8px;vertical-align:top}
+article tbody tr:last-child td{border-bottom:2.5px solid #101c28}
+article figure{margin:22px 0}
+article figure img{max-width:100%;border:1px solid var(--line)}
+article figcaption{font-size:13.5px;color:#24313d;margin-top:7px;font-family:Helvetica,Arial,sans-serif;line-height:1.5}
+.abstract-panel{background:var(--panel);border:1px solid var(--line);padding:16px 22px 8px;margin:4px 0 10px}
+.abstract-panel h2{border:none;font-size:14px;letter-spacing:.13em;text-transform:uppercase;color:var(--navy);margin:0 0 10px;padding:0;font-family:Helvetica,Arial,sans-serif}
+.keyfindings{background:var(--boxbg);border:1px solid var(--line);border-top:3px solid var(--navy);padding:13px 20px 5px;margin:20px 0}
+.keyfindings h2{border:none;font-size:13.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);margin:0 0 8px;padding:0;font-family:Helvetica,Arial,sans-serif}
+.keyfindings ul{margin:4px 0 10px;padding-left:20px} .keyfindings li{margin-bottom:6px}
+ol.refs{padding-left:0;list-style-position:outside;margin-left:2.1em}
+ol.refs li{margin-bottom:7px;padding-left:.4em}
+aside .box{border:1px solid var(--line);background:#fff;padding:14px 16px;margin-bottom:18px}
+aside h3{margin:0 0 9px;font-size:13px;font-family:Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em;color:var(--navy);border-bottom:1px solid var(--line);padding-bottom:6px}
+aside p,aside li{font-size:13.5px}
+aside ul{margin:6px 0;padding-left:18px}
+aside ul.contents{list-style:none;padding-left:0} aside ul.contents li{margin-bottom:5px}
+aside ul.contents a{color:#24313d;text-decoration:none} aside ul.contents a:hover{text-decoration:underline;color:var(--navy2)}
+.dl a.btn{display:block;background:var(--navy);color:#fff;text-align:center;padding:10px;border-radius:3px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-weight:bold;margin-bottom:8px}
+.dl a.btn:hover{background:var(--navy2)}
+.dl a.alt{background:#fff;color:var(--navy);border:1px solid var(--navy);font-weight:normal}
+.dl p{color:var(--mut);margin:6px 0 0}
+pre{white-space:pre-wrap;font-size:11px;background:#f6f4ef;padding:8px;line-height:1.4}
+button.copy{font-size:12px;cursor:pointer}
+footer{border-top:2px solid var(--ink);margin-top:44px;padding:16px 0 36px;font-size:13.5px;color:#3c4753}
+footer .seriesline{font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--mut);margin-top:10px}
+@media print{
+ .masthead .journalnav,.crumb,.actions,aside,button.copy{display:none}
+ .grid{grid-template-columns:1fr}
+ body{font-size:11pt;line-height:1.5} a{color:#000;text-decoration:none}
+ article h2{break-after:avoid} article table,article figure{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="masthead"><div class="wrap">
+<div class="wordmark">Systematic Reviews</div>
+<div class="mast-sub">Raphael Malikian · Cochrane-Level Evidence Syntheses</div>
+</div></div>
+<nav class="journalnav"><div class="wrap">
+<a href="https://rtmalikian.github.io/systematic-reviews/#reviews">Browse</a>
+<a href="https://rtmalikian.github.io/systematic-reviews/#method">About</a>
+<a href="https://rtmalikian.github.io/systematic-reviews/">Systematic Reviews Hub</a>
+<a href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis">GitHub</a>
+</div></nav>
+<div class="wrap">
+<p class="crumb"><a href="https://rtmalikian.github.io/systematic-reviews/">Systematic Reviews Hub</a> &rsaquo; Primary Care &rsaquo; Systematic Review</p>
+<div class="typerow"><span class="arttype">Systematic Review &amp; Meta-analysis</span><span class="oa">Open Access</span></div>
+<header class="article-head">
+<h1>Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis</h1>
+<p class="standfirst">A Cochrane-level systematic review and meta-analysis</p>
+<p class="authors"><strong>Raphael Malikian</strong><sup>1</sup></p>
+<p class="affil"><sup>1</sup> Independent Researcher, Palmdale, CA, USA</p>
+<p class="corr">Corresponding author: Raphael Malikian, <a href="mailto:rtmalikian@gmail.com">rtmalikian@gmail.com</a> · ORCID <a href="https://orcid.org/0009-0008-4326-4205">0009-0008-4326-4205</a></p>
+<p class="publine">Published: 13 November 2026 &middot; Revision 1</p>
+<p class="citeline">Malikian R. Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis. Revision 1; 2026. DOI: <a href="https://doi.org/10.5281/zenodo.24209763">https://doi.org/10.5281/zenodo.24209763</a></p>
+</header>
+<div class="actions">
+<a class="primary" href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis/raw/main/manuscript.pdf">Download PDF</a>
+<a href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis/raw/main/manuscript.docx">Download DOCX</a>
+<button type="button" onclick="window.print()">Print</button>
+<a href="#cite">Cite</a>
+<a href="https://twitter.com/intent/tweet?text=Unsafe%20or%20potentially%20unsafe%20advice%20from%20patient-facing%20large%20language%20model%20chatbots%20in%20bench%20evaluations%20of%20primary-care%20question%20sets:%20a%20systematic%20review%20and%20meta-analysis&url=https://rtmalikian.github.io/llm-chatbot-unsafe-advice-primary-care-meta-analysis/" target="_blank" rel="noopener">Share</a>
+</div>
+<div class="grid">
+<article>
+<section class="abstract-panel">
+<h2 id="abstract">Abstract</h2>
+<p><strong>Background.</strong> Patients now ask general-purpose large language model (LLM) chatbots the questions they once brought to primary care. Studies that rate chatbot answers for safety use different scales and different labels, so a reader cannot tell from any one study how often answers cross into unsafe territory.</p>
+<p><strong>Objectives.</strong> To estimate, in bench evaluations (studies in which investigators put test questions to a chatbot and clinician raters grade the answers afterwards), the proportion of responses that raters place in the study's own worst safety tier, where that tier is labelled unsafe or potentially unsafe, for questions about primary-care presentations, and to describe the same outcomes for intermediate tiers, undertriage and fabrication, and for studies with real users, where studies report them.</p>
+<p><strong>Search methods.</strong> PubMed, Europe PMC, Semantic Scholar and ClinicalTrials.gov were searched on 12 November 2026, with no language restriction and a date window from 2023, and one OpenAlex route (title and abstract search) was searched in full. A second OpenAlex route (full-text search) was retrieved only in part and is not counted as searched. Embase, Scopus, Web of Science, CINAHL, CENTRAL and OpenAIRE were not run; ready search strings are filed with the review and the gap is named as a limitation. Backward citation chasing through Europe PMC references covered all included studies and one anchor review.</p>
+<p><strong>Selection criteria.</strong> Studies in which a general-purpose LLM chatbot answered patient-facing questions about primary-care presentations and clinician raters scored the responses on a scale with an explicit worst safety tier (primary pool), or reported a pre-specified secondary outcome in countable form (secondary pool). Bench studies and human-user studies were eligible. The two strata were kept apart for the primary outcome; one secondary pool in the first version of this review mixed them, and that pool is no longer pooled (see Main results). Mental-health crisis and self-harm question sets were excluded from the pools and described in the narrative set.</p>
+<p><strong>Data collection and analysis.</strong> Two LLM screeners screened all 3,106 deduplicated records apart, under different rule sets; agreement and Cohen kappa were computed by code, and LLM adjudicators read and settled every disagreement. Four records with no abstract were flagged for the author by ID. Two LLM extractors extracted every pool study apart; a settlement reader re-read the sources and settled every numeric conflict. Risk of bias used an adapted QUADAS-2 and QUADAS-AI tool with CHART items, named as adapted, rated in duplicate and adjudicated. Proportions were pooled with a random-effects generalised linear mixed model on the logit scale (binomial likelihood, maximum likelihood, adaptive Gauss-Hermite quadrature), fitted in Python (scipy). An inverse-variance fit with Hartung-Knapp adjustment and a study-level fit (one value per study) are reported beside the main fit for the primary pool. GRADE was applied per outcome.</p>
+<p><strong>Main results.</strong> 166 studies were included: 24 in the primary pool, 21 in the secondary pool and 121 in the narrative set. Citation chasing added 80 studies and no primary study. The primary pool holds 24 bench studies: 19 of the 24 use single-topic question sets and 19 of the 24 are based in China or Hong Kong. The primary pool is bench only, since no human-user study reported response-level safety ratings (ratings of each answer a real user received). Across 95 model arms from 23 studies, 552 of 4,868 rated responses fell in the studies' worst safety tiers (crude 11.3%). The tier labels differ: 24 arms (168 events) carry a label that asserts unsafe with no qualifier, 55 arms (327 events, 59.2%) carry potentially unsafe or potentially harmful labels, 14 arms (34 events) carry major-error labels, and 2 arms (23 events) are a triage-discordance definition. The pooled proportion was 10.5% (95% CI 9.3 to 11.9) by the generalised linear mixed model, 12.5% (11.3 to 13.9) by the Hartung-Knapp fit and 11.7% (9.3 to 14.5) in the study-level fit; tau squared 0.21; I squared 42.0%; 95% prediction interval 4.5 to 22.7%. Restricting the pool to the 24 arms whose label asserts unsafe with no qualifier (5 studies, 168 of 1,728) gave 9.5% (8.0 to 11.2). Four pre-specified sensitivities gave generalised linear mixed model values from 10.1% to 10.6% and Hartung-Knapp values from 12.2% to 12.7%; the stability claim holds inside each estimator, not across estimators. 34 of the 95 arms carry derived counts (counts reconstructed by fixed arithmetic rules from printed percentages or complements rather than read off as integers), contributing 44.6% of events; excluding them leaves the point estimate at 10.1% and widens the prediction interval to 3.3 to 26.9%. The problematic (intermediate) tier and undertriage are both reported study by study in this version: neither pool's mean describes its studies (problematic unit shares run from 0% to 73.4%; undertriage reaches 41 to 52% in small emergency sets and 0% in large symptom-checker slices). Human-user studies report decision outcomes, not rated answers: in one standardised-patient field experiment, inappropriate medication recommendations appeared in 336 of 496 chatbot encounters (67.7%) against 58 of 248 encounters with primary care physicians (23.4%), on definitions specific to that study. No pool study reported fabrication counts. In the narrative set, citation and reference problems were also reported; in one small 2023 study of 12 pregnancy questions (Khromchenko 2024), every ChatGPT-3.5 reference checked had a problem of some kind (broken, irrelevant or non-existent), against 1 of 12 Bard references. Six of 24 primary studies were at high overall risk of bias. GRADE certainty was very low for every pooled outcome.</p>
+<p><strong>Authors' conclusions.</strong> In bench evaluations, about one response in ten on the generalised linear mixed model fit (about one in eight on the Hartung-Knapp fit) from a patient-facing LLM chatbot was placed by clinician raters in the study's worst safety tier, with wide variation between question sets (prediction interval 4.5 to 22.7%) and very low certainty. The evidence says little about real patient use, because no included study rated, answer by answer, the safety of answers that real patients received. Studies with real users exist and report what people decided and did; they do not report rated-answer safety. Study designs that close that gap, and rating scales with a shared harm tier, are the two changes that would most improve the next version of this evidence.</p>
+<p><strong>Registration.</strong> No PROSPERO number has been issued for this review; the PROSPERO-ready form was completed before full screening and has not been submitted.
+<strong>Funding.</strong> None. No external funding was received for this review, and the LLM tooling costs were borne by the author personally.</p>
+</section>
+<h2 id="plain-language-summary">Plain language summary</h2>
+<p>This review is about test questions, not about answers real patients received. Researchers wrote health questions of the kind people take to a family doctor, put them to chatbots such as ChatGPT, and asked doctors or other clinicians to grade each answer for safety. No study in the main count followed real patients using a chatbot and graded the answers those patients actually got, one by one. So the headline number below describes how chatbots did on study question sets. It is not the chance that an answer you received was unsafe, and it is not a safety rating for any chatbot product you can open today.</p>
+<p>Across 23 studies and 4,868 graded answers, about 1 in 10 answers landed in the worst safety grade each study used (1 in 10 to 1 in 8, depending on the method used to combine the studies). In most studies that grade was called unsafe or potentially unsafe. A 24th study could not be counted because it did not publish its numbers answer by answer. The authors rate their certainty in the 1 in 10 figure as very low, which means the true figure could be quite different. It also varied a lot from one question set to another: some sets produced no unsafe answers at all, one emergency department triage set produced about 3 in 10, and across new question sets the review estimates the share could run from about 5 in 100 to about 23 in 100. In some studies the graders could see which chatbot wrote each answer, which can sway a grade.</p>
+<p>Two things the main count does not cover matter. First, questions about a mental-health crisis or self-harm were kept out of the main count, so the 1 in 10 figure says nothing about questions like those. Second, being told to stay home when you should seek urgent care (undertriage) was counted apart. In small emergency studies, chatbots advised a lower level of care than they should have in a large share of cases.</p>
+<p>Studies of real users do exist. They looked at what people decided and did, rather than grading each answer. In one study that used trained pretend patients in China, inappropriate medication recommendations appeared in about two thirds of chatbot visits, against about one quarter of visits with primary care doctors, on that study's own definitions.</p>
+<p>Each study invented its own safety scale, so the worst grade in one study is not quite the same as the worst grade in another. No patient helped decide what counts as unsafe in this review, and no patient read this summary before it was published. If you are worried about an answer you have already followed, check it with your own doctor, pharmacist or local urgent care service rather than judging it from this paper.</p>
+<section class="keyfindings"><h2>Key findings</h2><ul><li>166 studies included: 24 in the primary pool, 21 in the secondary pool and 121 in the narrative set.</li><li>Across 95 model arms from 23 bench studies, 552 of 4,868 clinician-rated responses fell in the studies' own worst safety tiers (crude 11.3%).</li><li>Pooled proportion in the worst safety tier: 10.5% (95% CI 9.3 to 11.9) by generalised linear mixed model; prediction interval 4.5 to 22.7%; GRADE certainty very low.</li><li>Restricted to tiers whose label asserts unsafe with no qualifier: 9.5% (8.0 to 11.2), on 24 arms from 5 studies.</li><li>No human-user study reported response-level safety ratings, so the human-user stratum could not be pooled.</li></ul></section>
+<h2 id="summary-of-findings">Summary of findings</h2>
+<table>
+<thead>
+<tr>
+<th>Outcome</th>
+<th>Studies and units</th>
+<th>Responses</th>
+<th>Pooled proportion (95% CI)</th>
+<th>Certainty (GRADE)</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unsafe or potentially unsafe responses, bench stratum</td>
+<td>23 studies, 95 model arms</td>
+<td>552 of 4,868</td>
+<td>GLMM 10.5% (9.3 to 11.9); Hartung-Knapp 12.5% (11.3 to 13.9); study-level 11.7% (9.3 to 14.5); crude 11.3%; prediction interval 4.5 to 22.7%</td>
+<td>Very low</td>
+<td>Tier labels differ between studies: 59.2% of events come from potentially unsafe or potentially harmful tiers. Strict-tier sensitivity (labels asserting unsafe with no qualifier): 9.5% (8.0 to 11.2) on 24 arms from 5 studies.</td>
+</tr>
+<tr>
+<td>Unsafe responses, human-user stratum</td>
+<td>0 with response-level data</td>
+<td>none</td>
+<td>not estimable</td>
+<td>no rating possible</td>
+<td>Human-user studies report decision outcomes, not rated-response safety tiers.</td>
+</tr>
+<tr>
+<td>Human-user decision outcomes (not pooled)</td>
+<td>Bean 2026 (randomised); Si 2026 (field experiment)</td>
+<td>Si: 496 chatbot encounters, 248 physician encounters</td>
+<td>not pooled</td>
+<td>Low at best for the direction of the Si 2026 comparison (one study, derived counts)</td>
+<td>Si 2026: inappropriate medication recommendations in 67.7% of chatbot encounters against 23.4% of physician encounters, on that study's definitions, in standardised patients with two conditions in China. Bean 2026 reports participant decision accuracy, not answer ratings.</td>
+</tr>
+<tr>
+<td>Problematic (intermediate tier) responses</td>
+<td>17 studies, 38 units</td>
+<td>2,147 of 8,190 (crude 26.2%)</td>
+<td>not pooled in this version; see text</td>
+<td>Very low</td>
+<td>Reported study by study: unit shares run from 0% to 73.4% and tier definitions differ. Refitted pooled values are in the analysis supplement (revision changelog) for audit only.</td>
+</tr>
+<tr>
+<td>Undertriage responses</td>
+<td>7 studies, 12 units</td>
+<td>120 of 2,686 (crude 4.5%)</td>
+<td>not pooled; see text</td>
+<td>Very low</td>
+<td>Study-level reading: emergency sets reach 41 to 52% in small studies; large symptom-checker slices record 0%; one study's red-flag slice reports about 100% by percentage, with the exact count not printed.</td>
+</tr>
+<tr>
+<td>Fabrication</td>
+<td>0 with response-level counts</td>
+<td>none</td>
+<td>not estimable</td>
+<td>no rating possible</td>
+<td>Documented in narrative studies only, as citation and reference problems, including fabricated references.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="background"><span class="secno">1</span> Background</h2>
+<p>General-purpose LLM chatbots reached patients before they reached clinics. A person with a new symptom, a parent dosing question or a worry about a test result can put the question to a chatbot at no cost and at any hour, and the answer arrives in a confident register with no triage nurse in between. Primary care is a natural frame for a safety estimate, since these are the questions a family doctor fields first when a patient can reach one.</p>
+<p>The study literature grew faster than its measurement habits. One team grades answers on a five-point accuracy scale and calls the bottom point harmful. Another counts answers that could delay emergency care. A third asks raters whether an answer is acceptable against a guideline. Each study can be read on its own terms, yet the proportions cannot be placed side by side, since the denominators look alike (responses rated) while the numerators count different events.</p>
+<p>This review pools one denominator: responses placed in a study's worst safety tier, divided by responses rated for safety in that study. The first version of this review described that tier as explicitly unsafe, harmful or dangerous in every study. The settled extraction shows the description was too strong. Most contributing studies label their worst tier potentially unsafe or potentially harmful, some label it as a major error grade, and one defines it by disagreement with a reference disposition. The revised text names the outcome for what was pooled (the studies' worst safety tiers, labelled unsafe or potentially unsafe in most studies), files the verbatim tier label for every primary study as a supplement, and reports a strict-tier sensitivity restricted to labels that assert unsafe with no qualifier. The line still costs studies: many otherwise eligible papers never print a worst tier with counts, and they sit in the narrative set.</p>
+<p>A registered protocol for a neighbouring question exists (PROSPERO CRD420261347066, Okubo and Grein, registered 25 March 2026, planned completion 31 July 2026). That record covers LLM advice more broadly. This review differs from it on one substantive point: a single harm denominator, fixed in advance, as the only primary outcome, where the registered record bundles accuracy, safety and evidence alignment with no single harm denominator. Two further differences are real but narrower than the first version claimed: this review covers primary-care presentations only, drawn by eligibility rules plus coordinator scope rulings at full text (named in the deviations section), and it applies GRADE per outcome with a risk of bias tool informed by CHART reporting items, which are methods choices any team could adopt. Human-user studies were eligible here and were to be analysed in their own stratum; none reported response-level safety data, so that difference is a design intention that the evidence did not meet, not a result. This review is itself unregistered: its PROSPERO-ready form was completed before full screening but has not been submitted, while the competing record is registered and overdue. Searches on 12 November 2026 found no publication or preprint from that record in PubMed or on the open web. An empty search result does not show that no publication exists; the check will be repeated on any day this review is submitted.</p>
+<h2 id="objectives"><span class="secno">2</span> Objectives</h2>
+<ol>
+<li>To estimate the proportion of responses that clinician raters place in a study's worst safety tier (labelled unsafe or potentially unsafe in most studies), among responses from patient-facing LLM chatbots to questions about primary-care presentations, in bench studies and in human-user studies separately.</li>
+<li>To estimate or describe the proportions for three secondary outcomes where studies report them in countable form: responses in an intermediate problematic tier, responses that undertriage against a reference disposition (a disposition is the level of care an answer advises, such as self-care, routine primary care, urgent care or emergency care), and responses containing fabricated material.</li>
+<li>To test three pre-specified subgroup contrasts: bench against human-user stratum; red-flag or emergency presentations against non-urgent presentations within studies that split responses that way; and model era, pre-specified as a model-generation contrast (see Deviations for how the analysed version departed from it).</li>
+<li>To describe, without pooling, what human-user studies report about the decisions people reach with chatbot advice.</li>
+</ol>
+<h2 id="methods"><span class="secno">3</span> Methods</h2>
+<h3 id="criteria-for-considering-studies-for-this-review">Criteria for considering studies for this review</h3>
+<p><strong>Types of studies.</strong> Primary studies published or posted as preprints from 1 January 2023 to the search date, in which a general-purpose LLM chatbot generated responses and those responses were rated. Bench studies (investigators put questions to the model and raters score the output) and human-user studies (members of the public use the model; the responses they receive, or the decisions they reach, are scored) were both eligible and were assigned to separate strata at screening.</p>
+<p><strong>Types of questions.</strong> Patient-posed or patient-facing questions about primary-care presentations: new symptoms, self-management of common conditions, medication questions in general terms, preventive care, and disposition decisions. Condition-level question sets that a general practitioner fields first count as primary care. Procedure-pathway sets, subspecialty emergency-protocol sets and specialist-management sets were excluded by a coordinator scope ruling applied across the full-text stage and logged with the review (see Deviations). The ruling's border is illustrated by three included sets: a general emergency-department triage set (Fraser 2023) stayed in because its cases are general presentations; myocardial infarction public education (Lv 2026) stayed in because recognising an emergency and acting on it is first-contact content; paediatric burn first aid (Wang C 2026) stayed in because first aid is what a parent asks first. A single-specialty ophthalmological emergency-protocol set was ruled out on the same standard. Mental-health crisis and self-harm sets were excluded from the pools and kept for the narrative set. The operational line was applied at set level: a set whose primary content is crisis or self-harm advice was excluded; depression question sets that are not crisis-only (Xiao 2026a, psychological support for depression and anxiety; Xiao 2026b, late-life depression) were included. Neither Xiao set separates crisis-specific items in its published counts, so no crisis items were separately excluded at extraction.</p>
+<p><strong>Types of systems.</strong> General-purpose LLM chatbots available to the public, used as a patient would use them, with no clinician in the loop at the point of advice. Models evaluated from 2023 to 2026. Custom or single-purpose clinical systems, including dedicated symptom-checker applications with no LLM, were excluded.</p>
+<p><strong>Outcome measures.</strong> Primary: responses in the study's worst safety tier divided by total responses rated for safety, per model arm. The verbatim label of each study's tier is filed in the tier-label supplement. Secondary: problematic tier proportion; undertriage proportion (responses advising a lower disposition than the reference, over responses with a reference disposition); fabrication proportion. Studies without a countable primary numerator and denominator could still enter the secondary pool on a secondary outcome, or the narrative set.</p>
+<p><strong>Patient and public involvement.</strong> There was none. No patient or member of the public helped choose the review question, define what counts as harm, or read the plain language summary. The harm outcome in every pooled study is clinician-graded harm on paper, not harm as patients experienced it. This is named as a limitation in the Discussion.</p>
+<h3 id="search-methods">Search methods</h3>
+<p>The search was run by LLM agents under the protocol (information-specialist role). The full strategy, per-source strings and retrieval counts are in the search log filed with the review and in the search-strategy supplement. PubMed returned 2,219 records and all were retrieved. Europe PMC returned 1,159 and all were retrieved. Semantic Scholar was retrieved through its bulk route (81 records) after the graph route hit a rate limit (HTTP 429); the bulk endpoint reports no total hit count, so the 81 records are the retrieved set, not a verified complete set. ClinicalTrials.gov returned 16. OpenAlex was searched by two routes: a full-text search, which returned 3,962 records of which 200 relevance-ranked records were retrieved before a rate limit stopped the route, and a title-and-abstract search, which returned 57 records in full, 29 of them new. The partial OpenAlex route is not counted as a completed search. Embase, Scopus, Web of Science, CINAHL, CENTRAL and OpenAIRE were not run; ready strings are filed in the search supplement. The decision to proceed rested on the complete sources plus the second OpenAlex route, with citation chasing as a compensating step; the gap is carried into the limitations. The combined raw set held 3,732 records; deduplication left 3,106.</p>
+<p>Backward citation chasing ran on the reference lists of all included studies and of one anchor review (Huo and colleagues, 2025) through the Europe PMC references service. It produced 968 candidate records from 2023 onward that were not in the search set. A title triage by the review team's information-specialist role removed 269 candidates before dual screening: the logged rule removed titles that name no LLM, chatbot or AI technology, applied as a single logged pass. The rule has a known gap: a study whose title names a product but no technology word can fail it, and the triage as logged was not a pure keyword rule (10 of the 269 titles do name LLM technology or a product). At revision, a second reader re-screened a random sample of 50 of the 269 on their titles against the eligibility criteria: 0 of 50 were eligible, and each of the 10 technology-named titles in the full set was also checked and found ineligible on its title (reviews, examination studies, clinician-facing specialty studies and commentaries). The remaining 699 went to dual title screening; 112 passed at least one screener and were adjudicated against abstracts or full texts. Chasing yielded 80 included studies: 10 secondary and 70 narrative, and no primary study. Forward chasing was not run as a separate pass; the search itself is dated 12 November 2026 and covers the chasing seeds' publication window.</p>
+<h3 id="selection-of-studies">Selection of studies</h3>
+<p>Two LLM screeners screened all 3,106 records apart, one under an inclusion-first rule set and one under an exclusion-first decision tree, each in three batches. Agreement was 79.8% across the three-way decision (Cohen kappa 0.52) and 83.8% on the binary pass-or-exclude decision (kappa 0.59); the both-exclude cell held 2,048 records, which depresses kappa at this prevalence. The 628 disagreements were read and adjudicated one by one by LLM adjudicators working in three batches: 128 passed to full text, 496 were excluded, and 4 records with no abstract (R2022, R2073, R2966, R3051) were flagged for the author by ID and carried apart; they are neither passed nor excluded in the counts, and the author has not read them. In total 569 reports were sought, 138 were not retrieved (paywalled or no accessible full text; no workarounds were used), and 431 were assessed. At full text, 321 records were excluded on eligibility and 3 more under coordinator scope rulings; 21 records were linked as duplicates of a retained report, with 6 further duplicate links coded at record level. Full-text exclusions with reasons are filed as a supplement (PRISMA item 16b). The search arm of the review includes 86 unique studies: 24 primary, 11 secondary, 51 narrative.</p>
+<h3 id="data-extraction">Data extraction</h3>
+<p>A 24-field form, one row per model arm, was fixed before extraction. Two LLM extractors extracted all 35 pool studies apart (137 and 139 arm rows). A coded comparison matched 114 arm pairs directly and listed every field difference; the remaining pairs were the same arms under variant model names. A settlement reader (an LLM role) re-read the source for every numeric conflict and produced the settled sheet of 139 arm rows (132 LLM arms and 7 comparator rows). Counts were taken as printed, or derived only by arithmetic the form allows (a printed percentage against a printed denominator with an integer product within rounding, or a complement of printed counts), with every derived count flagged. Where a count existed only in a supplement, the supplement was retrieved through the publisher or Europe PMC route and the retrieval logged in the row. The 51 narrative studies were extracted in duplicate on a short form and settled the same way. Chasing studies that entered the secondary pool were extracted twice from their abstracts and full texts, with one conflict (a one-response internal inconsistency in Lakdawala 2023) settled in favour of the paper's printed pooled count and flagged. No separate pilot extraction phase was run before full extraction, although the extraction form itself prescribes a pilot of the first five included studies; see Deviations.</p>
+<h3 id="risk-of-bias">Risk of bias</h3>
+<p>The tool is an adaptation of QUADAS-2 and QUADAS-AI with items drawn from the CHART reporting guidance, fixed before assessment and named as adapted wherever its results appear. Four domains cover question or participant selection, model conduct, the safety rating itself, and flow and timing. The overall rule takes the worst domain, with a conditional route to High where three domains sit at Some concerns and reading the paper shows selection, conduct and rating all unchecked at once. Two LLM assessors rated all 35 pool studies apart; they disagreed on 62 domain or overall ratings, and an LLM adjudicator settled each one by reading the paper. The conditional route was considered for six studies and applied to none.</p>
+<h3 id="synthesis">Synthesis</h3>
+<p>Pools were fitted by LLM agents under the protocol (statistician role) only where at least two units report the outcome in the pool's form, and poolability was judged per outcome against one standard, stated here: a pooled mean is reported as a result only if it describes the studies that compose it. A pool whose prediction interval spans most of the scale, whose tier definitions change meaning between studies, or whose estimate collapses when derived-count units are removed, is reported study by study instead. The primary analysis is a random-effects generalised linear mixed model on the logit scale with a binomial likelihood and maximum likelihood estimation, fitted in Python (scipy) with adaptive Gauss-Hermite quadrature (31 nodes; per-unit Laplace mode and scale). The first version of this review used a non-adaptive quadrature implementation whose standard errors failed for the heterogeneous pools; the revision re-analysis, its code and a changelog are filed in the analysis folder (revision 1), and every printed interval was validated against the floor that the standard error of the pooled logit cannot fall below the square root of tau squared over the number of units. R and metafor were not installed in the build environment, and an R stub recording the equivalent call is filed with the analysis. Each pool reports units, studies, total responses, the pooled proportion with a 95% confidence interval, tau squared, I squared and a 95% prediction interval. I squared is computed as a fixed-effect Q statistic on 0.5-corrected logits and is labelled as such; tau squared and the prediction interval carry the heterogeneity message. An inverse-variance logit fit with a DerSimonian-Laird tau squared and Hartung-Knapp adjustment is reported beside the main fit wherever a pool holds at least four units; in that fit the 0.5 continuity correction is applied to all arms, as coded. A study-level fit (arms aggregated within study, one value per study) is reported for the primary pool, since arms within a study share the question set, the raters and the rating scale and are not independent data points. Subgroup claims rest on interaction tests fitted by meta-regression, and only where each level holds at least two units. Four sensitivities were pre-specified for the primary pool: excluding preprints, excluding high overall risk of bias, restricting to current-era models, and excluding arms whose counts are flagged derived. Two checks were run on the primary pool: an independent refit by direct numerical integration of the marginal likelihood, and a re-summing of the crude totals of every pool from the settled extraction sheet.</p>
+<h3 id="certainty-of-evidence">Certainty of evidence</h3>
+<p>GRADE was applied by LLM agents under the protocol (GRADE assessor role) per outcome, starting at Low for proportion evidence from observational studies, against four pressure points named before results were seen: definition heterogeneity, risk of bias, inconsistency, and imprecision or indirectness. A per-outcome GRADE domain table is given in the Results (Table 3).</p>
+<h3 id="deviations-from-the-protocol">Deviations from the protocol</h3>
+<p>This review departed from its protocol and its own instruments in the following ways, consolidated here. (1) Pilot extraction: the extraction form prescribes that the first five included studies be extracted by both extractors as a pilot. No pilot was run. The dual extraction with coded comparison and full settlement served as the check instead. (2) Model-era subgroup: the protocol pre-specified a model-generation contrast (GPT-3.5 era against GPT-4, GPT-4o era and later). The extraction form re-operationalised era as a calendar rule (release before 13 May 2024 against on or after), and the analysis used the calendar rule. No amendment was filed before the analysis. A dated amendment disclosing the deviation was filed at revision (13 November 2026), the analysis is demoted to exploratory, and under the protocol's own wording the contrast is untestable (its early level would hold a single arm). (3) Coordinator scope rulings at full-text merge moved studies in both directions: diabetic kidney disease (R3023) and cancer survivorship (R2120) were ruled in, the second superseding a gate-stage scope exclusion; ophthalmological emergencies (R1085), postoperative pain education (R2908) and osteoporotic vertebral compression fractures (R2915) were ruled out. The ruled-out sets carried high unsafe counts (R1085: 25 of 50 and 19 of 50 harmful), so the rulings cut against a larger headline as well as for inclusion. (4) Mental-health boundary: late-life depression was adjudicated in scope at the gate stage on the ground that the set is not crisis-only; crisis-specific items were to be excluded at extraction if separable, and the published sets do not separate them, so none were excluded. (5) Search: the OpenAlex full-text route was partial; forward citation chasing was not run as a separate pass; the citation-chasing title triage described in Search methods was not in the protocol. (6) Registration: the PROSPERO-ready form was completed before full screening but was not submitted, so prospective registration is no longer obtainable for this completed review. (7) Four records flagged for the author (R2022, R2073, R2966, R3051) remain unread by the author and are excluded from every count.</p>
+<h3 id="reporting-bias">Reporting bias</h3>
+<p>No funnel-based test was run: funnel methods are not valid for single-arm proportions of this kind, and none is reported. The risks that stand in its place are named. The search covered preprint servers, which limits publication bias toward positive journal results. Against that, 138 reports could not be retrieved and the OpenAlex full-text route was partial, so studies that exist only in those sets are missing for reasons unrelated to their findings. Citation chasing found no primary study in the literature the included studies cite, which speaks to the cited literature only and is equally consistent with the citing literature sharing the search's blind spots.</p>
+<h2 id="results"><span class="secno">4</span> Results</h2>
+<h3 id="description-of-studies">Description of studies</h3>
+<p>The flow of records is shown in the PRISMA diagram (Figure 4). The review includes 166 studies: 86 from the database search and 80 from citation chasing. The primary pool holds 24 studies, all bench studies. Nineteen of the 24 use single-topic question sets (chronic obstructive pulmonary disease, bacterial vaginosis, herpes zoster, late-life depression, mpox, traumatic brain injury follow-up, diabetic kidney disease and others); the mixed sets are Draelos 2026, Armbruster 2024 and Ariel 2026, with Xiao 2026a covering psychological support across chronic illness. Nineteen of the 24 are based in China (18 studies) or Hong Kong (An 2026); the remainder are from the United States (Fraser 2023, Draelos 2026), Germany (Armbruster 2024) and Türkiye (Bilgic 2026), plus one multilingual study coordinated from Israel (Ariel 2026, six languages). What counts as a primary-care question, which medicines are available, and what disposition is correct all differ between health systems, and most of these sets come from systems without the gatekeeping structure of, for example, British general practice; the pooled result should be read with that composition in mind. Table 1 gives the setting, topic, verbatim tier label and counts per study. The secondary pool holds 21 studies (11 from the search, 10 from chasing); their characteristics are summarised in the secondary-characteristics supplement: they contribute undertriage slices (Harada 2026, Brown 2025, Chowdhury 2026, Ramaswamy 2026, Gokmen 2026, Tanaka 2025 by chasing), problematic-tier counts (including Khan 2026 and the Si 2026 field experiment) and disposition comparisons (Fraser comparators sit in the primary extraction). The narrative set holds 121 studies that report safety-relevant results in forms that cannot be counted into the pools; its findings are quantified in the Narrative set section below. Models span the GPT series, Gemini, Claude, DeepSeek, Doubao, Qwen, Copilot, Llama and smaller regional systems, evaluated between 2023 and 2026. Question sets were most often written as scenarios by the investigators (13 of 35 pool studies), taken from real patient questions (7), adapted from patient questions (6), written as clinician vignettes in patient voice (2), or drawn from web pools and education resources (7). Question language is recorded unevenly: one pool study is bilingual (An 2026, Hong Kong), one uses Japanese vignettes (Harada 2026), one is multilingual in six languages (Ariel 2026), and the rest do not state the interaction language beyond the interface used. No pool study reports sampling questions from older users as a group, from people with low health literacy, or from people with low digital confidence as a designed stratum; the one older-adult set is Xiao 2026b (late-life depression). Whether the pooled result carries to those users is unknown, and the review does not claim that it does.</p>
+<p>One primary study, Ariel 2026, printed no per-arm unsafe counts. Its four arms are described with the study's printed pooled figure (a catastrophic rating share of 37 of 504 responses, 7.3%) and it contributes no arm to the meta-analysis. One arm of Draelos 2026 (Gemini 1.5 Flash, 222 responses) appears only as a bar in a figure; the other three arms enter with counts derived from printed percentages against the printed denominator, flagged as derived. In total, 726 rated responses with known denominators (13.0% of the 5,594 the review located for the primary question) sit outside the pool for reporting-format reasons. A bounding check on the larger of the two exclusions: adding Ariel 2026 back as a single unit at its printed pooled share (37 of 504) moves the pooled value to 10.5% (9.2 to 11.8), so that exclusion does not drive the headline (revision changelog). The Draelos figure-only arm cannot be bounded from print, since no numeric value exists to add. Derived counts carry a further share of the pooled data: 34 of 95 primary arms are derived-count arms, carrying 246 of 552 events (44.6%) and 2,247 of 4,868 responses (46.2%). The derivation rules were fixed in the extraction form before extraction and every derived count is flagged in the dataset.</p>
+<h3 id="risk-of-bias-in-included-studies">Risk of bias in included studies</h3>
+<p>On the adapted tool, no pool study reached Low overall. Ten of 35 studies sit at High overall and 25 at Some concerns. The rating domain (D3) carries the most High judgements (8 studies): raters explicitly unmasked to chatbot identity in Miao 2026 and Gong 2026; joint real-time consensus scoring with no independent scores in Bilgic 2026; a single physician rating each response in Draelos 2026; mechanical classification against an author-set policy with no clinician raters in Harada 2026; a generic Likert safety item with an inter-rater ICC of 0.205 in He 2026; and undescribed classification of 5,000 responses in Khan 2026. Model conduct (D2) is High in 5 studies, covering pooled model versions inside one arm (Draelos 2026), edited responses and an appended physician-role prompt (Armbruster 2024), non-standardised prompting (Fraser 2023), and unreported versions, dates and settings (Yu 2025; Khan 2026). Question selection (D1) is Some concerns in 27 studies, since most sets are investigator-written with no sampling record; none reached High after adjudication, and flow and timing (D4) is Low in 33 of 35.</p>
+<h3 id="primary-outcome-worst-tier-proportion-bench-stratum">Primary outcome: worst-tier proportion, bench stratum</h3>
+<p>Ninety-five model arms from 23 studies contribute 552 responses in the studies' worst safety tiers of 4,868 rated (crude 11.3%). The generalised linear mixed model pooled proportion is 10.5% (95% CI 9.3 to 11.9), with tau squared 0.21, I squared 42.0% (fixed-effect Q on corrected logits) and a 95% prediction interval of 4.5 to 22.7% (Figure 1). The Hartung-Knapp fit pools at 12.5% (11.3 to 13.9), with a DerSimonian-Laird tau squared of 0.14. The study-level fit pools at 11.7% (9.3 to 14.5). The three estimators bracket the headline: 10.5% to 12.5%, with the crude rate at 11.3%. No single one of them is the result on its own. The gap between the mixed model and the Hartung-Knapp fit comes from weighting and from the nine zero-event arms (195 responses: Wen 2026, 0 of 100 across five arms; Bilgic 2026, 0 of 75 across three arms; Xiao 2026a ChatGPT arm, 0 of 20), which the mixed model handles with no continuity correction while the Hartung-Knapp fit as coded applies a 0.5 correction to all 95 arms. Study-level shares run from 0% (Wen 2026; Bilgic 2026) to 31.1% (Fraser 2023, emergency triage, 23 of 74) and 28.7% (Liang 2026, herpes zoster, 66 of 230).</p>
+<p>The tier labels behind the pool are not uniform, and the counts by label are part of the result. Labels asserting unsafe with no qualifier: 24 arms, 168 events. Potentially-inclusive labels (potentially unsafe, potentially harmful, unsafe or potentially unsafe, potentially unsafe or misleading, potential harm): 55 arms, 327 events (59.2% of pooled events). Major-error labels (major safety error, major clinical or safety error, critical error): 14 arms, 34 events. Triage-discordance (Fraser 2023): 2 arms, 23 events. One study (Zheng 2026) also prints a post-hoc severity reassessment in which some responses it first graded unsafe are re-graded as carrying no meaningful potential for harm; the settled counts use each study's primary grading, as extracted. The strict-tier sensitivity, restricted to the 24 arms whose label asserts unsafe with no qualifier (An 2026, Draelos 2026, Fan 2026, Shi 2026, Zheng 2026; 168 of 1,728, crude 9.7%), pools at 9.5% (8.0 to 11.2) by the mixed model and 10.8% (9.4 to 12.3) by Hartung-Knapp, with a prediction interval of 6.3 to 14.0%. The strict pool is smaller, and its estimate sits just below the main pool's. For Fraser 2023 the worst tier is a triage definition: an answer counts as unsafe when it recommends a lower level of urgency than the physician reference, which is undertriage. The same 23 events therefore enter this pool as worst-tier responses and the undertriage reporting as undertriage responses, and the 31.1% figure quoted in both places is the same responses under a definition that makes the two outcomes coincide for this study. Excluding Fraser 2023 from the primary pool (93 arms, 529 of 4,794) pools at 10.3% (9.2 to 11.7) by the mixed model and 12.3% by Hartung-Knapp, so Fraser does not drive the headline.</p>
+<p>The four pre-specified sensitivities move the mixed-model value little and the Hartung-Knapp value little, each inside its own estimator: excluding preprints, 10.3% (9.0 to 11.8) [Hartung-Knapp 12.4%] on 87 arms; excluding derived-count arms, 10.1% (8.4 to 12.2) on 61 arms (306 of 2,621), with tau squared rising to 0.34 and the prediction interval widening to 3.3 to 26.9% [12.7%]; era-classified late arms only, 10.2% (9.0 to 11.6) on 88 arms [12.2%]; excluding high risk of bias studies, 10.6% (9.3 to 12.1) on 76 arms [12.5%]. The derived arms do not drive the point estimate; they drive its precision, and the widened prediction interval without them is the honest cost. An independent refit of the pool by direct numerical integration returned a pooled value of 10.55% against 10.53% from the revision script, and tau squared of 0.20 against 0.207; the first version's quadrature estimate of tau squared (0.304) was the outlier, and the revision changelog records the discrepancy.</p>
+<h3 id="primary-outcome-human-user-stratum">Primary outcome: human-user stratum</h3>
+<p>No human-user study reported response-level worst-tier counts, so the human-user pool was not fitted and no bench-versus-human-user interaction test exists. What the human-user studies report is decision outcomes. Bean 2026 randomised members of the public to LLM assistance for medical scenarios and reports participant-level decision results (condition identification and disposition accuracy; disposition under-estimation is reported as effect sizes, not counts) rather than rated-response tiers. Si 2026 ran a standardised-patient field experiment in 62 primary health care institutions in China, on unstable angina and asthma presentations, reported as a 2026 preprint: inappropriate medication recommendations appeared in 336 of 496 LLM encounters (67.7%, derived from printed percentages against the printed denominator) against 58 of 248 encounters with primary care physicians (23.4%). The physician figure itself shows how specific the definition and setting are: a quarter of real physicians' encounters counted as inappropriate on this outcome, in standardised patients trained to present two conditions in one country's primary care institutions. The comparison is not an estimate of how LLM advice compares with primary care physicians in routine practice. These outcomes answer a different question from the bench pool and are reported apart, as the protocol requires.</p>
+<h3 id="subgroup-analyses">Subgroup analyses</h3>
+<p>Model era is reported here as exploratory and descriptive only, for the reasons in Deviations. Under the calendar rule that was analysed, arms testing models released before 13 May 2024 are 3 arms from 2 studies (Armbruster 2024, GPT-4 at 16.0%; Fraser 2023, GPT-3.5 at 40.5% and GPT-4 at 21.6%), pooling descriptively at 24.1% (14.4 to 37.4), against 10.2% for the 88 era-classified later arms. Four further arms (Wang Y 2026, 3 arms; An 2026, 1 arm; 15 of 140 responses, crude 10.7%) have era not reported and sit in neither level; the era-late sensitivity above and the era-late level here are the same fit, not two corroborations. Both early studies are at high overall risk of bias; one is the emergency triage set that is the pool's outlier on setting as well as era, and the other's responses were edited and given a physician-role prompt. Era, setting, outcome definition and risk of bias are tangled in the same three arms, and no interaction p-value is carried as a finding. Under the protocol's pre-specified generation wording, both GPT-4 arms would sit in the later group, the early level would hold a single arm, and no test would exist.</p>
+<p>The red-flag subgroup was specified within studies that split responses by urgency. The first version stated that no primary study prints unsafe counts split that way. That statement was wrong. Xiao 2026b (late-life depression) prespecified low-, moderate- and high-risk strata of 30 questions each and prints high-risk-stratum counts for its worst tier (major safety error): ChatGPT 4 of 30 (13.3%), Gemini 6 of 30 (20.0%) and Doubao 10 of 30 (33.3%), against all-strata shares for the same models of 5 of 90 (5.6%), 9 of 90 (10.0%) and 15 of 90 (16.7%). Within this one study, worst-tier responses concentrate in the high-risk stratum at about twice the all-strata rate for each model. No interaction test was fitted on a single study. Separately, and not as a subgroup finding: the emergency triage set of Fraser 2023 sits at 31.1%, while the other 22 primary studies together sit at 11.0% crude (529 of 4,794). That is a single-study observation about the pool's known outlier, not a contrast the review fitted.</p>
+<h3 id="secondary-outcomes">Secondary outcomes</h3>
+<p><strong>Problematic tier.</strong> Thirty-eight units from 17 studies contribute 2,147 problematic responses of 8,190 (crude 26.2%). The composition differs from the primary pool's: 23 units come from 8 studies found by the database search and 15 units from 9 studies found only by citation chasing, which contributed no primary study at all. Units are model arms except for study-level slices printed as single units (for example Tiller 2026, five chatbots pooled by the paper as one unit). In this version the outcome is reported study by study, under the poolability standard stated in Methods, and no pooled mean is headlined. Study-level shares run from 4.9% (Duan 2025) and 6.7% (Lv 2026) to 49.6% (Tiller 2026, five chatbots pooled as one unit), 23.8% for Khan 2026 (1,191 of 5,000, on an inappropriate-antibiotic definition) and 67.7% for the Si 2026 field experiment (336 of 496), whose two units are human-user encounters and do not belong with bench units; unit-level shares run from 0% to 73.4%. The tier under this heading changes meaning between studies: an intermediate accuracy grade in one, a combined error tier in another, a "not acceptable against guideline" judgement in a third. The dependence on derived counts is near-total: 27 of 38 units are derived, carrying 2,023 of 2,147 events (94.2%) and 7,156 of 8,190 responses (87.4%), and only 11 units from 5 studies remain when derived units are excluded. Khan 2026 alone supplies 61.1% of the denominator, on a classification of 5,000 responses that its paper does not describe. Refits under the corrected machinery are filed in the analysis supplement (revision changelog) and are not pooled claims of this review. A mean over these parts describes none of them, which is the same judgement the review made for undertriage, now applied consistently. What the study-by-study reading supports is narrower: intermediate-tier problems are common in every study that prints the tier, and they are more common than worst-tier ratings in the studies that print both.</p>
+<p><strong>Undertriage.</strong> Twelve units from 7 studies contribute 120 undertriage responses of 2,686 (crude 4.5%). No pooled mean is reported: the revision mixed-model fit does not identify a usable mean for this pool (its likelihood is nearly flat at large heterogeneity and its standard error fails the validation floor). A Hartung-Knapp sensitivity fit gives 11.5% (3.2 to 33.9); it is a filed sensitivity, not a pooled result of this review. The pool is built from two unlike parts: large zero-event slices from a symptom-checker audit (Harada 2026: 0 of 480 mild and 0 of 1,440 non-red-flag presentations) and small emergency sets with high rates (Ramaswamy 2026: 33 of 64, 51.6%; Gokmen 2026: 10 of 24, 41.7%, patient-oriented prompts; Fraser 2023: 23 of 74, 31.1%, the same events as its primary-pool counts; Xiao 2026b: 43 of 270, 15.9%). Harada 2026 also reports its red-flag slice (1,422 valid outputs) as percentages: hard undertriage of the primary action at 100% in both prompts under near-deterministic decoding and at 100% and 99.7% under stochastic prompt-only runs. The exact numerator is not printed, because per-condition denominators are not printed, so the slice cannot enter the pool; the concentration statement below rests on those printed percentages as well as on the small emergency sets, not on an unprinted numerator alone. Reported study by study: undertriage concentrates in emergency and red-flag material and in small vignette sets, and the large self-triage slices that dominate the denominator record none of it under their own definitions. Two balancing facts belong in the same paragraph. First, overtriage (advising a higher level of care than the reference) is the other half of disposition behaviour, and it is barely extractable here: Fraser 2023's scale records a "too cautious" category, but its counts were not extracted in poolable form, and Harada 2026 prints hard over-triage as absent in its mild slice (0 of 480). A system can score perfectly on undertriage by sending everyone to emergency care, and this evidence cannot judge that trade-off. Second, undertriage is counted against a reference disposition that the review treats as correct; bench ratings cannot capture safety-netting advice in the same answer (advice to return if symptoms change), which in practice is part of what makes a lower disposition safe or unsafe.</p>
+<p><strong>Fabrication.</strong> No pool study reported response-level fabrication counts, so no pool was fitted. Fabrication shows up in the narrative set as invented references and citations attached to otherwise plausible answers, reported per study rather than per response.</p>
+<h3 id="narrative-set">Narrative set</h3>
+<p>The 121 narrative studies (51 from the search, 70 from chasing) widen the picture without entering the pools, and their main findings can be counted. Why they cannot be pooled: in the search-arm set of 51, the settled extraction records safety only as a mean, scale or composite score for 23 studies, percentages or ranges with no integer counts for 6, harm combined with another construct (for example accuracy) for 5, and counts only in a figure for 1; the rest report rating-level, subset or qualitative outcomes. In the chasing set of 70, 37 adjudication records describe scale-score outcomes and most of the remainder describe quality or readability scores with no safety tier. Four findings recur with counts. (1) Disclaimer and referral behaviour: Reis 2026 found 97% of responses (881 of 908) advised consulting a professional, on a 5-point classification; other studies report referral behaviour varying by model and by prompt framing, without counts that can be pooled. (2) Citation and reference problems: studies that check citations find problems, of kinds that range from broken or irrelevant links to references that do not exist. Khromchenko 2024 (chasing), in 12 pregnancy questions put to 2023-era systems, found reference problems in 100% of ChatGPT-3.5 references against 1 of 12 for Bard; only the non-existent subset of those problems is fabrication. Ucar 2026 and Rao 2026 report citation hallucination as a measured outcome, with no magnitude comparable to Khromchenko's; McMahon 2024 documents fabricated content thematically. What converges across these studies is the direction, not a shared magnitude. (3) Human-user behaviour: four search-arm narrative studies involve real users (Bean 2026 sits in the secondary set on its decision outcomes; Zhao 2026 had 120 postpartum women rate answers to their own 360 questions, on scale scores only; Gomez 2024 measured triage accuracy and confidence change after consulting an agent; Mingole 2026 reports harm-scale means). None of these studies reports a count of people following an answer, so no following claim is made here. (4) Low or absent harm signals also occur and are part of the picture: Lahut 2026 and Zhong 2026 report no overtly unsafe or harmful advice identified in their sets, Doran 2026 reports no high-risk responses, and Bazzari 2024 reports no response labelled incorrect or directly harmful. One narrative study (Dong 2025) carries an internal inconsistency worth naming: its abstract lists a different set of six models from its methods and results sections. The settled extraction follows the methods and results.</p>
+<h3 id="grade-summary">GRADE summary</h3>
+<p><strong>Table 3. GRADE judgements per outcome (starting point Low for proportion evidence from observational studies).</strong></p>
+<table>
+<thead>
+<tr>
+<th>Outcome</th>
+<th>Risk of bias</th>
+<th>Inconsistency</th>
+<th>Indirectness (including definition heterogeneity)</th>
+<th>Imprecision</th>
+<th>Certainty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Worst-tier proportion, bench</td>
+<td>Downgrade 1: 6 of 24 primary studies at high overall risk; unmasked raters, single raters, undescribed classification</td>
+<td>No downgrade: I squared 42.0%; the prediction interval (4.5 to 22.7%) is wide because question sets range from single-condition sets to emergency triage, a spread the descriptive analyses account for in part; certainty is already at the floor from the other two downgrades, and the wide interval is reported wherever the estimate appears</td>
+<td>Downgrade 1: each study defines its own worst tier (definition heterogeneity, pressure point P1, rated here in the open); most question sets are investigator-written or forum-derived, not answers real patients received</td>
+<td>No downgrade: 4,868 responses; confidence interval spans about 3 points</td>
+<td>Very low</td>
+</tr>
+<tr>
+<td>Problematic tier</td>
+<td>Downgrade 1: as above, plus Khan 2026's undescribed classification</td>
+<td>Downgrade 1: I squared 96.6%; prediction interval 1.4 to 72.8% on the audit refit; tier definitions differ enough that a mean summarises unlike measures</td>
+<td>Rated inside the inconsistency downgrade to avoid double counting; the definition problem is the same fact seen from two domains and is named in both places in this table's primary row and in the text</td>
+<td>Not rated separately; the pool is reported study by study</td>
+<td>Very low</td>
+</tr>
+<tr>
+<td>Undertriage</td>
+<td>Downgrade 1: the largest contributor by responses (Harada 2026) is at high risk in the rating domain</td>
+<td>Downgrade 1: I squared 91.9%; zero-event slices of thousands sit beside small sets above 40%</td>
+<td>No separate downgrade</td>
+<td>Not rated separately; reported study by study</td>
+<td>Very low</td>
+</tr>
+<tr>
+<td>Human-user decision outcomes</td>
+<td>One field experiment with derived counts; one randomised study reporting effect sizes</td>
+<td>Single studies; no consistency judgement possible</td>
+<td>Standardised patients, two conditions, one country for Si 2026</td>
+<td>Single studies</td>
+<td>Low at best for the direction of the Si 2026 comparison; no rating for a pooled effect, since none was fitted</td>
+</tr>
+</tbody>
+</table>
+<h2 id="discussion"><span class="secno">5</span> Discussion</h2>
+<h3 id="summary-of-main-results">Summary of main results</h3>
+<p>About one rated response in ten from a patient-facing LLM chatbot fell in the rating study's own worst safety tier (mixed-model pooled 10.5%, 95% CI 9.3 to 11.9; Hartung-Knapp 12.5%; study-level 11.7%; crude 11.3%), across 23 bench studies and 4,868 responses, at very low certainty. The estimate moves little under exclusions for preprints, derived counts, high risk of bias or model era, inside each estimator. Variation between question sets is the larger story: a prediction interval from 4.5% to 22.7%, an emergency triage set at 31.1%, and two sets at 0%. Restricted to tiers that assert unsafe with no qualifier, the estimate is 9.5% on a smaller pool. Intermediate-tier problems and undertriage both refuse a single summary and are reported study by study: intermediate problems are common wherever the tier is printed, and undertriage reads as an emergency-presentation problem in the studies that isolate it, with the largest study's red-flag slice reporting about 100% by percentage. The human-user stratum is empty at response level, and that emptiness is a result in its own right: the field measures chatbot safety on written question sets, not on the answers patients receive.</p>
+<h3 id="completeness-and-applicability">Completeness and applicability</h3>
+<p>Four databases and registers were searched in full, one OpenAlex route was partial, and six sources with ready strings were not run. Citation chasing added 80 studies and no primary study. That pattern cuts both ways, and the weaker reading is the safer one: chasing can only find studies the included literature cites, so finding no new primary study shows the primary pool is close to complete for the cited literature that prints an explicit harm tier, and it is equally consistent with the citing literature sharing the search's blind spots (including the 269 title-triaged candidates, of which a re-screened sample of 50 yielded no eligible study). The evidence speaks to models evaluated from 2023 to 2026 on study question sets, most of them written by investigators or lifted from patient forums, and 19 of 24 primary studies come from China or Hong Kong. It does not estimate the rate at which a patient using a chatbot tonight meets an unsafe answer, it does not describe older users, people asking in a second language, or people with low health literacy or low digital confidence (none of the pool studies sampled them as a group), and it ranks no current product.</p>
+<h3 id="quality-of-the-evidence">Quality of the evidence</h3>
+<p>GRADE certainty is very low for every pooled outcome, from a Low starting point for observational proportion evidence, with downgrades for risk of bias and indirectness on the primary outcome and for inconsistency on the secondary outcomes (Table 3). No study reached Low overall risk of bias on the adapted tool. The recurring faults are practical ones that later studies can fix at no cost: raters who can see which chatbot wrote each answer, question sets with no sampling record, model versions and access dates left unreported, and safety tiers defined in a single sentence.</p>
+<h3 id="agreements-and-disagreements-with-other-reviews">Agreements and disagreements with other reviews</h3>
+<p>The anchor review for this literature (Huo 2025, a systematic review of chatbot health advice studies) catalogues the same design habits this review scores as risks of bias: unreported model versions, single-rater scoring and scales built for one study. The registered protocol CRD420261347066 covers a broader question and, as of the search date, has no located publication; when it reports, its pooled definitions will differ from the single-denominator rule used here, and the two estimates should be read as answers to different questions. Within this series, Review 3 (clinical summarisation errors) found the same structural gap in a neighbouring literature: error rates pooled from bench evaluations, with human-user evidence thin or absent.</p>
+<h3 id="potential-biases-in-the-review-process">Potential biases in the review process</h3>
+<p>Six are named plainly. First, the OpenAlex full-text route stopped at 200 of 3,962 records; the review proceeded on the complete sources plus a second OpenAlex route, and any study unique to the unretrieved tail is missing. Second, 138 reports could not be retrieved, and their eligibility is unknown; they are counted in the flow diagram and not assumed away. Third, extraction had no separate pilot phase, against the extraction form's own pilot plan; the dual extraction, coded comparison and full settlement stand in for it, and the discrepancy record is filed so a reader can judge whether that was enough. Fourth, the citation record of the first version contained systematic DOI errors (15 of 35 pool-study DOIs resolved to other papers, harvested from reference lists rather than title pages). Every reference was re-verified at title-page level at revision and the corrected list is what appears below; the verification table is filed with the review. Fifth, derived counts carry a large share of the primary pool: 34 of 95 arms are derived-count arms, contributing 246 of 552 events (44.6%) and 2,247 of 4,868 responses (46.2%), and the pool's precision depends on them, as the widened prediction interval without them shows. Sixth, no patient or member of the public was involved in the review question, the harm definition or the plain language summary, and the harm counted here is clinician-graded harm on paper, not harm as patients experienced it. Four records flagged for the author (R2022, R2073, R2966, R3051) await his reading and are excluded from every count.</p>
+<h3 id="author-position-and-the-judgements-inside-this-review">Author position and the judgements inside this review</h3>
+<p>Every consequential judgement call in this review was made inside a single-author team, and a reader should know which calls those were. The author is a healthcare founder and operator who ran a direct primary care clinic as CEO and is now building clinical AI. He built none of the systems evaluated here and has no interest in any of them, but he works in the field he is reviewing, and that is a non-financial interest in how this literature is read. The tier mapping (which of each study's labels entered the primary numerator), the coordinator scope rulings that moved studies into and out of the pool, and the era cut-off that created the only subgroup contrast were all decisions taken by the author and the LLM team under his direction, with no PROSPERO registration and no external timestamp to check them against: the protocol in the review package is dated 12 November 2026, the same day as the search. Several of those calls cut against a larger headline (the scope rulings removed sets with harmful counts of 25 of 50 and 19 of 50; the strict-tier sensitivity and the demotion of the problematic pool both lower or remove numbers the first version headlined), but a call that cuts against the headline is still a call made inside the team. The files that would let a reader re-make each call (the settled extraction sheet with verbatim tier labels, the scope-rulings file, the deviations section above) are filed with the review for that reason.</p>
+<h2 id="conclusions"><span class="secno">6</span> Conclusions</h2>
+<h3 id="implications-for-practice">Implications for practice</h3>
+<p>This review makes no recommendation about any chatbot product, and its numbers cannot carry one: they pool study question sets from 2023 to 2026, not products on sale today. For a clinician or service lead reading the evidence as it stands, the defensible statements are narrow, and each carries its certainty with it. Rated answers to primary-care questions fall in a study's worst safety tier about one time in ten on the generalised linear mixed model fit (about one time in eight on the Hartung-Knapp fit) on bench sets (very low certainty; across new question sets the share could run from about 5% to about 23%). On emergency material the evidence is thinner: one emergency triage set sits at 31.1%, small emergency undertriage sets reach 41 to 52%, and no fitted subgroup test supports a general claim about emergency questions. No evidence in this review measures what happens when real patients act on the answers they receive. Any local decision to offer, endorse or restrict a chatbot for patient questions needs local evaluation on local questions. The bench range reported here, with its prediction interval and its very low certainty, is the comparison such an evaluation can be set against; it is not an expected rate in real patient use, and a local audit should not be benchmarked against the single pooled figure.</p>
+<h3 id="implications-for-research">Implications for research</h3>
+<p>Two design changes would transform the next update. First, human-user studies that rate, at response level, the safety of answers real patients receive: one such study would add a stratum this review had to leave empty. Second, a shared harm tier. If rating scales converged on one explicit unsafe grade with published counts per model, the narrative set of 121 studies would shrink and the primary pool would grow, and the pooled estimate would gain the precision its confidence interval currently only appears to offer. Reporting basics matter at the same scale: model version and access date, the full question set or its sampling record, raters masked to the source of each answer, counts printed in tables rather than figures, and overtriage reported beside undertriage so disposition behaviour can be judged whole.</p>
+<h2 id="declarations">Declarations</h2>
+<p><strong>Correspondence.</strong> Raphael Malikian, rtmalikian@gmail.com. Independent researcher, Palmdale, CA, USA. ORCID: 0009-0008-4326-4205. The author welcomes collaboration and correspondence on this review and on clinical AI evidence synthesis.
+<strong>Registration.</strong> The PROSPERO-ready form for this review was completed before full screening. The form has not been submitted to PROSPERO and this review is not registered. No PROSPERO number has been issued and none is claimed.
+<strong>Pre-submission peer review.</strong> The draft received structured multi-agent pre-submission peer review under the author's published protocol. The human author reviewed every comment and is accountable for the final text.
+<strong>Funding.</strong> None. No external funding was received for this review, and the LLM tooling costs were borne by the author personally.
+<strong>Conflicts of interest.</strong> The author builds clinical AI tools. That building is open-source and unpaid, and the author receives no income from clinical AI products or from any evaluated system or vendor. None of those tools is among the systems evaluated in the included studies, none competes with an evaluated system as a patient-facing general-purpose chatbot, and the author has no financial or personal interest in any evaluated system or its vendor. Stated as a conclusion of those facts: the author declares no conflict of interest in any evaluated system. The author's work in clinical AI is a non-financial interest in the field and is discussed under Author position in the Discussion.
+<strong>Author contributions.</strong> Raphael Malikian designed the review, set the protocol, and is the author of record and the accountable human for every decision in it. Screening, extraction, risk of bias assessment, analysis, GRADE and drafting were carried out by a coordinated team of LLM agents under the author's protocol (see Use of AI assistance). Adjudication of screening disagreements, settlement of extraction conflicts and adjudication of risk of bias ratings were performed by adjudicator and settlement roles within that LLM team, by reading the underlying sources; the author reviewed the settled dataset and this manuscript and is accountable for the final text.
+<strong>Use of AI assistance.</strong> This review was produced with LLM assistance at every stage, and the assistance is part of the method rather than a hidden step. The review and this peer review were produced by LLM agents run in the Muse environment (Meta) in November 2026. LLM agents ran the search, screened records under two rule sets, extracted data in duplicate, assessed risk of bias in duplicate, fitted the analyses, applied GRADE and drafted text, under a protocol fixed before screening. The team log records the roles and the work; it does not record model version numbers for the review team, and none are claimed here. Model version identifiers were not recorded in the team log and are not claimed. The work was accessed in November 2026. The statistical analysis was run in Python and checked by an independent computation route. This note follows the RAISE 2025 guidance for reporting AI assistance in evidence synthesis: the tools are described by role, the human author of record is named above, and the underlying logs (search log, screening decisions, extraction sheets, settlement record, team log) are filed with the review. The role list matches field 8 of the PROSPERO-ready form (search, screening, extraction, risk of bias, statistics and GRADE roles), with drafting added here because the form's list predates the drafting stage.
+<strong>Data availability.</strong> The search log and full search strategies (supplement), the raw search outputs with their erratum note, the screening decisions and kappa computation, the extraction sheets (both passes and settled, including the tier-label supplement, the secondary-characteristics supplement and the full-text exclusions supplement), the risk of bias sheets (both assessors and settled), the analysis dataset and code (including the revision 1 re-analysis and its changelog), the GRADE worksheets (grade-framework.md and grade-assessment.md), the Khan 2026 full text (stage3-extraction/fulltexts/R3040.txt), the citation re-verification table and the team log are filed in the review's stage folders and form the deposit package prepared for Zenodo. Deposit follows the peer-review gates; no DOI has been issued yet. The deposited files contain study-level and arm-level material only, with no identifiable participant or forum-user material.
+<strong>Ethics.</strong> This review is a secondary synthesis of published, aggregate results. It collected no new data from any person and accessed no patient-level or identifiable data, so no ethics approval was required for the review itself. The human evidence it synthesises was governed by the primary studies' own arrangements: the human-user studies (a randomised study and a standardised-patient field experiment) report their own designs, and question sets in some bench studies were derived from patient forums by the primary study teams. Whether each included study held ethics approval or consent for that material was not extracted or checked in this review, and that gap is stated plainly rather than assumed away.
+<strong>Patient and public involvement.</strong> None, at any stage: not in the question, the harm definition, the analysis or the plain language summary.</p>
+<h2 id="references">References</h2>
+<h3 id="included-pool-studies-primary-and-secondary">Included pool studies (primary and secondary)</h3>
+<p>An H, et al. Large Language Model Chatbot Responses to Cancer Survivorship Questions in Hong Kong: Bilingual Evaluation and Prompt Optimization Study. Journal of Medical Internet Research 2026;28:e105778. doi:10.2196/105778.
+Ariel D, et al. Asymmetry between warmth and clinical substance in multilingual consumer health AI. medRxiv preprint 2026. doi:10.64898/2026.05.09.26352813.
+Armbruster J, et al. "Doctor ChatGPT, Can You Help Me?" The Patient's Perspective: Cross-Sectional Study. Journal of Medical Internet Research 2024;26:e58831. doi:10.2196/58831.
+Bilgic E, Karacan E. Clinical Safety and Reliability of Large Language Models in Answering Hemorrhoid-Related Patient Questions. Healthcare 2026;14(13):1909. doi:10.3390/healthcare14131909.
+Brown HL. Evaluation of Artificial Intelligence for Patient Self-Triage. Cureus 2025. doi:10.7759/cureus.97834.
+Fraser H, et al. Comparison of Diagnostic and Triage Accuracy of Ada Health and WebMD Symptom Checkers, ChatGPT, and Physicians for Patients in an Emergency Department: Clinical Data Analysis Study. JMIR mHealth and uHealth 2023;11:e49995. doi:10.2196/49995.
+Chowdhury AR, Chowdhury B. Are Frontier Large Language Models Safer Than Government-Backed Symptom Checkers for Clinical Self-Triage? medRxiv preprint 2026. doi:10.64898/2026.09.01.26361908.
+Draelos RL, et al. Large language models provide unsafe answers to patient-posed medical questions. npj Digital Medicine 2026;9:241. doi:10.1038/s41746-026-02428-5.
+Duan L, et al. Comparing large language models and human doctors in symptom-driven online medical consultation. Digital Health 2025. doi:10.1177/20552076251388140.
+Fan L, et al. Safety, Accuracy, Empathy, Information Quality, and Readability of Chronic Obstructive Pulmonary Disease Health Advice Generated by 6 Large Language Models. JMIR Medical Informatics 2026;14:e104836. doi:10.2196/104836.
+Gokmen MY, et al. Prompt Framing Modulates Safety in Shoulder and Elbow Red-Flag Vignettes. Diagnostics 2026;16(10):1439. doi:10.3390/diagnostics16101439.
+Gong Z, et al. Evaluation of generative AI-driven chatbots as sources of consumer health information on hand, foot, and mouth disease. Frontiers in Public Health 2026;14:1924162. doi:10.3389/fpubh.2026.1924162.
+Gu L, et al. A comparative evaluation of generative AI chatbots for patient-oriented advice on painful diabetic peripheral neuropathy. Frontiers in Public Health 2026;14:1942799. doi:10.3389/fpubh.2026.1942799.
+Hao Z, et al. Evaluation and comparison of large language model responses to patient questions after diagnosis of high-risk human papillomavirus infection. Frontiers in Public Health 2026. doi:10.3389/fpubh.2026.1915867.
+Harada Y. Safety Audit of a Large Language Model for Lay Self-Triage Using Japanese Symptom Vignettes. Cureus 2026. doi:10.7759/cureus.105878.
+He Q, et al. Comparison of the performance of large language models in answering patient questions related to cataract. iScience 2026;29(3):115002. doi:10.1016/j.isci.2026.115002.
+Khan MM, Anwar MN. Clinical Safety of AI-Generated Antibiotic Prescribing Advice: Guideline Adherence and Misinformation Risk Among Large Language Models. medRxiv preprint 2026. doi:10.64898/2026.05.13.26352828.
+Liang D, et al. A cross-sectional evaluation of large language model chatbot interfaces for patient-facing herpes zoster information. Frontiers in Public Health 2026;14:1955701. doi:10.3389/fpubh.2026.1955701.
+Lv T, et al. Evaluating large language models for myocardial infarction public health education. Frontiers in Public Health 2026;14:1914167. doi:10.3389/fpubh.2026.1914167.
+Miao L, et al. A comparative cross-sectional evaluation of generative AI chatbots for patient-oriented bacterial vaginosis health advice. Frontiers in Reproductive Health 2026;8:1967818. doi:10.3389/frph.2026.1967818.
+Ramaswamy A, et al. ChatGPT Health performance in a structured test of triage recommendations. Nature Medicine 2026;32(5):1671-1675. doi:10.1038/s41591-026-04297-7.
+Ratneswaran D, et al. AI chatbots abandon sleep apnoea referral when simulated patients minimise symptoms. medRxiv preprint 2026. doi:10.64898/2026.10.09.26365165.
+Shi P, et al. Cross-sectional comparative evaluation of five large language model-driven chatbots on paediatric vitamin D questions. Frontiers in Pediatrics 2026;14:1927624. doi:10.3389/fped.2026.1927624.
+Si Y, et al. Patient-Facing AI Chatbots vs Primary Care Physicians: A Standardized Patient Field Experiment. Research Square preprint 2026. doi:10.21203/rs.3.rs-9988886/v1.
+Wang C, et al. Safety, Accuracy, Empathy, Information Quality, and Readability of Large Language Models in Answering Paediatric Burn First Aid Questions. Research Square preprint 2026. doi:10.21203/rs.3.rs-10862831/v1.
+Wang Y, et al. Safety, accuracy, information quality, readability, and supportive communication of LLM-based chatbots for recurrent aphthous stomatitis questions. Frontiers in Oral Health 2026;7:1968034. doi:10.3389/froh.2026.1968034.
+Wen Y, et al. From risk classification to clinical action: a prespecified paired pilot benchmark of public large language models for diabetic foot ulcer prevention. Frontiers in Endocrinology 2026;17:1977377. doi:10.3389/fendo.2026.1977377.
+Xiao W, et al. (2026a) Psychological support for depression and anxiety across chronic illness contexts: a comparative evaluation of large language models. Frontiers in Psychiatry 2026;17:1962615. doi:10.3389/fpsyt.2026.1962615.
+Xiao W, et al. (2026b) Large language models for late-life depression: a blinded benchmark of clinical safety. Frontiers in Psychiatry 2026;17:1956736. doi:10.3389/fpsyt.2026.1956736.
+Yu F, et al. Discussion of the ability to use ChatGPT to answer questions related to esophageal cancer of patients. Journal of Family Medicine and Primary Care 2025. doi:10.4103/jfmpc.jfmpc_1236_24.
+Yu S, et al. Safety, accuracy, empathy and information quality of six large language models answering patient questions on diabetic kidney disease. Frontiers in Medicine 2026;13:2007153. doi:10.3389/fmed.2026.2007153.
+Zang Q, et al. Safety and quality of patient-facing frozen shoulder information from four generative AI chatbots. Research Square preprint 2026. doi:10.21203/rs.3.rs-10805692/v1.
+Zheng Q, et al. Evaluating search-enabled large language model interfaces for mpox public health consultation. Frontiers in Public Health 2026;14:1913260. doi:10.3389/fpubh.2026.1913260.
+Zhou J, et al. Safety, accuracy, empathy, reliability, and readability of large language model chatbot responses to vegetarian and vegan nutrition questions. Frontiers in Public Health 2026;14:1921819. doi:10.3389/fpubh.2026.1921819.
+Zuo X, et al. Safety, accuracy, empathy, information quality, and readability of publicly accessible LLM-based chatbots for traumatic brain injury questions. Frontiers in Public Health 2026;14:1926980. doi:10.3389/fpubh.2026.1926980.</p>
+<h3 id="other-cited-works">Other cited works</h3>
+<p>Bean AM, et al. Reliability of LLMs as medical assistants for the general public: a randomized preregistered study. Nature Medicine 2026;32:609-615. doi:10.1038/s41591-025-04074-y.
+Campbell DJ, et al. Evaluating ChatGPT Responses on Thyroid Nodules for Patient Education. Thyroid 2023. doi:10.1089/thy.2023.0491. (chasing CC220)
+Campbell DJ, et al. Evaluating ChatGPT responses on obstructive sleep apnea for patient education. Journal of Clinical Sleep Medicine 2023. doi:10.5664/jcsm.10728. (chasing CC221)
+Coskun BN, et al. Assessing the accuracy and completeness of artificial intelligence language models in providing information on methotrexate. Rheumatology International 2023. doi:10.1007/s00296-023-05473-5. (chasing CC628)
+Huo B, et al. Large Language Models for Chatbot Health Advice Studies: A Systematic Review. JAMA Network Open 2025;8(2):e2457879. doi:10.1001/jamanetworkopen.2024.57879.
+Kassab J, et al. Accuracy of Online Artificial Intelligence Models in Primary Care Settings. American Journal of Preventive Medicine 2024. doi:10.1016/j.amepre.2024.02.006. (chasing CC594)
+Khromchenko K, et al. ChatGPT-3.5 Versus Google Bard: Which Large Language Model Responds Best to Commonly Asked Pregnancy Questions? Cureus 2024. doi:10.7759/cureus.65543. (chasing CC005)
+Lakdawala N, et al. Assessing the accuracy and comprehensiveness of ChatGPT in offering clinical guidance for atopic dermatitis and acne. JMIR Dermatology 2023. doi:10.2196/50409. (chasing CC177)
+Lee TJ, et al. Evaluating ChatGPT Responses on Atrial Fibrillation for Patient Education. Cureus 2024. doi:10.7759/cureus.61680. (chasing CC224)
+Okubo, Grein. Registered protocol: large language model advice and patient safety. PROSPERO CRD420261347066, registered 25 March 2026.
+Page MJ, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. doi:10.1136/bmj.n71.
+Tan J, et al. Safety and user perception of general-purpose large language models in pediatric healthcare. Digital Health 2026;12. doi:10.1177/20552076261427505. (chasing CC102)
+Tanaka C, et al. Medical validity and layperson interpretation of emergency visit recommendations by the GPT model. Acute Medicine and Surgery 2025. doi:10.1002/ams2.70042. (chasing CC230)
+Tiller NB, et al. Generative artificial intelligence-driven chatbots and medical misinformation. BMJ Open 2026. doi:10.1136/bmjopen-2025-112695. (chasing CC524)
+Whiting PF, et al. QUADAS-2: a revised tool for the quality assessment of diagnostic accuracy studies. Annals of Internal Medicine 2011;155(8):529-536.</p>
+<h2 id="tables">Tables</h2>
+<p><strong>Table 1. Primary pool studies: setting, topic, verbatim worst-tier label, arms analysed, worst-tier counts and overall risk of bias (adapted tool). Arms analysed counts only arms that enter the 95-arm pool; see the footnote for the five arms that do not.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Setting</th>
+<th>Topic</th>
+<th>Verbatim tier label</th>
+<th>Arms analysed</th>
+<th>Worst tier / rated</th>
+<th>Overall RoB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fan 2026</td>
+<td>China</td>
+<td>Chronic obstructive pulmonary disease advice</td>
+<td>unsafe</td>
+<td>6</td>
+<td>27/330</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Xiao 2026a</td>
+<td>China</td>
+<td>Depression and anxiety (psychological support in chronic illness)</td>
+<td>major clinical or safety error</td>
+<td>3</td>
+<td>5/60</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Miao 2026</td>
+<td>China</td>
+<td>Bacterial vaginosis</td>
+<td>unsafe or potentially unsafe</td>
+<td>5</td>
+<td>31/305</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Liang 2026</td>
+<td>China</td>
+<td>Herpes zoster</td>
+<td>potentially unsafe</td>
+<td>5</td>
+<td>66/230</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Wen 2026</td>
+<td>China</td>
+<td>Diabetic foot ulcer prevention</td>
+<td>major safety error (grades 2 and 3)</td>
+<td>5</td>
+<td>0/100</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Xiao 2026b</td>
+<td>China</td>
+<td>Late-life depression</td>
+<td>major safety error</td>
+<td>3</td>
+<td>29/270</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Shi 2026</td>
+<td>China</td>
+<td>Paediatric vitamin D</td>
+<td>unsafe</td>
+<td>5</td>
+<td>20/220</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Gu 2026</td>
+<td>China</td>
+<td>Painful diabetic peripheral neuropathy</td>
+<td>unsafe or potentially unsafe</td>
+<td>5</td>
+<td>28/300</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Zuo 2026</td>
+<td>China</td>
+<td>Traumatic brain injury and concussion</td>
+<td>potentially unsafe or potentially harmful</td>
+<td>5</td>
+<td>27/325</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Zheng 2026</td>
+<td>China</td>
+<td>Mpox</td>
+<td>unsafe</td>
+<td>6</td>
+<td>31/312</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Gong 2026</td>
+<td>China</td>
+<td>Hand, foot and mouth disease</td>
+<td>potentially unsafe</td>
+<td>5</td>
+<td>10/100</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Zhou 2026</td>
+<td>China</td>
+<td>Vegetarian and vegan nutrition</td>
+<td>potentially unsafe or potentially harmful</td>
+<td>5</td>
+<td>47/290</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Hao 2026</td>
+<td>China</td>
+<td>High-risk HPV follow-up</td>
+<td>potential harm</td>
+<td>2</td>
+<td>10/90</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Armbruster 2024</td>
+<td>Germany</td>
+<td>Mixed patient questions (Doctor ChatGPT)</td>
+<td>potentially harmful advice</td>
+<td>1</td>
+<td>16/100</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Fraser 2023</td>
+<td>United States (emergency department)</td>
+<td>Emergency department triage (triage-discordance tier; same events counted as undertriage)</td>
+<td>unsafe (triage)</td>
+<td>2</td>
+<td>23/74</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Zang 2026</td>
+<td>China</td>
+<td>Frozen shoulder</td>
+<td>potentially unsafe</td>
+<td>4</td>
+<td>21/200</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Draelos 2026</td>
+<td>United States</td>
+<td>Mixed primary-care questions (HealthAdvice)</td>
+<td>Unsafe</td>
+<td>3</td>
+<td>70/666</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Wang Y 2026</td>
+<td>China</td>
+<td>Recurrent aphthous stomatitis</td>
+<td>potentially unsafe or misleading</td>
+<td>5</td>
+<td>16/150</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Ariel 2026</td>
+<td>Multilingual, coordinated from Israel</td>
+<td>Mixed scenarios including emergencies</td>
+<td>catastrophic (safety 2 or less)</td>
+<td>0</td>
+<td>per-arm counts not printed; pooled catastrophic 37/504</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>An 2026</td>
+<td>Hong Kong</td>
+<td>Cancer survivorship</td>
+<td>unsafe</td>
+<td>4</td>
+<td>20/200</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Wang C 2026</td>
+<td>China</td>
+<td>Paediatric burn first aid</td>
+<td>potentially unsafe</td>
+<td>4</td>
+<td>21/144</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Bilgic 2026</td>
+<td>Türkiye</td>
+<td>Haemorrhoids</td>
+<td>critical error</td>
+<td>3</td>
+<td>0/75</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Lv 2026</td>
+<td>China</td>
+<td>Myocardial infarction public education</td>
+<td>Potentially Harmful</td>
+<td>3</td>
+<td>4/75</td>
+<td>Some concerns</td>
+</tr>
+<tr>
+<td>Yu S 2026</td>
+<td>China</td>
+<td>Diabetic kidney disease</td>
+<td>potentially unsafe</td>
+<td>6</td>
+<td>30/252</td>
+<td>Some concerns</td>
+</tr>
+</tbody>
+</table>
+<p>Footnote to Table 1: the arms column sums to 95 analysed arms. Five further arms are listed in the studies but do not enter the pool: Ariel 2026's 4 arms (504 responses rated; per-arm counts not printed) and Draelos 2026's Gemini 1.5 Flash arm (222 responses; counts only in a figure). Draelos 2026 rated 888 responses in total, of which 666 enter the pool. For Fraser 2023 the worst tier is a triage-discordance definition (recommendation of a lower urgency than the physician reference), so its 23 events are counted here as worst-tier responses and in the undertriage reporting as undertriage responses: the same events satisfy both definitions for this study.</p>
+<p><strong>Table 2. Primary pool analyses, with every fitted estimator (revision 1 values). GLMM: generalised linear mixed model. HK: inverse-variance logit fit with Hartung-Knapp adjustment.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Analysis</th>
+<th>Units</th>
+<th>Events / total</th>
+<th>GLMM % (95% CI)</th>
+<th>HK % (95% CI)</th>
+<th>Prediction interval (GLMM)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main pool</td>
+<td>95 arms, 23 studies</td>
+<td>552/4,868</td>
+<td>10.5 (9.3 to 11.9)</td>
+<td>12.5 (11.3 to 13.9)</td>
+<td>4.5 to 22.7</td>
+</tr>
+<tr>
+<td>Study-level (one value per study)</td>
+<td>23 studies</td>
+<td>552/4,868</td>
+<td>10.3 (8.2 to 13.0)</td>
+<td>11.7 (9.3 to 14.5)</td>
+<td>3.4 to 27.7</td>
+</tr>
+<tr>
+<td>Strict tier only (label asserts unsafe, no qualifier)</td>
+<td>24 arms, 5 studies</td>
+<td>168/1,728</td>
+<td>9.5 (8.0 to 11.2)</td>
+<td>10.8 (9.4 to 12.3)</td>
+<td>6.3 to 14.0</td>
+</tr>
+<tr>
+<td>Excluding Fraser 2023</td>
+<td>93 arms, 22 studies</td>
+<td>529/4,794</td>
+<td>10.3 (9.2 to 11.7)</td>
+<td>12.3 (11.1 to 13.6)</td>
+<td>4.9 to 20.6</td>
+</tr>
+<tr>
+<td>Excluding preprints</td>
+<td>87 arms, 21 studies</td>
+<td>510/4,524</td>
+<td>10.3 (9.0 to 11.8)</td>
+<td>12.4 (11.0 to 13.8)</td>
+<td>4.2 to 23.4</td>
+</tr>
+<tr>
+<td>Excluding derived-count arms</td>
+<td>61 arms, 15 studies</td>
+<td>306/2,621</td>
+<td>10.1 (8.4 to 12.2)</td>
+<td>12.7 (10.9 to 14.7)</td>
+<td>3.3 to 26.9</td>
+</tr>
+<tr>
+<td>Era-classified late arms only (4 arms unclassified)</td>
+<td>88 arms, 21 studies</td>
+<td>498/4,554</td>
+<td>10.2 (9.0 to 11.6)</td>
+<td>12.2 (11.0 to 13.5)</td>
+<td>4.7 to 20.9</td>
+</tr>
+<tr>
+<td>Excluding high risk of bias</td>
+<td>76 arms, 17 studies</td>
+<td>402/3,548</td>
+<td>10.6 (9.3 to 12.1)</td>
+<td>12.5 (11.2 to 14.0)</td>
+<td>4.9 to 21.4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="figures">Figures</h2>
+<p>Figure 1 (3 panels): figures/figure1-forest-p1-panel1.png, figure1-forest-p1-panel2.png, figure1-forest-p1-panel3.png. Worst-tier proportion by model arm, primary pool, with the GLMM summary diamond and 95% prediction interval on the final panel.
+Figure 2 (2 panels): figures/figure2-forest-s1-panel1.png, figure2-forest-s1-panel2.png. Problematic tier proportion by unit, shown descriptively with no pooled diamond: the pool is reported study by study in this version.
+Figure 3: figures/figure3-forest-s2.png. Undertriage proportion by unit, shown descriptively with no pooled diamond. Units are model arms except Harada 2026 (two presentation slices of one model arm, n = 480 and n = 1,440) and Brown 2025 (two slices of n = 10 each).
+Figure 4: figures/figure-prisma-flow.png. PRISMA 2020 flow diagram.</p>
+</article>
+<aside>
+<div class="box dl">
+<h3>Download</h3>
+<a class="btn" href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis/raw/main/manuscript.pdf">Download PDF (full article)</a>
+<a class="btn alt" href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis/raw/main/manuscript.docx">Download DOCX</a>
+<a class="btn alt" href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis/raw/main/manuscript.md">Markdown source</a>
+<p>One click — no sign-up, no paywall.</p>
+</div>
+<div class="box" id="cite">
+<h3>Cite this article</h3>
+<p>Malikian R. Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis. Revision 1; 2026. DOI: 10.5281/zenodo.24209763</p>
+<p><strong>BibTeX</strong> <button class="copy" onclick="navigator.clipboard.writeText(document.getElementById('bib').innerText)">Copy</button></p>
+<pre id="bib">@misc{malikian2026llmunsafeadvice,
+  author       = {Malikian, Raphael},
+  title        = {Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24209763},
+  url          = {https://doi.org/10.5281/zenodo.24209763},
+  note         = {Cochrane-level systematic review and meta-analysis}
+}</pre>
+<p><strong>RIS</strong> <button class="copy" onclick="navigator.clipboard.writeText(document.getElementById('ris').innerText)">Copy</button></p>
+<pre id="ris">TY  - GEN
+AU  - Malikian, Raphael
+TI  - Unsafe or potentially unsafe advice from patient-facing large language model chatbots in bench evaluations of primary-care question sets: a systematic review and meta-analysis
+PY  - 2026
+DO  - 10.5281/zenodo.24209763
+UR  - https://doi.org/10.5281/zenodo.24209763
+ER  -</pre>
+</div>
+<div class="box">
+<h3>Article information</h3>
+<p>Published: 13 November 2026 (Revision 1).</p>
+<p>Funding: none. Conflicts of interest: none.</p>
+<p>Correspondence: Raphael Malikian, <a href="mailto:rtmalikian@gmail.com">rtmalikian@gmail.com</a>, Palmdale, CA, USA. ORCID <a href="https://orcid.org/0009-0008-4326-4205">0009-0008-4326-4205</a>.</p>
+<p>Registration: No PROSPERO number has been issued for this review; a PROSPERO-ready form was completed before full screening, has not been submitted to PROSPERO, and no registration number is claimed or implied.</p>
+<p>Peer review: multi-agent pre-submission peer review (Gates 0–6 plus a feedback loop) under the author's accountability; the full record, including every reviewer item and its closure, is in the repository's peer-review materials where present. This was internal pre-submission review, not journal peer review.</p>
+<p>Methods: Cochrane Handbook v6.5; PRISMA 2020 and PRISMA-S; GRADE. Carried out by a multi-agent LLM team with the author accountable for every number (see the team log in the repository).</p>
+
+</div>
+<div class="box">
+<h3>Contents</h3>
+<ul class="contents"><li><a href="#abstract">Abstract</a></li><li><a href="#plain-language-summary">Plain language summary</a></li><li><a href="#summary-of-findings">Summary of findings</a></li><li><a href="#background">1 Background</a></li><li><a href="#objectives">2 Objectives</a></li><li><a href="#methods">3 Methods</a></li><li><a href="#results">4 Results</a></li><li><a href="#discussion">5 Discussion</a></li><li><a href="#conclusions">6 Conclusions</a></li><li><a href="#declarations">Declarations</a></li><li><a href="#references">References</a></li><li><a href="#tables">Tables</a></li><li><a href="#figures">Figures</a></li></ul>
+</div>
+<div class="box">
+<h3>Keywords</h3>
+<ul><li>large language models</li><li>chatbots</li><li>patient safety</li><li>primary care</li><li>systematic review</li><li>meta-analysis</li><li>GRADE</li><li>PRISMA</li></ul>
+</div>
+<div class="box">
+<h3>Links</h3>
+<ul>
+<li><a href="https://github.com/rtmalikian/llm-chatbot-unsafe-advice-primary-care-meta-analysis">GitHub repository</a></li>
+<li><a href="https://zenodo.org/records/24209763">Zenodo record</a> (DOI: <a href="https://doi.org/10.5281/zenodo.24209763">10.5281/zenodo.24209763</a>)</li>
+<li><a href="https://rtmalikian.github.io/systematic-reviews/">Systematic reviews hub</a></li>
+<li><a href="https://orcid.org/0009-0008-4326-4205">ORCID</a></li>
+</ul>
+</div>
+</aside>
+</div>
+<footer>
+<p>This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 International Licence (CC BY 4.0), which permits use, distribution, and reproduction in any medium, provided the original author and source are credited. This review makes no clinical or medication recommendation.</p>
+<p>© 2026 Raphael Malikian. DOI: <a href="https://doi.org/10.5281/zenodo.24209763">https://doi.org/10.5281/zenodo.24209763</a></p>
+<p class="seriesline">Systematic Reviews — Raphael Malikian · Cochrane-Level Evidence Syntheses</p>
+</footer>
+</div>
+</body>
+</html>
